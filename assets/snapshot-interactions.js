@@ -1,46 +1,309 @@
-(()=>{'use strict';const BASE=location.pathname.startsWith('/auping-staging/')?'/auping-staging':'';const route=p=>BASE+p;const links=[['Box springs','/en/box-springs/'],['Beds','/en/beds/'],['Mattresses','/en/mattresses/'],['Toppers','/en/mattress-toppers/'],['Bed bases','/en/bed-bases/'],['Pillows','/en/bed-linen/pillows/'],['Bed linen','/en/bed-linen/'],['Find a store','/en/store-locator/'],['About Auping','/en/about-auping/'],['Customer service','/en/customer-service/']];const MEDIA_MAP={"https://api.auping.com/sites/default/files/2026-04/auping_fabrieksvideo_clean.mp4":"/auping-staging/assets/light-catalog/media/1e148dd8972b04e0fe919757c882.mp4","https://api.auping.com/sites/default/files/2025-11/topban.mp4":"/auping-staging/assets/light-catalog/media/fdfaecfdf94deb4e840c6b83c202.mp4","https://api.auping.com/sites/default/files/2025-10/auping_essential_bed_6sec_1920x1080_a423_1.mp4":"/auping-staging/assets/light-catalog/media/927e13502742db5ff7e642b84de9.mp4","https://api.auping.com/sites/default/files/2025-07/matrassenpagina_mood_1920x500_1.mp4":"/auping-staging/assets/light-catalog/media/2c7f60394e11ffca478b4cf3324f.mp4","https://api.auping.com/sites/default/files/2025-12/xAuping_Ventex-426x494.mp4":"/auping-staging/assets/light-catalog/media/e9b877417b0f4a580bed30e01448.mp4","https://api.auping.com/sites/default/files/2025-12/Auping%20-%20Pocketsprings%20-%20V4%20-%20426x494.mp4":"/auping-staging/assets/light-catalog/media/2a7be2063982a32f62c283deeca6.mp4","https://api.auping.com/sites/default/files/2025-07/duurzame_kwaliteit_video1.mp4":"/auping-staging/assets/light-catalog/media/1c887ed4fb0aa061cf0eeca786c3.mp4","https://api.auping.com/sites/default/files/2022-12/auping_cutdown_1_eng_0.mp4":"/auping-staging/assets/light-catalog/media/7a6e9914db47f88e9c9415e507ed.mp4","https://cdn.api.auping.com/sites/default/files/2022-11/2bodytypesop1matras.mp4":"/auping-staging/assets/light-catalog/media/193fbd75c0b38f98e24babb9116b.mp4","https://api.auping.com/sites/default/files/2025-07/Auping-fabriek-bedbodem.mp4":"/auping-staging/assets/light-catalog/media/a3315162a17e816d46aa5b3f1a3b.mp4"};const clean=u=>{try{const x=new URL(u,location.href);x.hash='';x.search='';return decodeURI(x.href)}catch{return decodeURI(String(u||'').split('#')[0].split('?')[0])}};const mapped=u=>{const key=clean(u);for(const [remote,local] of Object.entries(MEDIA_MAP))if(key===decodeURI(remote))return local;return u};function searchUI(){let x=document.querySelector('.auping-static-search');if(x)return x;x=document.createElement('div');x.className='auping-static-search';x.innerHTML='<div class="auping-static-search__panel"><button class="auping-static-search__close" aria-label="Close">×</button><h2>Search Auping</h2><div class="auping-static-search__row"><input type="search" placeholder="Search products and information"><button>Search</button></div><div class="auping-static-search__results"></div></div>';document.body.appendChild(x);const input=x.querySelector('input'),res=x.querySelector('.auping-static-search__results');const run=()=>{const q=input.value.trim().toLowerCase();let a=[...document.querySelectorAll('a[href]')].map(e=>({t:(e.innerText||e.getAttribute('aria-label')||'').trim(),h:e.getAttribute('href')})).filter(o=>o.t&&o.h&&o.h.includes('/en'));const seen=new Set();a=a.filter(o=>!seen.has(o.h)&&(seen.add(o.h),true));if(q)a=a.filter(o=>o.t.toLowerCase().includes(q)||o.h.toLowerCase().includes(q));res.innerHTML=a.slice(0,60).map(o=>`<a href="${o.h}">${o.t}</a>`).join('')||'<p>No local results found.</p>'};x.querySelector('.auping-static-search__close').onclick=()=>x.classList.remove('is-open');x.querySelector('.auping-static-search__row button').onclick=run;input.addEventListener('input',run);x.addEventListener('click',e=>{if(e.target===x)x.classList.remove('is-open')});return x}function navUI(){let n=document.querySelector('.auping-mobile-nav');if(n)return n;n=document.createElement('nav');n.className='auping-mobile-nav';n.setAttribute('aria-label','Mobile navigation');n.innerHTML='<div class="auping-mobile-nav__header"><strong>Auping</strong><button class="auping-mobile-nav__close" aria-label="Close menu">×</button></div>'+links.map(([l,p])=>`<a href="${route(p)}">${l}</a>`).join('');document.body.appendChild(n);n.querySelector('button').onclick=()=>{n.classList.remove('is-open');document.body.style.overflow=''};return n}function textOf(e){return((e.getAttribute('aria-label')||'')+' '+(e.title||'')+' '+(e.innerText||'')).toLowerCase()}function setupMegaMenus(){const list=[...document.querySelectorAll('nav[aria-label="primary"]>ul>li')].filter(li=>li.querySelector(':scope>div[class*="MainMenu_menu"]'));let timer=0;const close=()=>{clearTimeout(timer);list.forEach(li=>{li.classList.remove('auping-menu-open');li.querySelector(':scope>a')?.setAttribute('aria-expanded','false')});document.body.classList.remove('auping-mega-open')};const open=li=>{clearTimeout(timer);list.forEach(x=>x!==li&&x.classList.remove('auping-menu-open'));li.classList.add('auping-menu-open');li.querySelector(':scope>a')?.setAttribute('aria-expanded','true');document.body.classList.add('auping-mega-open')};list.forEach(li=>{const a=li.querySelector(':scope>a'),menu=li.querySelector(':scope>div[class*="MainMenu_menu"]');if(!a||!menu)return;a.setAttribute('aria-haspopup','true');a.setAttribute('aria-expanded','false');li.addEventListener('mouseenter',()=>open(li));li.addEventListener('mouseleave',()=>timer=setTimeout(close,140));li.addEventListener('focusin',()=>open(li));li.addEventListener('focusout',e=>{if(!li.contains(e.relatedTarget))timer=setTimeout(close,120)});a.addEventListener('keydown',e=>{if(e.key==='ArrowDown'){e.preventDefault();open(li);menu.querySelector('a,button')?.focus()}if(e.key==='Escape')close()});if(matchMedia('(hover:none)').matches)a.addEventListener('click',e=>{if(!li.classList.contains('auping-menu-open')){e.preventDefault();open(li)}})});document.addEventListener('keydown',e=>{if(e.key==='Escape')close()});document.addEventListener('click',e=>{if(!e.target.closest('nav[aria-label="primary"]'))close()})}function prepareVideo(v,index){let changed=false;const old=v.getAttribute('src');if(old){const next=mapped(old);if(next!==old){v.setAttribute('src',next);changed=true}}v.querySelectorAll('source[src]').forEach(s=>{const old=s.getAttribute('src'),next=mapped(old);if(next!==old){s.setAttribute('src',next);changed=true}});v.muted=true;v.defaultMuted=true;v.playsInline=true;v.autoplay=true;v.setAttribute('muted','');v.setAttribute('playsinline','');v.setAttribute('autoplay','');v.setAttribute('preload','auto');if(index===0){v.loop=true;v.setAttribute('loop','')}if(changed)try{v.load()}catch{}const play=()=>v.play().catch(()=>{});v.addEventListener('loadeddata',play,{passive:true});v.addEventListener('canplay',play,{passive:true});return play}function enableVideos(){const v=[...document.querySelectorAll('video')];if(!v.length)return;const p=v.map(prepareVideo);p[0]?.();if('IntersectionObserver'in window){const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting&&e.intersectionRatio>.15)e.target.play().catch(()=>{});else if(e.target!==v[0])e.target.pause()}),{threshold:[0,.15,.5]});v.forEach(x=>io.observe(x))}else v.forEach(x=>x.play().catch(()=>{}))}document.addEventListener('click',e=>{const b=e.target.closest('button,a');if(!b)return;const t=textOf(b),href=b.getAttribute('href')||'';if(t.includes('search')&&!href){e.preventDefault();const s=searchUI();s.classList.add('is-open');setTimeout(()=>s.querySelector('input').focus(),10)}if((t.includes('menu')||t.includes('navigation'))&&!href&&!b.closest('.auping-mobile-nav')){e.preventDefault();const n=navUI();n.classList.add('is-open');document.body.style.overflow='hidden'}});document.addEventListener('keydown',e=>{if(e.key==='Escape'){document.querySelectorAll('.is-open').forEach(x=>x.classList.remove('is-open'));document.body.style.overflow=''}});const boot=()=>{setupMegaMenus();enableVideos()};if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();window.addEventListener('pageshow',()=>setTimeout(enableVideos,100));setTimeout(enableVideos,800);setTimeout(enableVideos,2500)})();
+(()=>{
+  'use strict';
 
-;(()=>{
-  const BASE=location.pathname.startsWith('/auping-staging/')?'/auping-staging':'';
-  const localToRemote={
-    '1e148dd8972b04e0fe919757c882.mp4':'https://api.auping.com/sites/default/files/2026-04/auping_fabrieksvideo_clean.mp4',
-    'fdfaecfdf94deb4e840c6b83c202.mp4':'https://api.auping.com/sites/default/files/2025-11/topban.mp4',
-    '927e13502742db5ff7e642b84de9.mp4':'https://api.auping.com/sites/default/files/2025-10/auping_essential_bed_6sec_1920x1080_a423_1.mp4',
-    '2c7f60394e11ffca478b4cf3324f.mp4':'https://api.auping.com/sites/default/files/2025-07/matrassenpagina_mood_1920x500_1.mp4',
-    'e9b877417b0f4a580bed30e01448.mp4':'https://api.auping.com/sites/default/files/2025-12/xAuping_Ventex-426x494.mp4',
-    '2a7be2063982a32f62c283deeca6.mp4':'https://api.auping.com/sites/default/files/2025-12/Auping%20-%20Pocketsprings%20-%20V4%20-%20426x494.mp4',
-    '1c887ed4fb0aa061cf0eeca786c3.mp4':'https://api.auping.com/sites/default/files/2025-07/duurzame_kwaliteit_video1.mp4',
-    '7a6e9914db47f88e9c9415e507ed.mp4':'https://api.auping.com/sites/default/files/2022-12/auping_cutdown_1_eng_0.mp4',
-    '193fbd75c0b38f98e24babb9116b.mp4':'https://cdn.api.auping.com/sites/default/files/2022-11/2bodytypesop1matras.mp4',
-    'a3315162a17e816d46aa5b3f1a3b.mp4':'https://api.auping.com/sites/default/files/2025-07/Auping-fabriek-bedbodem.mp4'
+  const BASE = location.pathname.startsWith('/auping-staging/') ? '/auping-staging' : '';
+  const route = (path) => `${BASE}${path}`;
+  const RAW_MEDIA_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
+  const GITHUB_MEDIA_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
+
+  const links = [
+    ['Box springs', '/en/box-springs/'],
+    ['Beds', '/en/beds/'],
+    ['Mattresses', '/en/mattresses/'],
+    ['Toppers', '/en/mattress-toppers/'],
+    ['Bed bases', '/en/bed-bases/'],
+    ['Pillows', '/en/bed-linen/pillows/'],
+    ['Bed linen', '/en/bed-linen/'],
+    ['Find a store', '/en/store-locator/'],
+    ['About Auping', '/en/about-auping/'],
+    ['Customer service', '/en/customer-service/']
+  ];
+
+  const MEDIA_FILES = {
+    'https://api.auping.com/sites/default/files/2026-04/auping_fabrieksvideo_clean.mp4': '1e148dd8972b04e0fe919757c882.mp4',
+    'https://api.auping.com/sites/default/files/2025-11/topban.mp4': 'fdfaecfdf94deb4e840c6b83c202.mp4',
+    'https://api.auping.com/sites/default/files/2025-10/auping_essential_bed_6sec_1920x1080_a423_1.mp4': '927e13502742db5ff7e642b84de9.mp4',
+    'https://api.auping.com/sites/default/files/2025-07/matrassenpagina_mood_1920x500_1.mp4': '2c7f60394e11ffca478b4cf3324f.mp4',
+    'https://api.auping.com/sites/default/files/2025-12/xAuping_Ventex-426x494.mp4': 'e9b877417b0f4a580bed30e01448.mp4',
+    'https://api.auping.com/sites/default/files/2025-12/Auping%20-%20Pocketsprings%20-%20V4%20-%20426x494.mp4': '2a7be2063982a32f62c283deeca6.mp4',
+    'https://api.auping.com/sites/default/files/2025-07/duurzame_kwaliteit_video1.mp4': '1c887ed4fb0aa061cf0eeca786c3.mp4',
+    'https://api.auping.com/sites/default/files/2022-12/auping_cutdown_1_eng_0.mp4': '7a6e9914db47f88e9c9415e507ed.mp4',
+    'https://cdn.api.auping.com/sites/default/files/2022-11/2bodytypesop1matras.mp4': '193fbd75c0b38f98e24babb9116b.mp4',
+    'https://api.auping.com/sites/default/files/2025-07/Auping-fabriek-bedbodem.mp4': 'a3315162a17e816d46aa5b3f1a3b.mp4'
   };
-  const arm=(video,index)=>{
-    if(video.dataset.aupingRecoveryV2)return;
-    video.dataset.aupingRecoveryV2='1';
-    video.muted=true; video.defaultMuted=true; video.autoplay=true; video.playsInline=true;
-    video.setAttribute('muted',''); video.setAttribute('autoplay',''); video.setAttribute('playsinline',''); video.setAttribute('preload','auto');
-    if(index===0){video.loop=true;video.setAttribute('loop','')}
-    let fellBack=false;
-    const recover=()=>{
-      if(fellBack)return;
-      const current=video.currentSrc||video.getAttribute('src')||video.querySelector('source')?.getAttribute('src')||'';
-      const file=current.split('/').pop()?.split('?')[0];
-      const remote=localToRemote[file];
-      if(!remote)return;
-      fellBack=true;
-      video.querySelectorAll('source').forEach(s=>s.remove());
-      video.src=remote;
-      try{video.load()}catch{}
-      video.play().catch(()=>{});
+
+  const FILE_SET = new Set(Object.values(MEDIA_FILES));
+
+  const clean = (value) => {
+    try {
+      const url = new URL(value, location.href);
+      url.hash = '';
+      url.search = '';
+      return decodeURI(url.href);
+    } catch {
+      return decodeURI(String(value || '').split('#')[0].split('?')[0]);
+    }
+  };
+
+  const mediaFileFor = (value) => {
+    const key = clean(value);
+    for (const [remote, file] of Object.entries(MEDIA_FILES)) {
+      if (key === decodeURI(remote)) return file;
+    }
+    const file = key.split('/').pop();
+    return FILE_SET.has(file) ? file : null;
+  };
+
+  function searchUI() {
+    let panel = document.querySelector('.auping-static-search');
+    if (panel) return panel;
+
+    panel = document.createElement('div');
+    panel.className = 'auping-static-search';
+    panel.innerHTML = `
+      <div class="auping-static-search__panel">
+        <button class="auping-static-search__close" aria-label="Close">×</button>
+        <h2>Search Auping</h2>
+        <div class="auping-static-search__row">
+          <input type="search" placeholder="Search products and information">
+          <button>Search</button>
+        </div>
+        <div class="auping-static-search__results"></div>
+      </div>`;
+    document.body.appendChild(panel);
+
+    const input = panel.querySelector('input');
+    const results = panel.querySelector('.auping-static-search__results');
+    const run = () => {
+      const query = input.value.trim().toLowerCase();
+      let anchors = [...document.querySelectorAll('a[href]')]
+        .map((anchor) => ({
+          text: (anchor.innerText || anchor.getAttribute('aria-label') || '').trim(),
+          href: anchor.getAttribute('href')
+        }))
+        .filter((item) => item.text && item.href && item.href.includes('/en'));
+      const seen = new Set();
+      anchors = anchors.filter((item) => !seen.has(item.href) && (seen.add(item.href), true));
+      if (query) {
+        anchors = anchors.filter((item) =>
+          item.text.toLowerCase().includes(query) || item.href.toLowerCase().includes(query)
+        );
+      }
+      results.innerHTML = anchors.slice(0, 60)
+        .map((item) => `<a href="${item.href}">${item.text}</a>`)
+        .join('') || '<p>No local results found.</p>';
     };
-    video.addEventListener('error',recover,{passive:true});
-    setTimeout(()=>{if(video.readyState===0)recover()},3500);
-    const play=()=>video.play().catch(()=>{});
-    video.addEventListener('canplay',play,{passive:true});
-    if(index===0)play();
+
+    panel.querySelector('.auping-static-search__close').onclick = () => panel.classList.remove('is-open');
+    panel.querySelector('.auping-static-search__row button').onclick = run;
+    input.addEventListener('input', run);
+    panel.addEventListener('click', (event) => {
+      if (event.target === panel) panel.classList.remove('is-open');
+    });
+    return panel;
+  }
+
+  function mobileNav() {
+    let nav = document.querySelector('.auping-mobile-nav');
+    if (nav) return nav;
+
+    nav = document.createElement('nav');
+    nav.className = 'auping-mobile-nav';
+    nav.setAttribute('aria-label', 'Mobile navigation');
+    nav.innerHTML = `
+      <div class="auping-mobile-nav__header">
+        <strong>Auping</strong>
+        <button class="auping-mobile-nav__close" aria-label="Close menu">×</button>
+      </div>
+      ${links.map(([label, path]) => `<a href="${route(path)}">${label}</a>`).join('')}`;
+    document.body.appendChild(nav);
+    nav.querySelector('button').onclick = () => {
+      nav.classList.remove('is-open');
+      document.body.style.overflow = '';
+    };
+    return nav;
+  }
+
+  const textOf = (element) => (
+    `${element.getAttribute('aria-label') || ''} ${element.title || ''} ${element.innerText || ''}`
+  ).toLowerCase();
+
+  function setupMegaMenus() {
+    const items = [...document.querySelectorAll('nav[aria-label="primary"]>ul>li')]
+      .filter((item) => item.querySelector(':scope>div[class*="MainMenu_menu"]'));
+    let timer = 0;
+
+    const close = () => {
+      clearTimeout(timer);
+      items.forEach((item) => {
+        item.classList.remove('auping-menu-open');
+        item.querySelector(':scope>a')?.setAttribute('aria-expanded', 'false');
+      });
+      document.body.classList.remove('auping-mega-open');
+    };
+
+    const open = (item) => {
+      clearTimeout(timer);
+      items.forEach((other) => {
+        if (other !== item) other.classList.remove('auping-menu-open');
+      });
+      item.classList.add('auping-menu-open');
+      item.querySelector(':scope>a')?.setAttribute('aria-expanded', 'true');
+      document.body.classList.add('auping-mega-open');
+    };
+
+    items.forEach((item) => {
+      if (item.dataset.aupingMenuReady) return;
+      item.dataset.aupingMenuReady = '1';
+      const anchor = item.querySelector(':scope>a');
+      const menu = item.querySelector(':scope>div[class*="MainMenu_menu"]');
+      if (!anchor || !menu) return;
+
+      anchor.setAttribute('aria-haspopup', 'true');
+      anchor.setAttribute('aria-expanded', 'false');
+      item.addEventListener('mouseenter', () => open(item));
+      item.addEventListener('mouseleave', () => { timer = setTimeout(close, 140); });
+      item.addEventListener('focusin', () => open(item));
+      item.addEventListener('focusout', (event) => {
+        if (!item.contains(event.relatedTarget)) timer = setTimeout(close, 120);
+      });
+      anchor.addEventListener('keydown', (event) => {
+        if (event.key === 'ArrowDown') {
+          event.preventDefault();
+          open(item);
+          menu.querySelector('a,button')?.focus();
+        }
+        if (event.key === 'Escape') close();
+      });
+      if (matchMedia('(hover:none)').matches) {
+        anchor.addEventListener('click', (event) => {
+          if (!item.classList.contains('auping-menu-open')) {
+            event.preventDefault();
+            open(item);
+          }
+        });
+      }
+    });
+
+    if (!document.documentElement.dataset.aupingMenuGlobalReady) {
+      document.documentElement.dataset.aupingMenuGlobalReady = '1';
+      document.addEventListener('keydown', (event) => {
+        if (event.key === 'Escape') close();
+      });
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('nav[aria-label="primary"]')) close();
+      });
+    }
+  }
+
+  function armVideo(video, index) {
+    if (video.dataset.aupingVideoReady) return;
+    video.dataset.aupingVideoReady = '1';
+
+    const current = video.getAttribute('src') || video.querySelector('source[src]')?.getAttribute('src') || '';
+    const file = mediaFileFor(current);
+    if (file) {
+      video.querySelectorAll('source').forEach((source) => source.remove());
+      video.src = `${RAW_MEDIA_BASE}${file}`;
+      video.dataset.aupingMediaFile = file;
+      try { video.load(); } catch {}
+    }
+
+    video.muted = true;
+    video.defaultMuted = true;
+    video.autoplay = true;
+    video.playsInline = true;
+    video.preload = 'auto';
+    video.setAttribute('muted', '');
+    video.setAttribute('autoplay', '');
+    video.setAttribute('playsinline', '');
+    video.setAttribute('preload', 'auto');
+    if (index === 0) {
+      video.loop = true;
+      video.setAttribute('loop', '');
+    }
+
+    let candidate = 0;
+    const play = () => video.play().catch(() => {});
+    const recover = () => {
+      const fileName = video.dataset.aupingMediaFile;
+      if (!fileName || candidate >= 1) return;
+      candidate += 1;
+      video.src = `${GITHUB_MEDIA_BASE}${fileName}`;
+      try { video.load(); } catch {}
+      play();
+    };
+
+    video.addEventListener('error', recover, { passive: true });
+    video.addEventListener('loadeddata', play, { passive: true });
+    video.addEventListener('canplay', play, { passive: true });
+    setTimeout(() => {
+      if (video.readyState === 0) recover();
+    }, 8000);
+    if (index === 0) play();
+  }
+
+  function enableVideos() {
+    const videos = [...document.querySelectorAll('video')];
+    if (!videos.length) return;
+    videos.forEach(armVideo);
+
+    if ('IntersectionObserver' in window && !document.documentElement.dataset.aupingVideoObserver) {
+      document.documentElement.dataset.aupingVideoObserver = '1';
+      const observer = new IntersectionObserver((entries) => {
+        entries.forEach((entry) => {
+          const video = entry.target;
+          if (entry.isIntersecting && entry.intersectionRatio > 0.15) {
+            video.play().catch(() => {});
+          } else if (video !== videos[0]) {
+            video.pause();
+          }
+        });
+      }, { threshold: [0, 0.15, 0.5] });
+      videos.forEach((video) => observer.observe(video));
+    }
+  }
+
+  document.addEventListener('click', (event) => {
+    const control = event.target.closest('button,a');
+    if (!control) return;
+    const text = textOf(control);
+    const href = control.getAttribute('href') || '';
+
+    if (text.includes('search') && !href) {
+      event.preventDefault();
+      const panel = searchUI();
+      panel.classList.add('is-open');
+      setTimeout(() => panel.querySelector('input').focus(), 10);
+    }
+
+    if ((text.includes('menu') || text.includes('navigation')) && !href && !control.closest('.auping-mobile-nav')) {
+      event.preventDefault();
+      const nav = mobileNav();
+      nav.classList.add('is-open');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape') {
+      document.querySelectorAll('.is-open').forEach((element) => element.classList.remove('is-open'));
+      document.body.style.overflow = '';
+    }
+  });
+
+  const boot = () => {
+    setupMegaMenus();
+    enableVideos();
   };
-  const boot=()=>document.querySelectorAll('video').forEach(arm);
-  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});else boot();
-  new MutationObserver(boot).observe(document.documentElement,{childList:true,subtree:true});
-  setTimeout(boot,500);setTimeout(boot,2200);
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', boot, { once: true });
+  } else {
+    boot();
+  }
+  new MutationObserver(boot).observe(document.documentElement, { childList: true, subtree: true });
+  window.addEventListener('pageshow', () => setTimeout(enableVideos, 100));
+  setTimeout(boot, 800);
+  setTimeout(boot, 2500);
 })();
