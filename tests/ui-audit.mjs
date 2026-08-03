@@ -35,7 +35,9 @@ async function suppressNoise(page) {
 async function videos(page) {
   return page.evaluate(() => [...document.querySelectorAll('video')].map((v, index) => ({
     index, paused: v.paused, muted: v.muted, autoplay: v.autoplay,
-    playsInline: v.playsInline, readyState: v.readyState,
+    playsInline: v.playsInline, readyState: v.readyState, networkState: v.networkState,
+    mediaError: v.error ? { code: v.error.code, message: v.error.message || '' } : null,
+    mediaCandidate: v.dataset.aupingMediaCandidate || null,
     currentTime: Number(v.currentTime.toFixed(2)),
     duration: Number.isFinite(v.duration) ? Number(v.duration.toFixed(2)) : null,
     src: v.currentSrc || v.src || ''
@@ -110,9 +112,26 @@ async function audit(browser, site, base, route, profileName, profile) {
           if (visual.comparable && visual.diffBuffer) await fs.writeFile(path.join(output, `hover-diff-${safe(label)}.png`), visual.diffBuffer);
           const passed = visual.comparable && visual.ratio >= .01;
           report.hovers.push({ label, captured: true, targetFound: true, passed, visibleMenus, changedPixelRatio: visual.comparable ? visual.ratio : null, compareError: visual.comparable ? null : visual.reason });
+          await link.evaluate((el) => {
+            el.dispatchEvent(new MouseEvent('mouseleave', { bubbles: true }));
+            el.dispatchEvent(new MouseEvent('mouseout', { bubbles: true }));
+          }).catch(() => {});
+          await page.evaluate(() => {
+            document.querySelectorAll('.auping-menu-open').forEach((el) => el.classList.remove('auping-menu-open'));
+            document.body.classList.remove('auping-mega-open');
+          });
+          await wait(220);
         } catch (error) { report.hovers.push({ label, captured: false, targetFound: true, passed: false, error: String(error) }); }
       }
     }
+
+    await page.evaluate(() => {
+      document.querySelectorAll('.auping-menu-open').forEach((el) => el.classList.remove('auping-menu-open'));
+      document.body.classList.remove('auping-mega-open');
+      document.activeElement?.blur?.();
+    });
+    await page.mouse.move(profile.viewport.width - 8, profile.viewport.height - 8);
+    await wait(250);
 
     const height = await page.evaluate(() => document.documentElement.scrollHeight);
     const stops = [...new Set([0, Math.round(height*.25), Math.round(height*.5), Math.round(height*.75), Math.max(0, height-profile.viewport.height)])];
@@ -194,3 +213,5 @@ const mobileMenuFailures=staging.filter((r)=>r.profileName==='mobile'&&!r.mobile
 const summary={generatedAt:new Date().toISOString(),originalBase:ORIGINAL_BASE,stagingBase:STAGING_BASE,routes,profiles:Object.keys(profiles),results,statusFailures,autoplayFailures,hoverFailures,mobileMenuFailures,diffs};
 await fs.writeFile(path.join(OUT,'summary.json'),JSON.stringify(summary,null,2));
 console.log(JSON.stringify({statusFailures:statusFailures.length,autoplayFailures:autoplayFailures.length,hoverFailures:hoverFailures.length,mobileMenuFailures:mobileMenuFailures.length},null,2));
+
+// RC2 audit correction: menu state is reset before scrolling and visual comparison.

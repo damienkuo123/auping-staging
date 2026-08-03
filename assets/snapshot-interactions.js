@@ -5,6 +5,8 @@
   const route = (path) => `${BASE}${path}`;
   const RAW_MEDIA_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
   const GITHUB_MEDIA_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
+  const RAW_WEBM_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
+  const GITHUB_WEBM_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
 
   const links = [
     ['Box springs', '/en/box-springs/'],
@@ -193,6 +195,16 @@
       document.addEventListener('click', (event) => {
         if (!event.target.closest('nav[aria-label="primary"]')) close();
       });
+      window.addEventListener('scroll', close, { passive: true });
+      window.addEventListener('resize', close, { passive: true });
+      window.addEventListener('blur', close);
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) close();
+      });
+      document.addEventListener('pointermove', (event) => {
+        if (!document.body.classList.contains('auping-mega-open')) return;
+        if (!event.target.closest('nav[aria-label="primary"]')) close();
+      }, { passive: true });
     }
   }
 
@@ -202,12 +214,29 @@
 
     const current = video.getAttribute('src') || video.querySelector('source[src]')?.getAttribute('src') || '';
     const file = mediaFileFor(current);
-    if (file) {
-      video.querySelectorAll('source').forEach((source) => source.remove());
-      video.src = `${RAW_MEDIA_BASE}${file}`;
-      video.dataset.aupingMediaFile = file;
-      try { video.load(); } catch {}
-    }
+    if (!file) return;
+
+    const webmFile = file.replace(/\.mp4$/i, '.webm');
+    const canWebM = Boolean(
+      video.canPlayType('video/webm; codecs="vp8"') ||
+      video.canPlayType('video/webm')
+    );
+    const candidates = canWebM
+      ? [
+          `${RAW_WEBM_BASE}${webmFile}`,
+          `${GITHUB_WEBM_BASE}${webmFile}`,
+          `${RAW_MEDIA_BASE}${file}`,
+          `${GITHUB_MEDIA_BASE}${file}`
+        ]
+      : [
+          `${RAW_MEDIA_BASE}${file}`,
+          `${GITHUB_MEDIA_BASE}${file}`
+        ];
+
+    video.querySelectorAll('source').forEach((source) => source.remove());
+    video.dataset.aupingMediaFile = file;
+    video.dataset.aupingWebmFile = webmFile;
+    video.dataset.aupingMediaCandidates = String(candidates.length);
 
     video.muted = true;
     video.defaultMuted = true;
@@ -223,24 +252,35 @@
       video.setAttribute('loop', '');
     }
 
-    let candidate = 0;
+    let candidate = -1;
+    let lastAdvance = 0;
     const play = () => video.play().catch(() => {});
-    const recover = () => {
-      const fileName = video.dataset.aupingMediaFile;
-      if (!fileName || candidate >= 1) return;
+    const useNextCandidate = () => {
+      const now = Date.now();
+      if (now - lastAdvance < 300) return false;
+      lastAdvance = now;
       candidate += 1;
-      video.src = `${GITHUB_MEDIA_BASE}${fileName}`;
+      if (candidate >= candidates.length) {
+        video.dataset.aupingMediaExhausted = 'true';
+        return false;
+      }
+      video.dataset.aupingMediaCandidate = String(candidate);
+      video.src = candidates[candidate];
       try { video.load(); } catch {}
       play();
+      return true;
     };
 
-    video.addEventListener('error', recover, { passive: true });
+    video.addEventListener('error', useNextCandidate, { passive: true });
     video.addEventListener('loadeddata', play, { passive: true });
     video.addEventListener('canplay', play, { passive: true });
-    setTimeout(() => {
-      if (video.readyState === 0) recover();
-    }, 8000);
-    if (index === 0) play();
+    useNextCandidate();
+
+    [5000, 11000, 18000].forEach((delay) => {
+      setTimeout(() => {
+        if (video.readyState === 0) useNextCandidate();
+      }, delay);
+    });
   }
 
   function enableVideos() {
@@ -594,3 +634,6 @@
   if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', start, { once: true });
   else start();
 })();
+
+
+/* Auping Level 2.5 Hybrid RC2: VP8 WebM primary media + deterministic mega-menu close. */
