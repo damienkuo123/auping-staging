@@ -1,0 +1,21 @@
+{
+  "version": "2026-08-04-rc3",
+  "target": "Level 2.5 Hybrid + Traditional Chinese",
+  "english_routes": [
+    "/",
+    "/box-springs",
+    "/beds",
+    "/mattresses",
+    "/toppers",
+    "/bed-bases",
+    "/bed-linen",
+    "/bed-linen/pillows",
+    "/news",
+    "/mattresses/elysium-mattress",
+    "/bed-linen/duvet-covers/playful-bricks-duvet-cover",
+    "/about-auping",
+    "/customer-service"
+  ],
+  "chinese_base": "/zh-tw/",
+  "deep_page_fallback": "English/local or official Auping"
+}
