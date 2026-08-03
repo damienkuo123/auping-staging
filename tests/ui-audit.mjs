@@ -180,8 +180,14 @@ const autoplayFailures=[];
 for(const sr of staging){
   const or=original.find((r)=>r.route===sr.route&&r.profileName===sr.profileName);
   const ov=or?.videoAfter4500ms||[], sv=sr.videoAfter4500ms||[];
-  if(ov.length>0&&sv.length===0){autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'original has video but staging has none',originalVideoCount:ov.length,stagingVideoCount:0});continue;}
-  for(const v of sv) if(v.paused||v.currentTime<=.2) autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'video did not autoplay',video:v});
+  if(ov.length>0&&sv.length===0){
+    autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'original has video but staging has none',originalVideoCount:ov.length,stagingVideoCount:0});
+    continue;
+  }
+  for(const v of sv){
+    if(v.readyState===0){autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'video source failed to load',video:v});continue;}
+    if(v.index===0&&(v.paused||v.currentTime<=.2))autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'hero video did not autoplay',video:v});
+  }
 }
 const hoverFailures=staging.flatMap((r)=>(r.hovers||[]).filter((h)=>!h.passed).map((h)=>({route:r.route,profileName:r.profileName,...h})));
 const mobileMenuFailures=staging.filter((r)=>r.profileName==='mobile'&&!r.mobileMenu).map((r)=>({route:r.route,error:r.mobileMenuError||'menu control not found'}));
