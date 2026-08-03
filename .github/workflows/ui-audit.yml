@@ -1,18 +1,14 @@
 name: Audit deployed Auping UI
-
 on:
   workflow_dispatch:
   workflow_run:
     workflows: ["Deploy Auping staging to GitHub Pages"]
     types: [completed]
-
 permissions:
   contents: read
-
 env:
   ORIGINAL_BASE: https://www.auping.com
   STAGING_BASE: https://damienkuo123.github.io/auping-staging
-
 jobs:
   audit:
     if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
@@ -20,24 +16,52 @@ jobs:
     timeout-minutes: 90
     steps:
       - uses: actions/checkout@v4
-
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-
       - name: Install browser audit dependencies
         run: |
           npm init -y
           npm install playwright@1.55.0 pixelmatch@6 pngjs@7
           npx playwright install --with-deps chromium
-
       - name: Scroll, hover, click, record and compare
         run: node tests/ui-audit.mjs
-
-      - name: Upload screenshots, videos, traces and reports
+      - name: Upload compact summary
         uses: actions/upload-artifact@v4
         with:
-          name: auping-ui-audit-${{ github.run_id }}
-          path: ui-audit-output
+          name: auping-ui-audit-summary-${{ github.run_id }}
+          path: |
+            ui-audit-output/summary.json
+            ui-audit-output/**/result.json
+          retention-days: 14
+          compression-level: 9
+      - name: Upload visual diffs
+        uses: actions/upload-artifact@v4
+        with:
+          name: auping-ui-audit-diffs-${{ github.run_id }}
+          path: ui-audit-output/diff
+          retention-days: 7
+          compression-level: 6
+      - name: Upload original evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: auping-ui-audit-original-${{ github.run_id }}
+          path: ui-audit-output/original
+          retention-days: 7
+          compression-level: 6
+      - name: Upload staging desktop evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: auping-ui-audit-staging-desktop-${{ github.run_id }}
+          path: ui-audit-output/staging/desktop
+          retention-days: 7
+          compression-level: 6
+      - name: Upload staging responsive evidence
+        uses: actions/upload-artifact@v4
+        with:
+          name: auping-ui-audit-staging-responsive-${{ github.run_id }}
+          path: |
+            ui-audit-output/staging/tablet
+            ui-audit-output/staging/mobile
           retention-days: 7
           compression-level: 6

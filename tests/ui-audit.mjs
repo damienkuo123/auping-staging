@@ -100,14 +100,15 @@ async function audit(browser, site, base, route, profileName, profile) {
           await page.mouse.move(profile.viewport.width - 10, profile.viewport.height - 10);
           await wait(200);
           const before = await page.screenshot({ animations: 'disabled' });
-          await link.hover({ timeout: 5000 });
+          await page.evaluate(() => window.scrollTo(0,0));
+          await link.evaluate((el) => { el.dispatchEvent(new MouseEvent('mouseenter',{bubbles:true})); el.dispatchEvent(new MouseEvent('mouseover',{bubbles:true})); });
           await wait(700);
           const file = `hover-${safe(label)}.png`;
           const after = await shot(page, path.join(output, file));
           const visual = compareBuffers(before, after);
           const visibleMenus = await page.locator('[role="menu"]:visible,[role="dialog"]:visible,[class*="mega" i]:visible,[class*="dropdown" i]:visible,[class*="submenu" i]:visible').count();
           if (visual.comparable && visual.diffBuffer) await fs.writeFile(path.join(output, `hover-diff-${safe(label)}.png`), visual.diffBuffer);
-          const passed = visibleMenus > 0 || (visual.comparable && visual.ratio >= .002);
+          const passed = visual.comparable && visual.ratio >= .01;
           report.hovers.push({ label, captured: true, targetFound: true, passed, visibleMenus, changedPixelRatio: visual.comparable ? visual.ratio : null, compareError: visual.comparable ? null : visual.reason });
         } catch (error) { report.hovers.push({ label, captured: false, targetFound: true, passed: false, error: String(error) }); }
       }
@@ -126,7 +127,7 @@ async function audit(browser, site, base, route, profileName, profile) {
     if (profileName === 'mobile') {
       const target = page.locator('[aria-label*="menu" i],[aria-label*="navigation" i]').first();
       if (await target.count()) {
-        try { await target.click(); await wait(500); await shot(page, path.join(output,'mobile-menu-open.png')); report.mobileMenu = true; }
+        try { await page.evaluate(() => window.scrollTo(0,0)); await target.evaluate((el) => el.click()); await wait(500); await shot(page, path.join(output,'mobile-menu-open.png')); report.mobileMenu = true; }
         catch (error) { report.mobileMenuError = String(error); }
       }
     }
