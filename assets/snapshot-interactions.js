@@ -2,23 +2,17 @@
   'use strict';
 
   const BASE = location.pathname.startsWith('/auping-staging/') ? '/auping-staging' : '';
-  const route = (path) => `${BASE}${path}`;
+  const route = (path) => /^https?:/i.test(path) ? path : `${BASE}${path}`;
   const RAW_MEDIA_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
   const GITHUB_MEDIA_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
   const RAW_WEBM_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
   const GITHUB_WEBM_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
 
   const links = [
-    ['Box springs', '/en/box-springs/'],
-    ['Beds', '/en/beds/'],
-    ['Mattresses', '/en/mattresses/'],
-    ['Toppers', '/en/mattress-toppers/'],
-    ['Bed bases', '/en/bed-bases/'],
-    ['Pillows', '/en/bed-linen/pillows/'],
-    ['Bed linen', '/en/bed-linen/'],
-    ['Find a store', '/en/store-locator/'],
-    ['About Auping', '/en/about-auping/'],
-    ['Customer service', '/en/customer-service/']
+    ['Box Springs 床組', '/box-springs/'], ['床架', '/beds/'], ['床墊', '/mattresses/'],
+    ['床墊舒適層', '/toppers/'], ['床底', '/bed-bases/'], ['枕頭', '/pillows/'],
+    ['寢具', '/bed-linen/'], ['尋找門市', 'https://www.auping.com/en/store-locator'],
+    ['關於 Auping', '/about-auping/'], ['客戶服務', '/customer-service/']
   ];
 
   const MEDIA_FILES = {
@@ -111,11 +105,11 @@
 
     nav = document.createElement('nav');
     nav.className = 'auping-mobile-nav';
-    nav.setAttribute('aria-label', 'Mobile navigation');
+    nav.setAttribute('aria-label', '行動版導覽');
     nav.innerHTML = `
       <div class="auping-mobile-nav__header">
         <strong>Auping</strong>
-        <button class="auping-mobile-nav__close" aria-label="Close menu">×</button>
+        <button class="auping-mobile-nav__close" aria-label="關閉選單">×</button>
       </div>
       ${links.map(([label, path]) => `<a href="${route(path)}">${label}</a>`).join('')}`;
     document.body.appendChild(nav);
