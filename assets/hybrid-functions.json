@@ -1,0 +1,48 @@
+{
+  "version": "2026-08-03-rc1",
+  "project": "Auping Level 2.5 Hybrid",
+  "officialHosts": [
+    "www.auping.com",
+    "auping.com",
+    "configurator.auping.com",
+    "shop.auping.com"
+  ],
+  "functions": {
+    "storeLocator": {
+      "label": "Find a store",
+      "destination": "https://www.auping.com/en/store-locator",
+      "open": "new_tab",
+      "localPaths": ["/en/store-locator"]
+    },
+    "configurator": {
+      "label": "Configure your Auping",
+      "destination": "https://configurator.auping.com/en-gb",
+      "open": "new_tab",
+      "localPaths": ["/en/configurator"]
+    },
+    "contact": {
+      "label": "Contact Auping",
+      "destination": "https://www.auping.com/en/customer-service/contact",
+      "open": "new_tab",
+      "localPaths": ["/en/customer-service/contact", "/en/contact-us"]
+    },
+    "myAuping": {
+      "label": "My Auping",
+      "destination": "https://www.auping.com/en/myauping",
+      "open": "new_tab",
+      "localPaths": ["/en/myauping"]
+    },
+    "shoppingCart": {
+      "label": "Shopping cart",
+      "destination": "https://www.auping.com/en/shoppingcart",
+      "open": "new_tab",
+      "localPaths": ["/en/shoppingcart"]
+    },
+    "officialShop": {
+      "label": "Official Auping shop",
+      "destination": "https://shop.auping.com/",
+      "open": "new_tab",
+      "localPaths": ["/en/shop"]
+    }
+  }
+}

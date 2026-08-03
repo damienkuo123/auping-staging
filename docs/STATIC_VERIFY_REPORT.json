@@ -1,0 +1,208 @@
+{
+  "generatedAt": "2026-08-03T14:34:36.564907+00:00",
+  "root": "/Users/damien/Downloads/auping-staging",
+  "passed": 50,
+  "failed": 0,
+  "results": [
+    {
+      "passed": true,
+      "label": "Git repository"
+    },
+    {
+      "passed": true,
+      "label": "assets/snapshot-interactions.js"
+    },
+    {
+      "passed": true,
+      "label": "assets/snapshot-fixes.css"
+    },
+    {
+      "passed": true,
+      "label": "assets/hybrid-functions.json"
+    },
+    {
+      "passed": true,
+      "label": ".github/workflows/deploy-pages.yml"
+    },
+    {
+      "passed": true,
+      "label": ".github/workflows/ui-audit.yml"
+    },
+    {
+      "passed": true,
+      "label": "en/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/box-springs/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/beds/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/mattresses/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/toppers/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/bed-bases/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/bed-linen/index.html"
+    },
+    {
+      "passed": true,
+      "label": "en/bed-linen/pillows/index.html"
+    },
+    {
+      "passed": true,
+      "label": "poster 193fbd75c0b38f98e24babb9116b.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 1c887ed4fb0aa061cf0eeca786c3.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 1e148dd8972b04e0fe919757c882.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 2a7be2063982a32f62c283deeca6.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 2c7f60394e11ffca478b4cf3324f.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 7a6e9914db47f88e9c9415e507ed.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster 927e13502742db5ff7e642b84de9.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster a3315162a17e816d46aa5b3f1a3b.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster e9b877417b0f4a580bed30e01448.jpg"
+    },
+    {
+      "passed": true,
+      "label": "poster fdfaecfdf94deb4e840c6b83c202.jpg"
+    },
+    {
+      "passed": true,
+      "label": "hybrid function configuration"
+    },
+    {
+      "passed": true,
+      "label": "destination storeLocator"
+    },
+    {
+      "passed": true,
+      "label": "destination configurator"
+    },
+    {
+      "passed": true,
+      "label": "destination contact"
+    },
+    {
+      "passed": true,
+      "label": "destination myAuping"
+    },
+    {
+      "passed": true,
+      "label": "destination shoppingCart"
+    },
+    {
+      "passed": true,
+      "label": "Level 2.5 runtime installed"
+    },
+    {
+      "passed": true,
+      "label": "video poster CSS installed"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/box-springs/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/box-springs/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/beds/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/beds/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/mattresses/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/mattresses/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/toppers/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/toppers/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/bed-bases/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/bed-bases/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/bed-linen/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/bed-linen/index.html"
+    },
+    {
+      "passed": true,
+      "label": "runtime linked: en/bed-linen/pillows/index.html"
+    },
+    {
+      "passed": true,
+      "label": "CSS linked: en/bed-linen/pillows/index.html"
+    },
+    {
+      "passed": true,
+      "label": "manual audit trigger present"
+    },
+    {
+      "passed": true,
+      "label": "automatic heavy audit disabled"
+    }
+  ]
+}

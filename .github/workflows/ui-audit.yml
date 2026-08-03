@@ -1,17 +1,18 @@
 name: Audit deployed Auping UI
+
+# Level 2.5 sprint rule: run the heavy visual audit manually only.
 on:
   workflow_dispatch:
-  workflow_run:
-    workflows: ["Deploy Auping staging to GitHub Pages"]
-    types: [completed]
+
 permissions:
   contents: read
+
 env:
   ORIGINAL_BASE: https://www.auping.com
   STAGING_BASE: https://damienkuo123.github.io/auping-staging
+
 jobs:
   audit:
-    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     timeout-minutes: 90
     steps:

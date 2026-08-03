@@ -136,3 +136,78 @@ nav[aria-label="primary"]>ul>li.auping-menu-open>a{color:#00539f!important;box-s
     height:18px!important;
   }
 }
+
+/* ========================================================================== */
+/* Auping Level 2.5 Hybrid RC1                                                */
+/* ========================================================================== */
+html.auping-level2-5 {
+  --auping-hybrid-blue: #00539f;
+  --auping-hybrid-navy: #003f73;
+}
+
+.auping-hybrid-toast {
+  position: fixed;
+  left: 50%;
+  bottom: 28px;
+  z-index: 2147483646;
+  max-width: min(520px, calc(100vw - 32px));
+  padding: 13px 18px;
+  border-radius: 2px;
+  background: #003f73;
+  color: #fff;
+  font: 600 14px/1.35 Arial, Helvetica, sans-serif;
+  box-shadow: 0 12px 36px rgba(0, 34, 66, .28);
+  opacity: 0;
+  pointer-events: none;
+  transform: translate(-50%, 14px);
+  transition: opacity .18s ease, transform .18s ease;
+}
+.auping-hybrid-toast.is-visible {
+  opacity: 1;
+  transform: translate(-50%, 0);
+}
+
+.auping-video-poster-fallback {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 1;
+  pointer-events: none;
+  transition: opacity .25s ease;
+}
+.auping-video-poster-fallback.is-hidden {
+  opacity: 0;
+}
+video.auping-video-pending,
+video.auping-video-fallback {
+  opacity: 0 !important;
+}
+video.auping-video-ready {
+  opacity: 1;
+  transition: opacity .25s ease;
+}
+
+html.auping-hybrid-redirecting body::before {
+  content: "Opening the official Auping service…";
+  position: fixed;
+  inset: 0;
+  z-index: 2147483647;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+  background: #fff;
+  color: #003f73;
+  font: 600 18px/1.4 Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .auping-hybrid-toast,
+  .auping-video-poster-fallback,
+  video.auping-video-ready {
+    transition: none !important;
+  }
+}
