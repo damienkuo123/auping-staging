@@ -18,6 +18,7 @@ const profiles = {
 };
 const safe = (v) => v.replace(/^\/+|\/+$/g, '').replaceAll('/', '__') || 'root';
 const wait = (ms) => new Promise((r) => setTimeout(r, ms));
+const joinUrl = (base, route) => new URL(route.replace(/^\/+/, ''), base.endsWith('/') ? base : `${base}/`).href;
 async function dir(p) { await fs.mkdir(p, { recursive: true }); }
 
 async function suppressNoise(page) {
@@ -51,7 +52,17 @@ async function freezeVideoFrames(page) {
 
 async function shot(page, file, options = {}) {
   await dir(path.dirname(file));
-  await page.screenshot({ path: file, animations: 'disabled', ...options });
+  return page.screenshot({ path: file, animations: 'disabled', ...options });
+}
+
+function compareBuffers(aRaw,bRaw) {
+  try {
+    const a=PNG.sync.read(aRaw), b=PNG.sync.read(bRaw);
+    if(a.width!==b.width||a.height!==b.height) return {comparable:false,reason:'different dimensions'};
+    const d=new PNG({width:a.width,height:a.height});
+    const pixels=pixelmatch(a.data,b.data,d.data,a.width,a.height,{threshold:.12,includeAA:false});
+    return {comparable:true,pixels,total:a.width*a.height,ratio:pixels/(a.width*a.height),diffBuffer:PNG.sync.write(d)};
+  } catch(error) { return {comparable:false,reason:String(error)}; }
 }
 
 async function audit(browser, site, base, route, profileName, profile) {
@@ -63,7 +74,7 @@ async function audit(browser, site, base, route, profileName, profile) {
   });
   await context.tracing.start({ screenshots: true, snapshots: true, sources: true });
   const page = await context.newPage();
-  const report = { site, route, profileName, url: new URL(route, base).href, consoleErrors: [], failedRequests: [], hovers: [] };
+  const report = { site, route, profileName, url: joinUrl(base, route), consoleErrors: [], failedRequests: [], hovers: [] };
   page.on('console', (m) => { if (m.type() === 'error') report.consoleErrors.push(m.text()); });
   page.on('requestfailed', (r) => report.failedRequests.push({ url: r.url(), error: r.failure()?.errorText || '' }));
   try {
@@ -81,16 +92,24 @@ async function audit(browser, site, base, route, profileName, profile) {
     if (profileName === 'desktop') {
       for (const label of ['Box springs','Beds','Mattresses','Toppers','Bed bases','Pillows','Bed linen']) {
         const link = page.getByRole('link', { name: label, exact: true }).first();
-        if (await link.count()) {
-          try {
-            await link.hover({ timeout: 5000 });
-            await wait(700);
-            const file = `hover-${safe(label)}.png`;
-            await shot(page, path.join(output, file));
-            const visibleMenus = await page.locator('[role="menu"]:visible,[class*="menu" i]:visible,[class*="dropdown" i]:visible').count();
-            report.hovers.push({ label, captured: true, visibleMenus });
-          } catch (error) { report.hovers.push({ label, captured: false, error: String(error) }); }
+        if (!(await link.count())) {
+          report.hovers.push({ label, captured: false, targetFound: false, passed: false, reason: 'navigation link not found' });
+          continue;
         }
+        try {
+          await page.mouse.move(profile.viewport.width - 10, profile.viewport.height - 10);
+          await wait(200);
+          const before = await page.screenshot({ animations: 'disabled' });
+          await link.hover({ timeout: 5000 });
+          await wait(700);
+          const file = `hover-${safe(label)}.png`;
+          const after = await shot(page, path.join(output, file));
+          const visual = compareBuffers(before, after);
+          const visibleMenus = await page.locator('[role="menu"]:visible,[role="dialog"]:visible,[class*="mega" i]:visible,[class*="dropdown" i]:visible,[class*="submenu" i]:visible').count();
+          if (visual.comparable && visual.diffBuffer) await fs.writeFile(path.join(output, `hover-diff-${safe(label)}.png`), visual.diffBuffer);
+          const passed = visibleMenus > 0 || (visual.comparable && visual.ratio >= .002);
+          report.hovers.push({ label, captured: true, targetFound: true, passed, visibleMenus, changedPixelRatio: visual.comparable ? visual.ratio : null, compareError: visual.comparable ? null : visual.reason });
+        } catch (error) { report.hovers.push({ label, captured: false, targetFound: true, passed: false, error: String(error) }); }
       }
     }
 
@@ -154,12 +173,17 @@ for(const profileName of Object.keys(profiles)) for(const route of routes) for(c
   )});
 }
 const staging=results.filter((r)=>r.site==='staging');
-const summary={
-  generatedAt:new Date().toISOString(), originalBase:ORIGINAL_BASE, stagingBase:STAGING_BASE,
-  routes, profiles:Object.keys(profiles), results,
-  autoplayFailures:staging.filter((r)=>(r.videoAfter4500ms||[]).some((v)=>v.paused||v.currentTime<=.05)).map((r)=>({route:r.route,profileName:r.profileName,videos:r.videoAfter4500ms})),
-  hoverFailures:staging.flatMap((r)=>(r.hovers||[]).filter((h)=>!h.captured||h.visibleMenus===0).map((h)=>({route:r.route,profileName:r.profileName,...h}))),
-  diffs
-};
+const original=results.filter((r)=>r.site==='original');
+const statusFailures=staging.filter((r)=>r.status!==200).map((r)=>({route:r.route,profileName:r.profileName,url:r.url,status:r.status,fatalError:r.fatalError||null}));
+const autoplayFailures=[];
+for(const sr of staging){
+  const or=original.find((r)=>r.route===sr.route&&r.profileName===sr.profileName);
+  const ov=or?.videoAfter4500ms||[], sv=sr.videoAfter4500ms||[];
+  if(ov.length>0&&sv.length===0){autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'original has video but staging has none',originalVideoCount:ov.length,stagingVideoCount:0});continue;}
+  for(const v of sv) if(v.paused||v.currentTime<=.2) autoplayFailures.push({route:sr.route,profileName:sr.profileName,reason:'video did not autoplay',video:v});
+}
+const hoverFailures=staging.flatMap((r)=>(r.hovers||[]).filter((h)=>!h.passed).map((h)=>({route:r.route,profileName:r.profileName,...h})));
+const mobileMenuFailures=staging.filter((r)=>r.profileName==='mobile'&&!r.mobileMenu).map((r)=>({route:r.route,error:r.mobileMenuError||'menu control not found'}));
+const summary={generatedAt:new Date().toISOString(),originalBase:ORIGINAL_BASE,stagingBase:STAGING_BASE,routes,profiles:Object.keys(profiles),results,statusFailures,autoplayFailures,hoverFailures,mobileMenuFailures,diffs};
 await fs.writeFile(path.join(OUT,'summary.json'),JSON.stringify(summary,null,2));
-console.log(JSON.stringify({autoplayFailures:summary.autoplayFailures.length,hoverFailures:summary.hoverFailures.length},null,2));
+console.log(JSON.stringify({statusFailures:statusFailures.length,autoplayFailures:autoplayFailures.length,hoverFailures:hoverFailures.length,mobileMenuFailures:mobileMenuFailures.length},null,2));
