@@ -11,7 +11,7 @@
       "id": "box-springs",
       "path": "/box-springs/",
       "category": "box-springs",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -138,13 +138,14 @@
           "group": "color",
           "value": "紅色"
         }
-      ]
+      ],
+      "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
       "id": "beds",
       "path": "/beds/",
       "category": "beds",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -286,13 +287,14 @@
           "group": "color",
           "value": "白色"
         }
-      ]
+      ],
+      "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
       "id": "mattresses",
       "path": "/mattresses/",
       "category": "mattresses",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -449,13 +451,14 @@
           "group": "length",
           "value": "220 cm"
         }
-      ]
+      ],
+      "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
       "id": "duvet-covers",
       "path": "/bed-linen/duvet-covers/",
       "category": "duvet-covers",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -667,13 +670,14 @@
           "group": "fabric",
           "value": "棉緞"
         }
-      ]
+      ],
+      "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
       "id": "toppers",
       "path": "/toppers/",
       "category": "toppers",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -710,13 +714,14 @@
           ]
         }
       ],
-      "inputMap": []
+      "inputMap": [],
+      "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
       "id": "bed-bases",
       "path": "/bed-bases/",
       "category": "bed-bases",
-      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"EnrichedProductCard_Base__\"], [class*=\"ProductList_BannerColumn__\"]",
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
@@ -755,7 +760,8 @@
           ]
         }
       ],
-      "inputMap": []
+      "inputMap": [],
+      "listSelector": "[class*=\"ProductList_container\"]"
     }
   ]
 }

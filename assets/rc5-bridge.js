@@ -1,6 +1,6 @@
 ;(() => {
   'use strict';
-  const VERSION = '20260804-rc61';
+  const VERSION = '20260804-rc62';
   if (window.__AUPING_RC6_BOOTSTRAP__) return;
   window.__AUPING_RC6_BOOTSTRAP__ = VERSION;
   const own = document.currentScript || [...document.scripts].find((node) => /(?:snapshot-interactions|rc5-bridge)\.js(?:\?|$)/.test(node.src));

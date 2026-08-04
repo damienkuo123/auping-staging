@@ -1,4 +1,4 @@
-/* Auping RC6 functional unification. Closed-state selectors are intentionally inert. */
+/* Auping RC6.2 functional unification. Closed-state selectors are intentionally inert. */
 [hidden]{display:none!important}
 footer [class*="Language"],footer [class*="language"],footer select[name*="language" i],footer [class*="Select"]:has([class*="singleValue"]){display:none!important}
 html.rc6-scroll-lock,body.rc6-scroll-lock,body.rc6-search-open{overflow:hidden!important}
@@ -33,7 +33,7 @@ html.rc6-scroll-lock,body.rc6-scroll-lock,body.rc6-search-open{overflow:hidden!i
 .rc6-filter-chip,.rc6-filter-clear{border:1px solid #172b4d;border-radius:999px;background:#fff;color:#172b4d;padding:8px 13px;font:inherit;font-size:14px;cursor:pointer}
 .rc6-filter-clear{border-color:transparent;text-decoration:underline}
 .rc6-no-results{padding:32px 0;font-size:18px}
-[data-rc6-product-card][hidden],[data-rc6-promo-card][hidden]{display:none!important}
+[data-rc6-product-card][hidden],[data-rc6-promo-card][hidden],[data-rc6-unmanifested-product][hidden]{display:none!important}
 .rc6-redirecting body{visibility:hidden}
 
 @media(max-width:760px){

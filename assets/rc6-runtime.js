@@ -3,7 +3,8 @@
   if (window.__AUPING_RC6_RUNTIME_LOADING__) return;
   window.__AUPING_RC6_RUNTIME_LOADING__ = true;
 
-  const VERSION = '2026-08-04-rc6.1-cache-hotfix';
+  const VERSION = '2026-08-04-rc6.2-manual-overwrite';
+  const DATA_VERSION = '20260804-rc62';
   const BASE = location.pathname.startsWith('/auping-staging') ? '/auping-staging' : '';
   const script = [...document.scripts].find((node) => /rc6-runtime\.js(?:\?|$)/.test(node.src));
   const assetBase = script?.src ? new URL('.', script.src) : new URL(`${BASE}/assets/`, location.origin);
@@ -46,7 +47,9 @@
   }
 
   async function loadJSON(name) {
-    const response = await fetch(new URL(name, dataBase), { cache: 'no-store' });
+    const url = new URL(name, dataBase);
+    url.searchParams.set('v', DATA_VERSION);
+    const response = await fetch(url, { cache: 'no-store' });
     if (!response.ok) throw new Error(`${name}: HTTP ${response.status}`);
     return response.json();
   }
@@ -206,6 +209,7 @@
     }, true);
 
     $$('header button[aria-label="Submit"],header button[aria-label*="搜尋"],header button[title*="Search"]').forEach((button) => button.dataset.rc6SearchTrigger = '1');
+    document.documentElement.dataset.aupingRc6SearchReady = '1';
     window.AupingRC6Search = { open, close, searchRows };
   }
 
@@ -220,23 +224,39 @@
 
     const submenus = $$('[class*="FullPageMenu__submenu"],[class*="FullPageMenu_submenu"]', menu);
     const closeSubmenus = () => submenus.forEach((submenu) => submenu.classList.remove('rc6-submenu-open'));
+    const setMenuVisualState = (opened) => {
+      const important = 'important';
+      menu.style.setProperty('visibility', opened ? 'visible' : 'hidden', important);
+      menu.style.setProperty('opacity', opened ? '1' : '0', important);
+      menu.style.setProperty('pointer-events', opened ? 'auto' : 'none', important);
+      menu.style.setProperty('transform', opened ? 'translateX(0)' : 'translateX(-105%)', important);
+      menu.setAttribute('aria-hidden', opened ? 'false' : 'true');
+      if (overlay) {
+        overlay.style.setProperty('visibility', opened ? 'visible' : 'hidden', important);
+        overlay.style.setProperty('opacity', opened ? '1' : '0', important);
+        overlay.style.setProperty('pointer-events', opened ? 'auto' : 'none', important);
+        overlay.setAttribute('aria-hidden', opened ? 'false' : 'true');
+      }
+    };
     const open = (trigger) => {
       previousFocus = trigger || document.activeElement;
       closeSubmenus();
       menu.classList.add('rc6-menu-open');
       menu.removeAttribute('hidden');
       overlay?.classList.add('rc6-overlay-open');
+      setMenuVisualState(true);
       document.documentElement.classList.add('rc6-scroll-lock');
       document.body.classList.add('rc6-scroll-lock');
       requestAnimationFrame(() => $('[aria-label="關閉"],button[class*="Close"]', menu)?.focus());
     };
-    const close = () => {
+    const close = ({ restoreFocus = true } = {}) => {
       closeSubmenus();
       menu.classList.remove('rc6-menu-open');
       overlay?.classList.remove('rc6-overlay-open');
+      setMenuVisualState(false);
       document.documentElement.classList.remove('rc6-scroll-lock');
       document.body.classList.remove('rc6-scroll-lock');
-      previousFocus?.focus?.();
+      if (restoreFocus) previousFocus?.focus?.();
     };
 
     document.addEventListener('click', (event) => {
@@ -264,6 +284,8 @@
     document.addEventListener('keydown', (event) => {
       if (event.key === 'Escape' && menu.classList.contains('rc6-menu-open')) { event.preventDefault(); close(); }
     });
+    close({ restoreFocus: false });
+    document.documentElement.dataset.aupingRc6MenuReady = '1';
     window.AupingRC6Menu = { open, close };
   }
 
@@ -283,18 +305,38 @@
     const current = normalizePath(location.href).toLowerCase();
     const schema = state.filters.find((item) => normalizePath(item.path).toLowerCase() === current);
     if (!schema) return;
+
     const products = state.products.filter((product) => product.category === schema.category && product.isProduct && !product.isPromo);
     const productByPath = new Map(products.map((product) => [normalizePath(product.localPath).toLowerCase(), product]));
-    const cards = $$(schema.cardSelector || '[data-rc6-product-card]').map((card) => {
-      const path = normalizePath(card.dataset.rc6RouteId ? state.routeById.get(card.dataset.rc6RouteId)?.localPath : (card.dataset.rc5Route || card.querySelector('a[href]')?.href || ''));
-      const product = productByPath.get(path.toLowerCase()) || state.products.find((item) => item.routeId === card.dataset.rc6RouteId);
+    const list = $(schema.listSelector || '[class*="ProductList_container"]');
+    const rawCards = list
+      ? $$(':scope > *', list)
+      : $$(schema.cardSelector || '[data-rc6-product-card],[data-rc5-filter-card],[class*="EnrichedProductCard_Base"],[class*="ProductList_BannerColumn"]');
+
+    const cards = rawCards.map((card) => {
+      const isProductLike = card.matches('[data-rc6-product-card],[data-rc5-filter-card],[class*="EnrichedProductCard_Base"]');
+      const routeId = card.dataset.rc6RouteId || '';
+      const routePath = routeId
+        ? state.routeById.get(routeId)?.localPath
+        : (card.dataset.rc5Route || card.querySelector('a[href]')?.href || '');
+      const path = routePath ? normalizePath(routePath) : '';
+      const product = (path && productByPath.get(path.toLowerCase())) || products.find((item) => item.routeId === routeId) || null;
+
       if (product) {
         card.dataset.rc6ProductCard = '1';
         card.dataset.rc6RouteId = product.routeId;
-        return { card, product };
+        delete card.dataset.rc6PromoCard;
+        delete card.dataset.rc6UnmanifestedProduct;
+        return { card, product, isProductLike: true, isPromo: false };
+      }
+      if (isProductLike) {
+        card.dataset.rc6UnmanifestedProduct = '1';
+        delete card.dataset.rc6PromoCard;
+        return { card, product: null, isProductLike: true, isPromo: false };
       }
       card.dataset.rc6PromoCard = '1';
-      return { card, product: null };
+      delete card.dataset.rc6UnmanifestedProduct;
+      return { card, product: null, isProductLike: false, isPromo: true };
     });
     if (!cards.some((entry) => entry.product)) return;
 
@@ -307,13 +349,15 @@
     });
     const inputs = $$('input[data-rc6-filter-key]');
     if (!inputs.length) return;
+
     const count = $(schema.countSelector || '[data-rc6-product-count]');
     let chips = $('.rc6-filter-chips');
     if (!chips) {
       chips = document.createElement('div');
       chips.className = 'rc6-filter-chips';
+      chips.setAttribute('aria-label', '目前篩選條件');
       const title = $('[class*="CatalogWithFilters_productsTitle"],h1');
-      (title?.parentElement || cards[0].card.parentElement).insertAdjacentElement('afterend', chips);
+      (title?.parentElement || list || cards[0].card.parentElement).insertAdjacentElement('afterend', chips);
     }
     let empty = $('.rc6-no-results');
     if (!empty) {
@@ -321,7 +365,7 @@
       empty.className = 'rc6-no-results';
       empty.hidden = true;
       empty.textContent = '找不到符合條件的商品';
-      cards[0].card.parentElement.appendChild(empty);
+      (list || cards[0].card.parentElement).appendChild(empty);
     }
 
     const getSelected = () => {
@@ -341,12 +385,13 @@
       const selected = getSelected();
       const hasFilter = Object.values(selected).some((values) => values.length);
       let visible = 0;
-      cards.forEach(({ card, product }) => {
-        if (!product) { card.hidden = hasFilter; return; }
-        const show = productMatches(product, selected);
+      cards.forEach(({ card, product, isProductLike }) => {
+        let show = false;
+        if (!hasFilter) show = true;
+        else if (product) show = productMatches(product, selected);
         card.hidden = !show;
         card.dataset.rc6Visible = show ? '1' : '0';
-        if (show) visible += 1;
+        if (show && isProductLike) visible += 1;
       });
       if (count) count.textContent = `共 ${visible} 件商品`;
       empty.hidden = visible !== 0;
@@ -377,7 +422,8 @@
       input.addEventListener('change', () => apply(true));
     });
     apply(false);
-    window.AupingRC6Filter = { apply, productMatches, products };
+    document.documentElement.dataset.aupingRc6FilterReady = schema.id;
+    window.AupingRC6Filter = { apply, productMatches, products, cards };
   }
 
   function observeDOM() {
