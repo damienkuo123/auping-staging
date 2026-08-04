@@ -865,8 +865,9 @@
       "id": "pillows",
       "title": "枕頭",
       "localPath": "/pillows/",
-      "mode": "LOCAL_PARITY",
-      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+      "mode": "DISABLED",
+      "reason": "RC7 route contract：/pillows/ 僅為舊別名，統一導向本地繁體中文 /bed-linen/pillows/。",
+      "fallbackPath": "/bed-linen/pillows/"
     },
     {
       "id": "service-shop",

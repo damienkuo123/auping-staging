@@ -1,30 +1,7 @@
-;(() => {
-  'use strict';
-  const VERSION = '20260804-rc62';
-  if (window.__AUPING_RC6_BOOTSTRAP__) return;
-  window.__AUPING_RC6_BOOTSTRAP__ = VERSION;
-  const own = document.currentScript || [...document.scripts].find((node) => /(?:snapshot-interactions|rc5-bridge)\.js(?:\?|$)/.test(node.src));
-  const assetBase = own?.src ? new URL('.', own.src) : new URL('/auping-staging/assets/', location.origin);
-  if (!document.querySelector('link[data-auping-rc6="style"],link[href*="rc6-runtime.css"]')) {
-    const link = document.createElement('link');
-    link.rel = 'stylesheet';
-    link.dataset.aupingRc6 = 'style';
-    link.href = new URL(`rc6-runtime.css?v=${VERSION}`, assetBase).href;
-    document.head.appendChild(link);
-  }
-  if (!window.__AUPING_RC6_RUNTIME_LOADING__ && !document.querySelector('script[data-auping-rc6-bootstrap],script[src*="rc6-runtime.js"]')) {
-    const script = document.createElement('script');
-    script.src = new URL(`rc6-runtime.js?v=${VERSION}`, assetBase).href;
-    script.async = false;
-    script.dataset.aupingRc6Bootstrap = VERSION;
-    document.head.appendChild(script);
-  }
-})();
-
 (()=>{
   'use strict';
 
-  const BASE = location.pathname.startsWith('/auping-staging/') ? '/auping-staging' : '';
+  const BASE = location.pathname.startsWith('/auping-staging') ? '/auping-staging' : '';
   const route = (path) => /^https?:/i.test(path) ? path : `${BASE}${path}`;
   const RAW_MEDIA_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
   const GITHUB_MEDIA_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
@@ -73,84 +50,7 @@
     return FILE_SET.has(file) ? file : null;
   };
 
-  function setupMegaMenus() {
-    const items = [...document.querySelectorAll('nav[aria-label="primary"]>ul>li')]
-      .filter((item) => item.querySelector(':scope>div[class*="MainMenu_menu"]'));
-    let timer = 0;
-
-    const close = () => {
-      clearTimeout(timer);
-      items.forEach((item) => {
-        item.classList.remove('auping-menu-open');
-        item.querySelector(':scope>a')?.setAttribute('aria-expanded', 'false');
-      });
-      document.body.classList.remove('auping-mega-open');
-    };
-
-    const open = (item) => {
-      clearTimeout(timer);
-      items.forEach((other) => {
-        if (other !== item) other.classList.remove('auping-menu-open');
-      });
-      item.classList.add('auping-menu-open');
-      item.querySelector(':scope>a')?.setAttribute('aria-expanded', 'true');
-      document.body.classList.add('auping-mega-open');
-    };
-
-    items.forEach((item) => {
-      if (item.dataset.aupingMenuReady) return;
-      item.dataset.aupingMenuReady = '1';
-      const anchor = item.querySelector(':scope>a');
-      const menu = item.querySelector(':scope>div[class*="MainMenu_menu"]');
-      if (!anchor || !menu) return;
-
-      anchor.setAttribute('aria-haspopup', 'true');
-      anchor.setAttribute('aria-expanded', 'false');
-      item.addEventListener('mouseenter', () => open(item));
-      item.addEventListener('mouseleave', () => { timer = setTimeout(close, 140); });
-      item.addEventListener('focusin', () => open(item));
-      item.addEventListener('focusout', (event) => {
-        if (!item.contains(event.relatedTarget)) timer = setTimeout(close, 120);
-      });
-      anchor.addEventListener('keydown', (event) => {
-        if (event.key === 'ArrowDown') {
-          event.preventDefault();
-          open(item);
-          menu.querySelector('a,button')?.focus();
-        }
-        if (event.key === 'Escape') close();
-      });
-      if (matchMedia('(hover:none)').matches) {
-        anchor.addEventListener('click', (event) => {
-          if (!item.classList.contains('auping-menu-open')) {
-            event.preventDefault();
-            open(item);
-          }
-        });
-      }
-    });
-
-    if (!document.documentElement.dataset.aupingMenuGlobalReady) {
-      document.documentElement.dataset.aupingMenuGlobalReady = '1';
-      document.addEventListener('keydown', (event) => {
-        if (event.key === 'Escape') close();
-      });
-      document.addEventListener('click', (event) => {
-        if (!event.target.closest('nav[aria-label="primary"]')) close();
-      });
-      window.addEventListener('scroll', close, { passive: true });
-      window.addEventListener('resize', close, { passive: true });
-      window.addEventListener('blur', close);
-      document.addEventListener('visibilitychange', () => {
-        if (document.hidden) close();
-      });
-      document.addEventListener('pointermove', (event) => {
-        if (!document.body.classList.contains('auping-mega-open')) return;
-        if (!event.target.closest('nav[aria-label="primary"]')) close();
-      }, { passive: true });
-    }
-  }
-
+  // Desktop/mobile navigation ownership moved to RC7.
   function armVideo(video, index) {
     if (video.dataset.aupingVideoReady) return;
     video.dataset.aupingVideoReady = '1';
@@ -247,7 +147,6 @@
     }
   }
   const boot = () => {
-    setupMegaMenus();
     enableVideos();
   };
 
