@@ -1,7 +1,9 @@
 ;(() => {
   'use strict';
+  if (window.__AUPING_RC6_RUNTIME_LOADING__) return;
+  window.__AUPING_RC6_RUNTIME_LOADING__ = true;
 
-  const VERSION = '2026-08-04-rc6-final';
+  const VERSION = '2026-08-04-rc6.1-cache-hotfix';
   const BASE = location.pathname.startsWith('/auping-staging') ? '/auping-staging' : '';
   const script = [...document.scripts].find((node) => /rc6-runtime\.js(?:\?|$)/.test(node.src));
   const assetBase = script?.src ? new URL('.', script.src) : new URL(`${BASE}/assets/`, location.origin);
