@@ -1,0 +1,761 @@
+{
+  "schema": "AUPING-RC6-FILTER-SCHEMA-V1",
+  "version": "2026-08-04-rc6-final",
+  "logic": {
+    "withinGroup": "OR",
+    "betweenGroups": "AND",
+    "excludePromoFromCount": true
+  },
+  "categories": [
+    {
+      "id": "box-springs",
+      "path": "/box-springs/",
+      "category": "box-springs",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "model",
+          "label": "款式",
+          "queryKey": "model",
+          "operator": "OR",
+          "values": [
+            "Criade",
+            "Kiruna",
+            "Original"
+          ]
+        },
+        {
+          "key": "version",
+          "label": "版本",
+          "queryKey": "version",
+          "operator": "OR",
+          "values": [
+            "單人",
+            "雙人"
+          ]
+        },
+        {
+          "key": "color",
+          "label": "顏色",
+          "queryKey": "color",
+          "operator": "OR",
+          "values": [
+            "深黑（非目前黑色篩選）",
+            "灰色",
+            "白色",
+            "米色",
+            "粉紅色",
+            "紅色",
+            "綠色",
+            "藍色",
+            "黑色"
+          ]
+        }
+      ],
+      "inputMap": [
+        {
+          "id": "7208",
+          "name": "boxspring_model",
+          "nativeValue": "7208",
+          "group": "model",
+          "value": "Criade"
+        },
+        {
+          "id": "7209",
+          "name": "boxspring_model",
+          "nativeValue": "7209",
+          "group": "model",
+          "value": "Kiruna"
+        },
+        {
+          "id": "7206",
+          "name": "boxspring_model",
+          "nativeValue": "7206",
+          "group": "model",
+          "value": "Original"
+        },
+        {
+          "id": "7211",
+          "name": "boxspring_size_person",
+          "nativeValue": "7211",
+          "group": "version",
+          "value": "雙人"
+        },
+        {
+          "id": "7210",
+          "name": "boxspring_size_person",
+          "nativeValue": "7210",
+          "group": "version",
+          "value": "單人"
+        },
+        {
+          "id": "7212",
+          "name": "boxspring_color",
+          "nativeValue": "7212",
+          "group": "color",
+          "value": "米色"
+        },
+        {
+          "id": "7202",
+          "name": "boxspring_color",
+          "nativeValue": "7202",
+          "group": "color",
+          "value": "黑色"
+        },
+        {
+          "id": "7201",
+          "name": "boxspring_color",
+          "nativeValue": "7201",
+          "group": "color",
+          "value": "藍色"
+        },
+        {
+          "id": "7203",
+          "name": "boxspring_color",
+          "nativeValue": "7203",
+          "group": "color",
+          "value": "綠色"
+        },
+        {
+          "id": "7198",
+          "name": "boxspring_color",
+          "nativeValue": "7198",
+          "group": "color",
+          "value": "灰色"
+        },
+        {
+          "id": "7204",
+          "name": "boxspring_color",
+          "nativeValue": "7204",
+          "group": "color",
+          "value": "粉紅色"
+        },
+        {
+          "id": "7199",
+          "name": "boxspring_color",
+          "nativeValue": "7199",
+          "group": "color",
+          "value": "紅色"
+        }
+      ]
+    },
+    {
+      "id": "beds",
+      "path": "/beds/",
+      "category": "beds",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "model",
+          "label": "款式",
+          "queryKey": "model",
+          "operator": "OR",
+          "values": [
+            "Auronde",
+            "Essential",
+            "Noa",
+            "Noble",
+            "Original"
+          ]
+        },
+        {
+          "key": "version",
+          "label": "版本",
+          "queryKey": "version",
+          "operator": "OR",
+          "values": [
+            "單人",
+            "雙人"
+          ]
+        },
+        {
+          "key": "color",
+          "label": "顏色",
+          "queryKey": "color",
+          "operator": "OR",
+          "values": [
+            "棕色",
+            "灰色",
+            "白色",
+            "米色",
+            "粉紅色",
+            "綠色",
+            "藍色",
+            "黑色"
+          ]
+        }
+      ],
+      "inputMap": [
+        {
+          "id": "7185",
+          "name": "bed_model",
+          "nativeValue": "7185",
+          "group": "model",
+          "value": "Auronde"
+        },
+        {
+          "id": "7187",
+          "name": "bed_model",
+          "nativeValue": "7187",
+          "group": "model",
+          "value": "Essential"
+        },
+        {
+          "id": "7188",
+          "name": "bed_model",
+          "nativeValue": "7188",
+          "group": "model",
+          "value": "Noa"
+        },
+        {
+          "id": "7189",
+          "name": "bed_model",
+          "nativeValue": "7189",
+          "group": "model",
+          "value": "Noble"
+        },
+        {
+          "id": "7186",
+          "name": "bed_model",
+          "nativeValue": "7186",
+          "group": "model",
+          "value": "Original"
+        },
+        {
+          "id": "7184",
+          "name": "bed_size_person",
+          "nativeValue": "7184",
+          "group": "version",
+          "value": "雙人"
+        },
+        {
+          "id": "7183",
+          "name": "bed_size_person",
+          "nativeValue": "7183",
+          "group": "version",
+          "value": "單人"
+        },
+        {
+          "id": "7194",
+          "name": "bed_color",
+          "nativeValue": "7194",
+          "group": "color",
+          "value": "黑色"
+        },
+        {
+          "id": "7193",
+          "name": "bed_color",
+          "nativeValue": "7193",
+          "group": "color",
+          "value": "藍色"
+        },
+        {
+          "id": "7197",
+          "name": "bed_color",
+          "nativeValue": "7197",
+          "group": "color",
+          "value": "棕色"
+        },
+        {
+          "id": "7195",
+          "name": "bed_color",
+          "nativeValue": "7195",
+          "group": "color",
+          "value": "綠色"
+        },
+        {
+          "id": "7190",
+          "name": "bed_color",
+          "nativeValue": "7190",
+          "group": "color",
+          "value": "灰色"
+        },
+        {
+          "id": "7196",
+          "name": "bed_color",
+          "nativeValue": "7196",
+          "group": "color",
+          "value": "粉紅色"
+        },
+        {
+          "id": "7192",
+          "name": "bed_color",
+          "nativeValue": "7192",
+          "group": "color",
+          "value": "白色"
+        }
+      ]
+    },
+    {
+      "id": "mattresses",
+      "path": "/mattresses/",
+      "category": "mattresses",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "queryKey": "width",
+          "operator": "OR",
+          "values": [
+            "100 cm",
+            "120 cm",
+            "140 cm",
+            "150 cm",
+            "160 cm",
+            "180 cm",
+            "200 cm",
+            "70 cm",
+            "80 cm",
+            "90 cm"
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "queryKey": "length",
+          "operator": "OR",
+          "values": [
+            "190 cm",
+            "200 cm",
+            "210 cm",
+            "220 cm"
+          ]
+        },
+        {
+          "key": "bodyType",
+          "label": "體型",
+          "queryKey": "bodyType",
+          "operator": "OR",
+          "values": [
+            "A",
+            "B",
+            "X",
+            "Y",
+            "標準支撐"
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "queryKey": "firmness",
+          "operator": "OR",
+          "values": [
+            "偏硬",
+            "柔軟",
+            "適中"
+          ]
+        }
+      ],
+      "inputMap": [
+        {
+          "id": "6930",
+          "name": "mattress_width_filter",
+          "nativeValue": "6930",
+          "group": "width",
+          "value": "70 cm"
+        },
+        {
+          "id": "6931",
+          "name": "mattress_width_filter",
+          "nativeValue": "6931",
+          "group": "width",
+          "value": "80 cm"
+        },
+        {
+          "id": "6932",
+          "name": "mattress_width_filter",
+          "nativeValue": "6932",
+          "group": "width",
+          "value": "90 cm"
+        },
+        {
+          "id": "6933",
+          "name": "mattress_width_filter",
+          "nativeValue": "6933",
+          "group": "width",
+          "value": "100 cm"
+        },
+        {
+          "id": "6934",
+          "name": "mattress_width_filter",
+          "nativeValue": "6934",
+          "group": "width",
+          "value": "120 cm"
+        },
+        {
+          "id": "6935",
+          "name": "mattress_width_filter",
+          "nativeValue": "6935",
+          "group": "width",
+          "value": "140 cm"
+        },
+        {
+          "id": "6936",
+          "name": "mattress_width_filter",
+          "nativeValue": "6936",
+          "group": "width",
+          "value": "150 cm"
+        },
+        {
+          "id": "6937",
+          "name": "mattress_width_filter",
+          "nativeValue": "6937",
+          "group": "width",
+          "value": "160 cm"
+        },
+        {
+          "id": "6938",
+          "name": "mattress_width_filter",
+          "nativeValue": "6938",
+          "group": "width",
+          "value": "180 cm"
+        },
+        {
+          "id": "6939",
+          "name": "mattress_width_filter",
+          "nativeValue": "6939",
+          "group": "width",
+          "value": "200 cm"
+        },
+        {
+          "id": "6940",
+          "name": "mattress_length_filter",
+          "nativeValue": "6940",
+          "group": "length",
+          "value": "190 cm"
+        },
+        {
+          "id": "6941",
+          "name": "mattress_length_filter",
+          "nativeValue": "6941",
+          "group": "length",
+          "value": "200 cm"
+        },
+        {
+          "id": "6942",
+          "name": "mattress_length_filter",
+          "nativeValue": "6942",
+          "group": "length",
+          "value": "210 cm"
+        },
+        {
+          "id": "6943",
+          "name": "mattress_length_filter",
+          "nativeValue": "6943",
+          "group": "length",
+          "value": "220 cm"
+        }
+      ]
+    },
+    {
+      "id": "duvet-covers",
+      "path": "/bed-linen/duvet-covers/",
+      "category": "duvet-covers",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "queryKey": "size",
+          "operator": "OR",
+          "values": [
+            "140 x 200/220 cm",
+            "200 x 200/220 cm",
+            "240 x 200/220 cm",
+            "260 x 200/220 cm"
+          ]
+        },
+        {
+          "key": "color",
+          "label": "顏色",
+          "queryKey": "color",
+          "operator": "OR",
+          "values": [
+            "多色",
+            "棕色",
+            "灰色",
+            "白色",
+            "米色",
+            "粉紅色",
+            "紅色",
+            "紫色",
+            "綠色",
+            "藍色"
+          ]
+        },
+        {
+          "key": "collection",
+          "label": "系列",
+          "queryKey": "collection",
+          "operator": "OR",
+          "values": [
+            "基本系列",
+            "季節限定系列"
+          ]
+        },
+        {
+          "key": "print",
+          "label": "花色",
+          "queryKey": "print",
+          "operator": "OR",
+          "values": [
+            "圖樣",
+            "素色"
+          ]
+        },
+        {
+          "key": "fabric",
+          "label": "布料",
+          "queryKey": "fabric",
+          "operator": "OR",
+          "values": [
+            "棉緞",
+            "棉質"
+          ]
+        }
+      ],
+      "inputMap": [
+        {
+          "id": "6211",
+          "name": "duvet_cover_size",
+          "nativeValue": "6211",
+          "group": "size",
+          "value": "140 x 200/220 cm"
+        },
+        {
+          "id": "6214",
+          "name": "duvet_cover_size",
+          "nativeValue": "6214",
+          "group": "size",
+          "value": "200 x 200/220 cm"
+        },
+        {
+          "id": "6216",
+          "name": "duvet_cover_size",
+          "nativeValue": "6216",
+          "group": "size",
+          "value": "240 x 200/220 cm"
+        },
+        {
+          "id": "6218",
+          "name": "duvet_cover_size",
+          "nativeValue": "6218",
+          "group": "size",
+          "value": "260 x 200/220 cm"
+        },
+        {
+          "id": "6631",
+          "name": "duvet_cover_colors",
+          "nativeValue": "6631",
+          "group": "color",
+          "value": "米色"
+        },
+        {
+          "id": "59",
+          "name": "duvet_cover_colors",
+          "nativeValue": "59",
+          "group": "color",
+          "value": "藍色"
+        },
+        {
+          "id": "5730",
+          "name": "duvet_cover_colors",
+          "nativeValue": "5730",
+          "group": "color",
+          "value": "棕色"
+        },
+        {
+          "id": "55",
+          "name": "duvet_cover_colors",
+          "nativeValue": "55",
+          "group": "color",
+          "value": "綠色"
+        },
+        {
+          "id": "60",
+          "name": "duvet_cover_colors",
+          "nativeValue": "60",
+          "group": "color",
+          "value": "灰色"
+        },
+        {
+          "id": "50",
+          "name": "duvet_cover_colors",
+          "nativeValue": "50",
+          "group": "color",
+          "value": "多色"
+        },
+        {
+          "id": "6226",
+          "name": "duvet_cover_colors",
+          "nativeValue": "6226",
+          "group": "color",
+          "value": "粉紅色"
+        },
+        {
+          "id": "6946",
+          "name": "duvet_cover_colors",
+          "nativeValue": "6946",
+          "group": "color",
+          "value": "紫色"
+        },
+        {
+          "id": "56",
+          "name": "duvet_cover_colors",
+          "nativeValue": "56",
+          "group": "color",
+          "value": "紅色"
+        },
+        {
+          "id": "61",
+          "name": "duvet_cover_colors",
+          "nativeValue": "61",
+          "group": "color",
+          "value": "白色"
+        },
+        {
+          "id": "6645",
+          "name": "season_collection",
+          "nativeValue": "6645",
+          "group": "collection",
+          "value": "基本系列"
+        },
+        {
+          "id": "6898",
+          "name": "season_collection",
+          "nativeValue": "6898",
+          "group": "collection",
+          "value": "季節限定系列"
+        },
+        {
+          "id": "6223",
+          "name": "duvet_cover_pattern",
+          "nativeValue": "6223",
+          "group": "print",
+          "value": "圖樣"
+        },
+        {
+          "id": "6083",
+          "name": "duvet_cover_pattern",
+          "nativeValue": "6083",
+          "group": "print",
+          "value": "素色"
+        },
+        {
+          "id": "7373",
+          "name": "duvet_cover_fabric",
+          "nativeValue": "7373",
+          "group": "fabric",
+          "value": "Cotton flannel"
+        },
+        {
+          "id": "6644",
+          "name": "duvet_cover_fabric",
+          "nativeValue": "6644",
+          "group": "fabric",
+          "value": "Cotton percale"
+        },
+        {
+          "id": "6239",
+          "name": "duvet_cover_fabric",
+          "nativeValue": "6239",
+          "group": "fabric",
+          "value": "棉緞"
+        }
+      ]
+    },
+    {
+      "id": "toppers",
+      "path": "/toppers/",
+      "category": "toppers",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "model",
+          "label": "款式",
+          "queryKey": "model",
+          "operator": "OR",
+          "values": [
+            "Comfort",
+            "Deluxe",
+            "Prestige"
+          ]
+        },
+        {
+          "key": "split",
+          "label": "形式",
+          "queryKey": "split",
+          "operator": "OR",
+          "values": [
+            "一體式",
+            "分離式"
+          ]
+        },
+        {
+          "key": "size",
+          "label": "尺寸",
+          "queryKey": "size",
+          "operator": "OR",
+          "values": [
+            "160 x 200 cm",
+            "180 x 200 cm",
+            "180 x 210 cm",
+            "180 x 220 cm"
+          ]
+        }
+      ],
+      "inputMap": []
+    },
+    {
+      "id": "bed-bases",
+      "path": "/bed-bases/",
+      "category": "bed-bases",
+      "cardSelector": "[data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card__\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
+        {
+          "key": "type",
+          "label": "類型",
+          "queryKey": "type",
+          "operator": "OR",
+          "values": [
+            "固定式",
+            "手動可調式",
+            "電動可調式"
+          ]
+        },
+        {
+          "key": "motors",
+          "label": "馬達數",
+          "queryKey": "motors",
+          "operator": "OR",
+          "values": [
+            "0",
+            "1",
+            "2",
+            "3"
+          ]
+        },
+        {
+          "key": "size",
+          "label": "尺寸",
+          "queryKey": "size",
+          "operator": "OR",
+          "values": [
+            "100 x 200 cm",
+            "80 x 200 cm",
+            "90 x 200 cm",
+            "90 x 210 cm"
+          ]
+        }
+      ],
+      "inputMap": []
+    }
+  ]
+}

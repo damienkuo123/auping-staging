@@ -1,0 +1,1607 @@
+{
+  "schema": "AUPING-RC6-SEARCH-INDEX-V1",
+  "version": "2026-08-04-rc6-final",
+  "items": [
+    {
+      "title": "首頁",
+      "summary": "Auping 荷蘭睡眠品牌，床架、床墊、Box Springs 床組、床底與寢具。",
+      "routeId": "home",
+      "mode": "LOCAL_PARITY",
+      "keywords": []
+    },
+    {
+      "title": "關於 Auping",
+      "summary": "品牌歷史、荷蘭製造、設計、永續與循環。",
+      "routeId": "about-auping",
+      "mode": "LOCAL_PARITY",
+      "keywords": []
+    },
+    {
+      "title": "客戶服務",
+      "summary": "門市、保固、維修與官方聯絡方式。",
+      "routeId": "customer-service",
+      "mode": "LOCAL_PARITY",
+      "keywords": []
+    },
+    {
+      "title": "最新消息",
+      "summary": "品牌消息、永續與設計獎項。",
+      "routeId": "news",
+      "mode": "LOCAL_PARITY",
+      "keywords": []
+    },
+    {
+      "title": "Box Springs 床組",
+      "summary": "依照喜好的款式、尺寸、材質與色彩，打造專屬的 Auping Box Springs 床組。",
+      "routeId": "box-springs",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "床架",
+      "summary": "從經典木質到俐落鋼構，選擇符合臥室風格與睡眠需求的 Auping 床架。",
+      "routeId": "beds",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "床墊",
+      "summary": "依照體型、硬度與尺寸選擇合適的 Auping 床墊，兼顧支撐、透氣與舒適。",
+      "routeId": "mattresses",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "床墊舒適層",
+      "summary": "利用床墊舒適層調整躺感，並依床型選擇一體式或分離式設計。",
+      "routeId": "toppers",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "床底",
+      "summary": "Auping 網狀床底提供固定式、手動與電動調整選擇，協助床墊維持良好支撐與透氣。",
+      "routeId": "bed-bases",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "枕頭",
+      "summary": "依照睡姿與支撐偏好選擇 Auping 枕頭，打造完整睡眠體驗。",
+      "routeId": "pillows",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "pillow",
+        "枕頭",
+        "睡眠支撐"
+      ]
+    },
+    {
+      "title": "被套",
+      "summary": "以舒適布料、不同圖樣與色彩完成臥室風格，並搭配常用被套尺寸。",
+      "routeId": "bed-linen--duvet-covers",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "Original 深黑",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-deep-black",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Original 沙米色",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-sand-beige",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 皇家藍",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-royal-blue",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 冷灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-cool-grey",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 冷灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-cool-grey",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 沙米色",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-sand-beige",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 沙米色",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-sand-beige",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 霧紅",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-dusty-red",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 霧紅",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-dusty-red",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 暖灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-warm-grey",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 夜藍",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-night-blue",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 裸粉",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-blush",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 松綠",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-pine-green",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 暖灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-warm-grey-sami",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 裸粉",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-blush",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 夜藍",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-night-blue",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 深黑",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-deep-black",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Criade 暖灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--criade-warm-grey",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 純白",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--original-box-spring-pure-white",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 深黑",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-deep-black",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Kiruna 松綠",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-pine-green",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 暖灰",
+      "summary": "這款 Auping Box Springs 床組結合支撐、透氣與可客製化設計。實際尺寸、布料、色彩與調整功能請以門市展示與專業建議為準。",
+      "routeId": "box-springs--kiruna-warm-grey-unik",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noble 實木橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noble-solid-oak",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 深黑",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-deep-black",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Original 松綠",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-pine-green",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auronde 柔白 橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--auronde-white-oak",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noble 午夜黑橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noble-midnight-black-oak",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Auronde 裸粉",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--auronde-blush",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 沙米色",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-sand-beige",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 深黑",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-deep-black",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Auronde 深黑",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--auronde-deep-black",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Auronde 天然胡桃木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--auronde-natural-walnut",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 平衡橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-balanced-oak",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auronde 天然橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--auronde-natural-oak",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 深黑",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-deep-black-headboard",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Noa 柔白 橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-soft-white-oak-headboard",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 午夜黑橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-midnight-black-oak",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Essential 裸粉",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-blush",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 平衡橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-balanced-oak-table",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 純白",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-pure-white",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 松綠",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-pine-green-dew-emerald",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original 皇家藍",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-royal-blue",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 柔白 橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-soft-white-oak",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 平衡橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Noa 巧克力棕橡木",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--noa-chocolate-brown-oak",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 暖灰",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-warm-grey",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Essential 松綠",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--essential-pine-green",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original-裸粉",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-blush",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Original-深黑",
+      "summary": "這款 Auping 床架以荷蘭設計與耐用結構為核心，可搭配合適的床底、床墊與寢具，完成一致的睡眠空間。",
+      "routeId": "beds--original-deep-black-outline-headboard",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "black",
+        "box spring",
+        "deep black",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "深黑",
+        "黑色"
+      ]
+    },
+    {
+      "title": "Auping Elite 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--elite-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auping Elysium 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--elysium-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auping Evolve 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--evolve-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auping Two 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--two-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auping One 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--one-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Auping Revive 床墊",
+      "summary": "這款 Auping 床墊提供多種尺寸、硬度與支撐選項。建議依體型、睡姿與個人偏好，到門市實際試躺並由睡眠顧問協助選擇。",
+      "routeId": "mattresses--revive-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Comfort 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--comfort-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Deluxe 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--deluxe-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Prestige 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--prestige-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Comfort 分離式 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--comfort-split-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Deluxe 分離式 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--deluxe-split-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "Prestige 分離式 床墊舒適層",
+      "summary": "這款 Auping 床墊舒適層可調整整體躺感，並提供一般或分離式選擇，適合搭配不同床型與調整需求。",
+      "routeId": "toppers--prestige-split-mattress-topper",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "床",
+        "床墊",
+        "床架",
+        "床組"
+      ]
+    },
+    {
+      "title": "固定式 床底",
+      "summary": "這款 Auping 床底以開放式網狀結構提供支撐與透氣，並依款式提供固定、手動或電動調整功能。",
+      "routeId": "bed-bases--flat-bed-base",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "手動可調式 床底",
+      "summary": "這款 Auping 床底以開放式網狀結構提供支撐與透氣，並依款式提供固定、手動或電動調整功能。",
+      "routeId": "bed-bases--manually-adjustable-mesh-base",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "電動可調式 床底 1M",
+      "summary": "這款 Auping 床底以開放式網狀結構提供支撐與透氣，並依款式提供固定、手動或電動調整功能。",
+      "routeId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "電動可調式 床底 2M",
+      "summary": "這款 Auping 床底以開放式網狀結構提供支撐與透氣，並依款式提供固定、手動或電動調整功能。",
+      "routeId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "電動可調式 床底 3M",
+      "summary": "這款 Auping 床底以開放式網狀結構提供支撐與透氣，並依款式提供固定、手動或電動調整功能。",
+      "routeId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "bed base",
+        "box spring",
+        "床",
+        "床墊",
+        "床底",
+        "床架",
+        "床組",
+        "網狀床底"
+      ]
+    },
+    {
+      "title": "Auping Cloud",
+      "summary": "這款 Auping 枕頭著重睡姿支撐與舒適度，可依個人習慣、肩頸需求與偏好選擇。",
+      "routeId": "bed-linen--pillows--auping-cloud",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "pillow",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "枕頭",
+        "睡眠支撐"
+      ]
+    },
+    {
+      "title": "Auping Nest",
+      "summary": "這款 Auping 枕頭著重睡姿支撐與舒適度，可依個人習慣、肩頸需求與偏好選擇。",
+      "routeId": "bed-linen--pillows--nest-pillow",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "pillow",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "枕頭",
+        "睡眠支撐"
+      ]
+    },
+    {
+      "title": "Auping Dew",
+      "summary": "這款 Auping 枕頭著重睡姿支撐與舒適度，可依個人習慣、肩頸需求與偏好選擇。",
+      "routeId": "bed-linen--pillows--dew-pillow",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "pillow",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "枕頭",
+        "睡眠支撐"
+      ]
+    },
+    {
+      "title": "蜿蜒藍 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "海岸格紋 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "酒紅幾何 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "繽紛萬花筒 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "柔和幸運草 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "藕紫旋紋 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "繽紛積木 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "自然陶土 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "經典灰 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "經典藍 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "米色線條棉緞 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "溫暖擁抱 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "亮采灰 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "亮采石色 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "洗水棉粉白 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "洗水棉丹寧藍 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "洗水棉梅紫 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "經典石色 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "沙米色 棉緞 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "靜謐灰 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "白線棉緞 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "洗水棉 裸粉 被套",
+      "summary": "這款 Auping 被套以舒適布料與設計圖樣完成臥室氛圍。實際材質、尺寸、洗滌方式與系列資訊請參考商品規格。",
+      "routeId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "bed",
+        "box spring",
+        "duvet cover",
+        "寢具",
+        "床",
+        "床墊",
+        "床架",
+        "床組",
+        "被套"
+      ]
+    },
+    {
+      "title": "尋找 Auping 門市",
+      "summary": "前往官方 Auping Store Locator，查詢門市與試躺地點。",
+      "routeId": "service-store-locator",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "門市",
+        "店鋪",
+        "store locator",
+        "試躺"
+      ]
+    },
+    {
+      "title": "Auping 線上配置器",
+      "summary": "前往官方配置器設計床架或 Box Springs。",
+      "routeId": "service-configurator",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "配置",
+        "設計",
+        "configurator"
+      ]
+    },
+    {
+      "title": "My Auping 帳號",
+      "summary": "前往官方 My Auping 帳號服務。",
+      "routeId": "service-account",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "帳號",
+        "登入",
+        "my auping"
+      ]
+    },
+    {
+      "title": "購物車",
+      "summary": "前往官方 Auping 購物車。",
+      "routeId": "service-cart",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "購物",
+        "購物車",
+        "cart"
+      ]
+    },
+    {
+      "title": "聯絡 Auping",
+      "summary": "前往官方 Auping 聯絡與表單頁。",
+      "routeId": "service-contact",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "聯絡",
+        "客服",
+        "contact",
+        "表單"
+      ]
+    },
+    {
+      "title": "Auping 官方商店",
+      "summary": "前往 Auping 官方商店。",
+      "routeId": "service-shop",
+      "mode": "OFFICIAL_REDIRECT",
+      "keywords": [
+        "官方商店",
+        "購物",
+        "shop"
+      ]
+    }
+  ]
+}

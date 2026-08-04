@@ -1,0 +1,2320 @@
+{
+  "schema": "AUPING-RC6-PRODUCTS-V1",
+  "version": "2026-08-04-rc6-final",
+  "products": [
+    {
+      "routeId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "category": "bed-bases",
+      "title": "電動可調式 床底 1M",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "type": [
+          "電動可調式"
+        ],
+        "motors": [
+          "1"
+        ],
+        "size": [
+          "80 x 200 cm",
+          "90 x 200 cm",
+          "90 x 210 cm",
+          "100 x 200 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "category": "bed-bases",
+      "title": "電動可調式 床底 2M",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "type": [
+          "電動可調式"
+        ],
+        "motors": [
+          "2"
+        ],
+        "size": [
+          "80 x 200 cm",
+          "90 x 200 cm",
+          "90 x 210 cm",
+          "100 x 200 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "category": "bed-bases",
+      "title": "電動可調式 床底 3M",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "type": [
+          "電動可調式"
+        ],
+        "motors": [
+          "3"
+        ],
+        "size": [
+          "80 x 200 cm",
+          "90 x 200 cm",
+          "90 x 210 cm",
+          "100 x 200 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-bases--flat-bed-base",
+      "localPath": "/bed-bases/flat-bed-base/",
+      "category": "bed-bases",
+      "title": "固定式 床底",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "type": [
+          "固定式"
+        ],
+        "motors": [
+          "0"
+        ],
+        "size": [
+          "80 x 200 cm",
+          "90 x 200 cm",
+          "90 x 210 cm",
+          "100 x 200 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-bases--manually-adjustable-mesh-base",
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "category": "bed-bases",
+      "title": "手動可調式 床底",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "type": [
+          "手動可調式"
+        ],
+        "motors": [
+          "0"
+        ],
+        "size": [
+          "80 x 200 cm",
+          "90 x 200 cm",
+          "90 x 210 cm",
+          "100 x 200 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--auronde-blush",
+      "localPath": "/beds/auronde-blush/",
+      "category": "beds",
+      "title": "Auronde 裸粉",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Auronde"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "粉紅色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--auronde-deep-black",
+      "localPath": "/beds/auronde-deep-black/",
+      "category": "beds",
+      "title": "Auronde 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Auronde"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--auronde-natural-oak",
+      "localPath": "/beds/auronde-natural-oak/",
+      "category": "beds",
+      "title": "Auronde 天然橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Auronde"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--auronde-natural-walnut",
+      "localPath": "/beds/auronde-natural-walnut/",
+      "category": "beds",
+      "title": "Auronde 天然胡桃木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Auronde"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--auronde-white-oak",
+      "localPath": "/beds/auronde-white-oak/",
+      "category": "beds",
+      "title": "Auronde 柔白 橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Auronde"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "白色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--essential-blush",
+      "localPath": "/beds/essential-blush/",
+      "category": "beds",
+      "title": "Essential 裸粉",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "粉紅色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--essential-deep-black-headboard",
+      "localPath": "/beds/essential-deep-black-headboard/",
+      "category": "beds",
+      "title": "Essential 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--essential-deep-black",
+      "localPath": "/beds/essential-deep-black/",
+      "category": "beds",
+      "title": "Essential 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--essential-pine-green",
+      "localPath": "/beds/essential-pine-green/",
+      "category": "beds",
+      "title": "Essential 松綠",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "綠色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--essential-pure-white",
+      "localPath": "/beds/essential-pure-white/",
+      "category": "beds",
+      "title": "Essential 純白",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "白色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--essential-sand-beige",
+      "localPath": "/beds/essential-sand-beige/",
+      "category": "beds",
+      "title": "Essential 沙米色",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "米色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--essential-warm-grey",
+      "localPath": "/beds/essential-warm-grey/",
+      "category": "beds",
+      "title": "Essential 暖灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Essential"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "localPath": "/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "category": "beds",
+      "title": "Noa 平衡橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--noa-balanced-oak-table",
+      "localPath": "/beds/noa-balanced-oak-table/",
+      "category": "beds",
+      "title": "Noa 平衡橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--noa-balanced-oak",
+      "localPath": "/beds/noa-balanced-oak/",
+      "category": "beds",
+      "title": "Noa 平衡橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--noa-chocolate-brown-oak",
+      "localPath": "/beds/noa-chocolate-brown-oak/",
+      "category": "beds",
+      "title": "Noa 巧克力棕橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--noa-midnight-black-oak",
+      "localPath": "/beds/noa-midnight-black-oak/",
+      "category": "beds",
+      "title": "Noa 午夜黑橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--noa-soft-white-oak-headboard",
+      "localPath": "/beds/noa-soft-white-oak-headboard/",
+      "category": "beds",
+      "title": "Noa 柔白 橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "白色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--noa-soft-white-oak",
+      "localPath": "/beds/noa-soft-white-oak/",
+      "category": "beds",
+      "title": "Noa 柔白 橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noa"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "白色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--noble-midnight-black-oak",
+      "localPath": "/beds/noble-midnight-black-oak/",
+      "category": "beds",
+      "title": "Noble 午夜黑橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noble"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--noble-solid-oak",
+      "localPath": "/beds/noble-solid-oak/",
+      "category": "beds",
+      "title": "Noble 實木橡木",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Noble"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "棕色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--original-blush",
+      "localPath": "/beds/original-blush/",
+      "category": "beds",
+      "title": "Original-裸粉",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "粉紅色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--original-deep-black-outline-headboard",
+      "localPath": "/beds/original-deep-black-outline-headboard/",
+      "category": "beds",
+      "title": "Original-深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--original-deep-black",
+      "localPath": "/beds/original-deep-black/",
+      "category": "beds",
+      "title": "Original 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--original-pine-green-dew-emerald",
+      "localPath": "/beds/original-pine-green-dew-emerald/",
+      "category": "beds",
+      "title": "Original 松綠",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "綠色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "beds--original-pine-green",
+      "localPath": "/beds/original-pine-green/",
+      "category": "beds",
+      "title": "Original 松綠",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "綠色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "beds--original-royal-blue",
+      "localPath": "/beds/original-royal-blue/",
+      "category": "beds",
+      "title": "Original 皇家藍",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "藍色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-blush",
+      "localPath": "/box-springs/criade-blush/",
+      "category": "box-springs",
+      "title": "Criade 裸粉",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "粉紅色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--criade-cool-grey",
+      "localPath": "/box-springs/criade-cool-grey/",
+      "category": "box-springs",
+      "title": "Criade 冷灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-deep-black",
+      "localPath": "/box-springs/criade-deep-black/",
+      "category": "box-springs",
+      "title": "Criade 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-dusty-red",
+      "localPath": "/box-springs/criade-dusty-red/",
+      "category": "box-springs",
+      "title": "Criade 霧紅",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "紅色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-night-blue",
+      "localPath": "/box-springs/criade-night-blue/",
+      "category": "box-springs",
+      "title": "Criade 夜藍",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "藍色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--criade-pine-green",
+      "localPath": "/box-springs/criade-pine-green/",
+      "category": "box-springs",
+      "title": "Criade 松綠",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "綠色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-sand-beige",
+      "localPath": "/box-springs/criade-sand-beige/",
+      "category": "box-springs",
+      "title": "Criade 沙米色",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "米色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--criade-warm-grey",
+      "localPath": "/box-springs/criade-warm-grey/",
+      "category": "box-springs",
+      "title": "Criade 暖灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Criade"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--kiruna-deep-black",
+      "localPath": "/box-springs/kiruna-deep-black/",
+      "category": "box-springs",
+      "title": "Kiruna 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "黑色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--kiruna-night-blue",
+      "localPath": "/box-springs/kiruna-night-blue/",
+      "category": "box-springs",
+      "title": "Kiruna 夜藍",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "藍色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--kiruna-pine-green",
+      "localPath": "/box-springs/kiruna-pine-green/",
+      "category": "box-springs",
+      "title": "Kiruna 松綠",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "綠色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--kiruna-sand-beige",
+      "localPath": "/box-springs/kiruna-sand-beige/",
+      "category": "box-springs",
+      "title": "Kiruna 沙米色",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "米色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--kiruna-warm-grey-sami",
+      "localPath": "/box-springs/kiruna-warm-grey-sami/",
+      "category": "box-springs",
+      "title": "Kiruna 暖灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--kiruna-warm-grey-unik",
+      "localPath": "/box-springs/kiruna-warm-grey-unik/",
+      "category": "box-springs",
+      "title": "Kiruna 暖灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Kiruna"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-blush",
+      "localPath": "/box-springs/original-box-spring-blush/",
+      "category": "box-springs",
+      "title": "Original 裸粉",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "粉紅色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-cool-grey",
+      "localPath": "/box-springs/original-box-spring-cool-grey/",
+      "category": "box-springs",
+      "title": "Original 冷灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-deep-black",
+      "localPath": "/box-springs/original-box-spring-deep-black/",
+      "category": "box-springs",
+      "title": "Original 深黑",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "深黑（非目前黑色篩選）"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-dusty-red",
+      "localPath": "/box-springs/original-box-spring-dusty-red/",
+      "category": "box-springs",
+      "title": "Original 霧紅",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "紅色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-pure-white",
+      "localPath": "/box-springs/original-box-spring-pure-white/",
+      "category": "box-springs",
+      "title": "Original 純白",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "白色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-royal-blue",
+      "localPath": "/box-springs/original-box-spring-royal-blue/",
+      "category": "box-springs",
+      "title": "Original 皇家藍",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "藍色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-sand-beige",
+      "localPath": "/box-springs/original-box-spring-sand-beige/",
+      "category": "box-springs",
+      "title": "Original 沙米色",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "米色"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "box-springs--original-box-spring-warm-grey",
+      "localPath": "/box-springs/original-box-spring-warm-grey/",
+      "category": "box-springs",
+      "title": "Original 暖灰",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Original"
+        ],
+        "version": [
+          "雙人",
+          "單人"
+        ],
+        "color": [
+          "灰色"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "米色線條棉緞 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "米色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉緞"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "繽紛萬花筒 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "多色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "亮采灰 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "灰色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "亮采石色 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "米色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "洗水棉 裸粉 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "粉紅色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "洗水棉粉白 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "白色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "洗水棉丹寧藍 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "藍色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "洗水棉梅紫 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "紫色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "經典藍 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "藍色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "經典灰 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "灰色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "經典石色 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "米色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "柔和幸運草 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "綠色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "酒紅幾何 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "紅色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "藕紫旋紋 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "紫色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "蜿蜒藍 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "藍色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "自然陶土 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "棕色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "繽紛積木 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "多色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "沙米色 棉緞 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "米色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉緞"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "海岸格紋 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "藍色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "靜謐灰 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "灰色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "溫暖擁抱 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "棕色"
+        ],
+        "collection": [
+          "季節限定系列"
+        ],
+        "print": [
+          "圖樣"
+        ],
+        "fabric": [
+          "棉質"
+        ]
+      },
+      "routeMode": "OFFICIAL_REDIRECT"
+    },
+    {
+      "routeId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "category": "duvet-covers",
+      "title": "白線棉緞 被套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "140 x 200/220 cm",
+          "200 x 200/220 cm",
+          "240 x 200/220 cm",
+          "260 x 200/220 cm"
+        ],
+        "color": [
+          "多色"
+        ],
+        "collection": [
+          "基本系列"
+        ],
+        "print": [
+          "素色"
+        ],
+        "fabric": [
+          "棉緞"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--elite-mattress",
+      "localPath": "/mattresses/elite-mattress/",
+      "category": "mattresses",
+      "title": "Auping Elite 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Elite"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "X",
+          "Y",
+          "A",
+          "B"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--elysium-mattress",
+      "localPath": "/mattresses/elysium-mattress/",
+      "category": "mattresses",
+      "title": "Auping Elysium 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Elysium"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "X",
+          "Y",
+          "A",
+          "B"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--evolve-mattress",
+      "localPath": "/mattresses/evolve-mattress/",
+      "category": "mattresses",
+      "title": "Auping Evolve 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Evolve"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "X",
+          "Y",
+          "A",
+          "B"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--one-mattress",
+      "localPath": "/mattresses/one-mattress/",
+      "category": "mattresses",
+      "title": "Auping One 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "One"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "標準支撐"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--revive-mattress",
+      "localPath": "/mattresses/revive-mattress/",
+      "category": "mattresses",
+      "title": "Auping Revive 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Revive"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "標準支撐"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "mattresses--two-mattress",
+      "localPath": "/mattresses/two-mattress/",
+      "category": "mattresses",
+      "title": "Auping Two 床墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Two"
+        ],
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "150 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "bodyType": [
+          "標準支撐"
+        ],
+        "firmness": [
+          "柔軟",
+          "適中",
+          "偏硬"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-linen--pillows--auping-cloud",
+      "localPath": "/bed-linen/pillows/auping-cloud/",
+      "category": "pillows",
+      "title": "Auping Cloud",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "support": [
+          "可調整"
+        ],
+        "sleepPosition": [
+          "仰睡",
+          "側睡"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-linen--pillows--dew-pillow",
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "category": "pillows",
+      "title": "Auping Dew",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "support": [
+          "可調整"
+        ],
+        "sleepPosition": [
+          "仰睡",
+          "側睡"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-linen--pillows--nest-pillow",
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "category": "pillows",
+      "title": "Auping Nest",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "support": [
+          "可調整"
+        ],
+        "sleepPosition": [
+          "仰睡",
+          "側睡"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--comfort-mattress-topper",
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "category": "toppers",
+      "title": "Comfort 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Comfort"
+        ],
+        "split": [
+          "一體式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--comfort-split-mattress-topper",
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "category": "toppers",
+      "title": "Comfort 分離式 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Comfort"
+        ],
+        "split": [
+          "分離式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--deluxe-mattress-topper",
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "category": "toppers",
+      "title": "Deluxe 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Deluxe"
+        ],
+        "split": [
+          "一體式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--deluxe-split-mattress-topper",
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "category": "toppers",
+      "title": "Deluxe 分離式 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Deluxe"
+        ],
+        "split": [
+          "分離式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--prestige-mattress-topper",
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "category": "toppers",
+      "title": "Prestige 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Prestige"
+        ],
+        "split": [
+          "一體式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "toppers--prestige-split-mattress-topper",
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "category": "toppers",
+      "title": "Prestige 分離式 床墊舒適層",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "model": [
+          "Prestige"
+        ],
+        "split": [
+          "分離式"
+        ],
+        "size": [
+          "160 x 200 cm",
+          "180 x 200 cm",
+          "180 x 210 cm",
+          "180 x 220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_PARITY"
+    }
+  ]
+}

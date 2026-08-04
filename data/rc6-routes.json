@@ -1,0 +1,1153 @@
+{
+  "schema": "AUPING-RC6-ROUTES-V1",
+  "version": "2026-08-04-rc6-final",
+  "basePath": "/auping-staging",
+  "routes": [
+    {
+      "id": "home",
+      "title": "首頁",
+      "localPath": "/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "about-auping",
+      "title": "關於 Auping",
+      "localPath": "/about-auping/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases",
+      "title": "床底",
+      "localPath": "/bed-bases/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases--electrically-adjustable-bed-base-1m",
+      "title": "電動可調式 床底 1M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases--electrically-adjustable-bed-base-2m",
+      "title": "電動可調式 床底 2M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases--electrically-adjustable-bed-base-3m",
+      "title": "電動可調式 床底 3M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases--flat-bed-base",
+      "title": "固定式 床底",
+      "localPath": "/bed-bases/flat-bed-base/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-bases--manually-adjustable-mesh-base",
+      "title": "手動可調式 床底",
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen",
+      "title": "Bed Linen",
+      "localPath": "/bed-linen/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--duvet-covers",
+      "title": "被套",
+      "localPath": "/bed-linen/duvet-covers/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "title": "米色線條棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "title": "繽紛萬花筒 被套",
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "title": "亮采灰 被套",
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "title": "亮采石色 被套",
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "title": "洗水棉 裸粉 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "title": "洗水棉粉白 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "title": "洗水棉丹寧藍 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "title": "洗水棉梅紫 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "title": "經典藍 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "title": "經典灰 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "title": "經典石色 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "title": "柔和幸運草 被套",
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "title": "酒紅幾何 被套",
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "title": "藕紫旋紋 被套",
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "title": "蜿蜒藍 被套",
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "title": "自然陶土 被套",
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "title": "繽紛積木 被套",
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "title": "沙米色 棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "title": "海岸格紋 被套",
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "title": "靜謐灰 被套",
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "title": "溫暖擁抱 被套",
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "title": "白線棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--pillows",
+      "title": "Pillows",
+      "localPath": "/bed-linen/pillows/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--pillows--auping-cloud",
+      "title": "Auping Cloud",
+      "localPath": "/bed-linen/pillows/auping-cloud/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--pillows--dew-pillow",
+      "title": "Auping Dew",
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "bed-linen--pillows--nest-pillow",
+      "title": "Auping Nest",
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds",
+      "title": "床架",
+      "localPath": "/beds/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--auronde-blush",
+      "title": "Auronde 裸粉",
+      "localPath": "/beds/auronde-blush/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--auronde-deep-black",
+      "title": "Auronde 深黑",
+      "localPath": "/beds/auronde-deep-black/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/auronde-deep-black/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--auronde-natural-oak",
+      "title": "Auronde 天然橡木",
+      "localPath": "/beds/auronde-natural-oak/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/auronde-natural-oak/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--auronde-natural-walnut",
+      "title": "Auronde 天然胡桃木",
+      "localPath": "/beds/auronde-natural-walnut/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--auronde-white-oak",
+      "title": "Auronde 柔白 橡木",
+      "localPath": "/beds/auronde-white-oak/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--essential-blush",
+      "title": "Essential 裸粉",
+      "localPath": "/beds/essential-blush/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--essential-deep-black-headboard",
+      "title": "Essential 深黑",
+      "localPath": "/beds/essential-deep-black-headboard/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/essential-deep-black-headboard/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--essential-deep-black",
+      "title": "Essential 深黑",
+      "localPath": "/beds/essential-deep-black/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/essential-deep-black/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--essential-pine-green",
+      "title": "Essential 松綠",
+      "localPath": "/beds/essential-pine-green/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/essential-pine-green/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--essential-pure-white",
+      "title": "Essential 純白",
+      "localPath": "/beds/essential-pure-white/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--essential-sand-beige",
+      "title": "Essential 沙米色",
+      "localPath": "/beds/essential-sand-beige/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/essential-sand-beige/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--essential-warm-grey",
+      "title": "Essential 暖灰",
+      "localPath": "/beds/essential-warm-grey/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--noa-balanced-oak-table",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak-table/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa-balanced-oak-table/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--noa-balanced-oak",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--noa-chocolate-brown-oak",
+      "title": "Noa 巧克力棕橡木",
+      "localPath": "/beds/noa-chocolate-brown-oak/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa-chocolate-brown-oak/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--noa-midnight-black-oak",
+      "title": "Noa 午夜黑橡木",
+      "localPath": "/beds/noa-midnight-black-oak/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa-midnight-black-oak/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--noa-soft-white-oak-headboard",
+      "title": "Noa 柔白 橡木",
+      "localPath": "/beds/noa-soft-white-oak-headboard/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--noa-soft-white-oak",
+      "title": "Noa 柔白 橡木",
+      "localPath": "/beds/noa-soft-white-oak/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa-soft-white-oak/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--noble-midnight-black-oak",
+      "title": "Noble 午夜黑橡木",
+      "localPath": "/beds/noble-midnight-black-oak/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--noble-solid-oak",
+      "title": "Noble 實木橡木",
+      "localPath": "/beds/noble-solid-oak/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--original-blush",
+      "title": "Original-裸粉",
+      "localPath": "/beds/original-blush/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--original-deep-black-outline-headboard",
+      "title": "Original-深黑",
+      "localPath": "/beds/original-deep-black-outline-headboard/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/original-deep-black-outline-headboard/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--original-deep-black",
+      "title": "Original 深黑",
+      "localPath": "/beds/original-deep-black/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/original-deep-black/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--original-pine-green-dew-emerald",
+      "title": "Original 松綠",
+      "localPath": "/beds/original-pine-green-dew-emerald/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/original-pine-green-dew-emerald/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "beds--original-pine-green",
+      "title": "Original 松綠",
+      "localPath": "/beds/original-pine-green/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "beds--original-royal-blue",
+      "title": "Original 皇家藍",
+      "localPath": "/beds/original-royal-blue/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/original-royal-blue/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs",
+      "title": "Box Springs 床組",
+      "localPath": "/box-springs/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--criade-blush",
+      "title": "Criade 裸粉",
+      "localPath": "/box-springs/criade-blush/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--criade-cool-grey",
+      "title": "Criade 冷灰",
+      "localPath": "/box-springs/criade-cool-grey/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade-cool-grey/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--criade-deep-black",
+      "title": "Criade 深黑",
+      "localPath": "/box-springs/criade-deep-black/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade-deep-black/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--criade-dusty-red",
+      "title": "Criade 霧紅",
+      "localPath": "/box-springs/criade-dusty-red/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade-dusty-red/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--criade-night-blue",
+      "title": "Criade 夜藍",
+      "localPath": "/box-springs/criade-night-blue/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--criade-pine-green",
+      "title": "Criade 松綠",
+      "localPath": "/box-springs/criade-pine-green/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade-pine-green/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--criade-sand-beige",
+      "title": "Criade 沙米色",
+      "localPath": "/box-springs/criade-sand-beige/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade-sand-beige/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--criade-warm-grey",
+      "title": "Criade 暖灰",
+      "localPath": "/box-springs/criade-warm-grey/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--kiruna-deep-black",
+      "title": "Kiruna 深黑",
+      "localPath": "/box-springs/kiruna-deep-black/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--kiruna-night-blue",
+      "title": "Kiruna 夜藍",
+      "localPath": "/box-springs/kiruna-night-blue/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/kiruna-night-blue/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--kiruna-pine-green",
+      "title": "Kiruna 松綠",
+      "localPath": "/box-springs/kiruna-pine-green/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/kiruna-pine-green/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--kiruna-sand-beige",
+      "title": "Kiruna 沙米色",
+      "localPath": "/box-springs/kiruna-sand-beige/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--kiruna-warm-grey-sami",
+      "title": "Kiruna 暖灰",
+      "localPath": "/box-springs/kiruna-warm-grey-sami/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/kiruna-warm-grey-sami/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--kiruna-warm-grey-unik",
+      "title": "Kiruna 暖灰",
+      "localPath": "/box-springs/kiruna-warm-grey-unik/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--original-box-spring-blush",
+      "title": "Original 裸粉",
+      "localPath": "/box-springs/original-box-spring-blush/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-blush/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-cool-grey",
+      "title": "Original 冷灰",
+      "localPath": "/box-springs/original-box-spring-cool-grey/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-cool-grey/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-deep-black",
+      "title": "Original 深黑",
+      "localPath": "/box-springs/original-box-spring-deep-black/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-deep-black/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-dusty-red",
+      "title": "Original 霧紅",
+      "localPath": "/box-springs/original-box-spring-dusty-red/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "box-springs--original-box-spring-pure-white",
+      "title": "Original 純白",
+      "localPath": "/box-springs/original-box-spring-pure-white/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-pure-white/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-royal-blue",
+      "title": "Original 皇家藍",
+      "localPath": "/box-springs/original-box-spring-royal-blue/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-royal-blue/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-sand-beige",
+      "title": "Original 沙米色",
+      "localPath": "/box-springs/original-box-spring-sand-beige/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-box-spring-sand-beige/",
+      "reason": "RC5 Generated/Generic 深層頁未達視覺 parity，改為官方同商品精準轉接。"
+    },
+    {
+      "id": "box-springs--original-box-spring-warm-grey",
+      "title": "Original 暖灰",
+      "localPath": "/box-springs/original-box-spring-warm-grey/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "service-configurator",
+      "title": "Auping Configurator",
+      "localPath": "/configurator/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://configurator.auping.com/en-gb",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "customer-service",
+      "title": "客戶服務",
+      "localPath": "/customer-service/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "service-contact",
+      "title": "聯絡 Auping",
+      "localPath": "/customer-service/contact/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/customer-service/contact",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/duvet-covers/",
+      "reason": "舊別名停用，導向正式寢具／被套分類。"
+    },
+    {
+      "id": "en",
+      "title": "En",
+      "localPath": "/en/",
+      "mode": "DISABLED",
+      "fallbackPath": "/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--about-auping",
+      "title": "About Auping",
+      "localPath": "/en/about-auping/",
+      "mode": "DISABLED",
+      "fallbackPath": "/about-auping/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--bed-bases",
+      "title": "Bed Bases",
+      "localPath": "/en/bed-bases/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-bases/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--bed-linen",
+      "title": "Bed Linen",
+      "localPath": "/en/bed-linen/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--bed-linen--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/en/bed-linen/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--beds",
+      "title": "Beds",
+      "localPath": "/en/beds/",
+      "mode": "DISABLED",
+      "fallbackPath": "/beds/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--box-springs",
+      "title": "Box Springs",
+      "localPath": "/en/box-springs/",
+      "mode": "DISABLED",
+      "fallbackPath": "/box-springs/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--customer-service",
+      "title": "Customer Service",
+      "localPath": "/en/customer-service/",
+      "mode": "DISABLED",
+      "fallbackPath": "/customer-service/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/en/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--mattresses",
+      "title": "Mattresses",
+      "localPath": "/en/mattresses/",
+      "mode": "DISABLED",
+      "fallbackPath": "/mattresses/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--news",
+      "title": "News",
+      "localPath": "/en/news/",
+      "mode": "DISABLED",
+      "fallbackPath": "/news/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--pillows",
+      "title": "Pillows",
+      "localPath": "/en/pillows/",
+      "mode": "DISABLED",
+      "fallbackPath": "/pillows/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "en--toppers",
+      "title": "Toppers",
+      "localPath": "/en/toppers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/toppers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "mattresses",
+      "title": "床墊",
+      "localPath": "/mattresses/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--elite-mattress",
+      "title": "Auping Elite 床墊",
+      "localPath": "/mattresses/elite-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--elysium-mattress",
+      "title": "Auping Elysium 床墊",
+      "localPath": "/mattresses/elysium-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--evolve-mattress",
+      "title": "Auping Evolve 床墊",
+      "localPath": "/mattresses/evolve-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--one-mattress",
+      "title": "Auping One 床墊",
+      "localPath": "/mattresses/one-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--revive-mattress",
+      "title": "Auping Revive 床墊",
+      "localPath": "/mattresses/revive-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "mattresses--two-mattress",
+      "title": "Auping Two 床墊",
+      "localPath": "/mattresses/two-mattress/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "service-account",
+      "title": "My Auping 帳號",
+      "localPath": "/myauping/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/myauping",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "news",
+      "title": "最新消息",
+      "localPath": "/news/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "pillows",
+      "title": "枕頭",
+      "localPath": "/pillows/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "service-shop",
+      "title": "Auping 官方商店",
+      "localPath": "/shop/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://shop.auping.com/",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "service-cart",
+      "title": "購物車",
+      "localPath": "/shoppingcart/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/shoppingcart",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "service-store-locator",
+      "title": "尋找門市",
+      "localPath": "/store-locator/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/store-locator",
+      "reason": "依賴官方後端或即時商業資料。"
+    },
+    {
+      "id": "toppers",
+      "title": "床墊舒適層",
+      "localPath": "/toppers/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--comfort-mattress-topper",
+      "title": "Comfort 床墊舒適層",
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--comfort-split-mattress-topper",
+      "title": "Comfort 分離式 床墊舒適層",
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--deluxe-mattress-topper",
+      "title": "Deluxe 床墊舒適層",
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--deluxe-split-mattress-topper",
+      "title": "Deluxe 分離式 床墊舒適層",
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--prestige-mattress-topper",
+      "title": "Prestige 床墊舒適層",
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "toppers--prestige-split-mattress-topper",
+      "title": "Prestige 分離式 床墊舒適層",
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "mode": "LOCAL_PARITY",
+      "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
+    },
+    {
+      "id": "zh-tw",
+      "title": "Zh Tw",
+      "localPath": "/zh-tw/",
+      "mode": "DISABLED",
+      "fallbackPath": "/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--about-auping",
+      "title": "About Auping",
+      "localPath": "/zh-tw/about-auping/",
+      "mode": "DISABLED",
+      "fallbackPath": "/about-auping/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--bed-bases",
+      "title": "Bed Bases",
+      "localPath": "/zh-tw/bed-bases/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-bases/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--bed-linen",
+      "title": "Bed Linen",
+      "localPath": "/zh-tw/bed-linen/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--bed-linen--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/zh-tw/bed-linen/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--beds",
+      "title": "Beds",
+      "localPath": "/zh-tw/beds/",
+      "mode": "DISABLED",
+      "fallbackPath": "/beds/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--box-springs",
+      "title": "Box Springs",
+      "localPath": "/zh-tw/box-springs/",
+      "mode": "DISABLED",
+      "fallbackPath": "/box-springs/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--customer-service",
+      "title": "Customer Service",
+      "localPath": "/zh-tw/customer-service/",
+      "mode": "DISABLED",
+      "fallbackPath": "/customer-service/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/zh-tw/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--mattresses",
+      "title": "Mattresses",
+      "localPath": "/zh-tw/mattresses/",
+      "mode": "DISABLED",
+      "fallbackPath": "/mattresses/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--news",
+      "title": "News",
+      "localPath": "/zh-tw/news/",
+      "mode": "DISABLED",
+      "fallbackPath": "/news/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--pillows",
+      "title": "Pillows",
+      "localPath": "/zh-tw/pillows/",
+      "mode": "DISABLED",
+      "fallbackPath": "/pillows/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh-tw--toppers",
+      "title": "Toppers",
+      "localPath": "/zh-tw/toppers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/toppers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh",
+      "title": "Zh",
+      "localPath": "/zh/",
+      "mode": "DISABLED",
+      "fallbackPath": "/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--about-auping",
+      "title": "About Auping",
+      "localPath": "/zh/about-auping/",
+      "mode": "DISABLED",
+      "fallbackPath": "/about-auping/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--bed-bases",
+      "title": "Bed Bases",
+      "localPath": "/zh/bed-bases/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-bases/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--bed-linen",
+      "title": "Bed Linen",
+      "localPath": "/zh/bed-linen/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--bed-linen--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/zh/bed-linen/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/bed-linen/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--beds",
+      "title": "Beds",
+      "localPath": "/zh/beds/",
+      "mode": "DISABLED",
+      "fallbackPath": "/beds/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--box-springs",
+      "title": "Box Springs",
+      "localPath": "/zh/box-springs/",
+      "mode": "DISABLED",
+      "fallbackPath": "/box-springs/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--customer-service",
+      "title": "Customer Service",
+      "localPath": "/zh/customer-service/",
+      "mode": "DISABLED",
+      "fallbackPath": "/customer-service/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--duvet-covers",
+      "title": "Duvet Covers",
+      "localPath": "/zh/duvet-covers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/duvet-covers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--mattresses",
+      "title": "Mattresses",
+      "localPath": "/zh/mattresses/",
+      "mode": "DISABLED",
+      "fallbackPath": "/mattresses/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--news",
+      "title": "News",
+      "localPath": "/zh/news/",
+      "mode": "DISABLED",
+      "fallbackPath": "/news/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--pillows",
+      "title": "Pillows",
+      "localPath": "/zh/pillows/",
+      "mode": "DISABLED",
+      "fallbackPath": "/pillows/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "zh--toppers",
+      "title": "Toppers",
+      "localPath": "/zh/toppers/",
+      "mode": "DISABLED",
+      "fallbackPath": "/toppers/",
+      "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    }
+  ]
+}
