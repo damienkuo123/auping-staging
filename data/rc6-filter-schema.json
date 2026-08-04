@@ -1,6 +1,6 @@
 {
-  "schema": "AUPING-RC6-FILTER-SCHEMA-V1",
-  "version": "2026-08-04-rc6-final",
+  "schema": "AUPING-RC7.1-FILTER-SCHEMA-V2",
+  "version": "2026-08-04-rc7.1-concentrated-parity",
   "logic": {
     "withinGroup": "OR",
     "betweenGroups": "AND",
@@ -517,8 +517,9 @@
           "queryKey": "fabric",
           "operator": "OR",
           "values": [
-            "棉緞",
-            "棉質"
+            "法蘭絨",
+            "棉府綢",
+            "棉緞"
           ]
         }
       ],
@@ -654,14 +655,14 @@
           "name": "duvet_cover_fabric",
           "nativeValue": "7373",
           "group": "fabric",
-          "value": "Cotton flannel"
+          "value": "法蘭絨"
         },
         {
           "id": "6644",
           "name": "duvet_cover_fabric",
           "nativeValue": "6644",
           "group": "fabric",
-          "value": "Cotton percale"
+          "value": "棉府綢"
         },
         {
           "id": "6239",
@@ -681,40 +682,160 @@
       "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
       "groups": [
         {
-          "key": "model",
-          "label": "款式",
-          "queryKey": "model",
+          "key": "length",
+          "label": "長度",
+          "queryKey": "length",
           "operator": "OR",
           "values": [
-            "Comfort",
-            "Deluxe",
-            "Prestige"
+            "200 cm",
+            "210 cm",
+            "220 cm"
+          ]
+        },
+        {
+          "key": "width",
+          "label": "寬度",
+          "queryKey": "width",
+          "operator": "OR",
+          "values": [
+            "80 cm",
+            "90 cm",
+            "100 cm",
+            "120 cm",
+            "140 cm",
+            "160 cm",
+            "180 cm",
+            "200 cm"
+          ]
+        },
+        {
+          "key": "height",
+          "label": "高度",
+          "queryKey": "height",
+          "operator": "OR",
+          "values": [
+            "8 cm",
+            "10 cm"
           ]
         },
         {
           "key": "split",
-          "label": "形式",
+          "label": "分離式床墊舒適層",
           "queryKey": "split",
           "operator": "OR",
           "values": [
-            "一體式",
-            "分離式"
-          ]
-        },
-        {
-          "key": "size",
-          "label": "尺寸",
-          "queryKey": "size",
-          "operator": "OR",
-          "values": [
-            "160 x 200 cm",
-            "180 x 200 cm",
-            "180 x 210 cm",
-            "180 x 220 cm"
+            "否",
+            "是"
           ]
         }
       ],
-      "inputMap": [],
+      "inputMap": [
+        {
+          "id": "7444",
+          "name": "topper_length_filter",
+          "nativeValue": "7444",
+          "group": "length",
+          "value": "200 cm"
+        },
+        {
+          "id": "7445",
+          "name": "topper_length_filter",
+          "nativeValue": "7445",
+          "group": "length",
+          "value": "210 cm"
+        },
+        {
+          "id": "7446",
+          "name": "topper_length_filter",
+          "nativeValue": "7446",
+          "group": "length",
+          "value": "220 cm"
+        },
+        {
+          "id": "7436",
+          "name": "topper_width_filter",
+          "nativeValue": "7436",
+          "group": "width",
+          "value": "80 cm"
+        },
+        {
+          "id": "7437",
+          "name": "topper_width_filter",
+          "nativeValue": "7437",
+          "group": "width",
+          "value": "90 cm"
+        },
+        {
+          "id": "7438",
+          "name": "topper_width_filter",
+          "nativeValue": "7438",
+          "group": "width",
+          "value": "100 cm"
+        },
+        {
+          "id": "7439",
+          "name": "topper_width_filter",
+          "nativeValue": "7439",
+          "group": "width",
+          "value": "120 cm"
+        },
+        {
+          "id": "7440",
+          "name": "topper_width_filter",
+          "nativeValue": "7440",
+          "group": "width",
+          "value": "140 cm"
+        },
+        {
+          "id": "7441",
+          "name": "topper_width_filter",
+          "nativeValue": "7441",
+          "group": "width",
+          "value": "160 cm"
+        },
+        {
+          "id": "7442",
+          "name": "topper_width_filter",
+          "nativeValue": "7442",
+          "group": "width",
+          "value": "180 cm"
+        },
+        {
+          "id": "7443",
+          "name": "topper_width_filter",
+          "nativeValue": "7443",
+          "group": "width",
+          "value": "200 cm"
+        },
+        {
+          "id": "6010",
+          "name": "topper_height",
+          "nativeValue": "6010",
+          "group": "height",
+          "value": "8 cm"
+        },
+        {
+          "id": "6012",
+          "name": "topper_height",
+          "nativeValue": "6012",
+          "group": "height",
+          "value": "10 cm"
+        },
+        {
+          "id": "6043",
+          "name": "topper_split",
+          "nativeValue": "6043",
+          "group": "split",
+          "value": "否"
+        },
+        {
+          "id": "6042",
+          "name": "topper_split",
+          "nativeValue": "6042",
+          "group": "split",
+          "value": "是"
+        }
+      ],
       "listSelector": "[class*=\"ProductList_container\"]"
     },
     {
@@ -726,41 +847,259 @@
       "groups": [
         {
           "key": "type",
-          "label": "類型",
+          "label": "調整方式",
           "queryKey": "type",
           "operator": "OR",
           "values": [
-            "固定式",
-            "手動可調式",
-            "電動可調式"
+            "電動可調",
+            "固定式床底",
+            "手動可調"
           ]
         },
         {
-          "key": "motors",
-          "label": "馬達數",
-          "queryKey": "motors",
+          "key": "width",
+          "label": "寬度",
+          "queryKey": "width",
           "operator": "OR",
           "values": [
-            "0",
-            "1",
-            "2",
-            "3"
+            "70 cm",
+            "80 cm",
+            "90 cm",
+            "100 cm",
+            "120 cm",
+            "140 cm",
+            "160 cm (2x 80)",
+            "180 cm (2x 90)",
+            "200 cm (2x 100)"
           ]
         },
+        {
+          "key": "length",
+          "label": "長度",
+          "queryKey": "length",
+          "operator": "OR",
+          "values": [
+            "190 cm",
+            "200 cm",
+            "210 cm",
+            "220 cm"
+          ]
+        }
+      ],
+      "inputMap": [
+        {
+          "id": "5882",
+          "name": "base_adjustability",
+          "nativeValue": "5882",
+          "group": "type",
+          "value": "電動可調"
+        },
+        {
+          "id": "5881",
+          "name": "base_adjustability",
+          "nativeValue": "5881",
+          "group": "type",
+          "value": "固定式床底"
+        },
+        {
+          "id": "5883",
+          "name": "base_adjustability",
+          "nativeValue": "5883",
+          "group": "type",
+          "value": "手動可調"
+        },
+        {
+          "id": "5731",
+          "name": "Base_Width",
+          "nativeValue": "5731",
+          "group": "width",
+          "value": "70 cm"
+        },
+        {
+          "id": "5732",
+          "name": "Base_Width",
+          "nativeValue": "5732",
+          "group": "width",
+          "value": "80 cm"
+        },
+        {
+          "id": "5733",
+          "name": "Base_Width",
+          "nativeValue": "5733",
+          "group": "width",
+          "value": "90 cm"
+        },
+        {
+          "id": "5734",
+          "name": "Base_Width",
+          "nativeValue": "5734",
+          "group": "width",
+          "value": "100 cm"
+        },
+        {
+          "id": "5735",
+          "name": "Base_Width",
+          "nativeValue": "5735",
+          "group": "width",
+          "value": "120 cm"
+        },
+        {
+          "id": "5736",
+          "name": "Base_Width",
+          "nativeValue": "5736",
+          "group": "width",
+          "value": "140 cm"
+        },
+        {
+          "id": "5971",
+          "name": "Base_Width",
+          "nativeValue": "5971",
+          "group": "width",
+          "value": "160 cm (2x 80)"
+        },
+        {
+          "id": "5972",
+          "name": "Base_Width",
+          "nativeValue": "5972",
+          "group": "width",
+          "value": "180 cm (2x 90)"
+        },
+        {
+          "id": "5973",
+          "name": "Base_Width",
+          "nativeValue": "5973",
+          "group": "width",
+          "value": "200 cm (2x 100)"
+        },
+        {
+          "id": "5978",
+          "name": "base_length",
+          "nativeValue": "5978",
+          "group": "length",
+          "value": "190 cm"
+        },
+        {
+          "id": "5979",
+          "name": "base_length",
+          "nativeValue": "5979",
+          "group": "length",
+          "value": "200 cm"
+        },
+        {
+          "id": "5980",
+          "name": "base_length",
+          "nativeValue": "5980",
+          "group": "length",
+          "value": "210 cm"
+        },
+        {
+          "id": "5981",
+          "name": "base_length",
+          "nativeValue": "5981",
+          "group": "length",
+          "value": "220 cm"
+        }
+      ],
+      "listSelector": "[class*=\"ProductList_container\"]"
+    },
+    {
+      "id": "pillows",
+      "path": "/bed-linen/pillows/",
+      "category": "pillows",
+      "cardSelector": "[data-rc7-product-card], [data-rc6-product-card], [data-rc5-filter-card], [class*=\"ProductCard_Card\"], [class*=\"EnrichedProductCard_Base\"]",
+      "countSelector": "[class*=\"CatalogWithFilters_productsTotal\"], [data-rc6-product-count]",
+      "groups": [
         {
           "key": "size",
           "label": "尺寸",
           "queryKey": "size",
           "operator": "OR",
           "values": [
-            "100 x 200 cm",
-            "80 x 200 cm",
-            "90 x 200 cm",
-            "90 x 210 cm"
+            "40 x 60 cm",
+            "60 x 60 cm",
+            "60 x 70 cm"
+          ]
+        },
+        {
+          "key": "filling",
+          "label": "填充材質",
+          "queryKey": "filling",
+          "operator": "OR",
+          "values": [
+            "天然乳膠",
+            "羽絨",
+            "聚酯纖維"
+          ]
+        },
+        {
+          "key": "ergonomic",
+          "label": "人體工學造型",
+          "queryKey": "ergonomic",
+          "operator": "OR",
+          "values": [
+            "否",
+            "是"
           ]
         }
       ],
-      "inputMap": [],
+      "inputMap": [
+        {
+          "id": "6244",
+          "name": "pillow_size",
+          "nativeValue": "6244",
+          "group": "size",
+          "value": "40 x 60 cm"
+        },
+        {
+          "id": "6245",
+          "name": "pillow_size",
+          "nativeValue": "6245",
+          "group": "size",
+          "value": "60 x 60 cm"
+        },
+        {
+          "id": "6246",
+          "name": "pillow_size",
+          "nativeValue": "6246",
+          "group": "size",
+          "value": "60 x 70 cm"
+        },
+        {
+          "id": "6295",
+          "name": "pillow_filling",
+          "nativeValue": "6295",
+          "group": "filling",
+          "value": "天然乳膠"
+        },
+        {
+          "id": "6293",
+          "name": "pillow_filling",
+          "nativeValue": "6293",
+          "group": "filling",
+          "value": "羽絨"
+        },
+        {
+          "id": "6294",
+          "name": "pillow_filling",
+          "nativeValue": "6294",
+          "group": "filling",
+          "value": "聚酯纖維"
+        },
+        {
+          "id": "6297",
+          "name": "pillow_ergonomically_shaped",
+          "nativeValue": "6297",
+          "group": "ergonomic",
+          "value": "否"
+        },
+        {
+          "id": "6296",
+          "name": "pillow_ergonomically_shaped",
+          "nativeValue": "6296",
+          "group": "ergonomic",
+          "value": "是"
+        }
+      ],
       "listSelector": "[class*=\"ProductList_container\"]"
     }
   ]

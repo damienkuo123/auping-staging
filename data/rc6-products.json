@@ -1,6 +1,6 @@
 {
-  "schema": "AUPING-RC6-PRODUCTS-V1",
-  "version": "2026-08-04-rc6-final",
+  "schema": "AUPING-RC7.1-PRODUCTS-V2",
+  "version": "2026-08-04-rc7.1-concentrated-parity",
   "products": [
     {
       "routeId": "bed-bases--electrically-adjustable-bed-base-1m",
@@ -12,16 +12,24 @@
       "filterable": true,
       "attributes": {
         "type": [
-          "電動可調式"
+          "電動可調"
         ],
-        "motors": [
-          "1"
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm (2x 80)",
+          "180 cm (2x 90)",
+          "200 cm (2x 100)"
         ],
-        "size": [
-          "80 x 200 cm",
-          "90 x 200 cm",
-          "90 x 210 cm",
-          "100 x 200 cm"
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -36,16 +44,24 @@
       "filterable": true,
       "attributes": {
         "type": [
-          "電動可調式"
+          "電動可調"
         ],
-        "motors": [
-          "2"
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm (2x 80)",
+          "180 cm (2x 90)",
+          "200 cm (2x 100)"
         ],
-        "size": [
-          "80 x 200 cm",
-          "90 x 200 cm",
-          "90 x 210 cm",
-          "100 x 200 cm"
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -60,16 +76,24 @@
       "filterable": true,
       "attributes": {
         "type": [
-          "電動可調式"
+          "電動可調"
         ],
-        "motors": [
-          "3"
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm (2x 80)",
+          "180 cm (2x 90)",
+          "200 cm (2x 100)"
         ],
-        "size": [
-          "80 x 200 cm",
-          "90 x 200 cm",
-          "90 x 210 cm",
-          "100 x 200 cm"
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -84,16 +108,24 @@
       "filterable": true,
       "attributes": {
         "type": [
-          "固定式"
+          "固定式床底"
         ],
-        "motors": [
-          "0"
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm (2x 80)",
+          "180 cm (2x 90)",
+          "200 cm (2x 100)"
         ],
-        "size": [
-          "80 x 200 cm",
-          "90 x 200 cm",
-          "90 x 210 cm",
-          "100 x 200 cm"
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -108,16 +140,24 @@
       "filterable": true,
       "attributes": {
         "type": [
-          "手動可調式"
+          "手動可調"
         ],
-        "motors": [
-          "0"
+        "width": [
+          "70 cm",
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm (2x 80)",
+          "180 cm (2x 90)",
+          "200 cm (2x 100)"
         ],
-        "size": [
-          "80 x 200 cm",
-          "90 x 200 cm",
-          "90 x 210 cm",
-          "100 x 200 cm"
+        "length": [
+          "190 cm",
+          "200 cm",
+          "210 cm",
+          "220 cm"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2124,12 +2164,15 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "support": [
-          "可調整"
+        "size": [
+          "40 x 60 cm",
+          "60 x 60 cm"
         ],
-        "sleepPosition": [
-          "仰睡",
-          "側睡"
+        "filling": [
+          "天然乳膠"
+        ],
+        "ergonomic": [
+          "是"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2143,12 +2186,15 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "support": [
-          "可調整"
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm"
         ],
-        "sleepPosition": [
-          "仰睡",
-          "側睡"
+        "filling": [
+          "聚酯纖維"
+        ],
+        "ergonomic": [
+          "否"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2162,12 +2208,15 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "support": [
-          "可調整"
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm"
         ],
-        "sleepPosition": [
-          "仰睡",
-          "側睡"
+        "filling": [
+          "羽絨"
+        ],
+        "ergonomic": [
+          "否"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2181,17 +2230,26 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Comfort"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "8 cm"
         ],
         "split": [
-          "一體式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "否"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2205,17 +2263,21 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Comfort"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "8 cm"
         ],
         "split": [
-          "分離式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "是"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2229,17 +2291,26 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Deluxe"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "8 cm"
         ],
         "split": [
-          "一體式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "否"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2253,17 +2324,21 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Deluxe"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "8 cm"
         ],
         "split": [
-          "分離式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "是"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2277,17 +2352,26 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Prestige"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "80 cm",
+          "90 cm",
+          "100 cm",
+          "120 cm",
+          "140 cm",
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "10 cm"
         ],
         "split": [
-          "一體式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "否"
         ]
       },
       "routeMode": "LOCAL_PARITY"
@@ -2301,17 +2385,21 @@
       "isPromo": false,
       "filterable": true,
       "attributes": {
-        "model": [
-          "Prestige"
+        "length": [
+          "200 cm",
+          "210 cm",
+          "220 cm"
+        ],
+        "width": [
+          "160 cm",
+          "180 cm",
+          "200 cm"
+        ],
+        "height": [
+          "10 cm"
         ],
         "split": [
-          "分離式"
-        ],
-        "size": [
-          "160 x 200 cm",
-          "180 x 200 cm",
-          "180 x 210 cm",
-          "180 x 220 cm"
+          "是"
         ]
       },
       "routeMode": "LOCAL_PARITY"

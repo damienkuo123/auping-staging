@@ -1,6 +1,6 @@
 {
-  "schema": "AUPING-RC6-ROUTES-V1",
-  "version": "2026-08-04-rc6-final",
+  "schema": "AUPING-RC7.1-ROUTES-V2",
+  "version": "2026-08-04-rc7.1-concentrated-parity",
   "basePath": "/auping-staging",
   "routes": [
     {
@@ -1149,6 +1149,126 @@
       "mode": "DISABLED",
       "fallbackPath": "/toppers/",
       "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
+    },
+    {
+      "id": "nav-box-springs-original",
+      "title": "Original 床組",
+      "localPath": "/box-springs/original-boxspring/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-boxspring",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "nav-box-springs-criade",
+      "title": "Criade",
+      "localPath": "/box-springs/criade/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "nav-box-springs-kiruna",
+      "title": "Kiruna",
+      "localPath": "/box-springs/kiruna/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/box-springs/kiruna",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "nav-beds-noa",
+      "title": "Noa",
+      "localPath": "/beds/noa/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noa",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "nav-beds-noble",
+      "title": "Noble",
+      "localPath": "/beds/noble/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/beds/noble",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "bed-linen-duvets",
+      "title": "棉被",
+      "localPath": "/bed-linen/duvets/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvets",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "bed-linen-fitted-sheets",
+      "title": "包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/fitted-sheets",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "bed-linen-mattress-protectors",
+      "title": "保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/mattress-protectors",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "bed-linen-bedspreads",
+      "title": "床罩",
+      "localPath": "/bed-linen/bedspreads/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/bedspreads",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "bed-linen-pillowcases",
+      "title": "枕套",
+      "localPath": "/bed-linen/pillowcases/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/bed-linen/pillowcases",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "about-sustainability",
+      "title": "永續產品",
+      "localPath": "/about-auping/sustainability/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/about-auping/sustainability",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "news-future-factory",
+      "title": "荷蘭頂級品質",
+      "localPath": "/news/auping-opens-mattress-factory-future/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/news/auping-opens-mattress-factory-future",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "news-awards",
+      "title": "得獎設計",
+      "localPath": "/news/awards/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/news?tags=awards",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "stories-buy-new-mattress",
+      "title": "優異透氣",
+      "localPath": "/stories/buy-a-new-mattress/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/stories/buy-a-new-mattress",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
+    },
+    {
+      "id": "customer-service-ordering",
+      "title": "訂購方式",
+      "localPath": "/customer-service/ordering/",
+      "mode": "OFFICIAL_REDIRECT",
+      "officialUrl": "https://www.auping.com/en/customer-service/ordering",
+      "reason": "RC7.1 full parity audit：本地未保留此子頁，精準導向官方對應頁。"
     }
   ]
 }
