@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.css-1g6d4j0-indicatorContainer { display: flex; transition: color 150ms; color: rgb(81, 81, 81); padding: 12px; box-sizing: border-box; }
+
+.css-1g6d4j0-indicatorContainer:hover { color: rgb(153, 153, 153); }

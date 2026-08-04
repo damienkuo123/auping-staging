@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+.Image_base__6J1aU { margin-left: auto; margin-right: auto; max-width: 1264px; width: calc(100% - 32px); }
+
+@media screen and (min-width: 768px) {
+  .Image_base__6J1aU { width: calc(100% - 64px); }
+}
+
+@media screen and (min-width: 1480px) {
+  .Image_base__6J1aU { width: calc(100% - 32px); }
+}
+
+.Image_base__6J1aU .Image_image__NcGwo { height: unset !important; position: relative !important; width: 100% !important; }
+
+.Image_base__6J1aU img { border-radius: 4px; }
+
+.Image_base__6J1aU .Image_mobile__qGTlk { overflow: hidden; position: relative; display: block !important; }
+
+.Image_base__6J1aU .Image_mobile__qGTlk > span { position: unset !important; }
+
+@media (min-width: 1024px) {
+  .Image_base__6J1aU .Image_mobile__qGTlk { display: none !important; }
+}
+
+.Image_base__6J1aU .Image_desktop__bJvqr { overflow: hidden; position: relative; }
+
+@media (max-width: 1024px) {
+  .Image_base__6J1aU .Image_desktop__bJvqr:not(.Image_noMobile__SckOk) { display: none !important; }
+}
+
+.Image_base__6J1aU .Image_desktop__bJvqr > span { position: unset !important; }
+
+.ImageGallery_base__jgzWn { margin-left: auto; margin-right: auto; max-width: 1264px; width: calc(100% - 32px); }
+
+@media screen and (min-width: 768px) {
+  .ImageGallery_base__jgzWn { width: calc(100% - 64px); }
+}
+
+@media screen and (min-width: 1480px) {
+  .ImageGallery_base__jgzWn { width: calc(100% - 32px); }
+}
+
+.ImageGallery_base__jgzWn { display: grid; gap: 24px; grid-auto-flow: column; grid-template-columns: repeat(12, 1fr); grid-template-rows: repeat(15, 1fr); height: 1410px; }
+
+@media only screen and (max-width: 768px) {
+  .ImageGallery_base__jgzWn { gap: 12px; height: 525px; }
+  .ImageGallery_base__jgzWn .ImageGallery_container__Sc1aZ { padding: 0px; }
+}
+
+.ImageGallery_base__jgzWn .ImageGallery_image__E10_6 { height: 100%; object-fit: cover; }
+
+.ImageGallery_base__jgzWn .ImageGallery_imageContainer__2sPDH { height: 100%; position: relative; width: 100%; }
+
+.ImageGallery_base__jgzWn .ImageGallery_first__hj6ZZ { grid-area: span 10 / span 6; }
+
+.ImageGallery_base__jgzWn .ImageGallery_second__A2JAi { grid-area: span 5 / span 6; }
+
+.ImageGallery_base__jgzWn .ImageGallery_third__I9ThH { grid-area: span 6 / span 6; }
+
+.ImageGallery_base__jgzWn .ImageGallery_fourth___H7lc { grid-area: span 3 / span 6; }
+
+.ImageGallery_base__jgzWn .ImageGallery_fifth__oEN7h { grid-area: span 6 / span 6; }

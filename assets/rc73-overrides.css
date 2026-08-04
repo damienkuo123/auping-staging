@@ -1,0 +1,10 @@
+/* RC7.3 deep-page parity overrides */
+#CybotCookiebotDialog,#CybotCookiebotDialogBodyUnderlay,[id*="Cookiebot"],[class*="CookieConsent"],[class*="cookieConsent"],[class*="OneTrust"],.ot-sdk-container{display:none!important}
+html[data-rc73-page] body{overflow-x:hidden}
+html[data-rc73-page] [class*="Header_accountWrapper"]{display:none!important}
+html[data-rc73-page] footer select,html[data-rc73-page] footer [class*="Language"]{display:none!important}
+html[data-rc73-page] [data-rc73-search-results]{background:#fff;border-top:1px solid #e4e4e4;padding:16px 24px;display:grid;gap:8px}
+html[data-rc73-page] [data-rc73-search-results][hidden]{display:none!important}
+html[data-rc73-page] [data-rc73-search-results] a{display:block;color:#00539f;text-decoration:none;padding:8px 0}
+html[data-rc73-page] [data-rc73-search-results] span{display:block;color:#555;font-size:14px;margin-top:3px}
+@media(max-width:900px){html[data-rc73-page] [class*="MainMenu_MainMenu"]{display:none!important}}

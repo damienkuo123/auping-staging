@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.2-SEARCH-V3",
-  "version": "2026-08-05-rc7.2-local-route-recovery",
+  "version": "20260805-rc73",
   "items": [
     {
       "title": "首頁",
@@ -1604,61 +1604,185 @@
       ]
     },
     {
+      "title": "Essential 床架",
+      "summary": "Essential 床架官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-beds-essential",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Essential",
+        "床架"
+      ]
+    },
+    {
+      "title": "Original 床架",
+      "summary": "Original 床架官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-beds-original",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Original",
+        "床架"
+      ]
+    },
+    {
+      "title": "Auronde 床架",
+      "summary": "Auronde 床架官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-beds-auronde",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Auronde",
+        "床架"
+      ]
+    },
+    {
+      "title": "Noa 床架",
+      "summary": "Noa 床架官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-beds-noa",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Noa",
+        "床架"
+      ]
+    },
+    {
+      "title": "Noble 床架",
+      "summary": "Noble 床架官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-beds-noble",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Noble",
+        "床架"
+      ]
+    },
+    {
+      "title": "Original 床組",
+      "summary": "Original Box Springs 床組官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-box-springs-original",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Original",
+        "Box Springs",
+        "床組"
+      ]
+    },
+    {
+      "title": "Criade 床組",
+      "summary": "Criade 床組官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-box-springs-criade",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Criade",
+        "Box Springs",
+        "床組"
+      ]
+    },
+    {
+      "title": "Kiruna 床組",
+      "summary": "Kiruna 床組官方深層頁的繁體中文本地版本。",
+      "routeId": "nav-box-springs-kiruna",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "Kiruna",
+        "Box Springs",
+        "床組"
+      ]
+    },
+    {
       "title": "棉被",
-      "summary": "依季節、保暖程度與尺寸選擇適合的 Auping 棉被。",
+      "summary": "Auping 棉被分類官方深層頁的繁體中文本地版本。",
       "routeId": "bed-linen-duvets",
-      "mode": "LOCAL_CATEGORY",
+      "mode": "LOCAL_PARITY",
       "keywords": [
         "棉被",
-        "羽絨被",
-        "duvet",
+        "Duvets",
         "寢具"
       ]
     },
     {
       "title": "包覆式床包",
-      "summary": "依一般床墊、Topper 或 Split-top 類型選擇合適床包。",
+      "summary": "Auping 包覆式床包分類官方深層頁的繁體中文本地版本。",
       "routeId": "bed-linen-fitted-sheets",
-      "mode": "LOCAL_CATEGORY",
+      "mode": "LOCAL_PARITY",
       "keywords": [
-        "床包",
         "包覆式床包",
-        "fitted sheets",
+        "Fitted sheets",
         "寢具"
       ]
     },
     {
       "title": "保潔墊",
-      "summary": "保護床墊並維持舒適與清潔，依床墊類型與尺寸選擇。",
+      "summary": "Auping 保潔墊分類官方深層頁的繁體中文本地版本。",
       "routeId": "bed-linen-mattress-protectors",
-      "mode": "LOCAL_CATEGORY",
+      "mode": "LOCAL_PARITY",
       "keywords": [
         "保潔墊",
-        "床墊保護墊",
-        "mattress protector",
+        "Mattress protectors",
         "寢具"
       ]
     },
     {
       "title": "床罩",
-      "summary": "以床罩完成臥室層次與色彩搭配。",
+      "summary": "Auping 床罩分類官方深層頁的繁體中文本地版本。",
       "routeId": "bed-linen-bedspreads",
-      "mode": "LOCAL_CATEGORY",
+      "mode": "LOCAL_PARITY",
       "keywords": [
         "床罩",
-        "bedspread",
+        "Bedspreads",
         "寢具"
       ]
     },
     {
       "title": "枕套",
-      "summary": "依枕頭尺寸、材質與臥室風格選擇枕套。",
+      "summary": "Auping 枕套分類官方深層頁的繁體中文本地版本。",
       "routeId": "bed-linen-pillowcases",
-      "mode": "LOCAL_CATEGORY",
+      "mode": "LOCAL_PARITY",
       "keywords": [
         "枕套",
-        "pillowcase",
+        "Pillowcases",
         "寢具"
+      ]
+    },
+    {
+      "title": "永續理念",
+      "summary": "Auping 永續理念官方頁面的繁體中文本地版本。",
+      "routeId": "about-sustainability",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "永續",
+        "循環",
+        "Sustainability"
+      ]
+    },
+    {
+      "title": "訂購方式",
+      "summary": "Auping 訂購方式官方頁面的繁體中文本地版本。",
+      "routeId": "customer-service-ordering",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "訂購",
+        "Ordering",
+        "客戶服務"
+      ]
+    },
+    {
+      "title": "Auping 未來床墊工廠",
+      "summary": "Auping 未來床墊工廠官方文章的繁體中文本地版本。",
+      "routeId": "news-future-factory",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "床墊工廠",
+        "荷蘭",
+        "News"
+      ]
+    },
+    {
+      "title": "選購新床墊指南",
+      "summary": "Auping 選購新床墊指南官方文章的繁體中文本地版本。",
+      "routeId": "stories-buy-new-mattress",
+      "mode": "LOCAL_PARITY",
+      "keywords": [
+        "新床墊",
+        "選購",
+        "Mattress"
       ]
     }
   ]

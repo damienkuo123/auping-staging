@@ -1,6 +1,6 @@
 ;(() => {
 'use strict';
-const VERSION='2026-08-05-rc7.2-local-route-recovery',DATA_VERSION='20260805-rc72';
+const VERSION='2026-08-05-rc7.3-official-deep-page-parity',DATA_VERSION='20260805-rc73';
 const OFFICIAL=Object.freeze({searchActive:'Header_active__TW9UV',desktopMenuActive:'MainMenu_active__e6SsM',mobileRootOpen:'FullPageMenu_FullPageMenu--open__LGkFN',mobileSubmenuOpen:'FullPageMenu_FullPageMenu__submenu--open__tbTap'});
 if(window.__AUPING_RC7_LOADING__)return;window.__AUPING_RC7_LOADING__=VERSION;
 const BASE=location.pathname.startsWith('/auping-staging')?'/auping-staging':'';

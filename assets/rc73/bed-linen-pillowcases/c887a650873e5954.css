@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.css-otro63-indicatorContainer { display: flex; transition: color 150ms; padding: 12px; box-sizing: border-box; color: white !important; }
+
+.css-otro63-indicatorContainer:hover { color: rgb(153, 153, 153); }

@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.2-ROUTES-V3",
-  "version": "2026-08-05-rc7.2-local-route-recovery",
+  "version": "20260805-rc73",
   "basePath": "/auping-staging",
   "routes": [
     {
@@ -1151,107 +1151,6 @@
       "reason": "單一繁體中文公開站：舊語系副本停用並導向對應的繁體中文路徑。"
     },
     {
-      "id": "nav-box-springs-original",
-      "title": "Original 床組",
-      "localPath": "/box-springs/original-boxspring/",
-      "mode": "LOCAL_ALIAS",
-      "officialUrl": "https://www.auping.com/en/box-springs/original-boxspring",
-      "reason": "RC7.2：主導覽系列入口改為本地分類 Filter，不再前往官方英文站。",
-      "targetPath": "/box-springs/?model=Original"
-    },
-    {
-      "id": "nav-box-springs-criade",
-      "title": "Criade",
-      "localPath": "/box-springs/criade/",
-      "mode": "LOCAL_ALIAS",
-      "officialUrl": "https://www.auping.com/en/box-springs/criade",
-      "reason": "RC7.2：主導覽系列入口改為本地分類 Filter，不再前往官方英文站。",
-      "targetPath": "/box-springs/?model=Criade"
-    },
-    {
-      "id": "nav-box-springs-kiruna",
-      "title": "Kiruna",
-      "localPath": "/box-springs/kiruna/",
-      "mode": "LOCAL_ALIAS",
-      "officialUrl": "https://www.auping.com/en/box-springs/kiruna",
-      "reason": "RC7.2：主導覽系列入口改為本地分類 Filter，不再前往官方英文站。",
-      "targetPath": "/box-springs/?model=Kiruna"
-    },
-    {
-      "id": "nav-beds-noa",
-      "title": "Noa",
-      "localPath": "/beds/noa/",
-      "mode": "LOCAL_ALIAS",
-      "officialUrl": "https://www.auping.com/en/beds/noa",
-      "reason": "RC7.2：主導覽系列入口改為本地分類 Filter，不再前往官方英文站。",
-      "targetPath": "/beds/?model=Noa"
-    },
-    {
-      "id": "nav-beds-noble",
-      "title": "Noble",
-      "localPath": "/beds/noble/",
-      "mode": "LOCAL_ALIAS",
-      "officialUrl": "https://www.auping.com/en/beds/noble",
-      "reason": "RC7.2：主導覽系列入口改為本地分類 Filter，不再前往官方英文站。",
-      "targetPath": "/beds/?model=Noble"
-    },
-    {
-      "id": "bed-linen-duvets",
-      "title": "棉被",
-      "localPath": "/bed-linen/duvets/",
-      "mode": "LOCAL_CATEGORY",
-      "officialUrl": "https://www.auping.com/en/bed-linen/duvets",
-      "reason": "RC7.2：主要寢具子分類必須留在單一繁體中文網站，不得自動跳離 staging。"
-    },
-    {
-      "id": "bed-linen-fitted-sheets",
-      "title": "包覆式床包",
-      "localPath": "/bed-linen/fitted-sheets/",
-      "mode": "LOCAL_CATEGORY",
-      "officialUrl": "https://www.auping.com/en/bed-linen/fitted-sheets",
-      "reason": "RC7.2：主要寢具子分類必須留在單一繁體中文網站，不得自動跳離 staging。"
-    },
-    {
-      "id": "bed-linen-mattress-protectors",
-      "title": "保潔墊",
-      "localPath": "/bed-linen/mattress-protectors/",
-      "mode": "LOCAL_CATEGORY",
-      "officialUrl": "https://www.auping.com/en/bed-linen/mattress-protectors",
-      "reason": "RC7.2：主要寢具子分類必須留在單一繁體中文網站，不得自動跳離 staging。"
-    },
-    {
-      "id": "bed-linen-bedspreads",
-      "title": "床罩",
-      "localPath": "/bed-linen/bedspreads/",
-      "mode": "LOCAL_CATEGORY",
-      "officialUrl": "https://www.auping.com/en/bed-linen/bedspreads",
-      "reason": "RC7.2：主要寢具子分類必須留在單一繁體中文網站，不得自動跳離 staging。"
-    },
-    {
-      "id": "bed-linen-pillowcases",
-      "title": "枕套",
-      "localPath": "/bed-linen/pillowcases/",
-      "mode": "LOCAL_CATEGORY",
-      "officialUrl": "https://www.auping.com/en/bed-linen/pillowcases",
-      "reason": "RC7.2：主要寢具子分類必須留在單一繁體中文網站，不得自動跳離 staging。"
-    },
-    {
-      "id": "about-sustainability",
-      "title": "永續產品",
-      "localPath": "/about-auping/sustainability/",
-      "mode": "LOCAL_BRIDGE",
-      "officialUrl": "https://www.auping.com/en/about-auping/sustainability",
-      "reason": "RC7.2：本地尚未達完整 parity；保留本地透明說明頁，不自動離開 staging。"
-    },
-    {
-      "id": "news-future-factory",
-      "title": "荷蘭頂級品質",
-      "localPath": "/news/auping-opens-mattress-factory-future/",
-      "mode": "LOCAL_BRIDGE",
-      "officialUrl": "https://www.auping.com/en/news/auping-opens-mattress-factory-future",
-      "reason": "RC7.2：本地尚未達完整 parity；保留本地透明說明頁，不自動離開 staging。"
-    },
-    {
       "id": "news-awards",
       "title": "得獎設計",
       "localPath": "/news/awards/",
@@ -1260,20 +1159,140 @@
       "reason": "RC7.2：本地尚未達完整 parity；保留本地透明說明頁，不自動離開 staging。"
     },
     {
-      "id": "stories-buy-new-mattress",
-      "title": "優異透氣",
-      "localPath": "/stories/buy-a-new-mattress/",
-      "mode": "LOCAL_BRIDGE",
-      "officialUrl": "https://www.auping.com/en/stories/buy-a-new-mattress",
-      "reason": "RC7.2：本地尚未達完整 parity；保留本地透明說明頁，不自動離開 staging。"
+      "id": "nav-beds-essential",
+      "title": "Essential 床架",
+      "localPath": "/beds/essential/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/beds/essential",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-beds-original",
+      "title": "Original 床架",
+      "localPath": "/beds/original/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/beds/original",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-beds-auronde",
+      "title": "Auronde 床架",
+      "localPath": "/beds/auronde/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/beds/auronde",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-beds-noa",
+      "title": "Noa 床架",
+      "localPath": "/beds/noa/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/beds/noa",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-beds-noble",
+      "title": "Noble 床架",
+      "localPath": "/beds/noble/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/beds/noble",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-box-springs-original",
+      "title": "Original 床組",
+      "localPath": "/box-springs/original-boxspring/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/box-springs/original-boxspring",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-box-springs-criade",
+      "title": "Criade 床組",
+      "localPath": "/box-springs/criade/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/box-springs/criade",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "nav-box-springs-kiruna",
+      "title": "Kiruna 床組",
+      "localPath": "/box-springs/kiruna/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/box-springs/kiruna",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen-duvets",
+      "title": "棉被",
+      "localPath": "/bed-linen/duvets/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/bed-linen/duvets",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen-fitted-sheets",
+      "title": "包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/bed-linen/fitted-sheets",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen-mattress-protectors",
+      "title": "保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/bed-linen/mattress-protectors",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen-bedspreads",
+      "title": "床罩",
+      "localPath": "/bed-linen/bedspreads/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/bed-linen/bedspreads",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen-pillowcases",
+      "title": "枕套",
+      "localPath": "/bed-linen/pillowcases/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/bed-linen/pillowcases",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "about-sustainability",
+      "title": "永續理念",
+      "localPath": "/about-auping/sustainability/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/about-auping/sustainability",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
     },
     {
       "id": "customer-service-ordering",
       "title": "訂購方式",
       "localPath": "/customer-service/ordering/",
-      "mode": "LOCAL_BRIDGE",
+      "mode": "LOCAL_PARITY",
       "officialUrl": "https://www.auping.com/en/customer-service/ordering",
-      "reason": "RC7.2：本地尚未達完整 parity；保留本地透明說明頁，不自動離開 staging。"
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "news-future-factory",
+      "title": "Auping 未來床墊工廠",
+      "localPath": "/news/auping-opens-mattress-factory-future/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/news/auping-opens-mattress-factory-future",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "stories-buy-new-mattress",
+      "title": "選購新床墊指南",
+      "localPath": "/stories/buy-a-new-mattress/",
+      "mode": "LOCAL_PARITY",
+      "officialUrl": "https://www.auping.com/en/stories/buy-a-new-mattress",
+      "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
     }
   ]
 }

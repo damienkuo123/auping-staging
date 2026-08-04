@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.ssQIHO-checkbox-menu-item > span > span { background-color: rgb(0, 0, 0); display: inline-block; }
+
+@media (forced-colors: active), (prefers-contrast: more) {
+  .ssQIHO-checkbox-menu-item > span > span { background-color: buttontext; }
+}

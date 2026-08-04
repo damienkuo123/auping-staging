@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+.css-e2h68e-control { -webkit-box-align: center; align-items: center; cursor: pointer; display: flex; flex-wrap: wrap; -webkit-box-pack: justify; justify-content: space-between; min-height: 38px; position: relative; transition: 100ms; background-color: rgb(86, 117, 141); border-radius: 4px; box-sizing: border-box; height: 48px; width: 100%; outline: 0px !important; border: 0px !important; }
+
+.css-e2h68e-control:hover { border-color: rgb(179, 179, 179); }
