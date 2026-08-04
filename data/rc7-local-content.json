@@ -1,0 +1,107 @@
+{
+  "version": "2026-08-05-rc7.2-local-route-recovery",
+  "categories": {
+    "bed-linen-duvets": {
+      "title": "棉被",
+      "eyebrow": "寢具",
+      "heroImage": "/assets/light-catalog/images/aa4aaf4427a5ccf739b3f3436fe3.webp",
+      "intro": "依季節、保暖程度與睡眠習慣挑選適合的棉被，並搭配 Auping 被套完成舒適睡眠環境。",
+      "cards": [
+        {
+          "title": "依季節選擇",
+          "text": "從夏季輕盈到冬季保暖，依室溫與個人睡眠感受挑選。"
+        },
+        {
+          "title": "依尺寸選擇",
+          "text": "確認單人、雙人與床架尺寸，讓棉被覆蓋範圍更合適。"
+        },
+        {
+          "title": "搭配被套",
+          "text": "前往本地被套分類，依色彩、材質與圖樣完成整體搭配。",
+          "href": "/bed-linen/duvet-covers/"
+        }
+      ]
+    },
+    "bed-linen-fitted-sheets": {
+      "title": "包覆式床包",
+      "eyebrow": "寢具",
+      "heroImage": "/assets/light-catalog/images/f91abbc0e81402b5496bf39e2a55.webp",
+      "intro": "依床墊結構、寬度、長度與高度選擇床包，確保完整包覆並維持平整服貼。",
+      "cards": [
+        {
+          "title": "一般床墊用",
+          "text": "適合標準床墊；選購時確認床墊長寬與厚度。"
+        },
+        {
+          "title": "Topper／上層床墊用",
+          "text": "適合搭配上層舒適墊，包覆深度與一般床墊不同。"
+        },
+        {
+          "title": "Split-top 分離式床墊用",
+          "text": "適用上半部可分離調整的床墊結構，保留雙側獨立活動空間。"
+        }
+      ]
+    },
+    "bed-linen-mattress-protectors": {
+      "title": "保潔墊",
+      "eyebrow": "寢具",
+      "heroImage": "/assets/light-catalog/images/6664c5200321b22066691aba2843.webp",
+      "intro": "在不影響睡眠舒適度的前提下保護床墊，並依床墊、Topper 或 Split-top 結構選擇。",
+      "cards": [
+        {
+          "title": "一般床墊保護",
+          "text": "完整覆蓋主要睡眠表面，日常拆洗更方便。"
+        },
+        {
+          "title": "Topper 專用",
+          "text": "依上層舒適墊厚度選擇，避免尺寸過鬆或過緊。"
+        },
+        {
+          "title": "Split-top 專用",
+          "text": "對應可獨立升降的分離式結構，保留調整彈性。"
+        }
+      ]
+    },
+    "bed-linen-bedspreads": {
+      "title": "床罩",
+      "eyebrow": "寢具",
+      "heroImage": "/assets/light-catalog/images/7a9450391f429ebb36650216dc2a.webp",
+      "intro": "以床罩增加臥室層次，並依床寬、垂墜長度、材質與色彩完成搭配。",
+      "cards": [
+        {
+          "title": "尺寸與垂墜",
+          "text": "依床架寬度與想要的垂墜比例選擇適合尺寸。"
+        },
+        {
+          "title": "材質與觸感",
+          "text": "從輕盈到厚實，依季節與臥室使用方式挑選。"
+        },
+        {
+          "title": "色彩搭配",
+          "text": "可與床架、被套及裝飾抱枕建立一致或對比層次。"
+        }
+      ]
+    },
+    "bed-linen-pillowcases": {
+      "title": "枕套",
+      "eyebrow": "寢具",
+      "heroImage": "/assets/light-catalog/images/014a70f3c16f7c212735c5714706.webp",
+      "intro": "先確認枕頭尺寸，再依材質、觸感與被套色彩挑選合適枕套。",
+      "cards": [
+        {
+          "title": "確認枕頭尺寸",
+          "text": "枕套應與枕芯長寬相符，避免過鬆或壓縮枕芯。"
+        },
+        {
+          "title": "選擇材質",
+          "text": "依透氣、滑順與保養需求選擇不同織法與觸感。"
+        },
+        {
+          "title": "完成整體搭配",
+          "text": "可與本地被套分類搭配同色、近似色或對比色。",
+          "href": "/bed-linen/duvet-covers/"
+        }
+      ]
+    }
+  }
+}

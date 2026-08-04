@@ -1,6 +1,6 @@
 {
-  "schema": "AUPING-RC7.1-PRODUCTS-V2",
-  "version": "2026-08-04-rc7.1-concentrated-parity",
+  "schema": "AUPING-RC7.2-PRODUCTS-V3",
+  "version": "2026-08-05-rc7.2-local-route-recovery",
   "products": [
     {
       "routeId": "bed-bases--electrically-adjustable-bed-base-1m",
@@ -204,7 +204,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--auronde-natural-oak",
@@ -226,7 +226,7 @@
           "棕色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--auronde-natural-walnut",
@@ -314,7 +314,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--essential-deep-black",
@@ -336,7 +336,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--essential-pine-green",
@@ -358,7 +358,7 @@
           "綠色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--essential-pure-white",
@@ -402,7 +402,7 @@
           "米色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--essential-warm-grey",
@@ -446,7 +446,7 @@
           "棕色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--noa-balanced-oak-table",
@@ -468,7 +468,7 @@
           "棕色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--noa-balanced-oak",
@@ -512,7 +512,7 @@
           "棕色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--noa-midnight-black-oak",
@@ -534,7 +534,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--noa-soft-white-oak-headboard",
@@ -578,7 +578,7 @@
           "白色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--noble-midnight-black-oak",
@@ -666,7 +666,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--original-deep-black",
@@ -688,7 +688,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--original-pine-green-dew-emerald",
@@ -710,7 +710,7 @@
           "綠色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "beds--original-pine-green",
@@ -754,7 +754,7 @@
           "藍色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-blush",
@@ -798,7 +798,7 @@
           "灰色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-deep-black",
@@ -820,7 +820,7 @@
           "黑色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-dusty-red",
@@ -842,7 +842,7 @@
           "紅色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-night-blue",
@@ -886,7 +886,7 @@
           "綠色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-sand-beige",
@@ -908,7 +908,7 @@
           "米色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--criade-warm-grey",
@@ -974,7 +974,7 @@
           "藍色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--kiruna-pine-green",
@@ -996,7 +996,7 @@
           "綠色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--kiruna-sand-beige",
@@ -1040,7 +1040,7 @@
           "灰色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--kiruna-warm-grey-unik",
@@ -1084,7 +1084,7 @@
           "粉紅色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-cool-grey",
@@ -1106,7 +1106,7 @@
           "灰色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-deep-black",
@@ -1128,7 +1128,7 @@
           "深黑（非目前黑色篩選）"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-dusty-red",
@@ -1172,7 +1172,7 @@
           "白色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-royal-blue",
@@ -1194,7 +1194,7 @@
           "藍色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-sand-beige",
@@ -1216,7 +1216,7 @@
           "米色"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "box-springs--original-box-spring-warm-grey",
@@ -1268,7 +1268,7 @@
           "棉緞"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
@@ -1298,7 +1298,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
@@ -1328,7 +1328,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
@@ -1358,7 +1358,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
@@ -1388,7 +1388,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
@@ -1418,7 +1418,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
@@ -1448,7 +1448,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
@@ -1478,7 +1478,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
@@ -1508,7 +1508,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
@@ -1538,7 +1538,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
@@ -1568,7 +1568,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
@@ -1598,7 +1598,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
@@ -1628,7 +1628,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
@@ -1658,7 +1658,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
@@ -1688,7 +1688,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
@@ -1718,7 +1718,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
@@ -1748,7 +1748,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
@@ -1778,7 +1778,7 @@
           "棉緞"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
@@ -1808,7 +1808,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
@@ -1838,7 +1838,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
@@ -1868,7 +1868,7 @@
           "棉質"
         ]
       },
-      "routeMode": "OFFICIAL_REDIRECT"
+      "routeMode": "LOCAL_EXISTING"
     },
     {
       "routeId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
