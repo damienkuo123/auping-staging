@@ -1,0 +1,110 @@
+{
+  "schema": "AUPING-RC7.5-COMBOBOX-VARIANTS-V1",
+  "source": "data/rc6-products.json@231f44d0222395ced9d5424f00d4cf129e7c82da",
+  "pages": {
+    "bed-bases--electrically-adjustable-bed-base-1m": {
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "title": "電動可調式 床底 1M",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "queryParam": "width",
+          "defaultValue": "100 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            },
+            {
+              "value": "200 cm (2x 100)",
+              "label": "200 cm (2x 100)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "queryParam": "length",
+          "defaultValue": "200 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--white-lines-satin-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "title": "白線棉緞 被套",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
