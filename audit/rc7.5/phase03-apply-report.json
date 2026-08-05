@@ -1,0 +1,852 @@
+{
+  "schema": "AUPING-RC7.5-PHASE03-APPLY-REPORT-V1",
+  "baselineCommit": "bcf1bc9b4b498fba2953f9878b77d771108e7a9e",
+  "coreMaterializedCount": 50,
+  "linkedMaterializedCount": 21,
+  "totalLocalRouteCount": 142,
+  "productCount": 112,
+  "comboboxPageCount": 62,
+  "pages": [
+    {
+      "pageId": "beds--auronde-deep-black",
+      "localPath": "/beds/auronde-deep-black/",
+      "sourcePageId": "beds--auronde-white-oak",
+      "kind": "core-existing",
+      "title": "Auronde 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/32f2bd311ef42672fa8c74a598b1.webp",
+        "/auping-staging/assets/light-catalog/images/1a2723860ab4fc2de77241601bdf.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--auronde-natural-oak",
+      "localPath": "/beds/auronde-natural-oak/",
+      "sourcePageId": "beds--auronde-white-oak",
+      "kind": "core-existing",
+      "title": "Auronde 天然橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/25d8d17e2adc44fb82c7357ca20f.webp",
+        "/auping-staging/assets/light-catalog/images/71b7b9cd1aabfac9c3f307696ad7.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--essential-deep-black-headboard",
+      "localPath": "/beds/essential-deep-black-headboard/",
+      "sourcePageId": "beds--essential-pure-white",
+      "kind": "core-existing",
+      "title": "Essential 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/25fc358b48ff576a8213dfcc8cf9.webp",
+        "/auping-staging/assets/light-catalog/images/293161b847aeabc4be0463dc3ff2.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--essential-deep-black",
+      "localPath": "/beds/essential-deep-black/",
+      "sourcePageId": "beds--essential-pure-white",
+      "kind": "core-existing",
+      "title": "Essential 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/9955693b7c3f7d42fe2ceaaae285.webp",
+        "/auping-staging/assets/light-catalog/images/cd2a767f619622f482c7d910205e.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--essential-pine-green",
+      "localPath": "/beds/essential-pine-green/",
+      "sourcePageId": "beds--essential-pure-white",
+      "kind": "core-existing",
+      "title": "Essential 松綠",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/c28e16c0a4d1c39ce2428cc37005.webp",
+        "/auping-staging/assets/light-catalog/images/7d8f924838d0590d5db0e813c118.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--essential-sand-beige",
+      "localPath": "/beds/essential-sand-beige/",
+      "sourcePageId": "beds--essential-pure-white",
+      "kind": "core-existing",
+      "title": "Essential 沙米色",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/fab618fce3a3302a2b32786b1204.webp",
+        "/auping-staging/assets/light-catalog/images/ca1e1774e7ea83b6dac6c19b0f83.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "localPath": "/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "sourcePageId": "beds--noa-balanced-oak",
+      "kind": "core-existing",
+      "title": "Noa 平衡橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/954ac3088d65a4bd50d3d77ce247.webp",
+        "/auping-staging/assets/light-catalog/images/41ffa55937960b2106a66b150c54.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-table",
+      "localPath": "/beds/noa-balanced-oak-table/",
+      "sourcePageId": "beds--noa-balanced-oak",
+      "kind": "core-existing",
+      "title": "Noa 平衡橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/d697ea2503d3c6f17ff03ff24bdb.webp",
+        "/auping-staging/assets/light-catalog/images/642cc27b45e7e95780b5a5bcf1fe.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--noa-chocolate-brown-oak",
+      "localPath": "/beds/noa-chocolate-brown-oak/",
+      "sourcePageId": "beds--noa-balanced-oak",
+      "kind": "core-existing",
+      "title": "Noa 巧克力棕橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/36237955bc105734cb098dc94bbb.webp",
+        "/auping-staging/assets/light-catalog/images/237779c93125fae36adc99b3f463.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--noa-midnight-black-oak",
+      "localPath": "/beds/noa-midnight-black-oak/",
+      "sourcePageId": "beds--noa-balanced-oak",
+      "kind": "core-existing",
+      "title": "Noa 午夜黑橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/8a078178d95e821c25f38db17780.webp",
+        "/auping-staging/assets/light-catalog/images/09402be16f6ac829b34cdeaeab9a.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak",
+      "localPath": "/beds/noa-soft-white-oak/",
+      "sourcePageId": "beds--noa-balanced-oak",
+      "kind": "core-existing",
+      "title": "Noa 柔白 橡木",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/ec550287db70a63e8f744f581f2a.webp",
+        "/auping-staging/assets/light-catalog/images/c6642511edbc7656fd61239e8433.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--original-deep-black-outline-headboard",
+      "localPath": "/beds/original-deep-black-outline-headboard/",
+      "sourcePageId": "beds--original-blush",
+      "kind": "core-existing",
+      "title": "Original-深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/5a1e94a3366f6f69102e3a102984.webp",
+        "/auping-staging/assets/light-catalog/images/9c420afb5bf37b734ce9203d0d18.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--original-deep-black",
+      "localPath": "/beds/original-deep-black/",
+      "sourcePageId": "beds--original-blush",
+      "kind": "core-existing",
+      "title": "Original 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/55c2ad788a6fe14e85ad4427272f.webp",
+        "/auping-staging/assets/light-catalog/images/bb9cacd185987c9cab697e349813.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--original-pine-green-dew-emerald",
+      "localPath": "/beds/original-pine-green-dew-emerald/",
+      "sourcePageId": "beds--original-blush",
+      "kind": "core-existing",
+      "title": "Original 松綠",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/44ec67f3150adcda042951ee96ea.webp",
+        "/auping-staging/assets/light-catalog/images/bbb32131fba5d9a52787ccf960d9.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "beds--original-royal-blue",
+      "localPath": "/beds/original-royal-blue/",
+      "sourcePageId": "beds--original-blush",
+      "kind": "core-existing",
+      "title": "Original 皇家藍",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/5587946552bd734c88957843c14e.webp",
+        "/auping-staging/assets/light-catalog/images/a3460dfb610d79373321d9564cdb.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--criade-cool-grey",
+      "localPath": "/box-springs/criade-cool-grey/",
+      "sourcePageId": "box-springs--criade-blush",
+      "kind": "core-existing",
+      "title": "Criade 冷灰",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/ebeef396a8950d14ced6cd7d41cf.webp",
+        "/auping-staging/assets/light-catalog/images/c6234ecbedc35fc4c5aa82c6935c.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--criade-deep-black",
+      "localPath": "/box-springs/criade-deep-black/",
+      "sourcePageId": "box-springs--criade-blush",
+      "kind": "core-existing",
+      "title": "Criade 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/14ef725527e7e776f36094340ae7.webp",
+        "/auping-staging/assets/light-catalog/images/9157f82b224c2e30824772fe3e54.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--criade-dusty-red",
+      "localPath": "/box-springs/criade-dusty-red/",
+      "sourcePageId": "box-springs--criade-blush",
+      "kind": "core-existing",
+      "title": "Criade 霧紅",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/c2e2b3ddf4ff79237936dbdc6d0a.webp",
+        "/auping-staging/assets/light-catalog/images/5f7a3946ae5dab32406df2770b06.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--criade-pine-green",
+      "localPath": "/box-springs/criade-pine-green/",
+      "sourcePageId": "box-springs--criade-blush",
+      "kind": "core-existing",
+      "title": "Criade 松綠",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/afc359424014f94f591fd00fea55.webp",
+        "/auping-staging/assets/light-catalog/images/6962810fdbfab0b6373db669ae27.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--criade-sand-beige",
+      "localPath": "/box-springs/criade-sand-beige/",
+      "sourcePageId": "box-springs--criade-blush",
+      "kind": "core-existing",
+      "title": "Criade 沙米色",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/a1b09c6e3d14fb4664c98586b271.webp",
+        "/auping-staging/assets/light-catalog/images/efe17634c59bce4d7a6493375462.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--kiruna-night-blue",
+      "localPath": "/box-springs/kiruna-night-blue/",
+      "sourcePageId": "box-springs--kiruna-deep-black",
+      "kind": "core-existing",
+      "title": "Kiruna 夜藍",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/613f54e7b4c13453d78d9a6cb1d7.webp",
+        "/auping-staging/assets/light-catalog/images/d6c1855150f44960704916a4b79b.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--kiruna-pine-green",
+      "localPath": "/box-springs/kiruna-pine-green/",
+      "sourcePageId": "box-springs--kiruna-deep-black",
+      "kind": "core-existing",
+      "title": "Kiruna 松綠",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/93799ba2eb8e89b1e0c844f8e4e7.webp",
+        "/auping-staging/assets/light-catalog/images/949eb3263b31c5ddd1e9b401c30c.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-sami",
+      "localPath": "/box-springs/kiruna-warm-grey-sami/",
+      "sourcePageId": "box-springs--kiruna-deep-black",
+      "kind": "core-existing",
+      "title": "Kiruna 暖灰",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/2e0d732a8465efe798b062f76208.webp",
+        "/auping-staging/assets/light-catalog/images/bc134583470eefe9fba316dfd45f.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-blush",
+      "localPath": "/box-springs/original-box-spring-blush/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 裸粉",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/b368e7bdd30a564628eab9992d19.webp",
+        "/auping-staging/assets/light-catalog/images/32ddc5a94005031d3b8432b80d9c.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-cool-grey",
+      "localPath": "/box-springs/original-box-spring-cool-grey/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 冷灰",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/6521d647a523d8f09908a9f1496c.webp",
+        "/auping-staging/assets/light-catalog/images/3f2578c9cb86138869f374c6d9a7.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-deep-black",
+      "localPath": "/box-springs/original-box-spring-deep-black/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 深黑",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/8b5718be6534bd027fcfc9fe3c0f.webp",
+        "/auping-staging/assets/light-catalog/images/834103da9ba8ffe21eb2a503bf1a.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-pure-white",
+      "localPath": "/box-springs/original-box-spring-pure-white/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 純白",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/f35e9b4ac06a96edb990c4dbae67.webp",
+        "/auping-staging/assets/light-catalog/images/2520e0615de8c6afbe5699e2fa7e.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-royal-blue",
+      "localPath": "/box-springs/original-box-spring-royal-blue/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 皇家藍",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/f2993e67faf6973f4c7308835327.webp",
+        "/auping-staging/assets/light-catalog/images/cae27c4afcc3be4e2d05cef2f96f.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "box-springs--original-box-spring-sand-beige",
+      "localPath": "/box-springs/original-box-spring-sand-beige/",
+      "sourcePageId": "box-springs--original-box-spring-dusty-red",
+      "kind": "core-existing",
+      "title": "Original 沙米色",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/ac6a446932807e9eec9f648d22e8.webp",
+        "/auping-staging/assets/light-catalog/images/b87f156473fddddb1090854d5c0a.webp"
+      ],
+      "control": null
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "米色線條棉緞 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/b6442e83450d18e7fc5c429fed0f.webp",
+        "/auping-staging/assets/light-catalog/images/762fa445f0102d183594a1b8b1b4.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "繽紛萬花筒 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/4d9da17f1e8c45b056c0da25ff0d.webp",
+        "/auping-staging/assets/light-catalog/images/69c7c065fe733140fff502adc279.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "亮采灰 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/b13e8dd18c99a690924c35ae844f.webp",
+        "/auping-staging/assets/light-catalog/images/fae3da7d7ad4a8d33e326af76af2.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "亮采石色 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/a5121875528eeb60a226b60747f1.webp",
+        "/auping-staging/assets/light-catalog/images/42e9db4695e16c54d370aeb0c65f.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "洗水棉 裸粉 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/605b18ac854fb0f6a37a69a57e98.webp",
+        "/auping-staging/assets/light-catalog/images/f88270e0bc2308742df3cb9e9186.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "洗水棉粉白 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/e39ceedb1548ea2c66e57d2fedeb.webp",
+        "/auping-staging/assets/light-catalog/images/00b6d1520f445c796f3b31024913.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "洗水棉丹寧藍 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/008334f2f4fda7a94e93a341d6ec.webp",
+        "/auping-staging/assets/light-catalog/images/8d89f59cc4e1d9ace45cf60587d5.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "洗水棉梅紫 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/661f697e21f396a9261ab25f181b.webp",
+        "/auping-staging/assets/light-catalog/images/deb817bd1fa17775f756ea1751d6.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "經典藍 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/6281d975c0e0898c7b8acabdd7bc.webp",
+        "/auping-staging/assets/light-catalog/images/2f02f2076ac49958009e735bf3ca.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "經典灰 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/6735eff22afadcec8d1d83e2a8a5.webp",
+        "/auping-staging/assets/light-catalog/images/4c8a1b030c438d0b45f6b56ebbea.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "經典石色 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/8b18c80f2f1a827dcbfcfb1a22d1.webp",
+        "/auping-staging/assets/light-catalog/images/21bacb77c5a3d06dd2e50f7b2725.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "柔和幸運草 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/8263cd637c4c6b9e8d57ad2c5729.webp",
+        "/auping-staging/assets/light-catalog/images/4ac4e4203817bee3415c8363d248.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "酒紅幾何 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/55f9c645fb6dd6270e996b822fd3.webp",
+        "/auping-staging/assets/light-catalog/images/3190c34d7fecdec4082a64f71dee.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "藕紫旋紋 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/c0d865386f6ab1c4d435e170531c.webp",
+        "/auping-staging/assets/light-catalog/images/f37187626fd9a288729fac24a7fd.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "蜿蜒藍 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/5a500c9b392f8351a7e3097cdbc7.webp",
+        "/auping-staging/assets/light-catalog/images/7a916f77a86fc5a52bdff997fe60.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "自然陶土 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/4b31eaf656ae7ee3117a1fe667a1.webp",
+        "/auping-staging/assets/light-catalog/images/06eabb57b69d558bf2707ed2bfdc.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "繽紛積木 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/e8b7aa455dcf5b7cefa689983c8e.webp",
+        "/auping-staging/assets/light-catalog/images/c55f0031acccfe3d41b662286ef9.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "沙米色 棉緞 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/4a4e0474d4a62ffc6a57dcf6bab5.webp",
+        "/auping-staging/assets/light-catalog/images/32a505f224f99b5e9336ce7143d9.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "海岸格紋 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/a513689c88be9d28de7c4eedd774.webp",
+        "/auping-staging/assets/light-catalog/images/3ed0cc91a15f8954b511f8f870ce.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "靜謐灰 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/e57dc47b620e66908f63fba4e9b7.webp",
+        "/auping-staging/assets/light-catalog/images/17679cf5428a94af68da97e40008.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "core-existing",
+      "title": "溫暖擁抱 被套",
+      "images": [
+        "/auping-staging/assets/light-catalog/images/f6777ac0ed7cc4d45f0498f8340d.webp",
+        "/auping-staging/assets/light-catalog/images/584eef2d372fcd04e1eff26e315a.webp"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 一般床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ada45f8cf43a4a42.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ebba501e9b920940.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ada45f8cf43a4a42.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 分離式床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/94f24fd21115a68c.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/15da665d5fc4dd1a.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 一般床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/27200b68d0e594a5.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/178e0c6fb9a61249.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a1d8c279e692f189.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/b57391a7f0db1858.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 分離式床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a02da9be31403634.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/850a719c41580ace.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Satin 300 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a170df65830c5af9.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/737a207b9053703b.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/ae9c15693feea69f.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/cc15c289928c5cab.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/7ac22c44d2cd4899.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/3536e044e3997227.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/89986bee7f8c5192.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/93e02998c548d535.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/2ac1fdc62894863d.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/1665189b7cd9c42a.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/1a70842090c2da60.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Molton 床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/0c7cfba85733bd70.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-pillow-case",
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Molton 枕頭保潔套",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/e9a5713cd395e8af.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "上層床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/e40f431c05f6f380.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "上層床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/d2c72533af8a0af8.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Déjàvu 灰色床罩",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-bedspreads/0c0e37fb7b81b276.avif",
+        "/auping-staging/assets/rc73/bed-linen-bedspreads/d27559a07b2bb079.avif"
+      ],
+      "control": "size"
+    }
+  ],
+  "copyPolicy": "catalog-attributes-only",
+  "staticValidation": "PASS",
+  "phase03BrowserGate": "DEFERRED_ENVIRONMENT_BLOCKED"
+}

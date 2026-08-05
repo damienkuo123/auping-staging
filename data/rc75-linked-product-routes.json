@@ -1,0 +1,245 @@
+{
+  "schema": "AUPING-RC7.5-LINKED-PRODUCT-ROUTES-V1",
+  "sourceCommit": "bcf1bc9b4b498fba2953f9878b77d771108e7a9e",
+  "count": 21,
+  "routes": [
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 一般床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ada45f8cf43a4a42.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ebba501e9b920940.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/ada45f8cf43a4a42.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 235 分離式床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/94f24fd21115a68c.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/15da665d5fc4dd1a.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 一般床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/27200b68d0e594a5.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/178e0c6fb9a61249.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a1d8c279e692f189.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/b57391a7f0db1858.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Jersey 190 分離式床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a02da9be31403634.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/850a719c41580ace.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Satin 300 上層床墊包覆式床包",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/a170df65830c5af9.avif",
+        "/auping-staging/assets/rc73/bed-linen-fitted-sheets/737a207b9053703b.avif"
+      ],
+      "control": "color"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/ae9c15693feea69f.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/cc15c289928c5cab.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 夏被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/7ac22c44d2cd4899.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/3536e044e3997227.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/89986bee7f8c5192.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 春秋被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/93e02998c548d535.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Cloud 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/2ac1fdc62894863d.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Nest 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/1665189b7cd9c42a.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Auping Dew 四季被",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-duvets/1a70842090c2da60.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Molton 床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/0c7cfba85733bd70.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-pillow-case",
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Molton 枕頭保潔套",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/e9a5713cd395e8af.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "上層床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/e40f431c05f6f380.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "上層床墊保潔墊",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-mattress-protectors/d2c72533af8a0af8.avif"
+      ],
+      "control": "size"
+    },
+    {
+      "pageId": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "kind": "linked-catalog",
+      "title": "Déjàvu 灰色床罩",
+      "images": [
+        "/auping-staging/assets/rc73/bed-linen-bedspreads/0c0e37fb7b81b276.avif",
+        "/auping-staging/assets/rc73/bed-linen-bedspreads/d27559a07b2bb079.avif"
+      ],
+      "control": "size"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "AUPING-RC7.5-PHASE03-BROWSER-GATE-V1",
+  "status": "DEFERRED",
+  "passed": false,
+  "reason": "The execution environment blocked Chromium loopback navigation and did not provide WebKit. No browser PASS is claimed.",
+  "sharedRuntimeEvidence": "RC7.5 Phase 02 Chromium desktop/mobile gate passed 28/28 and Phase 03 reuses the same controls and catalog runtimes.",
+  "requiredPostDeploySamples": [
+    "/beds/noa-soft-white-oak/",
+    "/box-springs/criade-cool-grey/",
+    "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+    "/bed-linen/duvets/auping-cloud-duvet-summer/",
+    "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/"
+  ]
+}

@@ -1,0 +1,1192 @@
+{
+  "schema": "AUPING-RC7.5-PHASE03-VALIDATION-V1",
+  "passed": true,
+  "summary": {
+    "coreMaterialized": 50,
+    "linkedMaterialized": 21,
+    "localRoutes": 142,
+    "products": 112,
+    "comboboxPages": 62
+  },
+  "checks": [
+    {
+      "pageId": "beds--auronde-deep-black",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--auronde-natural-oak",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--essential-deep-black-headboard",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--essential-deep-black",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--essential-pine-green",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--essential-sand-beige",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-table",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--noa-chocolate-brown-oak",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--noa-midnight-black-oak",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--original-deep-black-outline-headboard",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--original-deep-black",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--original-pine-green-dew-emerald",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "beds--original-royal-blue",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--criade-cool-grey",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--criade-deep-black",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--criade-dusty-red",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--criade-pine-green",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--criade-sand-beige",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--kiruna-night-blue",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--kiruna-pine-green",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-sami",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-blush",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-cool-grey",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-deep-black",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-pure-white",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-royal-blue",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "box-springs--original-box-spring-sand-beige",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-summer",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-summer",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-pillow-case",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    },
+    {
+      "pageId": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "checks": {
+        "page-id": true,
+        "materialized": true,
+        "title": true,
+        "h1": true,
+        "canonical": true,
+        "no-meta-refresh": true,
+        "no-self-redirect": true,
+        "hero-image": true,
+        "control": true,
+        "copy-clean": true,
+        "copy-source": true,
+        "catalog-attributes": true
+      }
+    }
+  ],
+  "failures": []
+}

@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.2-PRODUCTS-V3",
-  "version": "2026-08-05-rc7.2-local-route-recovery",
+  "version": "2026-08-05-rc7.5-phase03-catalog-completion",
   "products": [
     {
       "routeId": "bed-bases--electrically-adjustable-bed-base-1m",
@@ -2403,6 +2403,528 @@
         ]
       },
       "routeMode": "LOCAL_PARITY"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 235 一般床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "一般床墊"
+        ],
+        "person": [
+          "單人",
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 235 上層床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "上層床墊"
+        ],
+        "person": [
+          "單人",
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 235 分離式床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "分離式上層床墊"
+        ],
+        "person": [
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 190 一般床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "一般床墊"
+        ],
+        "person": [
+          "單人",
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 190 上層床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "上層床墊"
+        ],
+        "person": [
+          "單人",
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Jersey 190 分離式床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "分離式上層床墊"
+        ],
+        "person": [
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "category": "bed-linen-fitted-sheets",
+      "title": "Satin 300 上層床墊包覆式床包",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "上層床墊"
+        ],
+        "person": [
+          "單人",
+          "雙人"
+        ],
+        "color": [
+          "深灰",
+          "粉紅色",
+          "冷灰色",
+          "淺灰色",
+          "自然色"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Cloud 夏被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "夏被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "鵝絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-nest-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Nest 夏被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "夏被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生羽絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-dew-duvet-summer",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Dew 夏被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "夏被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生聚酯纖維"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Cloud 春秋被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "春秋被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "鵝絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Nest 春秋被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "春秋被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生羽絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Dew 春秋被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "春秋被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生聚酯纖維"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Cloud 四季被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "四季被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "鵝絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Nest 四季被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "四季被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生羽絨"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "category": "bed-linen-duvets",
+      "title": "Auping Dew 四季被",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "season": [
+          "四季被"
+        ],
+        "size": [
+          "140 x 200 cm",
+          "140 x 220 cm",
+          "200 x 200 cm",
+          "200 x 220 cm",
+          "240 x 220 cm",
+          "260 x 220 cm"
+        ],
+        "filling": [
+          "再生聚酯纖維"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "category": "bed-linen-mattress-protectors",
+      "title": "Molton 床墊保潔墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "一般床墊"
+        ],
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm",
+          "80/90/100 x 200/210/220 cm",
+          "120 x 200/210/220 cm",
+          "140/160 x 200/210/220 cm",
+          "180/200 x 200/210/220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--mattress-protectors--molton-pillow-case",
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "category": "bed-linen-mattress-protectors",
+      "title": "Molton 枕頭保潔套",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "枕頭"
+        ],
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm",
+          "80/90/100 x 200/210/220 cm",
+          "120 x 200/210/220 cm",
+          "140/160 x 200/210/220 cm",
+          "180/200 x 200/210/220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "category": "bed-linen-mattress-protectors",
+      "title": "上層床墊保潔墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "上層床墊"
+        ],
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm",
+          "80/90/100 x 200/210/220 cm",
+          "120 x 200/210/220 cm",
+          "140/160 x 200/210/220 cm",
+          "180/200 x 200/210/220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "category": "bed-linen-mattress-protectors",
+      "title": "上層床墊保潔墊",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "compatible": [
+          "上層床墊"
+        ],
+        "size": [
+          "40 x 60 cm",
+          "60 x 70 cm",
+          "80/90/100 x 200/210/220 cm",
+          "120 x 200/210/220 cm",
+          "140/160 x 200/210/220 cm",
+          "180/200 x 200/210/220 cm"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
+    },
+    {
+      "routeId": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "category": "bed-linen-bedspreads",
+      "title": "Déjàvu 灰色床罩",
+      "isProduct": true,
+      "isPromo": false,
+      "filterable": true,
+      "attributes": {
+        "size": [
+          "180 x 260 cm",
+          "260 x 260 cm"
+        ]
+      },
+      "routeMode": "LOCAL_EXISTING"
     }
   ]
 }

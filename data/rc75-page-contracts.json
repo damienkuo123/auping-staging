@@ -1,16 +1,16 @@
 {
   "schema": "AUPING-RC7.5-PAGE-CONTRACTS-V1",
   "contractVersion": "rc7.5",
-  "sourceCommit": "231f44d0222395ced9d5424f00d4cf129e7c82da",
+  "sourceCommit": "bcf1bc9b4b498fba2953f9878b77d771108e7a9e",
   "sourceRoutesSchema": "AUPING-RC7.2-ROUTES-V3",
   "basePath": "/auping-staging",
-  "routeCount": 121,
+  "routeCount": 142,
   "pageTypeCounts": {
-    "bridge": 1,
-    "editorial": 7,
     "home": 1,
+    "editorial": 7,
     "listing": 21,
-    "product": 91
+    "product": 112,
+    "bridge": 1
   },
   "rules": {
     "localModes": [
@@ -338,20 +338,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"beige-lines-satin-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 771,
-        "h1Count": 0,
+        "bytes": 203313,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
@@ -368,20 +375,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"bright-kaleidoscope-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 773,
-        "h1Count": 0,
+        "bytes": 203293,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
@@ -398,20 +412,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"brilliant-grey-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 741,
-        "h1Count": 0,
+        "bytes": 203235,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
@@ -428,20 +449,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"brilliant-stone-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 751,
-        "h1Count": 0,
+        "bytes": 203261,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
@@ -458,20 +486,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"chambray-blush-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 755,
-        "h1Count": 0,
+        "bytes": 203291,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
@@ -488,20 +523,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"chambray-chalk-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 753,
-        "h1Count": 0,
+        "bytes": 203283,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
@@ -518,20 +560,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"chambray-denim-blue-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 779,
-        "h1Count": 0,
+        "bytes": 203317,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
@@ -548,20 +597,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"chambray-plum-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 749,
-        "h1Count": 0,
+        "bytes": 203281,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
@@ -578,20 +634,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"classic-white-blue-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 757,
-        "h1Count": 0,
+        "bytes": 203243,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
@@ -608,20 +671,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"classic-white-grey-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 757,
-        "h1Count": 0,
+        "bytes": 203243,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
@@ -638,20 +708,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"classic-white-stone-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 767,
-        "h1Count": 0,
+        "bytes": 203269,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
@@ -668,20 +745,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"gentle-clover-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 749,
-        "h1Count": 0,
+        "bytes": 203281,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
@@ -698,20 +782,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"graphic-bordeaux-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 755,
-        "h1Count": 0,
+        "bytes": 203263,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
@@ -728,20 +819,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"mauve-twists-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 739,
-        "h1Count": 0,
+        "bytes": 203255,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
@@ -758,20 +856,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"meandering-blue-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 745,
-        "h1Count": 0,
+        "bytes": 203237,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
@@ -788,20 +893,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"natural-clay-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 739,
-        "h1Count": 0,
+        "bytes": 203255,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
@@ -818,20 +930,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"playful-bricks-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 747,
-        "h1Count": 0,
+        "bytes": 203259,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
@@ -848,20 +967,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"sand-beige-satin-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 763,
-        "h1Count": 0,
+        "bytes": 203295,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
@@ -878,20 +1004,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"seaside-grid-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 739,
-        "h1Count": 0,
+        "bytes": 203255,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
@@ -908,20 +1041,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"silent-grey-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 729,
-        "h1Count": 0,
+        "bytes": 203229,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
@@ -938,20 +1078,27 @@
           "#react-select-languageSwitchFooter-input",
           "[data-auping-language-control=\"fixed\"]"
         ],
-        "combobox": [],
+        "combobox": [
+          "size"
+        ],
         "productCard": "[data-auping-product-slug=\"warm-embrace-duvet-cover\"]"
       },
       "baseline": {
-        "bytes": 739,
-        "h1Count": 0,
+        "bytes": 203255,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
@@ -1177,16 +1324,21 @@
         "productCard": "[data-auping-product-slug=\"auronde-deep-black\"]"
       },
       "baseline": {
-        "bytes": 633,
-        "h1Count": 0,
+        "bytes": 278463,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--auronde-white-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--auronde-natural-oak",
@@ -1207,16 +1359,21 @@
         "productCard": "[data-auping-product-slug=\"auronde-natural-oak\"]"
       },
       "baseline": {
-        "bytes": 649,
-        "h1Count": 0,
+        "bytes": 278531,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--auronde-white-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--auronde-natural-walnut",
@@ -1318,16 +1475,21 @@
         "productCard": "[data-auping-product-slug=\"essential-deep-black-headboard\"]"
       },
       "baseline": {
-        "bytes": 685,
-        "h1Count": 0,
+        "bytes": 285673,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--essential-pure-white",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--essential-deep-black",
@@ -1348,16 +1510,21 @@
         "productCard": "[data-auping-product-slug=\"essential-deep-black\"]"
       },
       "baseline": {
-        "bytes": 645,
-        "h1Count": 0,
+        "bytes": 285653,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--essential-pure-white",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--essential-pine-green",
@@ -1378,16 +1545,21 @@
         "productCard": "[data-auping-product-slug=\"essential-pine-green\"]"
       },
       "baseline": {
-        "bytes": 645,
-        "h1Count": 0,
+        "bytes": 285653,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--essential-pure-white",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--essential-pure-white",
@@ -1435,16 +1607,21 @@
         "productCard": "[data-auping-product-slug=\"essential-sand-beige\"]"
       },
       "baseline": {
-        "bytes": 651,
-        "h1Count": 0,
+        "bytes": 285716,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--essential-pure-white",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--essential-warm-grey",
@@ -1492,16 +1669,21 @@
         "productCard": "[data-auping-product-slug=\"noa-balanced-oak-open-lamellas-headboard\"]"
       },
       "baseline": {
-        "bytes": 725,
-        "h1Count": 0,
+        "bytes": 194174,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--noa-balanced-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--noa-balanced-oak-table",
@@ -1522,16 +1704,21 @@
         "productCard": "[data-auping-product-slug=\"noa-balanced-oak-table\"]"
       },
       "baseline": {
-        "bytes": 653,
-        "h1Count": 0,
+        "bytes": 194138,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--noa-balanced-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--noa-balanced-oak",
@@ -1579,16 +1766,21 @@
         "productCard": "[data-auping-product-slug=\"noa-chocolate-brown-oak\"]"
       },
       "baseline": {
-        "bytes": 669,
-        "h1Count": 0,
+        "bytes": 194206,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--noa-balanced-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--noa-midnight-black-oak",
@@ -1609,16 +1801,21 @@
         "productCard": "[data-auping-product-slug=\"noa-midnight-black-oak\"]"
       },
       "baseline": {
-        "bytes": 659,
-        "h1Count": 0,
+        "bytes": 194171,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--noa-balanced-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--noa-soft-white-oak-headboard",
@@ -1666,16 +1863,21 @@
         "productCard": "[data-auping-product-slug=\"noa-soft-white-oak\"]"
       },
       "baseline": {
-        "bytes": 639,
-        "h1Count": 0,
+        "bytes": 194141,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--noa-balanced-oak",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--noble-midnight-black-oak",
@@ -1777,16 +1979,21 @@
         "productCard": "[data-auping-product-slug=\"original-deep-black-outline-headboard\"]"
       },
       "baseline": {
-        "bytes": 711,
-        "h1Count": 0,
+        "bytes": 293254,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--original-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--original-deep-black",
@@ -1807,16 +2014,21 @@
         "productCard": "[data-auping-product-slug=\"original-deep-black\"]"
       },
       "baseline": {
-        "bytes": 639,
-        "h1Count": 0,
+        "bytes": 293218,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--original-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--original-pine-green-dew-emerald",
@@ -1837,16 +2049,21 @@
         "productCard": "[data-auping-product-slug=\"original-pine-green-dew-emerald\"]"
       },
       "baseline": {
-        "bytes": 687,
-        "h1Count": 0,
+        "bytes": 293242,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--original-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "beds--original-pine-green",
@@ -1894,16 +2111,21 @@
         "productCard": "[data-auping-product-slug=\"original-royal-blue\"]"
       },
       "baseline": {
-        "bytes": 645,
-        "h1Count": 0,
+        "bytes": 293257,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "beds--original-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs",
@@ -1978,16 +2200,21 @@
         "productCard": "[data-auping-product-slug=\"criade-cool-grey\"]"
       },
       "baseline": {
-        "bytes": 651,
-        "h1Count": 0,
+        "bytes": 309447,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--criade-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--criade-deep-black",
@@ -2008,16 +2235,21 @@
         "productCard": "[data-auping-product-slug=\"criade-deep-black\"]"
       },
       "baseline": {
-        "bytes": 655,
-        "h1Count": 0,
+        "bytes": 309449,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--criade-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--criade-dusty-red",
@@ -2038,15 +2270,20 @@
         "productCard": "[data-auping-product-slug=\"criade-dusty-red\"]"
       },
       "baseline": {
-        "bytes": 651,
-        "h1Count": 0,
+        "bytes": 309447,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--criade-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--criade-night-blue",
@@ -2094,16 +2331,21 @@
         "productCard": "[data-auping-product-slug=\"criade-pine-green\"]"
       },
       "baseline": {
-        "bytes": 655,
-        "h1Count": 0,
+        "bytes": 309449,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--criade-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--criade-sand-beige",
@@ -2124,16 +2366,21 @@
         "productCard": "[data-auping-product-slug=\"criade-sand-beige\"]"
       },
       "baseline": {
-        "bytes": 661,
-        "h1Count": 0,
+        "bytes": 309491,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--criade-blush",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--criade-warm-grey",
@@ -2208,16 +2455,21 @@
         "productCard": "[data-auping-product-slug=\"kiruna-night-blue\"]"
       },
       "baseline": {
-        "bytes": 655,
-        "h1Count": 0,
+        "bytes": 305505,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--kiruna-deep-black",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--kiruna-pine-green",
@@ -2238,16 +2490,21 @@
         "productCard": "[data-auping-product-slug=\"kiruna-pine-green\"]"
       },
       "baseline": {
-        "bytes": 655,
-        "h1Count": 0,
+        "bytes": 305505,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--kiruna-deep-black",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--kiruna-sand-beige",
@@ -2295,15 +2552,20 @@
         "productCard": "[data-auping-product-slug=\"kiruna-warm-grey-sami\"]"
       },
       "baseline": {
-        "bytes": 671,
-        "h1Count": 0,
+        "bytes": 305513,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--kiruna-deep-black",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--kiruna-warm-grey-unik",
@@ -2351,16 +2613,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-blush\"]"
       },
       "baseline": {
-        "bytes": 691,
-        "h1Count": 0,
+        "bytes": 273534,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-cool-grey",
@@ -2381,16 +2648,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-cool-grey\"]"
       },
       "baseline": {
-        "bytes": 707,
-        "h1Count": 0,
+        "bytes": 273542,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-deep-black",
@@ -2411,16 +2683,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-deep-black\"]"
       },
       "baseline": {
-        "bytes": 711,
-        "h1Count": 0,
+        "bytes": 273544,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-dusty-red",
@@ -2468,16 +2745,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-pure-white\"]"
       },
       "baseline": {
-        "bytes": 711,
-        "h1Count": 0,
+        "bytes": 273544,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-royal-blue",
@@ -2498,16 +2780,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-royal-blue\"]"
       },
       "baseline": {
-        "bytes": 717,
-        "h1Count": 0,
+        "bytes": 273583,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-sand-beige",
@@ -2528,16 +2815,21 @@
         "productCard": "[data-auping-product-slug=\"original-box-spring-sand-beige\"]"
       },
       "baseline": {
-        "bytes": 717,
-        "h1Count": 0,
+        "bytes": 273583,
+        "h1Count": 1,
         "languageInputCount": 0,
         "comboboxKeys": [],
-        "staleRedirectTitle": true
+        "staleRedirectTitle": false
       },
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING",
         "MISSING_COMBOBOX"
-      ]
+      ],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "box-springs--original-box-spring-dusty-red",
+        "kind": "core-existing"
+      }
     },
     {
       "pageId": "box-springs--original-box-spring-warm-grey",
@@ -3543,6 +3835,762 @@
       "auditIssueCodes": [
         "LANGUAGE_SELECTOR_MISSING"
       ]
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "title": "Jersey 235 一般床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-235-fitted-sheet-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202785,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "title": "Jersey 235 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-235-fitted-sheet-top-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202793,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "title": "Jersey 235 分離式床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-235-fitted-sheet-split-top-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202829,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "title": "Jersey 190 一般床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-190-fitted-sheet-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202785,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "title": "Jersey 190 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-190-fitted-sheet-top-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202793,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "title": "Jersey 190 分離式床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "file": "bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "jersey-190-fitted-sheet-split-top-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202829,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "title": "Satin 300 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "file": "bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "satin-300-fitted-sheet-top-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "color"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202783,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "color"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "title": "Auping Cloud 夏被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "file": "bed-linen/duvets/auping-cloud-duvet-summer/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-cloud-duvet-summer",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-cloud-duvet-summer\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202150,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-summer",
+      "title": "Auping Nest 夏被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "file": "bed-linen/duvets/auping-nest-duvet-summer/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-nest-duvet-summer",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-nest-duvet-summer\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202140,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-summer",
+      "title": "Auping Dew 夏被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "file": "bed-linen/duvets/auping-dew-duvet-summer/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-dew-duvet-summer",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-dew-duvet-summer\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202130,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "title": "Auping Cloud 春秋被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "file": "bed-linen/duvets/auping-cloud-duvet-springfall/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-cloud-duvet-springfall",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-cloud-duvet-springfall\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202182,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "title": "Auping Nest 春秋被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "file": "bed-linen/duvets/auping-nest-duvet-springfall/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-nest-duvet-springfall",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-nest-duvet-springfall\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202172,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "title": "Auping Dew 春秋被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "file": "bed-linen/duvets/auping-dew-duvet-springfall/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-dew-duvet-springfall",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-dew-duvet-springfall\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202162,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "title": "Auping Cloud 四季被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "file": "bed-linen/duvets/auping-cloud-duvet-four-seasons/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-cloud-duvet-four-seasons",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-cloud-duvet-four-seasons\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202186,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "title": "Auping Nest 四季被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "file": "bed-linen/duvets/auping-nest-duvet-four-seasons/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-nest-duvet-four-seasons",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-nest-duvet-four-seasons\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202176,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "title": "Auping Dew 四季被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "file": "bed-linen/duvets/auping-dew-duvet-four-seasons/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auping-dew-duvet-four-seasons",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvets--auping-dew-duvet-four-seasons\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202166,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "title": "Molton 床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "file": "bed-linen/mattress-protectors/molton-mattress-protector/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "molton-mattress-protector",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--mattress-protectors--molton-mattress-protector\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202929,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-pillow-case",
+      "title": "Molton 枕頭保潔套",
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "file": "bed-linen/mattress-protectors/molton-pillow-case/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "molton-pillow-case",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--mattress-protectors--molton-pillow-case\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202915,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "title": "上層床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "file": "bed-linen/mattress-protectors/molton-top-mattress-protector/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "molton-top-mattress-protector",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--mattress-protectors--molton-top-mattress-protector\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202929,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "title": "上層床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "file": "bed-linen/mattress-protectors/molton-split-top-mattress-protector/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "molton-split-top-mattress-protector",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--mattress-protectors--molton-split-top-mattress-protector\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202941,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
+    },
+    {
+      "pageId": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "title": "Déjàvu 灰色床罩",
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "file": "bed-linen/bedspreads/dejavu-grey-bedspread/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "dejavu-grey-bedspread",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--bedspreads--dejavu-grey-bedspread\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "size"
+        ],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 202150,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [],
+      "materialization": {
+        "phase": "rc7.5-phase03",
+        "sourcePageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+        "kind": "linked-catalog"
+      }
     }
   ]
 }

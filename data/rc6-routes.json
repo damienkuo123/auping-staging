@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.2-ROUTES-V3",
-  "version": "20260805-rc73",
+  "version": "2026-08-05-rc7.5-phase03-catalog-completion",
   "basePath": "/auping-staging",
   "routes": [
     {
@@ -1293,6 +1293,153 @@
       "mode": "LOCAL_PARITY",
       "officialUrl": "https://www.auping.com/en/stories/buy-a-new-mattress",
       "reason": "RC7.3：由使用者本機採集的官方 MHTML／DOM／截圖重建本地繁中深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress",
+      "title": "Jersey 235 一般床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress",
+      "title": "Jersey 235 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress",
+      "title": "Jersey 235 分離式床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress",
+      "title": "Jersey 190 一般床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress",
+      "title": "Jersey 190 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress",
+      "title": "Jersey 190 分離式床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress",
+      "title": "Satin 300 上層床墊包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-cloud-duvet-summer",
+      "title": "Auping Cloud 夏被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-nest-duvet-summer",
+      "title": "Auping Nest 夏被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-dew-duvet-summer",
+      "title": "Auping Dew 夏被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-cloud-duvet-springfall",
+      "title": "Auping Cloud 春秋被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-nest-duvet-springfall",
+      "title": "Auping Nest 春秋被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-dew-duvet-springfall",
+      "title": "Auping Dew 春秋被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-cloud-duvet-four-seasons",
+      "title": "Auping Cloud 四季被",
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-nest-duvet-four-seasons",
+      "title": "Auping Nest 四季被",
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--duvets--auping-dew-duvet-four-seasons",
+      "title": "Auping Dew 四季被",
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--mattress-protectors--molton-mattress-protector",
+      "title": "Molton 床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--mattress-protectors--molton-pillow-case",
+      "title": "Molton 枕頭保潔套",
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--mattress-protectors--molton-top-mattress-protector",
+      "title": "上層床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--mattress-protectors--molton-split-top-mattress-protector",
+      "title": "上層床墊保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
+    },
+    {
+      "id": "bed-linen--bedspreads--dejavu-grey-bedspread",
+      "title": "Déjàvu 灰色床罩",
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "mode": "LOCAL_EXISTING",
+      "reason": "RC7.5 Phase 03：由已擷取分類商品卡、資產與正式商品頁 DOM materialize 的本地深層頁。"
     }
   ]
 }

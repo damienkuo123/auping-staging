@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.5-COMBOBOX-VARIANTS-V2",
-  "source": "data/rc6-products.json + captured DOM @ main 0e3946ca46b9f6c34d1388fb37d8492bffb3565a",
+  "source": "captured DOM + catalog card assets @ main bcf1bc9b4b498fba2953f9878b77d771108e7a9e",
   "pages": {
     "bed-bases--electrically-adjustable-bed-base-1m": {
       "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
@@ -1499,6 +1499,1390 @@
             {
               "value": "220 cm",
               "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--beige-lines-satin-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--brilliant-grey-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--brilliant-stone-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--chambray-blush-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--chambray-chalk-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--chambray-plum-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--classic-white-blue-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--classic-white-grey-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--classic-white-stone-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--gentle-clover-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--mauve-twists-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--meandering-blue-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--natural-clay-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--playful-bricks-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--sand-beige-satin-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--seaside-grid-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--silent-grey-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvet-covers--warm-embrace-duvet-cover": {
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200/220 cm",
+          "options": [
+            {
+              "value": "140 x 200/220 cm",
+              "label": "140 x 200/220 cm"
+            },
+            {
+              "value": "200 x 200/220 cm",
+              "label": "200 x 200/220 cm"
+            },
+            {
+              "value": "240 x 200/220 cm",
+              "label": "240 x 200/220 cm"
+            },
+            {
+              "value": "260 x 200/220 cm",
+              "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-235-fitted-sheet-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-235-fitted-sheet-top-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-235-fitted-sheet-split-top-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-190-fitted-sheet-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-190-fitted-sheet-top-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--jersey-190-fitted-sheet-split-top-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--fitted-sheets--satin-300-fitted-sheet-top-mattress": {
+      "localPath": "/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress/",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "深灰",
+          "options": [
+            {
+              "value": "深灰",
+              "label": "深灰"
+            },
+            {
+              "value": "粉紅色",
+              "label": "粉紅色"
+            },
+            {
+              "value": "冷灰色",
+              "label": "冷灰色"
+            },
+            {
+              "value": "淺灰色",
+              "label": "淺灰色"
+            },
+            {
+              "value": "自然色",
+              "label": "自然色"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-cloud-duvet-summer": {
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-summer/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-nest-duvet-summer": {
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-summer/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-dew-duvet-summer": {
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-summer/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-cloud-duvet-springfall": {
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-springfall/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-nest-duvet-springfall": {
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-springfall/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-dew-duvet-springfall": {
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-springfall/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-cloud-duvet-four-seasons": {
+      "localPath": "/bed-linen/duvets/auping-cloud-duvet-four-seasons/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-nest-duvet-four-seasons": {
+      "localPath": "/bed-linen/duvets/auping-nest-duvet-four-seasons/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--duvets--auping-dew-duvet-four-seasons": {
+      "localPath": "/bed-linen/duvets/auping-dew-duvet-four-seasons/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "140 x 200 cm",
+          "options": [
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            },
+            {
+              "value": "240 x 220 cm",
+              "label": "240 x 220 cm"
+            },
+            {
+              "value": "260 x 220 cm",
+              "label": "260 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--mattress-protectors--molton-mattress-protector": {
+      "localPath": "/bed-linen/mattress-protectors/molton-mattress-protector/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            },
+            {
+              "value": "80/90/100 x 200/210/220 cm",
+              "label": "80/90/100 x 200/210/220 cm"
+            },
+            {
+              "value": "120 x 200/210/220 cm",
+              "label": "120 x 200/210/220 cm"
+            },
+            {
+              "value": "140/160 x 200/210/220 cm",
+              "label": "140/160 x 200/210/220 cm"
+            },
+            {
+              "value": "180/200 x 200/210/220 cm",
+              "label": "180/200 x 200/210/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--mattress-protectors--molton-pillow-case": {
+      "localPath": "/bed-linen/mattress-protectors/molton-pillow-case/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            },
+            {
+              "value": "80/90/100 x 200/210/220 cm",
+              "label": "80/90/100 x 200/210/220 cm"
+            },
+            {
+              "value": "120 x 200/210/220 cm",
+              "label": "120 x 200/210/220 cm"
+            },
+            {
+              "value": "140/160 x 200/210/220 cm",
+              "label": "140/160 x 200/210/220 cm"
+            },
+            {
+              "value": "180/200 x 200/210/220 cm",
+              "label": "180/200 x 200/210/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--mattress-protectors--molton-top-mattress-protector": {
+      "localPath": "/bed-linen/mattress-protectors/molton-top-mattress-protector/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            },
+            {
+              "value": "80/90/100 x 200/210/220 cm",
+              "label": "80/90/100 x 200/210/220 cm"
+            },
+            {
+              "value": "120 x 200/210/220 cm",
+              "label": "120 x 200/210/220 cm"
+            },
+            {
+              "value": "140/160 x 200/210/220 cm",
+              "label": "140/160 x 200/210/220 cm"
+            },
+            {
+              "value": "180/200 x 200/210/220 cm",
+              "label": "180/200 x 200/210/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--mattress-protectors--molton-split-top-mattress-protector": {
+      "localPath": "/bed-linen/mattress-protectors/molton-split-top-mattress-protector/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            },
+            {
+              "value": "80/90/100 x 200/210/220 cm",
+              "label": "80/90/100 x 200/210/220 cm"
+            },
+            {
+              "value": "120 x 200/210/220 cm",
+              "label": "120 x 200/210/220 cm"
+            },
+            {
+              "value": "140/160 x 200/210/220 cm",
+              "label": "140/160 x 200/210/220 cm"
+            },
+            {
+              "value": "180/200 x 200/210/220 cm",
+              "label": "180/200 x 200/210/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--bedspreads--dejavu-grey-bedspread": {
+      "localPath": "/bed-linen/bedspreads/dejavu-grey-bedspread/",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "queryParam": "size",
+          "defaultValue": "180 x 260 cm",
+          "options": [
+            {
+              "value": "180 x 260 cm",
+              "label": "180 x 260 cm"
+            },
+            {
+              "value": "260 x 260 cm",
+              "label": "260 x 260 cm"
             }
           ]
         }
