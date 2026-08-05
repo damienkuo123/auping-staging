@@ -1,7 +1,7 @@
 ;(()=>{'use strict';
 const html=document.documentElement;
 const q=(s,r=document)=>r.querySelector(s),qa=(s,r=document)=>[...r.querySelectorAll(s)];
-function keyFromHref(href){try{let p=new URL(href,location.href).pathname.replace(/^\/auping-staging/,'');if(p.startsWith('/box-springs'))return'box-springs';if(p.startsWith('/beds'))return'beds';if(p.startsWith('/mattresses'))return'mattresses';if(p.startsWith('/toppers')||p.startsWith('/mattress-toppers'))return'toppers';if(p.startsWith('/bed-bases'))return'bed-bases';if(p.startsWith('/bed-linen/pillows')||p==='/pillows/'||p==='/pillows')return'pillows';if(p.startsWith('/bed-linen'))return'bed-linen'}catch{}return''}
+function keyFromHref(href){try{let p=new URL(href,location.href).pathname.replace(/^(?:\/auping-staging)+(?=\/|$)/,'');if(p.startsWith('/box-springs'))return'box-springs';if(p.startsWith('/beds'))return'beds';if(p.startsWith('/mattresses'))return'mattresses';if(p.startsWith('/toppers')||p.startsWith('/mattress-toppers'))return'toppers';if(p.startsWith('/bed-bases'))return'bed-bases';if(p.startsWith('/bed-linen/pillows')||p==='/pillows/'||p==='/pillows')return'pillows';if(p.startsWith('/bed-linen'))return'bed-linen'}catch{}return''}
 function contracts(){
  const header=q('header[class*="Header_base"]');if(!header)return;
  const searchTrigger=q('[class*="Header_search__"]',header),searchRegion=q('[class*="Header_searchBar__"]',header),form=q('form[class*="SearchHeader_SearchHeader"]',searchRegion||header),input=q('input[type="search"]',form||header);

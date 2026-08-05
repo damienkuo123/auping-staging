@@ -1,6 +1,6 @@
 ;(() => {
 'use strict';
-const VERSION='2026-08-05-rc7.3-official-deep-page-parity',DATA_VERSION='20260805-rc73';
+const VERSION='2026-08-05-rc7.3.1-canonical-local-paths',DATA_VERSION='20260805-rc731';
 const OFFICIAL=Object.freeze({searchActive:'Header_active__TW9UV',desktopMenuActive:'MainMenu_active__e6SsM',mobileRootOpen:'FullPageMenu_FullPageMenu--open__LGkFN',mobileSubmenuOpen:'FullPageMenu_FullPageMenu__submenu--open__tbTap'});
 if(window.__AUPING_RC7_LOADING__)return;window.__AUPING_RC7_LOADING__=VERSION;
 const BASE=location.pathname.startsWith('/auping-staging')?'/auping-staging':'';
@@ -8,7 +8,7 @@ const currentScript=[...document.scripts].find(n=>/rc7-runtime\.js(?:\?|$)/.test
 const assetBase=window.__AUPING_RC7_ASSET_BASE__?new URL(window.__AUPING_RC7_ASSET_BASE__,location.href):(currentScript?.src?new URL('.',currentScript.src):new URL(`${BASE}/assets/`,location.origin));
 const dataBase=new URL('../data/',assetBase),$=(s,r=document)=>r.querySelector(s),$$=(s,r=document)=>[...r.querySelectorAll(s)];
 const state={routes:[],routeById:new Map(),routeByPath:new Map(),products:[],search:[],filters:[]};
-function normalizePath(value){try{const u=new URL(value,window.__AUPING_RC7_URL_BASE__||location.href);let p=decodeURI(u.pathname).replace(/^\/auping-staging(?=\/|$)/,'')||'/';p=p.replace(/^\/(?:en|zh-tw|zh)(?=\/|$)/i,'')||'/';if(!p.endsWith('/')&&!/\.[a-z0-9]+$/i.test(p))p+='/';return p.replace(/\/+/g,'/')}catch{return'/'}}
+function normalizePath(value){try{const u=new URL(value,window.__AUPING_RC7_URL_BASE__||location.href);let p=decodeURI(u.pathname).replace(/^(?:\/auping-staging)+(?=\/|$)/,'')||'/';p=p.replace(/^\/(?:en|zh-tw|zh)(?=\/|$)/i,'')||'/';if(!p.endsWith('/')&&!/\.[a-z0-9]+$/i.test(p))p+='/';return p.replace(/\/+/g,'/')}catch{return'/'}}
 function localUrl(p){const n=normalizePath(p);return`${BASE}${n==='/'?'/':n}`}
 function routeFor(v){return state.routeByPath.get(normalizePath(v).toLowerCase())||null}
 function resolveRoute(x){const r=typeof x==='string'?(state.routeById.get(x)||routeFor(x)):x;if(!r)return{mode:'UNKNOWN',href:null,route:null};if(/^LOCAL_/.test(r.mode))return{mode:r.mode,href:localUrl(r.targetPath||r.localPath),route:r};if(r.mode==='OFFICIAL_REDIRECT')return{mode:r.mode,href:r.officialUrl,route:r};if(r.mode==='DISABLED'&&r.fallbackPath)return{mode:r.mode,href:localUrl(r.fallbackPath),route:r};return{mode:r.mode,href:null,route:r}}

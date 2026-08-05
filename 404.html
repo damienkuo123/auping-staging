@@ -26,7 +26,10 @@
   <script>
   (async()=>{
     const BASE='/auping-staging';
-    const normalize=(value)=>{try{let p=decodeURI(new URL(value,location.href).pathname).replace(/^\/auping-staging(?=\/|$)/,'')||'/';if(!p.endsWith('/')&&!/\.[a-z0-9]+$/i.test(p))p+='/';return p}catch{return '/'}};
+    const rawPath=decodeURI(location.pathname);
+    const canonicalPath=rawPath.replace(/^(?:\/auping-staging)+(?=\/|$)/,'/auping-staging').replace(/\/{2,}/g,'/');
+    if(canonicalPath!==rawPath){location.replace(canonicalPath+location.search+location.hash);return}
+    const normalize=(value)=>{try{let p=decodeURI(new URL(value,location.href).pathname).replace(/^(?:\/auping-staging)+(?=\/|$)/,'')||'/';if(!p.endsWith('/')&&!/\.[a-z0-9]+$/i.test(p))p+='/';return p}catch{return '/'}};
     try{
       const response=await fetch(`${BASE}/data/rc6-routes.json`,{cache:'no-store'});
       if(!response.ok)return;
