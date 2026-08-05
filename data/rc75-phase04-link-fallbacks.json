@@ -1,0 +1,371 @@
+{
+  "schema": "AUPING-RC7.5-PHASE04-LINK-FALLBACKS-V1",
+  "baselineCommit": "8f544a4b4107c9441cadaf2cf41ab8230ca28ca3",
+  "basePath": "/auping-staging",
+  "fallbackCount": 58,
+  "expectedOccurrences": 389,
+  "rules": [
+    {
+      "sourcePath": "/about-auping/b-corp/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/about-auping/design/",
+      "fallbackPath": "/about-auping/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/about-auping/design/fabrics/",
+      "fallbackPath": "/about-auping/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/about-auping/sustainability/solar-panels/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/accessories/bed-lights/",
+      "fallbackPath": "/beds/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/accessories/leavings-cushion/",
+      "fallbackPath": "/bed-linen/pillows/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/accessories/leavings-pillow/",
+      "fallbackPath": "/bed-linen/pillows/",
+      "occurrences": 2,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/accessories/nightstands/pixel-nightstand/",
+      "fallbackPath": "/beds/",
+      "occurrences": 19,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/accessories/round-pouffe/",
+      "fallbackPath": "/beds/",
+      "occurrences": 19,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/based-reliable-source/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/arctic-white-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/bright-kaleidoscope-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/brilliant-blue-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/brilliant-grey-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/brilliant-stone-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/brilliant-white-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/chambray-blush-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/chambray-denim-blue-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/classic-white-blue-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/classic-white-grey-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/classic-white-stone-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/dejavu-grey-pillowcase/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/gentle-clover-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/graphic-bordeaux-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/mauve-twists-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/meandering-blue-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/natural-clay-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/playful-bricks-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/quiet-beige-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/seaside-grid-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/silent-grey-pillowcases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/bed-linen/pillowcases/warm-embrace-pillow-cases/",
+      "fallbackPath": "/bed-linen/pillowcases/",
+      "occurrences": 3,
+      "reason": "unmaterialized pillowcase detail → local pillowcases category"
+    },
+    {
+      "sourcePath": "/customer-service/auping-disclaimer/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 34,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/cookies/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/frequently-asked-questions/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/manuals/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/privacy-policy/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/smartbase-support/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/customer-service/warranty/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 19,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/give-your-mattress-second-life/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/leavings-auping/",
+      "fallbackPath": "/bed-linen/pillows/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/maestro-and-vivo-improved-vita-talalay-originsr-comfort-layer/",
+      "fallbackPath": "/toppers/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/news/auping-achieves-b-corp-status/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/news/closing-loop/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/nl/recycle/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/node/33719/",
+      "fallbackPath": "/news/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/node/33737/",
+      "fallbackPath": "/news/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/node/34479/",
+      "fallbackPath": "/news/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/node/35579/",
+      "fallbackPath": "/news/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/smart-products/auping-connect/",
+      "fallbackPath": "/bed-bases/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/smart-products/somnox-sleep-robot/",
+      "fallbackPath": "/bed-bases/",
+      "occurrences": 17,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/stories/",
+      "fallbackPath": "/news/",
+      "occurrences": 2,
+      "reason": "captured stories index is not materialized; use the local news/content hub"
+    },
+    {
+      "sourcePath": "/stories/?tags=product%20advice",
+      "fallbackPath": "/news/",
+      "occurrences": 1,
+      "reason": "captured filtered stories index is not materialized; use the local news/content hub"
+    },
+    {
+      "sourcePath": "/stories/body-types/",
+      "fallbackPath": "/news/",
+      "occurrences": 2,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/stories/certified-materials-pillows-duvets/",
+      "fallbackPath": "/news/",
+      "occurrences": 2,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/stories/which-pillow-suits-you-best/",
+      "fallbackPath": "/news/",
+      "occurrences": 2,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    },
+    {
+      "sourcePath": "/support/",
+      "fallbackPath": "/customer-service/",
+      "occurrences": 17,
+      "reason": "unmaterialized customer-service detail → local customer-service hub"
+    },
+    {
+      "sourcePath": "/sustainable-dictionary/",
+      "fallbackPath": "/about-auping/sustainability/",
+      "occurrences": 1,
+      "reason": "unmaterialized captured deep link → nearest valid local route"
+    }
+  ],
+  "externalRules": [
+    {
+      "sourceHref": "https://www.auping.com/auping-staging/news/awards/auping-noble-wins-archiproducts-design-award/",
+      "fallbackPath": "/news/awards/",
+      "occurrences": 2,
+      "reason": "captured staging-prefixed award link must stay on the local awards hub"
+    },
+    {
+      "sourceHref": "https://client.auping.com/auping-staging/news/awards/auping-elysium-mattress-best-sustainable-product-2022?token=ezYxtCck63cV9GnpvPOEkA9GlEFlzscmShQUnWmgBr4&amp;preview=true",
+      "fallbackPath": "/news/awards/",
+      "occurrences": 1,
+      "reason": "captured preview-only award URL must stay on the local awards hub"
+    }
+  ]
+}
