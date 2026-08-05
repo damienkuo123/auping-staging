@@ -1,0 +1,3548 @@
+{
+  "schema": "AUPING-RC7.5-PAGE-CONTRACTS-V1",
+  "contractVersion": "rc7.5",
+  "sourceCommit": "231f44d0222395ced9d5424f00d4cf129e7c82da",
+  "sourceRoutesSchema": "AUPING-RC7.2-ROUTES-V3",
+  "basePath": "/auping-staging",
+  "routeCount": 121,
+  "pageTypeCounts": {
+    "bridge": 1,
+    "editorial": 7,
+    "home": 1,
+    "listing": 21,
+    "product": 91
+  },
+  "rules": {
+    "localModes": [
+      "LOCAL_BRIDGE",
+      "LOCAL_EXISTING",
+      "LOCAL_PARITY"
+    ],
+    "runtimeGuessing": false,
+    "languageValue": "zh-TW",
+    "languageInteractive": false
+  },
+  "routes": [
+    {
+      "pageId": "home",
+      "title": "首頁",
+      "localPath": "/",
+      "file": "index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "home",
+      "slug": "home",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"home\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 186676,
+        "h1Count": 0,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "about-auping",
+      "title": "關於 Auping",
+      "localPath": "/about-auping/",
+      "file": "about-auping/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "about-auping",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"about-auping\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 176486,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases",
+      "title": "床底",
+      "localPath": "/bed-bases/",
+      "file": "bed-bases/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "bed-bases",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 338023,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "title": "電動可調式 床底 1M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "file": "bed-bases/electrically-adjustable-bed-base-1m/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "electrically-adjustable-bed-base-1m",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases--electrically-adjustable-bed-base-1m\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"length\"]",
+          "[data-auping-combobox=\"width\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"electrically-adjustable-bed-base-1m\"]"
+      },
+      "baseline": {
+        "bytes": 199402,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "length",
+          "width"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "title": "電動可調式 床底 2M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "file": "bed-bases/electrically-adjustable-bed-base-2m/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "electrically-adjustable-bed-base-2m",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases--electrically-adjustable-bed-base-2m\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"length\"]",
+          "[data-auping-combobox=\"width\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"electrically-adjustable-bed-base-2m\"]"
+      },
+      "baseline": {
+        "bytes": 199352,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "length",
+          "width"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "title": "電動可調式 床底 3M",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "file": "bed-bases/electrically-adjustable-bed-base-3M/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "electrically-adjustable-bed-base-3M",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases--electrically-adjustable-bed-base-3m\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"length\"]",
+          "[data-auping-combobox=\"width\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"electrically-adjustable-bed-base-3M\"]"
+      },
+      "baseline": {
+        "bytes": 206307,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "length",
+          "width"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases--flat-bed-base",
+      "title": "固定式 床底",
+      "localPath": "/bed-bases/flat-bed-base/",
+      "file": "bed-bases/flat-bed-base/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "flat-bed-base",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases--flat-bed-base\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"length\"]",
+          "[data-auping-combobox=\"width\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"flat-bed-base\"]"
+      },
+      "baseline": {
+        "bytes": 205272,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "length",
+          "width"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-bases--manually-adjustable-mesh-base",
+      "title": "手動可調式 床底",
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "file": "bed-bases/manually-adjustable-mesh-base/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "manually-adjustable-mesh-base",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-bases--manually-adjustable-mesh-base\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"length\"]",
+          "[data-auping-combobox=\"width\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"manually-adjustable-mesh-base\"]"
+      },
+      "baseline": {
+        "bytes": 200886,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "length",
+          "width"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen",
+      "title": "Bed Linen",
+      "localPath": "/bed-linen/",
+      "file": "bed-linen/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "bed-linen",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 285118,
+        "h1Count": 0,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers",
+      "title": "被套",
+      "localPath": "/bed-linen/duvet-covers/",
+      "file": "bed-linen/duvet-covers/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "duvet-covers",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 372931,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "title": "米色線條棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "file": "bed-linen/duvet-covers/beige-lines-satin-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "beige-lines-satin-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--beige-lines-satin-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"beige-lines-satin-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 771,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "title": "繽紛萬花筒 被套",
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "file": "bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "bright-kaleidoscope-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"bright-kaleidoscope-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 773,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "title": "亮采灰 被套",
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "file": "bed-linen/duvet-covers/brilliant-grey-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "brilliant-grey-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--brilliant-grey-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"brilliant-grey-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 741,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "title": "亮采石色 被套",
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "file": "bed-linen/duvet-covers/brilliant-stone-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "brilliant-stone-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--brilliant-stone-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"brilliant-stone-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 751,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "title": "洗水棉 裸粉 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "file": "bed-linen/duvet-covers/chambray-blush-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "chambray-blush-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--chambray-blush-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"chambray-blush-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 755,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "title": "洗水棉粉白 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "file": "bed-linen/duvet-covers/chambray-chalk-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "chambray-chalk-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--chambray-chalk-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"chambray-chalk-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 753,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "title": "洗水棉丹寧藍 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "file": "bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "chambray-denim-blue-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--chambray-denim-blue-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"chambray-denim-blue-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 779,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "title": "洗水棉梅紫 被套",
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "file": "bed-linen/duvet-covers/chambray-plum-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "chambray-plum-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--chambray-plum-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"chambray-plum-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 749,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "title": "經典藍 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "file": "bed-linen/duvet-covers/classic-white-blue-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "classic-white-blue-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--classic-white-blue-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"classic-white-blue-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 757,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "title": "經典灰 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "file": "bed-linen/duvet-covers/classic-white-grey-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "classic-white-grey-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--classic-white-grey-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"classic-white-grey-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 757,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "title": "經典石色 被套",
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "file": "bed-linen/duvet-covers/classic-white-stone-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "classic-white-stone-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--classic-white-stone-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"classic-white-stone-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 767,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "title": "柔和幸運草 被套",
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "file": "bed-linen/duvet-covers/gentle-clover-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "gentle-clover-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--gentle-clover-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"gentle-clover-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 749,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "title": "酒紅幾何 被套",
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "file": "bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "graphic-bordeaux-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--graphic-bordeaux-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"graphic-bordeaux-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 755,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "title": "藕紫旋紋 被套",
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "file": "bed-linen/duvet-covers/mauve-twists-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "mauve-twists-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--mauve-twists-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"mauve-twists-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 739,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "title": "蜿蜒藍 被套",
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "file": "bed-linen/duvet-covers/meandering-blue-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "meandering-blue-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--meandering-blue-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"meandering-blue-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 745,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "title": "自然陶土 被套",
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "file": "bed-linen/duvet-covers/natural-clay-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "natural-clay-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--natural-clay-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"natural-clay-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 739,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "title": "繽紛積木 被套",
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "file": "bed-linen/duvet-covers/playful-bricks-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "playful-bricks-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--playful-bricks-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"playful-bricks-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 747,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "title": "沙米色 棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "file": "bed-linen/duvet-covers/sand-beige-satin-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "sand-beige-satin-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--sand-beige-satin-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"sand-beige-satin-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 763,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "title": "海岸格紋 被套",
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "file": "bed-linen/duvet-covers/seaside-grid-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "seaside-grid-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--seaside-grid-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"seaside-grid-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 739,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "title": "靜謐灰 被套",
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "file": "bed-linen/duvet-covers/silent-grey-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "silent-grey-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--silent-grey-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"silent-grey-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 729,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "title": "溫暖擁抱 被套",
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "file": "bed-linen/duvet-covers/warm-embrace-duvet-cover/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "warm-embrace-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--warm-embrace-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"warm-embrace-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 739,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "title": "白線棉緞 被套",
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "file": "bed-linen/duvet-covers/white-lines-satin-duvet-cover/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "white-lines-satin-duvet-cover",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--duvet-covers--white-lines-satin-duvet-cover\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"white-lines-satin-duvet-cover\"]"
+      },
+      "baseline": {
+        "bytes": 202432,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--pillows",
+      "title": "Pillows",
+      "localPath": "/bed-linen/pillows/",
+      "file": "bed-linen/pillows/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "pillows",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--pillows\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 291558,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--pillows--auping-cloud",
+      "title": "Auping Cloud",
+      "localPath": "/bed-linen/pillows/auping-cloud/",
+      "file": "bed-linen/pillows/auping-cloud/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "auping-cloud",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--pillows--auping-cloud\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"height\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"auping-cloud\"]"
+      },
+      "baseline": {
+        "bytes": 201327,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "height"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--pillows--dew-pillow",
+      "title": "Auping Dew",
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "file": "bed-linen/pillows/dew-pillow/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "dew-pillow",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--pillows--dew-pillow\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"dew-pillow\"]"
+      },
+      "baseline": {
+        "bytes": 204246,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "bed-linen--pillows--nest-pillow",
+      "title": "Auping Nest",
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "file": "bed-linen/pillows/nest-pillow/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "nest-pillow",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen--pillows--nest-pillow\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"nest-pillow\"]"
+      },
+      "baseline": {
+        "bytes": 195793,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds",
+      "title": "床架",
+      "localPath": "/beds/",
+      "file": "beds/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "beds",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 527209,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--auronde-blush",
+      "title": "Auronde 裸粉",
+      "localPath": "/beds/auronde-blush/",
+      "file": "beds/auronde-blush/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "auronde-blush",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--auronde-blush\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"auronde-blush\"]"
+      },
+      "baseline": {
+        "bytes": 272232,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--auronde-deep-black",
+      "title": "Auronde 深黑",
+      "localPath": "/beds/auronde-deep-black/",
+      "file": "beds/auronde-deep-black/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auronde-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--auronde-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"auronde-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 633,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--auronde-natural-oak",
+      "title": "Auronde 天然橡木",
+      "localPath": "/beds/auronde-natural-oak/",
+      "file": "beds/auronde-natural-oak/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "auronde-natural-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--auronde-natural-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"auronde-natural-oak\"]"
+      },
+      "baseline": {
+        "bytes": 649,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--auronde-natural-walnut",
+      "title": "Auronde 天然胡桃木",
+      "localPath": "/beds/auronde-natural-walnut/",
+      "file": "beds/auronde-natural-walnut/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "auronde-natural-walnut",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--auronde-natural-walnut\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"auronde-natural-walnut\"]"
+      },
+      "baseline": {
+        "bytes": 266788,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--auronde-white-oak",
+      "title": "Auronde 柔白 橡木",
+      "localPath": "/beds/auronde-white-oak/",
+      "file": "beds/auronde-white-oak/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "auronde-white-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--auronde-white-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"auronde-white-oak\"]"
+      },
+      "baseline": {
+        "bytes": 278250,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--essential-blush",
+      "title": "Essential 裸粉",
+      "localPath": "/beds/essential-blush/",
+      "file": "beds/essential-blush/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "essential-blush",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-blush\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-blush\"]"
+      },
+      "baseline": {
+        "bytes": 197589,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--essential-deep-black-headboard",
+      "title": "Essential 深黑",
+      "localPath": "/beds/essential-deep-black-headboard/",
+      "file": "beds/essential-deep-black-headboard/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "essential-deep-black-headboard",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-deep-black-headboard\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-deep-black-headboard\"]"
+      },
+      "baseline": {
+        "bytes": 685,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--essential-deep-black",
+      "title": "Essential 深黑",
+      "localPath": "/beds/essential-deep-black/",
+      "file": "beds/essential-deep-black/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "essential-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 645,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--essential-pine-green",
+      "title": "Essential 松綠",
+      "localPath": "/beds/essential-pine-green/",
+      "file": "beds/essential-pine-green/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "essential-pine-green",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-pine-green\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-pine-green\"]"
+      },
+      "baseline": {
+        "bytes": 645,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--essential-pure-white",
+      "title": "Essential 純白",
+      "localPath": "/beds/essential-pure-white/",
+      "file": "beds/essential-pure-white/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "essential-pure-white",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-pure-white\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-pure-white\"]"
+      },
+      "baseline": {
+        "bytes": 285389,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--essential-sand-beige",
+      "title": "Essential 沙米色",
+      "localPath": "/beds/essential-sand-beige/",
+      "file": "beds/essential-sand-beige/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "essential-sand-beige",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-sand-beige\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-sand-beige\"]"
+      },
+      "baseline": {
+        "bytes": 651,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--essential-warm-grey",
+      "title": "Essential 暖灰",
+      "localPath": "/beds/essential-warm-grey/",
+      "file": "beds/essential-warm-grey/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "essential-warm-grey",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--essential-warm-grey\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"essential-warm-grey\"]"
+      },
+      "baseline": {
+        "bytes": 276890,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "file": "beds/noa-balanced-oak-open-lamellas-headboard/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "noa-balanced-oak-open-lamellas-headboard",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-balanced-oak-open-lamellas-headboard\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-balanced-oak-open-lamellas-headboard\"]"
+      },
+      "baseline": {
+        "bytes": 725,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-table",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak-table/",
+      "file": "beds/noa-balanced-oak-table/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "noa-balanced-oak-table",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-balanced-oak-table\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-balanced-oak-table\"]"
+      },
+      "baseline": {
+        "bytes": 653,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--noa-balanced-oak",
+      "title": "Noa 平衡橡木",
+      "localPath": "/beds/noa-balanced-oak/",
+      "file": "beds/noa-balanced-oak/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "noa-balanced-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-balanced-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-balanced-oak\"]"
+      },
+      "baseline": {
+        "bytes": 193871,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--noa-chocolate-brown-oak",
+      "title": "Noa 巧克力棕橡木",
+      "localPath": "/beds/noa-chocolate-brown-oak/",
+      "file": "beds/noa-chocolate-brown-oak/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "noa-chocolate-brown-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-chocolate-brown-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-chocolate-brown-oak\"]"
+      },
+      "baseline": {
+        "bytes": 669,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--noa-midnight-black-oak",
+      "title": "Noa 午夜黑橡木",
+      "localPath": "/beds/noa-midnight-black-oak/",
+      "file": "beds/noa-midnight-black-oak/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "noa-midnight-black-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-midnight-black-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-midnight-black-oak\"]"
+      },
+      "baseline": {
+        "bytes": 659,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak-headboard",
+      "title": "Noa 柔白 橡木",
+      "localPath": "/beds/noa-soft-white-oak-headboard/",
+      "file": "beds/noa-soft-white-oak-headboard/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "noa-soft-white-oak-headboard",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-soft-white-oak-headboard\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-soft-white-oak-headboard\"]"
+      },
+      "baseline": {
+        "bytes": 292794,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak",
+      "title": "Noa 柔白 橡木",
+      "localPath": "/beds/noa-soft-white-oak/",
+      "file": "beds/noa-soft-white-oak/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "noa-soft-white-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noa-soft-white-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noa-soft-white-oak\"]"
+      },
+      "baseline": {
+        "bytes": 639,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--noble-midnight-black-oak",
+      "title": "Noble 午夜黑橡木",
+      "localPath": "/beds/noble-midnight-black-oak/",
+      "file": "beds/noble-midnight-black-oak/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "noble-midnight-black-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noble-midnight-black-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noble-midnight-black-oak\"]"
+      },
+      "baseline": {
+        "bytes": 199806,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--noble-solid-oak",
+      "title": "Noble 實木橡木",
+      "localPath": "/beds/noble-solid-oak/",
+      "file": "beds/noble-solid-oak/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "noble-solid-oak",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--noble-solid-oak\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"noble-solid-oak\"]"
+      },
+      "baseline": {
+        "bytes": 199333,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--original-blush",
+      "title": "Original-裸粉",
+      "localPath": "/beds/original-blush/",
+      "file": "beds/original-blush/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "original-blush",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-blush\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-blush\"]"
+      },
+      "baseline": {
+        "bytes": 292524,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--original-deep-black-outline-headboard",
+      "title": "Original-深黑",
+      "localPath": "/beds/original-deep-black-outline-headboard/",
+      "file": "beds/original-deep-black-outline-headboard/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-deep-black-outline-headboard",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-deep-black-outline-headboard\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-deep-black-outline-headboard\"]"
+      },
+      "baseline": {
+        "bytes": 711,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--original-deep-black",
+      "title": "Original 深黑",
+      "localPath": "/beds/original-deep-black/",
+      "file": "beds/original-deep-black/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 639,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--original-pine-green-dew-emerald",
+      "title": "Original 松綠",
+      "localPath": "/beds/original-pine-green-dew-emerald/",
+      "file": "beds/original-pine-green-dew-emerald/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-pine-green-dew-emerald",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-pine-green-dew-emerald\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-pine-green-dew-emerald\"]"
+      },
+      "baseline": {
+        "bytes": 687,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "beds--original-pine-green",
+      "title": "Original 松綠",
+      "localPath": "/beds/original-pine-green/",
+      "file": "beds/original-pine-green/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "original-pine-green",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-pine-green\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-pine-green\"]"
+      },
+      "baseline": {
+        "bytes": 298126,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "beds--original-royal-blue",
+      "title": "Original 皇家藍",
+      "localPath": "/beds/original-royal-blue/",
+      "file": "beds/original-royal-blue/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-royal-blue",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"beds--original-royal-blue\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-royal-blue\"]"
+      },
+      "baseline": {
+        "bytes": 645,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs",
+      "title": "Box Springs 床組",
+      "localPath": "/box-springs/",
+      "file": "box-springs/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "box-springs",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 527074,
+        "h1Count": 2,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--criade-blush",
+      "title": "Criade 裸粉",
+      "localPath": "/box-springs/criade-blush/",
+      "file": "box-springs/criade-blush/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "criade-blush",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-blush\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-blush\"]"
+      },
+      "baseline": {
+        "bytes": 309184,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--criade-cool-grey",
+      "title": "Criade 冷灰",
+      "localPath": "/box-springs/criade-cool-grey/",
+      "file": "box-springs/criade-cool-grey/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "criade-cool-grey",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-cool-grey\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-cool-grey\"]"
+      },
+      "baseline": {
+        "bytes": 651,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--criade-deep-black",
+      "title": "Criade 深黑",
+      "localPath": "/box-springs/criade-deep-black/",
+      "file": "box-springs/criade-deep-black/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "criade-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 655,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--criade-dusty-red",
+      "title": "Criade 霧紅",
+      "localPath": "/box-springs/criade-dusty-red/",
+      "file": "box-springs/criade-dusty-red/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "criade-dusty-red",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-dusty-red\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-dusty-red\"]"
+      },
+      "baseline": {
+        "bytes": 651,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "box-springs--criade-night-blue",
+      "title": "Criade 夜藍",
+      "localPath": "/box-springs/criade-night-blue/",
+      "file": "box-springs/criade-night-blue/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "criade-night-blue",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-night-blue\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-night-blue\"]"
+      },
+      "baseline": {
+        "bytes": 299675,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--criade-pine-green",
+      "title": "Criade 松綠",
+      "localPath": "/box-springs/criade-pine-green/",
+      "file": "box-springs/criade-pine-green/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "criade-pine-green",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-pine-green\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-pine-green\"]"
+      },
+      "baseline": {
+        "bytes": 655,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--criade-sand-beige",
+      "title": "Criade 沙米色",
+      "localPath": "/box-springs/criade-sand-beige/",
+      "file": "box-springs/criade-sand-beige/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "criade-sand-beige",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-sand-beige\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-sand-beige\"]"
+      },
+      "baseline": {
+        "bytes": 661,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--criade-warm-grey",
+      "title": "Criade 暖灰",
+      "localPath": "/box-springs/criade-warm-grey/",
+      "file": "box-springs/criade-warm-grey/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "criade-warm-grey",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--criade-warm-grey\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"criade-warm-grey\"]"
+      },
+      "baseline": {
+        "bytes": 199615,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--kiruna-deep-black",
+      "title": "Kiruna 深黑",
+      "localPath": "/box-springs/kiruna-deep-black/",
+      "file": "box-springs/kiruna-deep-black/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "kiruna-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 305251,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--kiruna-night-blue",
+      "title": "Kiruna 夜藍",
+      "localPath": "/box-springs/kiruna-night-blue/",
+      "file": "box-springs/kiruna-night-blue/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "kiruna-night-blue",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-night-blue\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-night-blue\"]"
+      },
+      "baseline": {
+        "bytes": 655,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--kiruna-pine-green",
+      "title": "Kiruna 松綠",
+      "localPath": "/box-springs/kiruna-pine-green/",
+      "file": "box-springs/kiruna-pine-green/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "kiruna-pine-green",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-pine-green\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-pine-green\"]"
+      },
+      "baseline": {
+        "bytes": 655,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--kiruna-sand-beige",
+      "title": "Kiruna 沙米色",
+      "localPath": "/box-springs/kiruna-sand-beige/",
+      "file": "box-springs/kiruna-sand-beige/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "kiruna-sand-beige",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-sand-beige\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-sand-beige\"]"
+      },
+      "baseline": {
+        "bytes": 293016,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-sami",
+      "title": "Kiruna 暖灰",
+      "localPath": "/box-springs/kiruna-warm-grey-sami/",
+      "file": "box-springs/kiruna-warm-grey-sami/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "kiruna-warm-grey-sami",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-warm-grey-sami\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-warm-grey-sami\"]"
+      },
+      "baseline": {
+        "bytes": 671,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-unik",
+      "title": "Kiruna 暖灰",
+      "localPath": "/box-springs/kiruna-warm-grey-unik/",
+      "file": "box-springs/kiruna-warm-grey-unik/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "kiruna-warm-grey-unik",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--kiruna-warm-grey-unik\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"kiruna-warm-grey-unik\"]"
+      },
+      "baseline": {
+        "bytes": 298892,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-blush",
+      "title": "Original 裸粉",
+      "localPath": "/box-springs/original-box-spring-blush/",
+      "file": "box-springs/original-box-spring-blush/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-blush",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-blush\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-blush\"]"
+      },
+      "baseline": {
+        "bytes": 691,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-cool-grey",
+      "title": "Original 冷灰",
+      "localPath": "/box-springs/original-box-spring-cool-grey/",
+      "file": "box-springs/original-box-spring-cool-grey/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-cool-grey",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-cool-grey\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-cool-grey\"]"
+      },
+      "baseline": {
+        "bytes": 707,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-deep-black",
+      "title": "Original 深黑",
+      "localPath": "/box-springs/original-box-spring-deep-black/",
+      "file": "box-springs/original-box-spring-deep-black/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-deep-black",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-deep-black\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-deep-black\"]"
+      },
+      "baseline": {
+        "bytes": 711,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-dusty-red",
+      "title": "Original 霧紅",
+      "localPath": "/box-springs/original-box-spring-dusty-red/",
+      "file": "box-springs/original-box-spring-dusty-red/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "original-box-spring-dusty-red",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-dusty-red\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-dusty-red\"]"
+      },
+      "baseline": {
+        "bytes": 273367,
+        "h1Count": 1,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-pure-white",
+      "title": "Original 純白",
+      "localPath": "/box-springs/original-box-spring-pure-white/",
+      "file": "box-springs/original-box-spring-pure-white/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-pure-white",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-pure-white\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-pure-white\"]"
+      },
+      "baseline": {
+        "bytes": 711,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-royal-blue",
+      "title": "Original 皇家藍",
+      "localPath": "/box-springs/original-box-spring-royal-blue/",
+      "file": "box-springs/original-box-spring-royal-blue/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-royal-blue",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-royal-blue\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-royal-blue\"]"
+      },
+      "baseline": {
+        "bytes": 717,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-sand-beige",
+      "title": "Original 沙米色",
+      "localPath": "/box-springs/original-box-spring-sand-beige/",
+      "file": "box-springs/original-box-spring-sand-beige/index.html",
+      "mode": "LOCAL_EXISTING",
+      "pageType": "product",
+      "slug": "original-box-spring-sand-beige",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-sand-beige\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-sand-beige\"]"
+      },
+      "baseline": {
+        "bytes": 717,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": true
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "box-springs--original-box-spring-warm-grey",
+      "title": "Original 暖灰",
+      "localPath": "/box-springs/original-box-spring-warm-grey/",
+      "file": "box-springs/original-box-spring-warm-grey/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "original-box-spring-warm-grey",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"box-springs--original-box-spring-warm-grey\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"original-box-spring-warm-grey\"]"
+      },
+      "baseline": {
+        "bytes": 293275,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "customer-service",
+      "title": "客戶服務",
+      "localPath": "/customer-service/",
+      "file": "customer-service/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "customer-service",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"customer-service\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 175691,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses",
+      "title": "床墊",
+      "localPath": "/mattresses/",
+      "file": "mattresses/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "mattresses",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 320133,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "title": "Auping Elite 床墊",
+      "localPath": "/mattresses/elite-mattress/",
+      "file": "mattresses/elite-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "elite-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--elite-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"elite-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 229933,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--elysium-mattress",
+      "title": "Auping Elysium 床墊",
+      "localPath": "/mattresses/elysium-mattress/",
+      "file": "mattresses/elysium-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "elysium-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--elysium-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"elysium-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 225033,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--evolve-mattress",
+      "title": "Auping Evolve 床墊",
+      "localPath": "/mattresses/evolve-mattress/",
+      "file": "mattresses/evolve-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "evolve-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--evolve-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"evolve-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 236910,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--one-mattress",
+      "title": "Auping One 床墊",
+      "localPath": "/mattresses/one-mattress/",
+      "file": "mattresses/one-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "one-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--one-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"one-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 225783,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--revive-mattress",
+      "title": "Auping Revive 床墊",
+      "localPath": "/mattresses/revive-mattress/",
+      "file": "mattresses/revive-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "revive-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--revive-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"revive-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 228022,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "mattresses--two-mattress",
+      "title": "Auping Two 床墊",
+      "localPath": "/mattresses/two-mattress/",
+      "file": "mattresses/two-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "two-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"mattresses--two-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"two-mattress\"]"
+      },
+      "baseline": {
+        "bytes": 223380,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "news",
+      "title": "最新消息",
+      "localPath": "/news/",
+      "file": "news/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "news",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"news\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 203955,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers",
+      "title": "床墊舒適層",
+      "localPath": "/toppers/",
+      "file": "toppers/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "toppers",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 324955,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--comfort-mattress-topper",
+      "title": "Comfort 床墊舒適層",
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "file": "toppers/comfort-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "comfort-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--comfort-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"comfort-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 190754,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--comfort-split-mattress-topper",
+      "title": "Comfort 分離式 床墊舒適層",
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "file": "toppers/comfort-split-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "comfort-split-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--comfort-split-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]",
+          "[data-auping-combobox=\"washable\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"comfort-split-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 187953,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size",
+          "washable"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--deluxe-mattress-topper",
+      "title": "Deluxe 床墊舒適層",
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "file": "toppers/deluxe-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "deluxe-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--deluxe-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": "[data-auping-product-slug=\"deluxe-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 190188,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--deluxe-split-mattress-topper",
+      "title": "Deluxe 分離式 床墊舒適層",
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "file": "toppers/deluxe-split-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "deluxe-split-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--deluxe-split-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"deluxe-split-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 197685,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--prestige-mattress-topper",
+      "title": "Prestige 床墊舒適層",
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "file": "toppers/prestige-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "prestige-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--prestige-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]",
+          "[data-auping-combobox=\"type\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"prestige-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 195561,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size",
+          "type"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "toppers--prestige-split-mattress-topper",
+      "title": "Prestige 分離式 床墊舒適層",
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "file": "toppers/prestige-split-mattress-topper/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "product",
+      "slug": "prestige-split-mattress-topper",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"toppers--prestige-split-mattress-topper\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [
+          "[data-auping-combobox=\"size\"]",
+          "[data-auping-combobox=\"type\"]"
+        ],
+        "productCard": "[data-auping-product-slug=\"prestige-split-mattress-topper\"]"
+      },
+      "baseline": {
+        "bytes": 204263,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [
+          "size",
+          "type"
+        ],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": []
+    },
+    {
+      "pageId": "news-awards",
+      "title": "得獎設計",
+      "localPath": "/news/awards/",
+      "file": "news/awards/index.html",
+      "mode": "LOCAL_BRIDGE",
+      "pageType": "bridge",
+      "slug": "awards",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"news-awards\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 485,
+        "h1Count": 0,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING",
+        "MISSING_COMBOBOX"
+      ]
+    },
+    {
+      "pageId": "nav-beds-essential",
+      "title": "Essential 床架",
+      "localPath": "/beds/essential/",
+      "file": "beds/essential/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "essential",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-beds-essential\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 156350,
+        "h1Count": 0,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-beds-original",
+      "title": "Original 床架",
+      "localPath": "/beds/original/",
+      "file": "beds/original/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "original",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-beds-original\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 212844,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-beds-auronde",
+      "title": "Auronde 床架",
+      "localPath": "/beds/auronde/",
+      "file": "beds/auronde/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "auronde",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-beds-auronde\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 162218,
+        "h1Count": 0,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-beds-noa",
+      "title": "Noa 床架",
+      "localPath": "/beds/noa/",
+      "file": "beds/noa/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "noa",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-beds-noa\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 211601,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-beds-noble",
+      "title": "Noble 床架",
+      "localPath": "/beds/noble/",
+      "file": "beds/noble/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "noble",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-beds-noble\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 127174,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-box-springs-original",
+      "title": "Original 床組",
+      "localPath": "/box-springs/original-boxspring/",
+      "file": "box-springs/original-boxspring/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "original-boxspring",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-box-springs-original\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 172716,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-box-springs-criade",
+      "title": "Criade 床組",
+      "localPath": "/box-springs/criade/",
+      "file": "box-springs/criade/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "criade",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-box-springs-criade\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 167557,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "nav-box-springs-kiruna",
+      "title": "Kiruna 床組",
+      "localPath": "/box-springs/kiruna/",
+      "file": "box-springs/kiruna/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "kiruna",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"nav-box-springs-kiruna\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 213872,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "title": "棉被",
+      "localPath": "/bed-linen/duvets/",
+      "file": "bed-linen/duvets/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "duvets",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen-duvets\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 201394,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "FILTER_OPTION_SET_MISMATCH",
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "title": "包覆式床包",
+      "localPath": "/bed-linen/fitted-sheets/",
+      "file": "bed-linen/fitted-sheets/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "fitted-sheets",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen-fitted-sheets\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 205278,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "bed-linen-mattress-protectors",
+      "title": "保潔墊",
+      "localPath": "/bed-linen/mattress-protectors/",
+      "file": "bed-linen/mattress-protectors/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "mattress-protectors",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen-mattress-protectors\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 194501,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "bed-linen-bedspreads",
+      "title": "床罩",
+      "localPath": "/bed-linen/bedspreads/",
+      "file": "bed-linen/bedspreads/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "bedspreads",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen-bedspreads\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 189027,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "bed-linen-pillowcases",
+      "title": "枕套",
+      "localPath": "/bed-linen/pillowcases/",
+      "file": "bed-linen/pillowcases/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "listing",
+      "slug": "pillowcases",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"bed-linen-pillowcases\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 226372,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "about-sustainability",
+      "title": "永續理念",
+      "localPath": "/about-auping/sustainability/",
+      "file": "about-auping/sustainability/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "sustainability",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"about-sustainability\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 109284,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "customer-service-ordering",
+      "title": "訂購方式",
+      "localPath": "/customer-service/ordering/",
+      "file": "customer-service/ordering/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "ordering",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"customer-service-ordering\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 92839,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "news-future-factory",
+      "title": "Auping 未來床墊工廠",
+      "localPath": "/news/auping-opens-mattress-factory-future/",
+      "file": "news/auping-opens-mattress-factory-future/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "auping-opens-mattress-factory-future",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"news-future-factory\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 91797,
+        "h1Count": 1,
+        "languageInputCount": 2,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    },
+    {
+      "pageId": "stories-buy-new-mattress",
+      "title": "選購新床墊指南",
+      "localPath": "/stories/buy-a-new-mattress/",
+      "file": "stories/buy-a-new-mattress/index.html",
+      "mode": "LOCAL_PARITY",
+      "pageType": "editorial",
+      "slug": "buy-a-new-mattress",
+      "selectors": {
+        "page": "html[data-auping-page-id=\"stories-buy-new-mattress\"]",
+        "language": [
+          "#react-select-languageSwitchHeader-input",
+          "#react-select-languageSwitchFooter-input",
+          "[data-auping-language-control=\"fixed\"]"
+        ],
+        "combobox": [],
+        "productCard": null
+      },
+      "baseline": {
+        "bytes": 95914,
+        "h1Count": 1,
+        "languageInputCount": 0,
+        "comboboxKeys": [],
+        "staleRedirectTitle": false
+      },
+      "auditIssueCodes": [
+        "LANGUAGE_SELECTOR_MISSING"
+      ]
+    }
+  ]
+}

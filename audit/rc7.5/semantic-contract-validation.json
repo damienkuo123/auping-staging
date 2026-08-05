@@ -1,0 +1,858 @@
+{
+  "schema": "AUPING-RC7.5-SEMANTIC-VALIDATION-V1",
+  "summary": {
+    "routeCount": 121,
+    "passedRoutes": 121,
+    "failedRoutes": 0,
+    "totalFailures": 0
+  },
+  "routes": [
+    {
+      "pageId": "home",
+      "localPath": "/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "about-auping",
+      "localPath": "/about-auping/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases",
+      "localPath": "/bed-bases/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases--flat-bed-base",
+      "localPath": "/bed-bases/flat-bed-base/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-bases--manually-adjustable-mesh-base",
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen",
+      "localPath": "/bed-linen/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers",
+      "localPath": "/bed-linen/duvet-covers/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--beige-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/beige-lines-satin-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--bright-kaleidoscope-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-grey-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--brilliant-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/brilliant-stone-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-blush-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-blush-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-chalk-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-chalk-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-denim-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--chambray-plum-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/chambray-plum-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-blue-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-grey-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--classic-white-stone-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/classic-white-stone-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--gentle-clover-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/gentle-clover-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--graphic-bordeaux-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--mauve-twists-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/mauve-twists-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--meandering-blue-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/meandering-blue-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--natural-clay-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/natural-clay-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--playful-bricks-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/playful-bricks-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--sand-beige-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/sand-beige-satin-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--seaside-grid-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/seaside-grid-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--silent-grey-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/silent-grey-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--warm-embrace-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/warm-embrace-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--pillows",
+      "localPath": "/bed-linen/pillows/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--pillows--auping-cloud",
+      "localPath": "/bed-linen/pillows/auping-cloud/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--pillows--dew-pillow",
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen--pillows--nest-pillow",
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds",
+      "localPath": "/beds/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--auronde-blush",
+      "localPath": "/beds/auronde-blush/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--auronde-deep-black",
+      "localPath": "/beds/auronde-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--auronde-natural-oak",
+      "localPath": "/beds/auronde-natural-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--auronde-natural-walnut",
+      "localPath": "/beds/auronde-natural-walnut/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--auronde-white-oak",
+      "localPath": "/beds/auronde-white-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-blush",
+      "localPath": "/beds/essential-blush/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-deep-black-headboard",
+      "localPath": "/beds/essential-deep-black-headboard/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-deep-black",
+      "localPath": "/beds/essential-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-pine-green",
+      "localPath": "/beds/essential-pine-green/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-pure-white",
+      "localPath": "/beds/essential-pure-white/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-sand-beige",
+      "localPath": "/beds/essential-sand-beige/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--essential-warm-grey",
+      "localPath": "/beds/essential-warm-grey/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-open-lamellas-headboard",
+      "localPath": "/beds/noa-balanced-oak-open-lamellas-headboard/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-balanced-oak-table",
+      "localPath": "/beds/noa-balanced-oak-table/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-balanced-oak",
+      "localPath": "/beds/noa-balanced-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-chocolate-brown-oak",
+      "localPath": "/beds/noa-chocolate-brown-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-midnight-black-oak",
+      "localPath": "/beds/noa-midnight-black-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak-headboard",
+      "localPath": "/beds/noa-soft-white-oak-headboard/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noa-soft-white-oak",
+      "localPath": "/beds/noa-soft-white-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noble-midnight-black-oak",
+      "localPath": "/beds/noble-midnight-black-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--noble-solid-oak",
+      "localPath": "/beds/noble-solid-oak/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-blush",
+      "localPath": "/beds/original-blush/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-deep-black-outline-headboard",
+      "localPath": "/beds/original-deep-black-outline-headboard/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-deep-black",
+      "localPath": "/beds/original-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-pine-green-dew-emerald",
+      "localPath": "/beds/original-pine-green-dew-emerald/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-pine-green",
+      "localPath": "/beds/original-pine-green/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "beds--original-royal-blue",
+      "localPath": "/beds/original-royal-blue/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs",
+      "localPath": "/box-springs/",
+      "h1Count": 2,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-blush",
+      "localPath": "/box-springs/criade-blush/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-cool-grey",
+      "localPath": "/box-springs/criade-cool-grey/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-deep-black",
+      "localPath": "/box-springs/criade-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-dusty-red",
+      "localPath": "/box-springs/criade-dusty-red/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-night-blue",
+      "localPath": "/box-springs/criade-night-blue/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-pine-green",
+      "localPath": "/box-springs/criade-pine-green/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-sand-beige",
+      "localPath": "/box-springs/criade-sand-beige/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--criade-warm-grey",
+      "localPath": "/box-springs/criade-warm-grey/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-deep-black",
+      "localPath": "/box-springs/kiruna-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-night-blue",
+      "localPath": "/box-springs/kiruna-night-blue/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-pine-green",
+      "localPath": "/box-springs/kiruna-pine-green/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-sand-beige",
+      "localPath": "/box-springs/kiruna-sand-beige/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-sami",
+      "localPath": "/box-springs/kiruna-warm-grey-sami/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--kiruna-warm-grey-unik",
+      "localPath": "/box-springs/kiruna-warm-grey-unik/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-blush",
+      "localPath": "/box-springs/original-box-spring-blush/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-cool-grey",
+      "localPath": "/box-springs/original-box-spring-cool-grey/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-deep-black",
+      "localPath": "/box-springs/original-box-spring-deep-black/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-dusty-red",
+      "localPath": "/box-springs/original-box-spring-dusty-red/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-pure-white",
+      "localPath": "/box-springs/original-box-spring-pure-white/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-royal-blue",
+      "localPath": "/box-springs/original-box-spring-royal-blue/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-sand-beige",
+      "localPath": "/box-springs/original-box-spring-sand-beige/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "box-springs--original-box-spring-warm-grey",
+      "localPath": "/box-springs/original-box-spring-warm-grey/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "customer-service",
+      "localPath": "/customer-service/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses",
+      "localPath": "/mattresses/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "localPath": "/mattresses/elite-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--elysium-mattress",
+      "localPath": "/mattresses/elysium-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--evolve-mattress",
+      "localPath": "/mattresses/evolve-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--one-mattress",
+      "localPath": "/mattresses/one-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--revive-mattress",
+      "localPath": "/mattresses/revive-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "mattresses--two-mattress",
+      "localPath": "/mattresses/two-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "news",
+      "localPath": "/news/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers",
+      "localPath": "/toppers/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--comfort-mattress-topper",
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--comfort-split-mattress-topper",
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--deluxe-mattress-topper",
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--deluxe-split-mattress-topper",
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--prestige-mattress-topper",
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "toppers--prestige-split-mattress-topper",
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "news-awards",
+      "localPath": "/news/awards/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-beds-essential",
+      "localPath": "/beds/essential/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-beds-original",
+      "localPath": "/beds/original/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-beds-auronde",
+      "localPath": "/beds/auronde/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-beds-noa",
+      "localPath": "/beds/noa/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-beds-noble",
+      "localPath": "/beds/noble/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-box-springs-original",
+      "localPath": "/box-springs/original-boxspring/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-box-springs-criade",
+      "localPath": "/box-springs/criade/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "nav-box-springs-kiruna",
+      "localPath": "/box-springs/kiruna/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "localPath": "/bed-linen/duvets/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "localPath": "/bed-linen/fitted-sheets/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen-mattress-protectors",
+      "localPath": "/bed-linen/mattress-protectors/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen-bedspreads",
+      "localPath": "/bed-linen/bedspreads/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "bed-linen-pillowcases",
+      "localPath": "/bed-linen/pillowcases/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "about-sustainability",
+      "localPath": "/about-auping/sustainability/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "customer-service-ordering",
+      "localPath": "/customer-service/ordering/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "news-future-factory",
+      "localPath": "/news/auping-opens-mattress-factory-future/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    },
+    {
+      "pageId": "stories-buy-new-mattress",
+      "localPath": "/stories/buy-a-new-mattress/",
+      "h1Count": 1,
+      "failureCount": 0,
+      "failures": []
+    }
+  ]
+}
