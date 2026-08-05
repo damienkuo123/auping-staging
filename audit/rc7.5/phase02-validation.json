@@ -1,0 +1,165 @@
+{
+  "schema": "AUPING-RC7.5-PHASE02-VALIDATION-V1",
+  "passed": true,
+  "checks": [
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-bases--flat-bed-base",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-bases--manually-adjustable-mesh-base",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "bed-linen--pillows--dew-pillow",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "bed-linen--pillows--nest-pillow",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "toppers--comfort-split-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "toppers--deluxe-split-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "toppers--prestige-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "toppers--prestige-split-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 1
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 4
+    },
+    {
+      "pageId": "mattresses--elysium-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 4
+    },
+    {
+      "pageId": "mattresses--evolve-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 4
+    },
+    {
+      "pageId": "mattresses--one-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 3
+    },
+    {
+      "pageId": "mattresses--revive-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "mattresses--two-mattress",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 3
+    },
+    {
+      "pageId": "toppers--comfort-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "toppers--deluxe-mattress-topper",
+      "type": "combobox",
+      "ok": true,
+      "controlCount": 2
+    },
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "type": "catalog",
+      "ok": true,
+      "productCount": 8
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "type": "catalog",
+      "ok": true,
+      "productCount": 9
+    },
+    {
+      "pageId": "bed-linen-mattress-protectors",
+      "type": "catalog",
+      "ok": true,
+      "productCount": 4
+    },
+    {
+      "pageId": "bed-linen-bedspreads",
+      "type": "catalog",
+      "ok": true,
+      "productCount": 1
+    }
+  ],
+  "duvetMapping": {
+    "keys": [
+      "season",
+      "size",
+      "filling"
+    ],
+    "ok": true
+  },
+  "failures": [],
+  "summary": {
+    "comboboxPages": 20,
+    "comboboxControls": 41,
+    "catalogPages": 4,
+    "catalogProducts": 22
+  }
+}

@@ -1,0 +1,452 @@
+{
+  "schema": "AUPING-RC7.5-PHASE02-APPLY-V1",
+  "checkOnly": false,
+  "comboboxPages": [
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "react-overlay",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "react-overlay",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "react-overlay",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-bases--flat-bed-base",
+      "localPath": "/bed-bases/flat-bed-base/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "react-overlay",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-bases--manually-adjustable-mesh-base",
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "react-overlay",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "localPath": "/bed-linen/duvet-covers/white-lines-satin-duvet-cover/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-linen--pillows--dew-pillow",
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "bed-linen--pillows--nest-pillow",
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--comfort-split-mattress-topper",
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--deluxe-split-mattress-topper",
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--prestige-mattress-topper",
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--prestige-split-mattress-topper",
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "size",
+          "mode": "react-overlay",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "localPath": "/mattresses/elite-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "bodyType",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "firmness",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--elysium-mattress",
+      "localPath": "/mattresses/elysium-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "bodyType",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "firmness",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--evolve-mattress",
+      "localPath": "/mattresses/evolve-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "bodyType",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "firmness",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--one-mattress",
+      "localPath": "/mattresses/one-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "firmness",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--revive-mattress",
+      "localPath": "/mattresses/revive-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "mattresses--two-mattress",
+      "localPath": "/mattresses/two-mattress/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "firmness",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--comfort-mattress-topper",
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    },
+    {
+      "pageId": "toppers--deluxe-mattress-topper",
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "changed": true,
+      "controls": [
+        {
+          "key": "width",
+          "mode": "native-select",
+          "found": true
+        },
+        {
+          "key": "length",
+          "mode": "native-select",
+          "found": true
+        }
+      ]
+    }
+  ],
+  "catalogPages": [
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "localPath": "/bed-linen/fitted-sheets/",
+      "changed": true,
+      "mappedInputs": [
+        "6140",
+        "6142",
+        "6141",
+        "6389",
+        "6390",
+        "6343",
+        "6450",
+        "6346",
+        "6354",
+        "6356"
+      ],
+      "productCount": 8
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "localPath": "/bed-linen/duvets/",
+      "changed": true,
+      "mappedInputs": [
+        "6278",
+        "6280",
+        "6279",
+        "6263",
+        "6264",
+        "6266",
+        "6267",
+        "6268",
+        "6269",
+        "6258",
+        "6260",
+        "6261"
+      ],
+      "productCount": 9
+    },
+    {
+      "pageId": "bed-linen-mattress-protectors",
+      "localPath": "/bed-linen/mattress-protectors/",
+      "changed": true,
+      "mappedInputs": [
+        "6457",
+        "6462",
+        "6459",
+        "6458",
+        "6463",
+        "6464",
+        "6538",
+        "6120",
+        "6121",
+        "6124"
+      ],
+      "productCount": 4
+    },
+    {
+      "pageId": "bed-linen-bedspreads",
+      "localPath": "/bed-linen/bedspreads/",
+      "changed": true,
+      "mappedInputs": [
+        "85",
+        "244"
+      ],
+      "productCount": 1
+    }
+  ],
+  "payloadFilesChanged": [
+    "bed-bases/electrically-adjustable-bed-base-1m/index.html",
+    "bed-bases/electrically-adjustable-bed-base-2m/index.html",
+    "bed-bases/electrically-adjustable-bed-base-3M/index.html",
+    "bed-bases/flat-bed-base/index.html",
+    "bed-bases/manually-adjustable-mesh-base/index.html",
+    "bed-linen/duvet-covers/white-lines-satin-duvet-cover/index.html",
+    "bed-linen/pillows/dew-pillow/index.html",
+    "bed-linen/pillows/nest-pillow/index.html",
+    "toppers/comfort-split-mattress-topper/index.html",
+    "toppers/deluxe-split-mattress-topper/index.html",
+    "toppers/prestige-mattress-topper/index.html",
+    "toppers/prestige-split-mattress-topper/index.html",
+    "mattresses/elite-mattress/index.html",
+    "mattresses/elysium-mattress/index.html",
+    "mattresses/evolve-mattress/index.html",
+    "mattresses/one-mattress/index.html",
+    "mattresses/revive-mattress/index.html",
+    "mattresses/two-mattress/index.html",
+    "toppers/comfort-mattress-topper/index.html",
+    "toppers/deluxe-mattress-topper/index.html",
+    "bed-linen/fitted-sheets/index.html",
+    "bed-linen/duvets/index.html",
+    "bed-linen/mattress-protectors/index.html",
+    "bed-linen/bedspreads/index.html"
+  ],
+  "summary": {
+    "comboboxPageCount": 20,
+    "comboboxControlCount": 41,
+    "catalogPageCount": 4,
+    "catalogProductCount": 22,
+    "changedFileCount": 24
+  }
+}

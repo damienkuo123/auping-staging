@@ -1,6 +1,6 @@
 {
-  "schema": "AUPING-RC7.5-COMBOBOX-VARIANTS-V1",
-  "source": "data/rc6-products.json@231f44d0222395ced9d5424f00d4cf129e7c82da",
+  "schema": "AUPING-RC7.5-COMBOBOX-VARIANTS-V2",
+  "source": "data/rc6-products.json + captured DOM @ main 0e3946ca46b9f6c34d1388fb37d8492bffb3565a",
   "pages": {
     "bed-bases--electrically-adjustable-bed-base-1m": {
       "localPath": "/bed-bases/electrically-adjustable-bed-base-1m/",
@@ -9,6 +9,8 @@
         {
           "key": "width",
           "label": "寬度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Width-input",
           "queryParam": "width",
           "defaultValue": "100 cm",
           "options": [
@@ -53,8 +55,322 @@
         {
           "key": "length",
           "label": "長度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Length-input",
           "queryParam": "length",
           "defaultValue": "200 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-bases--electrically-adjustable-bed-base-2m": {
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-2m/",
+      "title": "電動可調式 床底 2M",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Width-input",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            },
+            {
+              "value": "200 cm (2x 100)",
+              "label": "200 cm (2x 100)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Length-input",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-bases--electrically-adjustable-bed-base-3m": {
+      "localPath": "/bed-bases/electrically-adjustable-bed-base-3M/",
+      "title": "電動可調式 床底 3M",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Width-input",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            },
+            {
+              "value": "200 cm (2x 100)",
+              "label": "200 cm (2x 100)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Length-input",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-bases--flat-bed-base": {
+      "localPath": "/bed-bases/flat-bed-base/",
+      "title": "固定式 床底",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Width-input",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            },
+            {
+              "value": "200 cm (2x 100)",
+              "label": "200 cm (2x 100)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Length-input",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-bases--manually-adjustable-mesh-base": {
+      "localPath": "/bed-bases/manually-adjustable-mesh-base/",
+      "title": "手動可調式 床底",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Width-input",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            },
+            {
+              "value": "200 cm (2x 100)",
+              "label": "200 cm (2x 100)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "react-overlay",
+          "inputId": "react-select-Length-input",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
           "options": [
             {
               "value": "190 cm",
@@ -83,6 +399,8 @@
         {
           "key": "size",
           "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
           "queryParam": "size",
           "defaultValue": "140 x 200/220 cm",
           "options": [
@@ -101,6 +419,1086 @@
             {
               "value": "260 x 200/220 cm",
               "label": "260 x 200/220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--pillows--dew-pillow": {
+      "localPath": "/bed-linen/pillows/dew-pillow/",
+      "title": "Auping Dew",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "bed-linen--pillows--nest-pillow": {
+      "localPath": "/bed-linen/pillows/nest-pillow/",
+      "title": "Auping Nest",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "40 x 60 cm",
+          "options": [
+            {
+              "value": "40 x 60 cm",
+              "label": "40 x 60 cm"
+            },
+            {
+              "value": "60 x 70 cm",
+              "label": "60 x 70 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--comfort-split-mattress-topper": {
+      "localPath": "/toppers/comfort-split-mattress-topper/",
+      "title": "Comfort 分離式 床墊舒適層",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "160 x 200 cm",
+          "options": [
+            {
+              "value": "160 x 200 cm",
+              "label": "160 x 200 cm"
+            },
+            {
+              "value": "160 x 210 cm",
+              "label": "160 x 210 cm"
+            },
+            {
+              "value": "160 x 220 cm",
+              "label": "160 x 220 cm"
+            },
+            {
+              "value": "180 x 200 cm",
+              "label": "180 x 200 cm"
+            },
+            {
+              "value": "180 x 210 cm",
+              "label": "180 x 210 cm"
+            },
+            {
+              "value": "180 x 220 cm",
+              "label": "180 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 210 cm",
+              "label": "200 x 210 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--deluxe-split-mattress-topper": {
+      "localPath": "/toppers/deluxe-split-mattress-topper/",
+      "title": "Deluxe 分離式 床墊舒適層",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "160 x 200 cm",
+          "options": [
+            {
+              "value": "160 x 200 cm",
+              "label": "160 x 200 cm"
+            },
+            {
+              "value": "160 x 210 cm",
+              "label": "160 x 210 cm"
+            },
+            {
+              "value": "160 x 220 cm",
+              "label": "160 x 220 cm"
+            },
+            {
+              "value": "180 x 200 cm",
+              "label": "180 x 200 cm"
+            },
+            {
+              "value": "180 x 210 cm",
+              "label": "180 x 210 cm"
+            },
+            {
+              "value": "180 x 220 cm",
+              "label": "180 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 210 cm",
+              "label": "200 x 210 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--prestige-mattress-topper": {
+      "localPath": "/toppers/prestige-mattress-topper/",
+      "title": "Prestige 床墊舒適層",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "80 x 200 cm",
+          "options": [
+            {
+              "value": "80 x 200 cm",
+              "label": "80 x 200 cm"
+            },
+            {
+              "value": "80 x 210 cm",
+              "label": "80 x 210 cm"
+            },
+            {
+              "value": "80 x 220 cm",
+              "label": "80 x 220 cm"
+            },
+            {
+              "value": "90 x 200 cm",
+              "label": "90 x 200 cm"
+            },
+            {
+              "value": "90 x 210 cm",
+              "label": "90 x 210 cm"
+            },
+            {
+              "value": "90 x 220 cm",
+              "label": "90 x 220 cm"
+            },
+            {
+              "value": "100 x 200 cm",
+              "label": "100 x 200 cm"
+            },
+            {
+              "value": "100 x 210 cm",
+              "label": "100 x 210 cm"
+            },
+            {
+              "value": "100 x 220 cm",
+              "label": "100 x 220 cm"
+            },
+            {
+              "value": "120 x 200 cm",
+              "label": "120 x 200 cm"
+            },
+            {
+              "value": "120 x 210 cm",
+              "label": "120 x 210 cm"
+            },
+            {
+              "value": "120 x 220 cm",
+              "label": "120 x 220 cm"
+            },
+            {
+              "value": "140 x 200 cm",
+              "label": "140 x 200 cm"
+            },
+            {
+              "value": "140 x 210 cm",
+              "label": "140 x 210 cm"
+            },
+            {
+              "value": "140 x 220 cm",
+              "label": "140 x 220 cm"
+            },
+            {
+              "value": "160 x 200 cm",
+              "label": "160 x 200 cm"
+            },
+            {
+              "value": "160 x 210 cm",
+              "label": "160 x 210 cm"
+            },
+            {
+              "value": "160 x 220 cm",
+              "label": "160 x 220 cm"
+            },
+            {
+              "value": "180 x 200 cm",
+              "label": "180 x 200 cm"
+            },
+            {
+              "value": "180 x 210 cm",
+              "label": "180 x 210 cm"
+            },
+            {
+              "value": "180 x 220 cm",
+              "label": "180 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 210 cm",
+              "label": "200 x 210 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--prestige-split-mattress-topper": {
+      "localPath": "/toppers/prestige-split-mattress-topper/",
+      "title": "Prestige 分離式 床墊舒適層",
+      "controls": [
+        {
+          "key": "size",
+          "label": "尺寸",
+          "mode": "react-overlay",
+          "inputId": "react-select-Size-input",
+          "queryParam": "size",
+          "defaultValue": "160 x 200 cm",
+          "options": [
+            {
+              "value": "160 x 200 cm",
+              "label": "160 x 200 cm"
+            },
+            {
+              "value": "160 x 210 cm",
+              "label": "160 x 210 cm"
+            },
+            {
+              "value": "160 x 220 cm",
+              "label": "160 x 220 cm"
+            },
+            {
+              "value": "180 x 200 cm",
+              "label": "180 x 200 cm"
+            },
+            {
+              "value": "180 x 210 cm",
+              "label": "180 x 210 cm"
+            },
+            {
+              "value": "180 x 220 cm",
+              "label": "180 x 220 cm"
+            },
+            {
+              "value": "200 x 200 cm",
+              "label": "200 x 200 cm"
+            },
+            {
+              "value": "200 x 210 cm",
+              "label": "200 x 210 cm"
+            },
+            {
+              "value": "200 x 220 cm",
+              "label": "200 x 220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--elite-mattress": {
+      "localPath": "/mattresses/elite-mattress/",
+      "title": "Auping Elite 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "553",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "150 cm",
+              "label": "150 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "554",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        },
+        {
+          "key": "bodyType",
+          "label": "體型",
+          "mode": "native-select",
+          "selectName": "561",
+          "queryParam": "bodyType",
+          "defaultValue": "I",
+          "options": [
+            {
+              "value": "I",
+              "label": "I"
+            },
+            {
+              "value": "Y",
+              "label": "Y"
+            },
+            {
+              "value": "X",
+              "label": "X"
+            }
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "mode": "native-select",
+          "selectName": "556",
+          "queryParam": "firmness",
+          "defaultValue": "柔軟",
+          "options": [
+            {
+              "value": "柔軟",
+              "label": "柔軟"
+            },
+            {
+              "value": "適中",
+              "label": "適中"
+            },
+            {
+              "value": "偏硬",
+              "label": "偏硬"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--elysium-mattress": {
+      "localPath": "/mattresses/elysium-mattress/",
+      "title": "Auping Elysium 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "490",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "150 cm",
+              "label": "150 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "491",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        },
+        {
+          "key": "bodyType",
+          "label": "體型",
+          "mode": "native-select",
+          "selectName": "498",
+          "queryParam": "bodyType",
+          "defaultValue": "X",
+          "options": [
+            {
+              "value": "X",
+              "label": "X"
+            },
+            {
+              "value": "Y",
+              "label": "Y"
+            },
+            {
+              "value": "I",
+              "label": "I"
+            }
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "mode": "native-select",
+          "selectName": "493",
+          "queryParam": "firmness",
+          "defaultValue": "柔軟",
+          "options": [
+            {
+              "value": "柔軟",
+              "label": "柔軟"
+            },
+            {
+              "value": "適中",
+              "label": "適中"
+            },
+            {
+              "value": "偏硬",
+              "label": "偏硬"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--evolve-mattress": {
+      "localPath": "/mattresses/evolve-mattress/",
+      "title": "Auping Evolve 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "481",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "150 cm",
+              "label": "150 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "482",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        },
+        {
+          "key": "bodyType",
+          "label": "體型",
+          "mode": "native-select",
+          "selectName": "489",
+          "queryParam": "bodyType",
+          "defaultValue": "X",
+          "options": [
+            {
+              "value": "X",
+              "label": "X"
+            },
+            {
+              "value": "Y",
+              "label": "Y"
+            },
+            {
+              "value": "I",
+              "label": "I"
+            }
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "mode": "native-select",
+          "selectName": "484",
+          "queryParam": "firmness",
+          "defaultValue": "柔軟",
+          "options": [
+            {
+              "value": "柔軟",
+              "label": "柔軟"
+            },
+            {
+              "value": "適中",
+              "label": "適中"
+            },
+            {
+              "value": "偏硬",
+              "label": "偏硬"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--one-mattress": {
+      "localPath": "/mattresses/one-mattress/",
+      "title": "Auping One 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "742",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "743",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "mode": "native-select",
+          "selectName": "745",
+          "queryParam": "firmness",
+          "defaultValue": "適中",
+          "options": [
+            {
+              "value": "適中",
+              "label": "適中"
+            },
+            {
+              "value": "偏硬",
+              "label": "偏硬"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--revive-mattress": {
+      "localPath": "/mattresses/revive-mattress/",
+      "title": "Auping Revive 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "700",
+          "queryParam": "width",
+          "defaultValue": "80 cm",
+          "options": [
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm (2x 80)",
+              "label": "160 cm (2x 80)"
+            },
+            {
+              "value": "180 cm (2x 90)",
+              "label": "180 cm (2x 90)"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "709",
+          "queryParam": "length",
+          "defaultValue": "200 cm",
+          "options": [
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "mattresses--two-mattress": {
+      "localPath": "/mattresses/two-mattress/",
+      "title": "Auping Two 床墊",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "786",
+          "queryParam": "width",
+          "defaultValue": "70 cm",
+          "options": [
+            {
+              "value": "70 cm",
+              "label": "70 cm"
+            },
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "787",
+          "queryParam": "length",
+          "defaultValue": "190 cm",
+          "options": [
+            {
+              "value": "190 cm",
+              "label": "190 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        },
+        {
+          "key": "firmness",
+          "label": "硬度",
+          "mode": "native-select",
+          "selectName": "789",
+          "queryParam": "firmness",
+          "defaultValue": "適中",
+          "options": [
+            {
+              "value": "適中",
+              "label": "適中"
+            },
+            {
+              "value": "偏硬",
+              "label": "偏硬"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--comfort-mattress-topper": {
+      "localPath": "/toppers/comfort-mattress-topper/",
+      "title": "Comfort 床墊舒適層",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "668",
+          "queryParam": "width",
+          "defaultValue": "80 cm",
+          "options": [
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "669",
+          "queryParam": "length",
+          "defaultValue": "200 cm",
+          "options": [
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
+            }
+          ]
+        }
+      ]
+    },
+    "toppers--deluxe-mattress-topper": {
+      "localPath": "/toppers/deluxe-mattress-topper/",
+      "title": "Deluxe 床墊舒適層",
+      "controls": [
+        {
+          "key": "width",
+          "label": "寬度",
+          "mode": "native-select",
+          "selectName": "798",
+          "queryParam": "width",
+          "defaultValue": "80 cm",
+          "options": [
+            {
+              "value": "80 cm",
+              "label": "80 cm"
+            },
+            {
+              "value": "90 cm",
+              "label": "90 cm"
+            },
+            {
+              "value": "100 cm",
+              "label": "100 cm"
+            },
+            {
+              "value": "120 cm",
+              "label": "120 cm"
+            },
+            {
+              "value": "140 cm",
+              "label": "140 cm"
+            },
+            {
+              "value": "160 cm",
+              "label": "160 cm"
+            },
+            {
+              "value": "180 cm",
+              "label": "180 cm"
+            },
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            }
+          ]
+        },
+        {
+          "key": "length",
+          "label": "長度",
+          "mode": "native-select",
+          "selectName": "799",
+          "queryParam": "length",
+          "defaultValue": "200 cm",
+          "options": [
+            {
+              "value": "200 cm",
+              "label": "200 cm"
+            },
+            {
+              "value": "210 cm",
+              "label": "210 cm"
+            },
+            {
+              "value": "220 cm",
+              "label": "220 cm"
             }
           ]
         }

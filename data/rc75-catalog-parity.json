@@ -1,0 +1,618 @@
+{
+  "schema": "AUPING-RC7.5-CATALOG-PARITY-V1",
+  "source": "captured RC7.3 DOM + rc73-page.js metadata @ main 0e3946ca46b9f6c34d1388fb37d8492bffb3565a",
+  "pages": {
+    "bed-linen-fitted-sheets": {
+      "localPath": "/bed-linen/fitted-sheets/",
+      "groups": [
+        {
+          "key": "compatible",
+          "queryKey": "compatible",
+          "options": [
+            {
+              "inputId": "6140",
+              "value": "一般床墊"
+            },
+            {
+              "inputId": "6142",
+              "value": "分離式上層床墊"
+            },
+            {
+              "inputId": "6141",
+              "value": "上層床墊"
+            }
+          ]
+        },
+        {
+          "key": "person",
+          "queryKey": "person",
+          "options": [
+            {
+              "inputId": "6389",
+              "value": "單人"
+            },
+            {
+              "inputId": "6390",
+              "value": "雙人"
+            }
+          ]
+        },
+        {
+          "key": "color",
+          "queryKey": "color",
+          "options": [
+            {
+              "inputId": "6343",
+              "value": "深灰"
+            },
+            {
+              "inputId": "6450",
+              "value": "粉紅色"
+            },
+            {
+              "inputId": "6346",
+              "value": "冷灰色"
+            },
+            {
+              "inputId": "6354",
+              "value": "淺灰色"
+            },
+            {
+              "inputId": "6356",
+              "value": "自然色"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Jersey 235 一般床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "一般床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Jersey 235 上層床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "上層床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Jersey 235 分離式床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "分離式上層床墊"
+            ],
+            "person": [
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Jersey 190 一般床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "一般床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Jersey 190 上層床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "上層床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Jersey 190 分離式床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "分離式上層床墊"
+            ],
+            "person": [
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Satin 300 一般床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "一般床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        },
+        {
+          "title": "Satin 300 上層床墊包覆式床包",
+          "attributes": {
+            "compatible": [
+              "上層床墊"
+            ],
+            "person": [
+              "單人",
+              "雙人"
+            ],
+            "color": [
+              "深灰",
+              "粉紅色",
+              "冷灰色",
+              "淺灰色",
+              "自然色"
+            ]
+          }
+        }
+      ]
+    },
+    "bed-linen-duvets": {
+      "localPath": "/bed-linen/duvets/",
+      "groups": [
+        {
+          "key": "season",
+          "queryKey": "season",
+          "options": [
+            {
+              "inputId": "6278",
+              "value": "四季被"
+            },
+            {
+              "inputId": "6280",
+              "value": "春秋被"
+            },
+            {
+              "inputId": "6279",
+              "value": "夏被"
+            }
+          ]
+        },
+        {
+          "key": "size",
+          "queryKey": "size",
+          "options": [
+            {
+              "inputId": "6263",
+              "value": "140 x 200 cm"
+            },
+            {
+              "inputId": "6264",
+              "value": "140 x 220 cm"
+            },
+            {
+              "inputId": "6266",
+              "value": "200 x 200 cm"
+            },
+            {
+              "inputId": "6267",
+              "value": "200 x 220 cm"
+            },
+            {
+              "inputId": "6268",
+              "value": "240 x 220 cm"
+            },
+            {
+              "inputId": "6269",
+              "value": "260 x 220 cm"
+            }
+          ]
+        },
+        {
+          "key": "filling",
+          "queryKey": "filling",
+          "options": [
+            {
+              "inputId": "6258",
+              "value": "鵝絨"
+            },
+            {
+              "inputId": "6260",
+              "value": "再生羽絨"
+            },
+            {
+              "inputId": "6261",
+              "value": "再生聚酯纖維"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Auping Cloud 夏被",
+          "attributes": {
+            "season": [
+              "夏被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "鵝絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Nest 夏被",
+          "attributes": {
+            "season": [
+              "夏被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生羽絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Dew 夏被",
+          "attributes": {
+            "season": [
+              "夏被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生聚酯纖維"
+            ]
+          }
+        },
+        {
+          "title": "Auping Cloud 春秋被",
+          "attributes": {
+            "season": [
+              "春秋被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "鵝絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Nest 春秋被",
+          "attributes": {
+            "season": [
+              "春秋被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生羽絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Dew 春秋被",
+          "attributes": {
+            "season": [
+              "春秋被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生聚酯纖維"
+            ]
+          }
+        },
+        {
+          "title": "Auping Cloud 四季被",
+          "attributes": {
+            "season": [
+              "四季被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "鵝絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Nest 四季被",
+          "attributes": {
+            "season": [
+              "四季被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生羽絨"
+            ]
+          }
+        },
+        {
+          "title": "Auping Dew 四季被",
+          "attributes": {
+            "season": [
+              "四季被"
+            ],
+            "size": [
+              "140 x 200 cm",
+              "140 x 220 cm",
+              "200 x 200 cm",
+              "200 x 220 cm",
+              "240 x 220 cm",
+              "260 x 220 cm"
+            ],
+            "filling": [
+              "再生聚酯纖維"
+            ]
+          }
+        }
+      ]
+    },
+    "bed-linen-mattress-protectors": {
+      "localPath": "/bed-linen/mattress-protectors/",
+      "groups": [
+        {
+          "key": "compatible",
+          "queryKey": "compatible",
+          "options": [
+            {
+              "inputId": "6457",
+              "value": "一般床墊"
+            },
+            {
+              "inputId": "6462",
+              "value": "枕頭"
+            },
+            {
+              "inputId": "6459",
+              "value": "分離式上層床墊"
+            },
+            {
+              "inputId": "6458",
+              "value": "上層床墊"
+            }
+          ]
+        },
+        {
+          "key": "size",
+          "queryKey": "size",
+          "options": [
+            {
+              "inputId": "6463",
+              "value": "40 x 60 cm"
+            },
+            {
+              "inputId": "6464",
+              "value": "60 x 70 cm"
+            },
+            {
+              "inputId": "6538",
+              "value": "80/90/100 x 200/210/220 cm"
+            },
+            {
+              "inputId": "6120",
+              "value": "120 x 200/210/220 cm"
+            },
+            {
+              "inputId": "6121",
+              "value": "140/160 x 200/210/220 cm"
+            },
+            {
+              "inputId": "6124",
+              "value": "180/200 x 200/210/220 cm"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Molton 床墊保潔墊",
+          "attributes": {
+            "compatible": [
+              "一般床墊"
+            ],
+            "size": [
+              "40 x 60 cm",
+              "60 x 70 cm",
+              "80/90/100 x 200/210/220 cm",
+              "120 x 200/210/220 cm",
+              "140/160 x 200/210/220 cm",
+              "180/200 x 200/210/220 cm"
+            ]
+          }
+        },
+        {
+          "title": "Molton 枕頭保潔套",
+          "attributes": {
+            "compatible": [
+              "枕頭"
+            ],
+            "size": [
+              "40 x 60 cm",
+              "60 x 70 cm",
+              "80/90/100 x 200/210/220 cm",
+              "120 x 200/210/220 cm",
+              "140/160 x 200/210/220 cm",
+              "180/200 x 200/210/220 cm"
+            ]
+          }
+        },
+        {
+          "title": "上層床墊保潔墊",
+          "attributes": {
+            "compatible": [
+              "上層床墊"
+            ],
+            "size": [
+              "40 x 60 cm",
+              "60 x 70 cm",
+              "80/90/100 x 200/210/220 cm",
+              "120 x 200/210/220 cm",
+              "140/160 x 200/210/220 cm",
+              "180/200 x 200/210/220 cm"
+            ]
+          }
+        },
+        {
+          "title": "分離式上層床墊保潔墊",
+          "attributes": {
+            "compatible": [
+              "分離式上層床墊"
+            ],
+            "size": [
+              "40 x 60 cm",
+              "60 x 70 cm",
+              "80/90/100 x 200/210/220 cm",
+              "120 x 200/210/220 cm",
+              "140/160 x 200/210/220 cm",
+              "180/200 x 200/210/220 cm"
+            ]
+          }
+        }
+      ]
+    },
+    "bed-linen-bedspreads": {
+      "localPath": "/bed-linen/bedspreads/",
+      "groups": [
+        {
+          "key": "size",
+          "queryKey": "size",
+          "options": [
+            {
+              "inputId": "85",
+              "value": "180 x 260 cm"
+            },
+            {
+              "inputId": "244",
+              "value": "260 x 260 cm"
+            }
+          ]
+        }
+      ],
+      "products": [
+        {
+          "title": "Déjàvu 灰色床罩",
+          "attributes": {
+            "size": [
+              "180 x 260 cm",
+              "260 x 260 cm"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}
