@@ -1,0 +1,534 @@
+{
+  "schema": "AUPING-RC7.5-PHASE02-BROWSER-GATE-V1",
+  "engine": "chromium",
+  "passed": true,
+  "cases": [
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-2m",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-3m",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-bases--flat-bed-base",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-bases--manually-adjustable-mesh-base",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-linen--duvet-covers--white-lines-satin-duvet-cover",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "260 x 200/220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-linen--pillows--dew-pillow",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 2,
+          "selected": "60 x 70 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-linen--pillows--nest-pillow",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 2,
+          "selected": "60 x 70 cm"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--comfort-split-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 x 220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--deluxe-split-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 x 220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--prestige-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 24,
+          "selected": "200 x 220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--prestige-split-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "size": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 x 220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 10,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "bodyType": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "X"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--elysium-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 10,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "bodyType": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "I"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--evolve-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 10,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "bodyType": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "I"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--one-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 9,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 2,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--revive-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 5,
+          "selected": "180 cm (2x 90)"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 2,
+          "selected": "210 cm"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--two-mattress",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 9,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 2,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--comfort-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 8,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "toppers--deluxe-mattress-topper",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 8,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "initial": 8,
+      "filter": "一般床墊",
+      "visible": 3
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "initial": 9,
+      "filter": "四季被",
+      "visible": 3
+    },
+    {
+      "pageId": "bed-linen-mattress-protectors",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "initial": 4,
+      "filter": "一般床墊",
+      "visible": 1
+    },
+    {
+      "pageId": "bed-linen-bedspreads",
+      "viewport": {
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "initial": 1,
+      "filter": "180 x 260 cm",
+      "visible": 1
+    },
+    {
+      "pageId": "bed-bases--electrically-adjustable-bed-base-1m",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "react-overlay",
+          "options": 9,
+          "selected": "200 cm (2x 100)"
+        },
+        "length": {
+          "mode": "react-overlay",
+          "options": 4,
+          "selected": "220 cm"
+        }
+      }
+    },
+    {
+      "pageId": "mattresses--elite-mattress",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "controls": {
+        "width": {
+          "mode": "native-select",
+          "options": 10,
+          "selected": "200 cm"
+        },
+        "length": {
+          "mode": "native-select",
+          "options": 4,
+          "selected": "220 cm"
+        },
+        "bodyType": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "X"
+        },
+        "firmness": {
+          "mode": "native-select",
+          "options": 3,
+          "selected": "偏硬"
+        }
+      }
+    },
+    {
+      "pageId": "bed-linen-fitted-sheets",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "initial": 8,
+      "filter": "一般床墊",
+      "visible": 3
+    },
+    {
+      "pageId": "bed-linen-duvets",
+      "viewport": {
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "initial": 9,
+      "filter": "四季被",
+      "visible": 3
+    }
+  ],
+  "summary": {
+    "cases": 28,
+    "comboboxDesktop": 20,
+    "catalogDesktop": 4,
+    "mobileSamples": 4
+  }
+}

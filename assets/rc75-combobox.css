@@ -1,9 +1,10 @@
-/* RC7.5 build-time semantic combobox controller. */
+/* RC7.5 Phase 02 semantic controls. */
 [data-auping-combobox-control]{position:relative}
-[data-auping-combobox-native]{
+[data-auping-combobox-mode="react-overlay"] [data-auping-combobox-native]{
   position:absolute;inset:0;z-index:8;width:100%;height:100%;margin:0;
   opacity:0;cursor:pointer;font:inherit;color:inherit;background:transparent;
 }
+[data-auping-combobox-mode="native-select"] [data-auping-combobox-native]{cursor:pointer}
 [data-auping-combobox-control][data-auping-focus-visible="true"]{
   outline:3px solid rgba(0,83,159,.42);outline-offset:2px;
 }
