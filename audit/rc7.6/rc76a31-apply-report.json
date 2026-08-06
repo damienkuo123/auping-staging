@@ -1,0 +1,10 @@
+{
+  "schema": "AUPING-RC7.6A3.1-APPLY-V1",
+  "baseline": "f338315dbd96b4cb44b68825d5bab78f30164794",
+  "changedFileCount": 1,
+  "changedFiles": [
+    "assets/rc76/store-link-guard.js"
+  ],
+  "removedFullDocumentPolling": true,
+  "safeHrefNoOpGuard": true
+}
