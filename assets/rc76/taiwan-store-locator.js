@@ -96,15 +96,22 @@
   }
 
   function connectList(list, mapState) {
+    list.__aupingDealerMapState = mapState;
+    if (list.dataset.aupingDealerConnected === "true") return;
+    list.dataset.aupingDealerConnected = "true";
     list.addEventListener("click", (event) => {
       const button = event.target.closest("[data-dealer-focus]");
       if (!button) return;
-      const marker = mapState.markers.get(button.dataset.dealerFocus);
+      const state = list.__aupingDealerMapState;
+      const marker = state?.markers.get(button.dataset.dealerFocus);
       if (!marker) return;
-      mapState.map.flyTo(marker.getLatLng(), 14, { duration: .7 });
+      state.map.flyTo(marker.getLatLng(), 14, { duration: .7 });
       marker.openPopup();
       list.querySelectorAll(".auping-dealer-card").forEach((card) =>
-        card.classList.toggle("is-active", card.dataset.dealerId === button.dataset.dealerFocus)
+        card.classList.toggle(
+          "is-active",
+          card.dataset.dealerId === button.dataset.dealerFocus
+        )
       );
     });
   }
@@ -133,6 +140,13 @@
             normalize([dealer.name, dealer.shortName, dealer.city, dealer.district, dealer.address].join(" ")).includes(query))
         : [...dealers];
       render();
+      const visibleIds = new Set(visible.map((dealer) => dealer.id));
+      mapState.markers.forEach((marker, id) => {
+        const shouldShow = visibleIds.has(id);
+        const isShown = mapState.map.hasLayer(marker);
+        if (shouldShow && !isShown) marker.addTo(mapState.map);
+        if (!shouldShow && isShown) marker.remove();
+      });
       const matches = visible.map((dealer) => mapState.markers.get(dealer.id)).filter(Boolean);
       if (matches.length === 1) mapState.map.flyTo(matches[0].getLatLng(), 14);
       else if (matches.length > 1) {
@@ -191,15 +205,24 @@
     if (!mapHost) return;
     section.dataset.aupingDealerEmbeddedReady = "true";
 
-    const title = section.querySelector('[class*="StoreLocator_StoreLocator__Title"]');
-    const subtitle = section.querySelector('[class*="StoreLocator_StoreLocator__SubTitle"]');
+    const title = section.querySelector(
+      '[class*="StoreLocator_StoreLocator__Title"]'
+    );
+    const subtitle = section.querySelector(
+      '[class*="StoreLocator_StoreLocator__SubTitle"]'
+    );
     if (title) title.textContent = "Auping 台灣門市";
     if (subtitle) subtitle.textContent = "尋找展示與試躺據點";
 
-    const sidebarCandidates = [...section.querySelectorAll('[class*="Sidebar_Sidebar__"]')];
+    const sidebarCandidates = [
+      ...section.querySelectorAll('[class*="Sidebar_Sidebar__"]')
+    ];
     const sidebar = sidebarCandidates.find((node) =>
-      !sidebarCandidates.some((other) => other !== node && other.contains(node))
+      !sidebarCandidates.some(
+        (other) => other !== node && other.contains(node)
+      )
     );
+
     const list = document.createElement("div");
     list.className = "auping-embedded-dealer-list";
     const nearest = dealers.slice(0, 3);
@@ -210,7 +233,13 @@
       </div>
       ${nearest.map((dealer) => cardHtml(dealer, true)).join("")}
     `;
-    sidebar?.replaceChildren(list);
+
+    const layout = document.createElement("div");
+    layout.className = "auping-embedded-dealer-layout";
+    mapHost.replaceWith(layout);
+    layout.append(list, mapHost);
+    if (sidebar && !layout.contains(sidebar)) sidebar.remove();
+
     mapHost.replaceChildren();
     mapHost.classList.add("auping-leaflet-map");
     const mapState = createMap(mapHost, dealers);

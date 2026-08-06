@@ -105,3 +105,66 @@
   }
   .auping-dealer-card__body { padding-left: 20px; }
 }
+
+/* RC7.6A.3.2 DEALER HOTFIX BEGIN */
+body > header[class*="Header_"] {
+  z-index: 1200 !important;
+}
+body > aside[class*="FullPageMenu_"] {
+  z-index: 1300 !important;
+}
+.auping-leaflet-map,
+[data-auping-dealer-map],
+.leaflet-container {
+  position: relative;
+  z-index: 0 !important;
+  isolation: isolate;
+  overflow: hidden;
+}
+.auping-dealer-locator,
+.auping-dealer-detail {
+  padding-top: calc(var(--header-height, 74px) + 36px) !important;
+  scroll-margin-top: calc(var(--header-height, 74px) + 18px);
+}
+.auping-embedded-dealer-layout {
+  display: grid;
+  grid-template-columns: minmax(280px, 360px) minmax(0, 1fr);
+  grid-column: 1 / -1;
+  width: 100%;
+  min-width: 0;
+  min-height: 480px;
+  overflow: hidden;
+  border: 1px solid #dde1e4;
+  background: #fff;
+}
+.auping-embedded-dealer-layout .auping-embedded-dealer-list {
+  min-width: 0;
+  max-height: 480px;
+  overflow: auto;
+  border-right: 1px solid #dde1e4;
+}
+.auping-embedded-dealer-layout .auping-leaflet-map {
+  min-width: 0;
+  min-height: 480px !important;
+}
+@media (max-width: 840px) {
+  .auping-embedded-dealer-layout {
+    grid-template-columns: 1fr;
+    min-height: 0;
+  }
+  .auping-embedded-dealer-layout .auping-embedded-dealer-list {
+    max-height: none;
+    border-right: 0;
+    border-bottom: 1px solid #dde1e4;
+  }
+  .auping-embedded-dealer-layout .auping-leaflet-map {
+    min-height: 420px !important;
+  }
+}
+@media (max-width: 520px) {
+  .auping-dealer-locator,
+  .auping-dealer-detail {
+    padding-top: calc(var(--header-height, 64px) + 24px) !important;
+  }
+}
+/* RC7.6A.3.2 DEALER HOTFIX END */

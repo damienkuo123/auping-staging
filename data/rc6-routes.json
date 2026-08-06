@@ -1,6 +1,6 @@
 {
   "schema": "AUPING-RC7.2-ROUTES-V3",
-  "version": "2026-08-06-rc7.6a3-leaflet-taiwan-dealer-parity",
+  "version": "2026-08-06-rc7.6a3.2-dealer-routing-layout",
   "basePath": "/auping-staging",
   "routes": [
     {
@@ -889,9 +889,8 @@
       "id": "service-store-locator",
       "title": "尋找門市",
       "localPath": "/store-locator/",
-      "mode": "OFFICIAL_REDIRECT",
-      "officialUrl": "https://www.auping.com/en/store-locator",
-      "reason": "依賴官方後端或即時商業資料。"
+      "mode": "LOCAL_PARITY",
+      "reason": "RC7.6A.3.2：台灣六間門市頁已本地實作，禁止 Runtime 導回官方英文頁。"
     },
     {
       "id": "toppers",
