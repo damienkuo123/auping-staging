@@ -1,0 +1,93 @@
+/* RC7.6A.1 Taiwan-first store locator bridge. */
+[data-auping-taiwan-map-ready="true"] .GoogleMaps_GoogleMaps__795k6 {
+  position: relative !important;
+  overflow: hidden !important;
+  min-height: 520px;
+  background: #dcecf3;
+}
+[data-auping-taiwan-map-ready="true"] .GoogleMaps_GoogleMaps__795k6 > * { box-sizing: border-box; }
+.auping-tw-map-frame {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 520px;
+  border: 0;
+  background: #dcecf3;
+}
+.auping-tw-map-toolbar {
+  position: absolute;
+  z-index: 4;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  max-width: calc(100% - 24px);
+}
+.auping-tw-map-button,
+.auping-tw-map-link {
+  appearance: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  padding: 9px 14px;
+  border: 1px solid #00539f;
+  border-radius: 4px;
+  background: #fff;
+  color: #00539f !important;
+  font: inherit;
+  font-weight: 600;
+  line-height: 1.2;
+  text-decoration: none !important;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, .14);
+}
+.auping-tw-map-button:hover,
+.auping-tw-map-link:hover { background: #f1f7fc; }
+.auping-tw-map-button:focus-visible,
+.auping-tw-map-link:focus-visible { outline: 3px solid rgba(0,83,159,.35); outline-offset: 2px; }
+.auping-tw-map-status {
+  position: absolute;
+  z-index: 4;
+  left: 12px;
+  bottom: 12px;
+  max-width: min(460px, calc(100% - 24px));
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: rgba(255,255,255,.94);
+  color: #353535;
+  font-size: 13px;
+  line-height: 1.45;
+  box-shadow: 0 2px 8px rgba(0,0,0,.12);
+}
+.auping-tw-map-search-actions {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 8px;
+  margin-top: 10px;
+}
+.auping-tw-map-search-actions .auping-tw-map-button,
+.auping-tw-map-search-actions .auping-tw-map-link { width: 100%; box-shadow: none; }
+.auping-tw-map-search-actions .auping-tw-map-button { background: #00539f; color: #fff !important; }
+.auping-tw-map-search-actions .auping-tw-map-button:hover { background: #003f7a; }
+.auping-tw-map-note {
+  display: block;
+  margin-top: 9px;
+  color: #666;
+  font-size: 12px;
+  line-height: 1.45;
+}
+[data-auping-taiwan-map-ready="true"] input[data-auping-tw-map-search] {
+  cursor: text !important;
+  opacity: 1 !important;
+}
+@media (max-width: 767px) {
+  [data-auping-taiwan-map-ready="true"] .GoogleMaps_GoogleMaps__795k6,
+  .auping-tw-map-frame { min-height: 420px; }
+  .auping-tw-map-toolbar { top: 8px; right: 8px; gap: 6px; }
+  .auping-tw-map-button,
+  .auping-tw-map-link { min-height: 40px; padding: 8px 11px; font-size: 13px; }
+  .auping-tw-map-status { left: 8px; bottom: 8px; max-width: calc(100% - 16px); }
+}

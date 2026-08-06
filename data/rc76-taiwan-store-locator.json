@@ -1,0 +1,8 @@
+{
+  "schema": "AUPING-RC7.6-TAIWAN-STORE-LOCATOR-V1",
+  "defaultRegion": "Taiwan",
+  "defaultQuery": "Auping Taiwan",
+  "defaultZoom": 7,
+  "officialLocator": "https://www.auping.com/en/store-locator",
+  "policy": "The local map provides a Taiwan-first interactive view. Dealer identity, availability and opening hours remain authoritative only on the official Auping Store Locator. No dealer coordinates are fabricated locally."
+}

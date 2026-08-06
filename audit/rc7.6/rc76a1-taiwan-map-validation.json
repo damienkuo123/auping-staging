@@ -1,0 +1,7 @@
+{
+  "schema": "AUPING-RC7.6A1-TAIWAN-MAP-VALIDATION-V1",
+  "passed": true,
+  "targetPages": 18,
+  "readyPages": 18,
+  "failures": []
+}

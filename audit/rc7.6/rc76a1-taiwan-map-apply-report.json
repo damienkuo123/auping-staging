@@ -1,0 +1,26 @@
+{
+  "schema": "AUPING-RC7.6A1-TAIWAN-MAP-APPLY-V1",
+  "targetPageCount": 18,
+  "changedFileCount": 18,
+  "changedFiles": [
+    "beds/index.html",
+    "toppers/index.html",
+    "box-springs/index.html",
+    "mattresses/index.html",
+    "bed-linen/index.html",
+    "bed-bases/index.html",
+    "bed-linen/mattress-protectors/index.html",
+    "bed-linen/pillowcases/index.html",
+    "bed-linen/duvet-covers/index.html",
+    "bed-linen/pillows/index.html",
+    "bed-linen/duvets/index.html",
+    "bed-linen/bedspreads/index.html",
+    "bed-linen/fitted-sheets/index.html",
+    "box-springs/criade/index.html",
+    "box-springs/kiruna/index.html",
+    "beds/noa/index.html",
+    "beds/original/index.html",
+    "beds/noble/index.html"
+  ],
+  "failures": []
+}
