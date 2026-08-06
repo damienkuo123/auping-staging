@@ -1,0 +1,29 @@
+{
+  "schema": "AUPING-RC7.6A-APPLY-REPORT-V1",
+  "baseline": "aec2289fead07f50643fedc7e0e283e6d85e3e19",
+  "generatedAt": "2026-08-06T04:02:04.639463+00:00",
+  "changedFileCount": 0,
+  "changedFiles": [],
+  "replacements": {
+    "beds/noa/index.html": {
+      "aurondepastillegreen_1.png": 0,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+    },
+    "beds/noble/index.html": {
+      "aurondepastillegreen_1.png": 0,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+    },
+    "beds/original/index.html": {
+      "aurondepastillegreen_1.png": 0,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+    },
+    "box-springs/criade/index.html": {
+      "aurondepastillegreen_1.png": 0,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+    },
+    "box-springs/kiruna/index.html": {
+      "aurondepastillegreen_1.png": 0,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+    }
+  }
+}

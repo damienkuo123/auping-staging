@@ -1,0 +1,41 @@
+{
+  "schema": "AUPING-RC7.6A-APPLY-REPORT-V1",
+  "baseline": "aec2289fead07f50643fedc7e0e283e6d85e3e19",
+  "generatedAt": "2026-08-06T04:02:02.567856+00:00",
+  "changedFileCount": 11,
+  "changedFiles": [
+    "assets/rc76/common/explore-beds.avif",
+    "assets/rc76/common/create-bedroom.avif",
+    "tools/apply_rc76a_visible_assets.py",
+    "tools/validate_rc76a_visible_assets.py",
+    "audit/rc7.6/RC76A_README.md",
+    "audit/rc7.6/RC76A_KNOWN_LIMITATIONS.md",
+    "beds/noa/index.html",
+    "beds/noble/index.html",
+    "beds/original/index.html",
+    "box-springs/criade/index.html",
+    "box-springs/kiruna/index.html"
+  ],
+  "replacements": {
+    "beds/noa/index.html": {
+      "aurondepastillegreen_1.png": 15,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 15
+    },
+    "beds/noble/index.html": {
+      "aurondepastillegreen_1.png": 15,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 15
+    },
+    "beds/original/index.html": {
+      "aurondepastillegreen_1.png": 15,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 15
+    },
+    "box-springs/criade/index.html": {
+      "aurondepastillegreen_1.png": 13,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 13
+    },
+    "box-springs/kiruna/index.html": {
+      "aurondepastillegreen_1.png": 13,
+      "auping_aw25_bedlinen_dessin_playful_bricks_065.png": 13
+    }
+  }
+}

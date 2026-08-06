@@ -1,0 +1,64 @@
+{
+  "schema": "AUPING-RC7.6A-VALIDATION-V1",
+  "generatedAt": "2026-08-06T04:02:04.558896+00:00",
+  "passed": true,
+  "targetPages": 5,
+  "failures": [],
+  "details": {
+    "beds/noa/index.html": {
+      "localCounts": {
+        "/auping-staging/assets/rc76/common/explore-beds.avif": 15,
+        "/auping-staging/assets/rc76/common/create-bedroom.avif": 15
+      },
+      "remoteCounts": {
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-11%2Faurondepastillegreen_1.png": 0,
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-10%2Fauping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+      }
+    },
+    "beds/noble/index.html": {
+      "localCounts": {
+        "/auping-staging/assets/rc76/common/explore-beds.avif": 15,
+        "/auping-staging/assets/rc76/common/create-bedroom.avif": 15
+      },
+      "remoteCounts": {
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-11%2Faurondepastillegreen_1.png": 0,
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-10%2Fauping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+      }
+    },
+    "beds/original/index.html": {
+      "localCounts": {
+        "/auping-staging/assets/rc76/common/explore-beds.avif": 15,
+        "/auping-staging/assets/rc76/common/create-bedroom.avif": 15
+      },
+      "remoteCounts": {
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-11%2Faurondepastillegreen_1.png": 0,
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-10%2Fauping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+      }
+    },
+    "box-springs/criade/index.html": {
+      "localCounts": {
+        "/auping-staging/assets/rc76/common/explore-beds.avif": 13,
+        "/auping-staging/assets/rc76/common/create-bedroom.avif": 13
+      },
+      "remoteCounts": {
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-11%2Faurondepastillegreen_1.png": 0,
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-10%2Fauping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+      }
+    },
+    "box-springs/kiruna/index.html": {
+      "localCounts": {
+        "/auping-staging/assets/rc76/common/explore-beds.avif": 13,
+        "/auping-staging/assets/rc76/common/create-bedroom.avif": 13
+      },
+      "remoteCounts": {
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-11%2Faurondepastillegreen_1.png": 0,
+        "/_next/image?url=https%3A%2F%2Fapi.auping.com%2Fsites%2Fdefault%2Ffiles%2F2025-10%2Fauping_aw25_bedlinen_dessin_playful_bricks_065.png": 0
+      }
+    }
+  },
+  "phase04": {
+    "returncode": 0,
+    "stdout": "{\n  \"passed\": true,\n  \"localRoutes\": 142,\n  \"products\": 112,\n  \"comboboxPages\": 62,\n  \"comboboxControls\": 83,\n  \"catalogPages\": 4,\n  \"catalogProducts\": 22,\n  \"fallbackLinks\": 389,\n  \"unknownInternalLinks\": 0\n}\n",
+    "stderr": ""
+  }
+}
