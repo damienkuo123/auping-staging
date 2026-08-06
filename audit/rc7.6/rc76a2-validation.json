@@ -1,0 +1,7 @@
+{
+  "schema": "AUPING-RC7.6A2-VALIDATION-V1",
+  "passed": true,
+  "routeCount": 189,
+  "localLocatorLinks": 1379,
+  "failures": []
+}
