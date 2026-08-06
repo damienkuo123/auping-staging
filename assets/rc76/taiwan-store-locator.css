@@ -1,127 +1,107 @@
-/* RC7.6A.2 clean Taiwan-first local Store Locator. */
-.auping-tw-map-toolbar,
-.auping-tw-map-status,
-.auping-tw-map-search-actions,
-.auping-tw-map-note { display: none !important; }
-
-[data-auping-taiwan-map-ready="true"] .GoogleMaps_GoogleMaps__795k6 {
-  position: relative !important;
-  overflow: hidden !important;
-  min-height: 520px;
-  background: #dcecf3;
+/* RC7.6A.3 Leaflet Taiwan Dealer Parity */
+.auping-dealer-locator {
+  width: min(1350px, calc(100% - 40px));
+  margin: 0 auto;
+  padding: 36px 0 72px;
 }
-.auping-tw-map-frame {
-  display: block;
-  width: 100%;
-  height: 100%;
-  min-height: 520px;
-  border: 0;
-  background: #dcecf3;
-}
-.auping-tw-locator-panel {
-  padding: 24px;
-  background: #fff;
-  color: #343434;
-}
-.auping-tw-locator-eyebrow {
-  margin: 0 0 7px;
-  color: #00539f;
-  font-size: 14px;
-  font-weight: 700;
-  letter-spacing: .02em;
-}
-.auping-tw-locator-title {
-  margin: 0;
-  color: #343434;
-  font-size: clamp(24px, 2vw, 34px);
-  font-weight: 500;
-  line-height: 1.18;
-}
-.auping-tw-locator-copy {
-  margin: 10px 0 22px;
-  color: #666;
-  font-size: 15px;
-  line-height: 1.55;
-}
-.auping-tw-locator-label {
-  display: block;
-  margin-bottom: 7px;
-  font-size: 14px;
-  font-weight: 700;
-}
-.auping-tw-locator-input {
-  display: block;
-  width: 100%;
-  min-height: 50px;
-  padding: 11px 14px;
-  border: 1px solid #c9c9c9;
-  border-radius: 2px;
-  background: #fff;
-  color: #333;
-  font: inherit;
-  box-sizing: border-box;
-}
-.auping-tw-locator-input:focus {
-  outline: 3px solid rgba(0,83,159,.22);
-  border-color: #00539f;
-}
-.auping-tw-locator-actions {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 9px;
-  margin-top: 12px;
-}
-.auping-tw-locator-button {
-  appearance: none;
-  min-height: 48px;
-  padding: 10px 15px;
-  border: 1px solid #00539f;
-  border-radius: 2px;
-  font: inherit;
-  font-weight: 700;
-  cursor: pointer;
-}
-.auping-tw-locator-button--primary { background: #00539f; color: #fff; }
-.auping-tw-locator-button--primary:hover { background: #003f7a; }
-.auping-tw-locator-button--secondary { background: #fff; color: #00539f; }
-.auping-tw-locator-button--secondary:hover { background: #f2f7fb; }
-.auping-tw-locator-button:disabled { opacity: .55; cursor: wait; }
-.auping-tw-locator-status {
-  min-height: 38px;
-  margin: 12px 0 0;
-  color: #666;
-  font-size: 13px;
-  line-height: 1.45;
-}
-
-.auping-tw-locator-page { padding: 38px 0 72px; background: #fff; }
-.auping-tw-locator-page__inner { width: min(1350px, calc(100% - 40px)); margin: 0 auto; }
-.auping-tw-locator-page__heading { max-width: 760px; margin-bottom: 28px; }
-.auping-tw-locator-page__heading h1 {
-  margin: 0; color: #343434; font-size: clamp(36px, 5vw, 58px);
+.auping-dealer-locator__intro { max-width: 820px; margin-bottom: 26px; }
+.auping-dealer-locator__intro h1 {
+  margin: 0; color: #343434; font-size: clamp(38px, 5vw, 62px);
   font-weight: 500; line-height: 1.08;
 }
-.auping-tw-locator-page__heading p {
-  margin: 14px 0 0; color: #666; font-size: 18px; line-height: 1.55;
+.auping-dealer-locator__intro p { margin: 14px 0 0; color: #666; font-size: 18px; line-height: 1.55; }
+.auping-dealer-tools {
+  display: grid; grid-template-columns: minmax(240px, 1fr) auto auto;
+  gap: 10px; margin-bottom: 18px;
 }
-.auping-tw-locator-page__layout {
-  display: grid; grid-template-columns: minmax(280px, 340px) minmax(0, 1fr);
-  min-height: 620px; border: 1px solid #e1e1e1; background: #f7f8f9;
+.auping-dealer-tools input {
+  min-height: 50px; border: 1px solid #bfc5ca; padding: 10px 14px;
+  font: inherit; background: #fff;
 }
-.auping-tw-locator-page__sidebar { padding: 30px; background: #fff; }
-.auping-tw-locator-page__map { min-width: 0; background: #dcecf3; }
-.auping-tw-locator-page__map .auping-tw-map-frame { min-height: 620px; }
-.auping-tw-locator-global-link {
-  display: inline-block; margin-top: 18px; color: #00539f; font-size: 14px;
-  text-decoration: underline; text-underline-offset: 3px;
+.auping-dealer-tools button, .auping-dealer-button {
+  display: inline-flex; align-items: center; justify-content: center;
+  min-height: 50px; padding: 10px 18px; border: 1px solid #00539f;
+  background: #00539f; color: #fff; font: inherit; font-weight: 700;
+  text-decoration: none; cursor: pointer;
 }
-@media (max-width: 767px) {
-  [data-auping-taiwan-map-ready="true"] .GoogleMaps_GoogleMaps__795k6,
-  .auping-tw-map-frame { min-height: 420px; }
-  .auping-tw-locator-panel { padding: 20px; }
-  .auping-tw-locator-page { padding: 26px 0 48px; }
-  .auping-tw-locator-page__inner { width: min(100% - 24px, 1350px); }
-  .auping-tw-locator-page__layout { grid-template-columns: 1fr; }
-  .auping-tw-locator-page__sidebar { padding: 22px; }
-  .auping-tw-locator-page__map .auping-tw-map-frame { min-height: 470px; }
+.auping-dealer-tools button.secondary { background: #fff; color: #00539f; }
+.auping-dealer-locator__layout {
+  display: grid; grid-template-columns: minmax(310px, 390px) minmax(0, 1fr);
+  min-height: 650px; border: 1px solid #dde1e4; background: #fff;
+}
+.auping-dealer-locator__sidebar { overflow: auto; max-height: 650px; }
+.auping-leaflet-map, [data-auping-dealer-map] { min-height: 650px; background: #dcecf3; }
+.auping-dealer-list-meta {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px 20px; border-bottom: 1px solid #e2e2e2; color: #666;
+}
+.auping-dealer-card { border-bottom: 1px solid #e3e3e3; background: #fff; }
+.auping-dealer-card.is-active { box-shadow: inset 4px 0 #00539f; background: #f5f9fd; }
+.auping-dealer-card__focus {
+  width: 100%; display: grid; grid-template-columns: 38px 1fr; gap: 12px;
+  padding: 18px 20px; border: 0; background: transparent; text-align: left;
+  font: inherit; color: inherit; cursor: pointer;
+}
+.auping-dealer-card__focus strong { display: block; color: #00539f; font-size: 17px; }
+.auping-dealer-card__focus small { display: block; margin-top: 5px; color: #666; line-height: 1.45; }
+.auping-dealer-card__pin {
+  width: 34px; height: 34px; border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg); display: grid; place-items: center;
+  background: #7a7a7a; color: #fff; font-weight: 700;
+}
+.auping-dealer-card__pin::first-letter { transform: rotate(45deg); }
+.auping-dealer-card__body { padding: 0 20px 18px 70px; }
+.auping-dealer-card__body ul { margin: 10px 0; padding-left: 18px; color: #666; }
+.auping-dealer-card__actions { display: flex; flex-wrap: wrap; gap: 12px; }
+.auping-dealer-card__actions a { color: #00539f; font-weight: 700; text-underline-offset: 3px; }
+.auping-dealer-marker-shell { background: transparent; border: 0; }
+.auping-dealer-marker {
+  width: 38px; height: 38px; border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg); display: grid; place-items: center;
+  background: #00539f; color: #fff; border: 3px solid #fff;
+  box-shadow: 0 3px 9px rgba(0,0,0,.28); font-size: 20px; font-weight: 700;
+}
+.auping-dealer-marker::first-letter { transform: rotate(45deg); }
+.leaflet-popup-content a { color: #00539f; font-weight: 700; }
+.auping-embedded-dealer-list { background: #fff; }
+.auping-embedded-dealer-heading {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 18px 20px; border-bottom: 1px solid #ddd;
+}
+.auping-embedded-dealer-heading a { color: #00539f; font-weight: 700; }
+.auping-dealer-detail {
+  width: min(1350px, calc(100% - 40px)); margin: 0 auto; padding: 36px 0 72px;
+}
+.auping-dealer-detail__crumb { margin-bottom: 32px; color: #666; }
+.auping-dealer-detail__crumb a { color: #00539f; }
+.auping-dealer-detail__hero {
+  display: grid; grid-template-columns: minmax(0, 1fr) minmax(360px, 480px);
+  gap: 42px; align-items: start;
+}
+.auping-dealer-detail h1 {
+  margin: 0; color: #343434; font-size: clamp(38px, 5vw, 62px);
+  font-weight: 500; line-height: 1.08;
+}
+.auping-dealer-detail__meta { margin-top: 22px; font-size: 17px; line-height: 1.7; }
+.auping-dealer-detail__meta ul { padding-left: 18px; }
+.auping-dealer-detail__actions { display: flex; flex-wrap: wrap; gap: 10px; margin-top: 24px; }
+.auping-dealer-detail__actions .secondary { background: #fff; color: #00539f; }
+.auping-dealer-detail__map { min-height: 460px; }
+.auping-dealer-source {
+  margin-top: 18px; color: #777; font-size: 13px;
+}
+.auping-dealer-source a { color: #00539f; }
+@media (max-width: 840px) {
+  .auping-dealer-tools { grid-template-columns: 1fr; }
+  .auping-dealer-locator__layout { grid-template-columns: 1fr; }
+  .auping-dealer-locator__sidebar { max-height: none; }
+  .auping-leaflet-map, [data-auping-dealer-map] { min-height: 460px; }
+  .auping-dealer-detail__hero { grid-template-columns: 1fr; }
+  .auping-dealer-detail__map { min-height: 420px; }
+}
+@media (max-width: 520px) {
+  .auping-dealer-locator, .auping-dealer-detail {
+    width: min(100% - 24px, 1350px); padding-top: 24px;
+  }
+  .auping-dealer-card__body { padding-left: 20px; }
 }

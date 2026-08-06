@@ -1,0 +1,141 @@
+{
+  "schema": "AUPING-RC7.6A3-TAIWAN-DEALERS-V1",
+  "version": "2026-08-06",
+  "verifiedAt": "2026-08-06",
+  "map": {
+    "provider": "Leaflet + OpenStreetMap",
+    "defaultCenter": [
+      23.6978,
+      120.9605
+    ],
+    "defaultZoom": 7,
+    "tileUrl": "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+    "attribution": "&copy; OpenStreetMap contributors",
+    "reportMapIssueUrl": "https://www.openstreetmap.org/fixthemap"
+  },
+  "dealers": [
+    {
+      "id": "taipei-asehome",
+      "slug": "taipei-asehome",
+      "name": "Auping 台北日月光門市",
+      "shortName": "台北日月光門市",
+      "city": "新北市",
+      "district": "汐止區",
+      "address": "新北市汐止區康寧街751巷13號 1F-B1006館",
+      "phone": "02-2691-5253",
+      "appointmentPhone": "0932-648-504",
+      "contactName": "林俐葶",
+      "hours": [
+        "每日 12:00–21:00"
+      ],
+      "lat": 25.075273,
+      "lng": 121.637105,
+      "sourceUrl": "https://www.auping.com.tw/en/auping-plaza.html",
+      "sourceLabel": "Auping 台灣官方門市頁",
+      "verified": true
+    },
+    {
+      "id": "taoyuan-nankan",
+      "slug": "taoyuan-nankan",
+      "name": "Auping 桃園南崁門市",
+      "shortName": "桃園南崁門市",
+      "city": "桃園市",
+      "district": "蘆竹區",
+      "address": "桃園市蘆竹區中正路1號 特力家居3F",
+      "phone": "0937-639-812",
+      "appointmentPhone": "0937-639-812",
+      "contactName": "王儷蓉",
+      "hours": [
+        "每日 11:00–21:00"
+      ],
+      "lat": 25.0401823,
+      "lng": 121.2947327,
+      "sourceUrl": "https://www.auping.com.tw/en/auping-plaza.html",
+      "sourceLabel": "Auping 台灣官方門市頁",
+      "verified": true
+    },
+    {
+      "id": "hsinchu-dutchhaves",
+      "slug": "hsinchu-dutchhaves",
+      "name": "Dutchhaves 荷蘭家居－新竹店",
+      "shortName": "新竹 Dutchhaves",
+      "city": "新竹市",
+      "district": "東區",
+      "address": "新竹市東區關新一街6號",
+      "phone": "03-563-0208",
+      "appointmentPhone": "03-563-0208",
+      "contactName": "楊喬立",
+      "hours": [
+        "週二至週日 11:00–20:00",
+        "週一公休"
+      ],
+      "lat": 24.7840573,
+      "lng": 121.0183976,
+      "sourceUrl": "https://www.auping.com.tw/en/auping-plaza.html",
+      "sourceLabel": "Auping 台灣官方門市頁",
+      "verified": true
+    },
+    {
+      "id": "taichung-dutchhaves",
+      "slug": "taichung-dutchhaves",
+      "name": "DUTCHHAVES 荷蘭家居－台中北屯店",
+      "shortName": "台中 Dutchhaves",
+      "city": "台中市",
+      "district": "北屯區",
+      "address": "台中市北屯區建和路二段108號（入口在和祥五街23號）",
+      "phone": "04-2436-8378",
+      "appointmentPhone": "04-2436-8378",
+      "contactName": "楊喬立",
+      "hours": [
+        "週二至週六 10:00–18:00",
+        "週日 12:00–18:00",
+        "週一公休"
+      ],
+      "lat": 24.16986208438433,
+      "lng": 120.72246141498943,
+      "sourceUrl": "https://www.dutchhaves.com/contact.html",
+      "sourceLabel": "Dutchhaves 官方聯絡頁",
+      "verified": true
+    },
+    {
+      "id": "kaohsiung-zhonghua",
+      "slug": "kaohsiung-zhonghua",
+      "name": "Auping 高雄中華門市",
+      "shortName": "高雄中華門市",
+      "city": "高雄市",
+      "district": "三民區",
+      "address": "高雄市三民區中華二路53號",
+      "phone": "07-522-4412",
+      "appointmentPhone": "0937-636-291",
+      "contactName": "李岱樺",
+      "hours": [
+        "每日 11:00–20:00"
+      ],
+      "lat": 22.63983408514821,
+      "lng": 120.28929471496086,
+      "sourceUrl": "https://www.auping.com.tw/en/auping-plaza.html",
+      "sourceLabel": "Auping 台灣官方門市頁",
+      "verified": true
+    },
+    {
+      "id": "yilan-outlet",
+      "slug": "yilan-outlet",
+      "name": "Auping 宜蘭爾本 Outlet",
+      "shortName": "宜蘭爾本 Outlet",
+      "city": "宜蘭縣",
+      "district": "宜蘭市",
+      "address": "宜蘭縣宜蘭市宜興路一段159號 爾本購物廣場2F",
+      "phone": "0937-639-812",
+      "appointmentPhone": "0937-639-812",
+      "contactName": "王儷蓉",
+      "hours": [
+        "每日 11:00–22:00"
+      ],
+      "lat": 24.752581984026783,
+      "lng": 121.75419305091793,
+      "sourceUrl": "https://www.auping.com.tw/en/auping-plaza.html",
+      "sourceLabel": "Auping 台灣官方門市頁",
+      "verified": true
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "schema": "AUPING-RC7.6A3-VALIDATION-V1",
+  "passed": false,
+  "dealerCount": 6,
+  "routeCount": 195,
+  "globalGuardPages": 190,
+  "failures": [
+    {
+      "code": "GLOBAL_GUARD_COVERAGE",
+      "actual": 190,
+      "expected": 195
+    }
+  ]
+}

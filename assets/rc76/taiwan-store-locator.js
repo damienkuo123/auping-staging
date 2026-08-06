@@ -1,210 +1,250 @@
 (() => {
   "use strict";
+  const BASE = "/auping-staging";
+  const DATA_URL = `${BASE}/data/rc76-taiwan-dealers.json`;
+  const DETAIL_BASE = `${BASE}/stores`;
+  const MAP_CENTER = [23.6978, 120.9605];
+  const MAP_ZOOM = 7;
+  let payloadPromise;
 
-  const LOCAL_LOCATOR = "/auping-staging/store-locator/";
-  const TAIWAN_CENTER = { lat: 23.6978, lng: 120.9605 };
-  const DEFAULT_ZOOM = 7;
-
-  const defaultMapUrl = () =>
-    `https://www.google.com/maps?ll=${TAIWAN_CENTER.lat},${TAIWAN_CENTER.lng}&z=${DEFAULT_ZOOM}&hl=zh-TW&output=embed`;
-
-  const searchMapUrl = (query, zoom = 11) =>
-    `https://www.google.com/maps?q=${encodeURIComponent(query)}&z=${encodeURIComponent(String(zoom))}&hl=zh-TW&output=embed`;
-
-  const cleanSearch = (value) => String(value || "")
-    .replace(/[<>]/g, " ")
-    .replace(/\s+/g, " ")
-    .trim()
-    .slice(0, 100);
-
-  function localizeLocatorLinks() {
-    document.querySelectorAll("a[href]").forEach((anchor) => {
-      if (anchor.dataset.aupingExternalGlobalLocator === "true") return;
-      let url;
-      try { url = new URL(anchor.href, location.href); } catch (_) { return; }
-      const official = /(^|\.)auping\.com$/i.test(url.hostname) && /\/(?:en\/)?store-locator\/?$/i.test(url.pathname);
-      const capturedLocal = /\/store-locator\/?$/i.test(url.pathname) && url.hostname === location.hostname;
-      if (!official && !capturedLocal) return;
-      anchor.href = LOCAL_LOCATOR;
-      anchor.removeAttribute("target");
-      anchor.removeAttribute("rel");
-      anchor.dataset.aupingLocalStoreLocator = "true";
+  const fetchDealers = () => payloadPromise ||= fetch(DATA_URL, { cache: "no-store" })
+    .then((response) => {
+      if (!response.ok) throw new Error(`dealer-data-${response.status}`);
+      return response.json();
     });
+
+  const telHref = (value) => `tel:${String(value || "").replace(/[^\d+]/g, "")}`;
+  const routeHref = (dealer) =>
+    `https://www.google.com/maps/dir/?api=1&destination=${dealer.lat},${dealer.lng}`;
+  const normalize = (value) => String(value || "").toLowerCase().replace(/\s+/g, "");
+  const distanceKm = (a, b) => {
+    const rad = (value) => value * Math.PI / 180;
+    const r = 6371;
+    const dLat = rad(b.lat - a.lat);
+    const dLng = rad(b.lng - a.lng);
+    const lat1 = rad(a.lat);
+    const lat2 = rad(b.lat);
+    const h = Math.sin(dLat / 2) ** 2 +
+      Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLng / 2) ** 2;
+    return 2 * r * Math.asin(Math.sqrt(h));
+  };
+
+  const markerIcon = (label) => L.divIcon({
+    className: "auping-dealer-marker-shell",
+    html: `<span class="auping-dealer-marker" aria-label="${label}">a</span>`,
+    iconSize: [38, 46],
+    iconAnchor: [19, 44],
+    popupAnchor: [0, -42],
+  });
+
+  function createMap(element, dealers, options = {}) {
+    const map = L.map(element, {
+      scrollWheelZoom: false,
+      zoomControl: true,
+      attributionControl: true
+    }).setView(options.center || MAP_CENTER, options.zoom || MAP_ZOOM);
+
+    L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+      maxZoom: 19,
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>'
+    }).addTo(map);
+
+    const markers = new Map();
+    const bounds = [];
+    dealers.forEach((dealer) => {
+      const marker = L.marker([dealer.lat, dealer.lng], {
+        icon: markerIcon(dealer.shortName)
+      }).addTo(map);
+      marker.bindPopup(`
+        <strong>${dealer.name}</strong><br>
+        ${dealer.address}<br>
+        <a href="${DETAIL_BASE}/${dealer.slug}/">查看門市</a>
+      `);
+      markers.set(dealer.id, marker);
+      bounds.push([dealer.lat, dealer.lng]);
+    });
+    if (options.fit !== false && bounds.length > 1) {
+      map.fitBounds(bounds, { padding: [34, 34], maxZoom: 9 });
+    }
+    setTimeout(() => map.invalidateSize(), 80);
+    return { map, markers };
   }
 
-  function makeButton(label, variant, handler) {
-    const button = document.createElement("button");
-    button.type = "button";
-    button.className = `auping-tw-locator-button auping-tw-locator-button--${variant}`;
-    button.textContent = label;
-    button.addEventListener("click", handler);
-    return button;
+  function cardHtml(dealer, compact = false) {
+    const hours = (dealer.hours || []).map((line) => `<li>${line}</li>`).join("");
+    return `
+      <article class="auping-dealer-card" data-dealer-id="${dealer.id}">
+        <button class="auping-dealer-card__focus" type="button" data-dealer-focus="${dealer.id}">
+          <span class="auping-dealer-card__pin">a</span>
+          <span>
+            <strong>${dealer.name}</strong>
+            <small>${dealer.city}${dealer.district} · ${dealer.address}</small>
+          </span>
+        </button>
+        ${compact ? "" : `
+          <div class="auping-dealer-card__body">
+            <a href="${telHref(dealer.phone)}">${dealer.phone}</a>
+            <ul>${hours}</ul>
+            <div class="auping-dealer-card__actions">
+              <a href="${DETAIL_BASE}/${dealer.slug}/">門市資訊</a>
+              <a href="${routeHref(dealer)}" target="_blank" rel="noopener">規劃路線</a>
+              <a href="${telHref(dealer.appointmentPhone)}">預約試躺</a>
+            </div>
+          </div>
+        `}
+      </article>`;
   }
 
-  function createMapFrame(title) {
-    const frame = document.createElement("iframe");
-    frame.className = "auping-tw-map-frame";
-    frame.title = title;
-    frame.loading = "eager";
-    frame.referrerPolicy = "no-referrer-when-downgrade";
-    frame.setAttribute("allowfullscreen", "");
-    frame.src = defaultMapUrl();
-    return frame;
-  }
-
-  function bindPanel({ panel, frame, input, status }) {
-    const setMap = (src, message) => {
-      frame.src = src;
-      status.textContent = message;
-    };
-
-    const runSearch = () => {
-      const value = cleanSearch(input.value);
-      if (!value) {
-        setMap(defaultMapUrl(), "已回到台灣全區。請輸入縣市、行政區或郵遞區號縮小範圍。");
-        return;
-      }
-      setMap(
-        searchMapUrl(`Auping ${value} Taiwan`, 11),
-        `正在搜尋「${value}」附近的 Auping 據點。門市資訊請再向經銷據點確認。`
+  function connectList(list, mapState) {
+    list.addEventListener("click", (event) => {
+      const button = event.target.closest("[data-dealer-focus]");
+      if (!button) return;
+      const marker = mapState.markers.get(button.dataset.dealerFocus);
+      if (!marker) return;
+      mapState.map.flyTo(marker.getLatLng(), 14, { duration: .7 });
+      marker.openPopup();
+      list.querySelectorAll(".auping-dealer-card").forEach((card) =>
+        card.classList.toggle("is-active", card.dataset.dealerId === button.dataset.dealerFocus)
       );
-    };
+    });
+  }
 
-    input.addEventListener("keydown", (event) => {
-      if (event.key !== "Enter") return;
-      event.preventDefault();
-      runSearch();
+  function mountLocatorPage(root, dealers) {
+    const mapElement = root.querySelector("[data-auping-dealer-map]");
+    const list = root.querySelector("[data-auping-dealer-list]");
+    const search = root.querySelector("[data-auping-dealer-search]");
+    const count = root.querySelector("[data-auping-dealer-count]");
+    const locate = root.querySelector("[data-auping-dealer-locate]");
+    if (!mapElement || !list) return;
+
+    let visible = [...dealers];
+    const mapState = createMap(mapElement, visible);
+    const render = () => {
+      list.innerHTML = visible.map((dealer) => cardHtml(dealer)).join("");
+      count.textContent = `${visible.length} 間門市`;
+      connectList(list, mapState);
+    };
+    render();
+
+    search?.addEventListener("input", () => {
+      const query = normalize(search.value);
+      visible = query
+        ? dealers.filter((dealer) =>
+            normalize([dealer.name, dealer.shortName, dealer.city, dealer.district, dealer.address].join(" ")).includes(query))
+        : [...dealers];
+      render();
+      const matches = visible.map((dealer) => mapState.markers.get(dealer.id)).filter(Boolean);
+      if (matches.length === 1) mapState.map.flyTo(matches[0].getLatLng(), 14);
+      else if (matches.length > 1) {
+        mapState.map.fitBounds(L.featureGroup(matches).getBounds(), { padding: [34, 34], maxZoom: 10 });
+      }
     });
 
-    const actions = document.createElement("div");
-    actions.className = "auping-tw-locator-actions";
-    actions.appendChild(makeButton("搜尋台灣門市", "primary", runSearch));
-
-    const locate = makeButton("使用目前位置", "secondary", () => {
+    locate?.addEventListener("click", () => {
       if (!navigator.geolocation) {
-        status.textContent = "此瀏覽器不支援定位，請輸入縣市或行政區搜尋。";
+        root.querySelector("[data-auping-dealer-status]").textContent = "此瀏覽器不支援定位。";
         return;
       }
       locate.disabled = true;
-      locate.textContent = "定位中…";
       navigator.geolocation.getCurrentPosition(
         ({ coords }) => {
-          const coordinate = `${coords.latitude.toFixed(6)},${coords.longitude.toFixed(6)}`;
-          setMap(searchMapUrl(coordinate, 12), "已定位到目前位置。請在地圖中查看附近據點。");
+          const here = { lat: coords.latitude, lng: coords.longitude };
+          visible = [...dealers].map((dealer) => ({
+            ...dealer, distanceKm: distanceKm(here, dealer)
+          })).sort((a, b) => a.distanceKm - b.distanceKm);
+          list.innerHTML = visible.map((dealer) =>
+            cardHtml(dealer).replace("</small>", ` · 約 ${dealer.distanceKm.toFixed(1)} 公里</small>`)
+          ).join("");
+          count.textContent = "已依距離排序";
+          connectList(list, mapState);
+          mapState.map.flyTo([here.lat, here.lng], 10);
+          L.circleMarker([here.lat, here.lng], {
+            radius: 8, color: "#00539f", fillColor: "#fff", fillOpacity: 1, weight: 4
+          }).addTo(mapState.map).bindPopup("您的位置").openPopup();
+          root.querySelector("[data-auping-dealer-status]").textContent = "已依目前位置由近到遠排序。";
           locate.disabled = false;
-          locate.textContent = "使用目前位置";
         },
         () => {
-          status.textContent = "無法取得位置權限，請輸入縣市或行政區搜尋。";
+          root.querySelector("[data-auping-dealer-status]").textContent = "無法取得位置權限。";
           locate.disabled = false;
-          locate.textContent = "使用目前位置";
         },
-        { enableHighAccuracy: false, timeout: 10000, maximumAge: 300000 }
+        { timeout: 10000, maximumAge: 300000 }
       );
     });
-    actions.appendChild(locate);
-    panel.appendChild(actions);
   }
 
-  function buildEmbeddedPanel(section, map, index) {
-    const sidebarCandidates = [...section.querySelectorAll('[class*="Sidebar_Sidebar__"]')];
-    const sidebar = sidebarCandidates.find((node) =>
-      !sidebarCandidates.some((other) => other !== node && other.contains(node))
-    ) || null;
-
-    const panel = document.createElement("div");
-    panel.className = "auping-tw-locator-panel";
-    panel.innerHTML = `
-      <p class="auping-tw-locator-eyebrow">Auping 台灣</p>
-      <h3 class="auping-tw-locator-title">尋找試躺門市</h3>
-      <p class="auping-tw-locator-copy">輸入縣市、行政區或郵遞區號，查看台灣附近據點。</p>
-      <label class="auping-tw-locator-label" for="auping-tw-map-search-${index}">地區</label>
-    `;
-
-    const input = document.createElement("input");
-    input.id = `auping-tw-map-search-${index}`;
-    input.className = "auping-tw-locator-input";
-    input.type = "search";
-    input.placeholder = "例如：台北、台中、高雄";
-    input.autocomplete = "postal-code";
-    input.dataset.aupingTwMapSearch = "true";
-    panel.appendChild(input);
-
-    const status = document.createElement("p");
-    status.className = "auping-tw-locator-status";
-    status.setAttribute("role", "status");
-    status.textContent = "地圖預設顯示台灣全區。";
-    bindPanel({ panel, frame: map.querySelector("iframe"), input, status });
-    panel.appendChild(status);
-
-    if (sidebar instanceof HTMLElement) {
-      sidebar.replaceChildren(panel);
-      sidebar.dataset.aupingTaiwanSidebar = "clean";
-    } else {
-      section.insertBefore(panel, map);
-    }
+  function mountDetailPage(root, dealers) {
+    const id = root.dataset.dealerId;
+    const dealer = dealers.find((item) => item.id === id);
+    const mapElement = root.querySelector("[data-auping-dealer-map]");
+    if (!dealer || !mapElement) return;
+    createMap(mapElement, [dealer], {
+      center: [dealer.lat, dealer.lng],
+      zoom: 15,
+      fit: false
+    });
   }
 
-  function findStoreLocatorSections() {
-    const explicit = [...document.querySelectorAll('[data-section="StoreLocator"]')]
-      .filter((node) => node instanceof HTMLElement)
-      .filter((node) => node.querySelector('[class*="GoogleMaps_GoogleMaps__"]'));
-    if (explicit.length) return explicit;
-
-    const candidates = [...document.querySelectorAll('[class*="StoreLocator_StoreLocator__"]')]
-      .filter((node) => node instanceof HTMLElement)
-      .filter((node) => node.querySelector('[class*="GoogleMaps_GoogleMaps__"]'));
-    return candidates.filter((node) =>
-      !candidates.some((other) => other !== node && other.contains(node))
-    );
-  }
-
-  function mountEmbedded(section, index) {
-    if (section.dataset.aupingTaiwanMapReady === "true") return;
-    const map = section.querySelector('[class*="GoogleMaps_GoogleMaps__"]');
-    if (!(map instanceof HTMLElement)) return;
-
-    section.querySelectorAll(
-      ".auping-tw-map-toolbar,.auping-tw-map-status,.auping-tw-map-search-actions,.auping-tw-map-note,.auping-tw-locator-panel"
-    ).forEach((node) => node.remove());
-
-    section.dataset.aupingTaiwanMapReady = "true";
-    section.dataset.aupingTaiwanMapIndex = String(index);
+  function mountEmbedded(section, dealers, index) {
+    if (section.dataset.aupingDealerEmbeddedReady === "true") return;
+    const mapHost = section.querySelector('[class*="GoogleMaps_GoogleMaps__"]');
+    if (!mapHost) return;
+    section.dataset.aupingDealerEmbeddedReady = "true";
 
     const title = section.querySelector('[class*="StoreLocator_StoreLocator__Title"]');
     const subtitle = section.querySelector('[class*="StoreLocator_StoreLocator__SubTitle"]');
     if (title) title.textContent = "Auping 台灣門市";
-    if (subtitle) subtitle.textContent = "在台灣尋找展示與試躺據點";
+    if (subtitle) subtitle.textContent = "尋找展示與試躺據點";
 
-    const frame = createMapFrame("Auping 台灣門市地圖");
-    map.replaceChildren(frame);
-    map.classList.add("auping-tw-map");
-    buildEmbeddedPanel(section, map, index);
+    const sidebarCandidates = [...section.querySelectorAll('[class*="Sidebar_Sidebar__"]')];
+    const sidebar = sidebarCandidates.find((node) =>
+      !sidebarCandidates.some((other) => other !== node && other.contains(node))
+    );
+    const list = document.createElement("div");
+    list.className = "auping-embedded-dealer-list";
+    const nearest = dealers.slice(0, 3);
+    list.innerHTML = `
+      <div class="auping-embedded-dealer-heading">
+        <strong>台灣展示門市</strong>
+        <a href="${BASE}/store-locator/">查看全部 ${dealers.length} 間</a>
+      </div>
+      ${nearest.map((dealer) => cardHtml(dealer, true)).join("")}
+    `;
+    sidebar?.replaceChildren(list);
+    mapHost.replaceChildren();
+    mapHost.classList.add("auping-leaflet-map");
+    const mapState = createMap(mapHost, dealers);
+    connectList(list, mapState);
   }
 
-  function mountStandalone(root) {
-    if (!(root instanceof HTMLElement) || root.dataset.aupingTaiwanMapReady === "true") return;
-    const frame = root.querySelector("[data-auping-tw-standalone-frame]");
-    const input = root.querySelector("[data-auping-tw-standalone-search]");
-    const panel = root.querySelector("[data-auping-tw-standalone-panel]");
-    const status = root.querySelector("[data-auping-tw-standalone-status]");
-    if (!(frame instanceof HTMLIFrameElement) || !(input instanceof HTMLInputElement) ||
-        !(panel instanceof HTMLElement) || !(status instanceof HTMLElement)) return;
-
-    frame.src = defaultMapUrl();
-    bindPanel({ panel, frame, input, status });
-    root.dataset.aupingTaiwanMapReady = "true";
-  }
-
-  function init() {
-    localizeLocatorLinks();
-    findStoreLocatorSections().forEach(mountEmbedded);
-    document.querySelectorAll("[data-auping-tw-standalone]").forEach(mountStandalone);
-    document.documentElement.dataset.aupingTaiwanMapCount =
-      String(document.querySelectorAll('[data-auping-taiwan-map-ready="true"]').length);
-  }
-
-  document.readyState === "loading"
-    ? document.addEventListener("DOMContentLoaded", init, { once: true })
-    : init();
+  Promise.all([
+    fetchDealers(),
+    new Promise((resolve) => {
+      if (window.L) return resolve();
+      let attempts = 0;
+      const timer = setInterval(() => {
+        if (window.L || attempts++ > 80) {
+          clearInterval(timer);
+          resolve();
+        }
+      }, 50);
+    })
+  ]).then(([payload]) => {
+    if (!window.L) throw new Error("leaflet-not-loaded");
+    const dealers = payload.dealers || [];
+    document.querySelectorAll("[data-auping-dealer-locator-page]").forEach((root) =>
+      mountLocatorPage(root, dealers)
+    );
+    document.querySelectorAll("[data-auping-dealer-detail]").forEach((root) =>
+      mountDetailPage(root, dealers)
+    );
+    const sections = [...document.querySelectorAll('[data-section="StoreLocator"], [class*="StoreLocator_StoreLocator__"]')]
+      .filter((node) => node.querySelector?.('[class*="GoogleMaps_GoogleMaps__"]'))
+      .filter((node, i, all) => !all.some((other, j) => i !== j && other.contains(node)));
+    sections.forEach((section, index) => mountEmbedded(section, dealers, index));
+    document.documentElement.dataset.aupingDealerRuntime = "ready";
+  }).catch((error) => {
+    console.error("[Auping Dealer Locator]", error);
+    document.documentElement.dataset.aupingDealerRuntime = "error";
+  });
 })();
