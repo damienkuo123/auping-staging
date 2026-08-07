@@ -1,0 +1,55 @@
+{
+  "schema": "AUPING-RC7.7A1-TARGETED-VERIFICATION-ACCEPTANCE-V1",
+  "generatedAt": "2026-08-08",
+  "baselineCommit": "3c4d29fc41228683af3e468661c3d5ce5dbfc200",
+  "parityLabVersion": "1.2.1-dualfull-resume",
+  "runId": "20260807_232421_single_chromium",
+  "target": "local working tree",
+  "officialBase": "https://www.auping.com/en",
+  "scannedRouteCount": 22,
+  "desktopAndMobile": true,
+  "result": "ACCEPT_RC77A1_FOR_COMMIT",
+  "beforeAfterSameRouteSet": {
+    "assetHttpErrorIssueOccurrences": {
+      "before": 44,
+      "after": 0
+    },
+    "brokenRenderedImageIssueOccurrences": {
+      "before": 9,
+      "after": 1
+    },
+    "p1Routes": {
+      "before": 22,
+      "after": 10
+    },
+    "p2Routes": {
+      "before": 0,
+      "after": 10
+    },
+    "passRoutes": {
+      "before": 0,
+      "after": 2
+    }
+  },
+  "confirmedImprovements": [
+    "Global missing /auping-staging asset-path failures were removed from the targeted route set.",
+    "Previously broken Noa product media and Elysium rendered images recovered in the targeted verification.",
+    "Noa overview and Elysium product route reached PASS in the targeted report.",
+    "Store Locator remains LOCAL_PARITY and must not be restored to official redirect."
+  ],
+  "remainingRealWork": [
+    "Noa Chocolate Brown Oak, Midnight Black Oak and Soft White Oak still have genuine section/content parity gaps.",
+    "Beds, Box Springs and Mattresses mobile pages still have visible-video count mismatches.",
+    "Official Next Image and other remote runtime dependencies remain and require later localization/hardening."
+  ],
+  "likelyHarnessOrVisibilityFalsePositives": [
+    "Three mobile catalog-filter P1 results attempted to click checkboxes behind the collapsed mobile filter UI; desktop filter tests passed.",
+    "Customer Service remaining broken image is an off-screen mobile-menu image at negative x; the underlying WebP file exists and is a valid 200x200 WebP."
+  ],
+  "policyLocks": {
+    "storeLocator": "LOCAL_PARITY_REQUIRED",
+    "noPlaceholderMedia": true,
+    "noGuessedAssets": true,
+    "desktopAndMobileEqualQuality": true
+  }
+}

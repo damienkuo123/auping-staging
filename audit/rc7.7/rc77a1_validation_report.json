@@ -1,0 +1,14 @@
+{
+  "schema": "AUPING-RC7.7A1-GLOBAL-ASSET-HARDENING-VALIDATION-V1",
+  "generatedAt": "2026-08-07T15:24:15.335924+00:00",
+  "passed": true,
+  "stats": {
+    "htmlFileCount": 191,
+    "srcsetCandidateCount": 144470,
+    "localAssetReferenceCount": 171241,
+    "officialNextImageReferenceCount": 10279
+  },
+  "failureCount": 0,
+  "failures": [],
+  "storeLocatorPolicy": "LOCAL_PARITY_REQUIRED"
+}
