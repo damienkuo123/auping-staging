@@ -1,0 +1,70 @@
+{
+  "schema": "AUPING-RC7.7A2-LOCAL-TARGETED-STORE-ACCEPTANCE-V1",
+  "generatedAt": "2026-08-08",
+  "baselineCommit": "bde296227bfdc4ed7de5b0f25a30df82c0fea4c3",
+  "browser": {
+    "mode": "system-chrome",
+    "executablePath": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "verification": {
+    "expectedResultCount": 26,
+    "resultCount": 26,
+    "passedResultCount": 26,
+    "failedResultCount": 0,
+    "fatalError": false,
+    "profiles": [
+      "desktop-1440",
+      "mobile-390"
+    ]
+  },
+  "affectedRoutes": [
+    "/beds/noa/",
+    "/box-springs/criade/",
+    "/box-springs/kiruna/",
+    "/bed-linen/duvets/",
+    "/bed-linen/fitted-sheets/",
+    "/bed-linen/mattress-protectors/"
+  ],
+  "storeRoutes": [
+    "/store-locator/",
+    "/stores/kaohsiung-zhonghua/",
+    "/stores/yilan-outlet/",
+    "/stores/taipei-asehome/",
+    "/stores/hsinchu-dutchhaves/",
+    "/stores/taoyuan-nankan/",
+    "/stores/taichung-dutchhaves/"
+  ],
+  "confirmed": {
+    "residualRootAssetRequests": 0,
+    "localHttpErrors": 0,
+    "visibleBrokenImages": 0,
+    "horizontalOverflowResults": 0,
+    "redirectRegressions": 0,
+    "storeLocatorLinksDesktop": 6,
+    "storeLocatorLinksMobile": 6,
+    "storeMapsPresent": true,
+    "storeHeadersPresent": true,
+    "mapHeaderOverlapResults": 0
+  },
+  "visualReview": {
+    "completed": true,
+    "summary": [
+      "Six affected page cohorts render normally on desktop and mobile.",
+      "Store Locator renders six Taiwan stores on desktop and mobile.",
+      "All six Taiwan store pages render maps, headers and local content without visible overflow.",
+      "No official Store Locator redirect regression was observed."
+    ]
+  },
+  "result": "ACCEPT_RC77A2_FOR_COMMIT",
+  "scopeLimit": [
+    "This accepts RC7.7A2 residual root-path hardening only.",
+    "It does not declare the full site complete.",
+    "Remote dependency localization, missing Noa content sections, mobile category videos and 31 content candidates remain separate work."
+  ],
+  "policyLocks": {
+    "storeLocator": "LOCAL_PARITY_REQUIRED",
+    "noPlaceholderMedia": true,
+    "noGuessedAssets": true,
+    "desktopAndMobileEqualQuality": true
+  }
+}

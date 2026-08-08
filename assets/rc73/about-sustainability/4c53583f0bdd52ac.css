@@ -2,4 +2,4 @@
 
 .css-1iiirvj-singleValue { grid-area: 1 / 1 / 2 / 3; max-width: 100%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; color: rgb(255, 255, 255); margin-left: 2px; margin-right: 2px; box-sizing: border-box; -webkit-box-align: center; align-items: center; display: flex; }
 
-.css-1iiirvj-singleValue::before { background-position: center center; content: url("/icons/languages/EN_GB.svg"); display: block; height: 24px; margin-right: 8px; width: 24px; }
+.css-1iiirvj-singleValue::before { background-position: center center; content: none; display: block; height: 24px; margin-right: 8px; width: 24px; }

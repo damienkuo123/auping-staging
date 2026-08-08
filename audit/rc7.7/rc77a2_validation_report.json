@@ -1,0 +1,14 @@
+{
+  "schema": "AUPING-RC7.7A2-RESIDUAL-ROOT-ASSET-HARDENING-VALIDATION-V1",
+  "generatedAt": "2026-08-07T19:45:28.573164+00:00",
+  "passed": true,
+  "failureCount": 0,
+  "failures": [],
+  "stats": {
+    "cssFileCount": 550,
+    "officialNextStaticCssReferenceCount": 594,
+    "residualRootNextStaticCssReferenceCount": 0,
+    "residualLanguageIconCssReferenceCount": 0
+  },
+  "storeLocatorPolicy": "LOCAL_PARITY_REQUIRED"
+}

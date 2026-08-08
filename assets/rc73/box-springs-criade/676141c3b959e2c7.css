@@ -249,7 +249,7 @@
 
 .ProductOptionsSelect_ProductOption_Wrapper__Ql5JA { border: 2px solid rgb(221, 221, 221); border-radius: 4px; display: block; position: relative; }
 
-.ProductOptionsSelect_ProductOption_Wrapper__Ql5JA::after { background: url("/_next/static/media/arrow.4d697b60.svg?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91") 70% center no-repeat, linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 40%); content: ""; height: calc(100% - 2px); pointer-events: none; position: absolute; right: 1px; top: 1px; width: 42px; }
+.ProductOptionsSelect_ProductOption_Wrapper__Ql5JA::after { background: url("https://www.auping.com/_next/static/media/arrow.4d697b60.svg?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91") 70% center no-repeat, linear-gradient(90deg, rgba(255, 255, 255, 0), rgb(255, 255, 255) 40%); content: ""; height: calc(100% - 2px); pointer-events: none; position: absolute; right: 1px; top: 1px; width: 42px; }
 
 .ProductOptionsSelect_ProductOption__G_VLe select { appearance: none; background-color: rgb(255, 255, 255); border-width: medium; border-style: none; border-color: currentcolor; border-image: none; font-family: Roboto, sans-serif; font-size: 0.875rem; height: 48px; padding: 0px 8px; position: relative; width: 100%; }
 
