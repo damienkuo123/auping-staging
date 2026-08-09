@@ -61,7 +61,7 @@
     },
     {
       "id": "bed-linen",
-      "title": "Bed Linen",
+      "title": "寢具",
       "localPath": "/bed-linen/",
       "mode": "LOCAL_PARITY",
       "reason": "RC5 Snapshot／主要分類或已保留的代表頁。"
@@ -719,7 +719,7 @@
     },
     {
       "id": "en--bed-linen",
-      "title": "Bed Linen",
+      "title": "寢具",
       "localPath": "/en/bed-linen/",
       "mode": "DISABLED",
       "fallbackPath": "/bed-linen/",
@@ -967,7 +967,7 @@
     },
     {
       "id": "zh-tw--bed-linen",
-      "title": "Bed Linen",
+      "title": "寢具",
       "localPath": "/zh-tw/bed-linen/",
       "mode": "DISABLED",
       "fallbackPath": "/bed-linen/",
@@ -1071,7 +1071,7 @@
     },
     {
       "id": "zh--bed-linen",
-      "title": "Bed Linen",
+      "title": "寢具",
       "localPath": "/zh/bed-linen/",
       "mode": "DISABLED",
       "fallbackPath": "/bed-linen/",

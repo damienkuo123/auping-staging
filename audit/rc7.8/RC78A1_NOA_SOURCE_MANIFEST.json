@@ -1,0 +1,174 @@
+{
+  "assets": {
+    "chocolate-colour.jpg": "https://api.auping.com/sites/default/files/2023-04/6_kleur_16.jpg",
+    "chocolate-base.jpg": "https://api.auping.com/sites/default/files/2023-03/07_auronde_warm_grey_400x400.jpg",
+    "chocolate-headboard.jpg": "https://api.auping.com/sites/default/files/2023-04/9_hoofdbord_11.jpg",
+    "chocolate-detail.jpg": "https://api.auping.com/sites/default/files/2023-04/10_detail_12.jpg",
+    "chocolate-life-wide.jpg": "https://api.auping.com/sites/default/files/2023-04/noa_chocolate_brown_2474.jpg",
+    "chocolate-life-tall.jpg": "https://api.auping.com/sites/default/files/2025-03/Noa_modelpagina_mood-min.jpg",
+    "midnight-colour.jpg": "https://api.auping.com/sites/default/files/2023-04/6_kleur_15.jpg",
+    "midnight-base.jpg": "https://api.auping.com/sites/default/files/2023-03/07_auronde_warm_grey_400x400.jpg",
+    "midnight-wheel.jpg": "https://api.auping.com/sites/default/files/2023-05/noa_mid.jpg",
+    "midnight-detail.jpg": "https://api.auping.com/sites/default/files/2023-05/10_detail.jpg",
+    "midnight-life-wide.jpg": "https://api.auping.com/sites/default/files/2023-04/11_-_medium-auping_noa_soft_white_0271_0620.jpg",
+    "midnight-life-tall.jpg": "https://api.auping.com/sites/default/files/2023-04/12_medium-auping_noa_soft-white-_-00205_0620.jpg",
+    "soft-white-colour.jpg": "https://api.auping.com/sites/default/files/2023-04/6_kleur_17.jpg",
+    "soft-white-base.jpg": "https://api.auping.com/sites/default/files/2023-03/07_auronde_warm_grey_400x400.jpg",
+    "soft-white-inizio.jpg": "https://api.auping.com/sites/default/files/2023-04/8-auping_inizio_1person_packshot_a306.jpg",
+    "soft-white-headboard.png": "https://api.auping.com/sites/default/files/2023-04/9-hoofdbord_11.png",
+    "soft-white-detail.jpg": "https://api.auping.com/sites/default/files/2023-04/10_detail_13.jpg",
+    "soft-white-life-wide.jpg": "https://api.auping.com/sites/default/files/2023-04/11_medium-auping_noa_soft-white-_-0271_0620_-_kopie.jpg",
+    "soft-white-life-tall.jpg": "https://api.auping.com/sites/default/files/2023-04/12_medium-auping_noa_soft-white-_-00205_0620_0.jpg",
+    "accessory-chocolate.jpg": "https://api.auping.com/sites/default/files/2023-04/16_medium-auping_noa_chocolate-brown_-2613_0620_0.jpg",
+    "accessory-daybed.jpg": "https://api.auping.com/sites/default/files/2023-04/13_medium-auping_noa_daybed_-3161_0620_0.jpg",
+    "accessory-table.png": "https://api.auping.com/sites/default/files/2023-04/noa_table_600.png",
+    "accessory-balanced.jpg": "https://api.auping.com/sites/default/files/2023-04/15_medium-auping_noa_balanced-oak_-0373_0620_0.jpg"
+  },
+  "pages": {
+    "beds/noa-chocolate-brown-oak/index.html": {
+      "id": "chocolate",
+      "pageTitle": "Noa 巧克力棕橡木｜天然材質床架｜Auping",
+      "description": "Noa 巧克力棕橡木床架採斯堪地那維亞設計、天然材質與開放式柵板床頭板，可搭配電動可調式床底與 Noa 腳輪。",
+      "subtitle": "搭配開放式柵板床頭板與腳輪",
+      "why": "Noa 以簡潔造型、巧妙細節與天然材質展現斯堪地那維亞設計。本款採巧克力棕橡木，搭配開放式柵板床頭板、電動可調式床底與 Noa 腳輪，是臥室中的視覺焦點。Noa 傳達寧靜、舒適與安心，天然材質與經典外型也能融入不同風格的臥室。",
+      "combo": [
+        [
+          "床架顏色",
+          "巧克力棕橡木",
+          "chocolate-colour.jpg",
+          "巧克力棕橡木色樣"
+        ],
+        [
+          "床底",
+          "電動可調式網狀床底",
+          "chocolate-base.jpg",
+          "Auping 網狀床底"
+        ],
+        [
+          "床頭板",
+          "開放式柵板床頭板",
+          "chocolate-headboard.jpg",
+          "巧克力棕橡木床頭板"
+        ],
+        [
+          "床腳細節",
+          "Noa 腳輪",
+          "chocolate-detail.jpg",
+          "Noa 巧克力棕橡木腳輪細節"
+        ]
+      ],
+      "life": [
+        [
+          "chocolate-life-wide.jpg",
+          "Noa 巧克力棕橡木臥室情境"
+        ],
+        [
+          "chocolate-life-tall.jpg",
+          "Noa 巧克力棕橡木細節情境"
+        ]
+      ],
+      "mattress": "本款可搭配所有 Auping 床墊。可依睡姿、體型與偏好的支撐感選擇合適床墊；需要協助時，可前往台灣門市由門市人員提供建議。"
+    },
+    "beds/noa-midnight-black-oak/index.html": {
+      "id": "midnight",
+      "pageTitle": "Noa 午夜黑橡木｜天然材質床架｜Auping",
+      "description": "Noa 午夜黑橡木床架採斯堪地那維亞設計、天然材質與俐落深色外觀，搭配 Noa 腳輪與固定式網狀床底。",
+      "subtitle": "搭配 Noa 腳輪",
+      "why": "Noa 以簡潔造型、巧妙細節與天然材質展現斯堪地那維亞設計。本款採午夜黑橡木與 Noa 腳輪，俐落收邊和天然材質營造安定、沉著的臥室氛圍。Noa 傳達寧靜、舒適與安心，也能自然融入不同風格的臥室。",
+      "combo": [
+        [
+          "床架顏色",
+          "午夜黑橡木",
+          "midnight-colour.jpg",
+          "午夜黑橡木色樣"
+        ],
+        [
+          "床底",
+          "固定式網狀床底",
+          "midnight-base.jpg",
+          "Auping 固定式網狀床底"
+        ],
+        [
+          "床頭端細節",
+          "Noa 腳輪",
+          "midnight-wheel.jpg",
+          "Noa 午夜黑橡木腳輪"
+        ],
+        [
+          "床尾端細節",
+          "Noa 床腳",
+          "midnight-detail.jpg",
+          "Noa 午夜黑橡木床腳細節"
+        ]
+      ],
+      "life": [
+        [
+          "midnight-life-wide.jpg",
+          "Noa 臥室情境"
+        ],
+        [
+          "midnight-life-tall.jpg",
+          "Noa 床邊桌情境"
+        ]
+      ],
+      "mattress": "本款可搭配所有 Auping 床墊。可依睡姿、體型與偏好的支撐感選擇合適床墊；需要協助時，可前往台灣門市由門市人員提供建議。"
+    },
+    "beds/noa-soft-white-oak/index.html": {
+      "id": "soft-white",
+      "pageTitle": "Noa 柔白橡木｜天然材質床架｜Auping",
+      "description": "Noa 柔白橡木床架採斯堪地那維亞設計、天然材質與實心床頭板，搭配固定式網狀床底與 Inizio 床墊。",
+      "subtitle": "搭配實心床頭板與床腳",
+      "why": "Noa 以簡潔造型、巧妙細節與天然材質展現斯堪地那維亞設計。本款採柔白橡木與實心床頭板，俐落收邊和天然材質營造明亮、寧靜的臥室氛圍。Noa 傳達寧靜、舒適與安心，也能自然融入不同風格的臥室。",
+      "combo": [
+        [
+          "床架顏色",
+          "柔白橡木",
+          "soft-white-colour.jpg",
+          "柔白橡木色樣"
+        ],
+        [
+          "床底",
+          "固定式網狀床底",
+          "soft-white-base.jpg",
+          "Auping 固定式網狀床底"
+        ],
+        [
+          "床墊",
+          "Inizio 床墊",
+          "soft-white-inizio.jpg",
+          "Auping Inizio 床墊"
+        ],
+        [
+          "床頭板",
+          "柔白橡木實心床頭板",
+          "soft-white-headboard.png",
+          "Noa 柔白橡木實心床頭板"
+        ],
+        [
+          "細節",
+          "柔白橡木",
+          "soft-white-detail.jpg",
+          "Noa 柔白橡木細節"
+        ]
+      ],
+      "life": [
+        [
+          "soft-white-life-wide.jpg",
+          "Noa 柔白橡木臥室情境"
+        ],
+        [
+          "soft-white-life-tall.jpg",
+          "Noa 柔白橡木床邊情境"
+        ]
+      ],
+      "mattress": "目前展示組合包含 Inizio 床墊；Noa 也可搭配其他 Auping 床墊。可依睡姿、體型與偏好的支撐感選擇合適床墊，或前往台灣門市取得建議。"
+    }
+  },
+  "corrections": {
+    "soft-white-headboard.png": {
+      "previousUrl": "https://api.auping.com/sites/default/files/2023-04/9_hoofdbord_11.png",
+      "correctedUrl": "https://api.auping.com/sites/default/files/2023-04/9-hoofdbord_11.png",
+      "evidence": "RC7.8A1 Noa browser audit: official desktop currentSrc used 9-hoofdbord_11.png"
+    }
+  }
+}

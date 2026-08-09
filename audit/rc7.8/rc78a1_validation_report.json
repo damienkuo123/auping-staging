@@ -1,0 +1,19 @@
+{
+  "schema": "AUPING-RC7.8A1-NOA-ZHTW-FOUNDATION-VALIDATION-V1",
+  "generatedAt": "2026-08-09T08:37:29.381128+00:00",
+  "passed": true,
+  "failureCount": 0,
+  "failures": [],
+  "stats": {
+    "htmlFileCount": 191,
+    "wrongLangCount": 0,
+    "forbiddenCommonCount": 0,
+    "noaPageCount": 3,
+    "localNoaAssetCount": 23
+  },
+  "scopeLimit": "共通繁中基礎＋3 個 Noa 頁；各頁長篇英文正文仍須後續分批翻譯。",
+  "policyLocks": {
+    "storeLocator": "LOCAL_PARITY_REQUIRED",
+    "traditionalChineseRequired": true
+  }
+}

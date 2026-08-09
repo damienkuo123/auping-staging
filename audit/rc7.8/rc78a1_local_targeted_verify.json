@@ -1,0 +1,1321 @@
+{
+  "schema": "AUPING-RC7.8A1-LOCAL-TARGETED-VERIFY-V1",
+  "generatedAt": "2026-08-09T16:52:38.059562+00:00",
+  "expectedResultCount": 24,
+  "resultCount": 24,
+  "passedResultCount": 24,
+  "failedResultCount": 0,
+  "fatalError": null,
+  "browserLaunch": {
+    "mode": "system-chrome",
+    "path": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+  },
+  "scopeLimit": "This verifies RC7.8A1 common strings and 3 Noa pages only. Residual page-specific English is recorded for later batches.",
+  "results": [
+    {
+      "route": "/beds/noa-chocolate-brown-oak/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-chocolate-brown-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 巧克力棕橡木｜天然材質床架｜Auping",
+      "headingTexts": [
+        "Noa 巧克力棕橡木"
+      ],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-chocolate-brown-oak__desktop.jpg"
+    },
+    {
+      "route": "/beds/noa-midnight-black-oak/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-midnight-black-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 午夜黑橡木｜天然材質床架｜Auping",
+      "headingTexts": [
+        "Noa 午夜黑橡木"
+      ],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-midnight-black-oak__desktop.jpg"
+    },
+    {
+      "route": "/beds/noa-soft-white-oak/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-soft-white-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 柔白橡木｜天然材質床架｜Auping",
+      "headingTexts": [
+        "Noa 柔白橡木"
+      ],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-soft-white-oak__desktop.jpg"
+    },
+    {
+      "route": "/beds/noa/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 床架｜Auping",
+      "headingTexts": [
+        "Noa",
+        "寧靜綠洲"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "bed that represents both Auping and my Danish architecture background. The design embraces our daily lives and all the magical moments that go with it. Eva Harlou - Designer Auping Noa 打造夢想中的 Noa 透過線上搭配工具選擇床架顏色、床頭板、配件與尺寸；也可預約門市，由睡眠顧問協助完成理想床架",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://api.auping.com/sites/default/files/2022-02/auping_noa_eng_small.mp4",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "screenshot": "beds__noa__desktop.jpg"
+    },
+    {
+      "route": "/about-auping/sustainability/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/about-auping/sustainability/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "永續理念｜Auping",
+      "headingTexts": [
+        "永續理念",
+        "我們夢想一個永續的世界"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "you to put your mind (and body) at rest when you go to bed. 2023 Auping publishes CSR Report 2022 We are delighted to publish the Auping Corporate Social Responsibility (CSR) Report 2022. We provide an overview of the sustainable steps we took in 2022 and share our goals for the future. In 2022, we "
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "about-auping__sustainability__desktop.jpg"
+    },
+    {
+      "route": "/bed-linen/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Bedding | 柔軟 and sustainable | Auping",
+      "headingTexts": [
+        "寢具"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Bed Linen Box Springs 床組 Box Springs 床組 Original 床組 Criade Kiruna 開始搭配您的 Box Springs 床組 尋找門市 床架 床架 Essential Original Auronde Noa Noble 開始搭配您的床架 尋找門市 床墊 床墊 Elite Elysium Evolve Two One Revive 床墊舒適層 床墊舒適層 Comfort 床墊舒適層 Deluxe 床墊舒適層 Prestige 床墊舒適層 床底 床底 固定式床底 手動可調式床底 電動可調式床底 1M 電動可調式床底 2M 電動可調式床底 3M 枕"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__desktop.jpg"
+    },
+    {
+      "route": "/bed-linen/duvets/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/duvets/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "棉被｜Auping",
+      "headingTexts": [
+        "棉被",
+        "Auping Cloud 夏被",
+        "Auping Nest 夏被",
+        "Auping Dew 夏被",
+        "Auping Cloud 春秋被",
+        "Auping Nest 春秋被",
+        "Auping Dew 春秋被"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__duvets__desktop.jpg"
+    },
+    {
+      "route": "/bed-linen/fitted-sheets/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/fitted-sheets/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "包覆式床包｜Auping",
+      "headingTexts": [
+        "包覆式床包",
+        "Jersey 235 一般床墊包覆式床包",
+        "Jersey 235 上層床墊包覆式床包",
+        "Jersey 235 分離式床墊包覆式床包",
+        "Jersey 190 一般床墊包覆式床包",
+        "Jersey 190 上層床墊包覆式床包",
+        "Jersey 190 分離式床墊包覆式床包"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__fitted-sheets__desktop.jpg"
+    },
+    {
+      "route": "/bed-linen/mattress-protectors/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/mattress-protectors/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "保潔墊｜Auping",
+      "headingTexts": [
+        "保潔墊",
+        "Molton 床墊保潔墊",
+        "Molton 枕頭保潔套",
+        "上層床墊保潔墊",
+        "分離式上層床墊保潔墊"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Our Molton protectors are made of 80% organic cotton and 20% recycled polyester with a top fabric of 100% cotton and are of heavy and robust 210 g quality. The top is made of 100% cotton since this is the side you lie on, so it feels nice and soft to the touch and absorbs moisture effectively. To gi",
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/57.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__mattress-protectors__desktop.jpg"
+    },
+    {
+      "route": "/box-springs/original-boxspring/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/box-springs/original-boxspring/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Original 床組｜Auping",
+      "headingTexts": [
+        "The best box spring in the Netherlands",
+        "Design and order"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "the title of the Netherlands' best box spring 極致睡眠舒適度 Perfect support and optimal ventilation 永續工藝 Handmade in Deventer 評比最佳 Awarded the title of the Netherlands' best box spring 極致睡眠舒適度 Perfect support and optimal ventilation 永續工藝 Handmade in Deventer 評比最佳 Awarded the title of the Netherlands' best"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "box-springs__original-boxspring__desktop.jpg"
+    },
+    {
+      "route": "/customer-service/ordering/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/customer-service/ordering/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "訂購方式｜Auping",
+      "headingTexts": [
+        "訂購方式",
+        "需要協助嗎？"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Our customer service is available Monday to Friday from 8.30 am to 5 pm. You can reach us at klantenservice@auping.nl or call 0570-681820. 訂購方式 如何將商品加入購物車",
+        "That is possible. In the shopping basket overview you can still remove products or change the number of products by clicking on the + and - or 'remove this item'. Would you like to add more products to your shopping cart? Then click on 'Continue shopping' to continue shopping. 折扣碼要在哪裡輸入",
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "the shopping cart overview you can click on the arrow next to the discount code. You can then add your discount code in the field and click on apply discount code. My discount code does not work. Unable to add the code or is the code not working? Please contact our customer service. 如何結帳",
+        "you can. Various parts such as the gas spring or a pull cord can still be ordered. Contact the Auping shop. Find an Auping Store in your area. 服務與聯絡 需要我們協助嗎",
+        "you want to change or cancel your order, we advise you to contact the customer service. Unfortunately, we cannot make any changes to your order once it has been dispatched. I have not received an order and payment confirmation? Please contact our customer service, we will investigate what went wrong",
+        "you wish to checkout the products in your shopping cart, click on the blue \"Proceed to checkout\" button. You will automatically be directed to the ordering process. Follow the steps to successfully complete your shopping cart and confirm your order. Can I have my order delivered somewhere other than",
+        "your payment details, we use a secure internet connection. When using a secure internet connection, the URL www. auping.com/en is preceded by https:// instead of the normal http://. The letter 's' stands for 'secure'. We also advise you not to give anyone your customer number, password or other deta",
+        "your preferred items in the product section and click on the blue 'Add to cart' button. You will now be directed to your shopping cart overview. You can always view the contents of your shopping cart by clicking on the 'Shopping Cart' icon at the top of the website. 可以修改購物車內容嗎"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "customer-service__ordering__desktop.jpg"
+    },
+    {
+      "route": "/store-locator/",
+      "profile": "desktop",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/store-locator/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "尋找 Auping 台灣門市｜Auping",
+      "headingTexts": [
+        "尋找 Auping 台灣門市"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/105/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/108/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "store-locator__desktop.jpg"
+    },
+    {
+      "route": "/beds/noa-chocolate-brown-oak/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-chocolate-brown-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 巧克力棕橡木｜天然材質床架｜Auping",
+      "headingTexts": [],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-chocolate-brown-oak__mobile.jpg"
+    },
+    {
+      "route": "/beds/noa-midnight-black-oak/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-midnight-black-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 午夜黑橡木｜天然材質床架｜Auping",
+      "headingTexts": [],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-midnight-black-oak__mobile.jpg"
+    },
+    {
+      "route": "/beds/noa-soft-white-oak/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa-soft-white-oak/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 柔白橡木｜天然材質床架｜Auping",
+      "headingTexts": [],
+      "residualEnglishSamplesForLaterBatches": [],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "beds__noa-soft-white-oak__mobile.jpg"
+    },
+    {
+      "route": "/beds/noa/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/beds/noa/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Noa 床架｜Auping",
+      "headingTexts": [
+        "Noa",
+        "寧靜綠洲"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "bed that represents both Auping and my Danish architecture background. The design embraces our daily lives and all the magical moments that go with it. Eva Harlou - Designer Auping Noa 打造夢想中的 Noa 透過線上搭配工具選擇床架顏色、床頭板、配件與尺寸；也可預約門市，由睡眠顧問協助完成理想床架",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://api.auping.com/sites/default/files/2022-02/auping_noa_eng_small.mp4",
+          "failure": "net::ERR_ABORTED"
+        }
+      ],
+      "screenshot": "beds__noa__mobile.jpg"
+    },
+    {
+      "route": "/about-auping/sustainability/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/about-auping/sustainability/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "永續理念｜Auping",
+      "headingTexts": [
+        "永續理念",
+        "我們夢想一個永續的世界"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "you to put your mind (and body) at rest when you go to bed. 2023 Auping publishes CSR Report 2022 We are delighted to publish the Auping Corporate Social Responsibility (CSR) Report 2022. We provide an overview of the sustainable steps we took in 2022 and share our goals for the future. In 2022, we "
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "about-auping__sustainability__mobile.jpg"
+    },
+    {
+      "route": "/bed-linen/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Bedding | 柔軟 and sustainable | Auping",
+      "headingTexts": [
+        "寢具"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Bed Linen Box Springs 床組 Box Springs 床組 Original 床組 Criade Kiruna 開始搭配您的 Box Springs 床組 尋找門市 床架 床架 Essential Original Auronde Noa Noble 開始搭配您的床架 尋找門市 床墊 床墊 Elite Elysium Evolve Two One Revive 床墊舒適層 床墊舒適層 Comfort 床墊舒適層 Deluxe 床墊舒適層 Prestige 床墊舒適層 床底 床底 固定式床底 手動可調式床底 電動可調式床底 1M 電動可調式床底 2M 電動可調式床底 3M 枕"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__mobile.jpg"
+    },
+    {
+      "route": "/bed-linen/duvets/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/duvets/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "棉被｜Auping",
+      "headingTexts": [
+        "棉被",
+        "Auping Cloud 夏被"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__duvets__mobile.jpg"
+    },
+    {
+      "route": "/bed-linen/fitted-sheets/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/fitted-sheets/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "包覆式床包｜Auping",
+      "headingTexts": [
+        "包覆式床包",
+        "Jersey 235 一般床墊包覆式床包"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__fitted-sheets__mobile.jpg"
+    },
+    {
+      "route": "/bed-linen/mattress-protectors/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/bed-linen/mattress-protectors/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "保潔墊｜Auping",
+      "headingTexts": [
+        "保潔墊",
+        "Molton 床墊保潔墊"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Our Molton protectors are made of 80% organic cotton and 20% recycled polyester with a top fabric of 100% cotton and are of heavy and robust 210 g quality. The top is made of 100% cotton since this is the side you lie on, so it feels nice and soft to the touch and absorbs moisture effectively. To gi",
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://tile.openstreetmap.org/7/106/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/54.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/55.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/53.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/106/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://tile.openstreetmap.org/7/107/56.png",
+          "failure": "net::ERR_ABORTED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "bed-linen__mattress-protectors__mobile.jpg"
+    },
+    {
+      "route": "/box-springs/original-boxspring/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/box-springs/original-boxspring/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "Original 床組｜Auping",
+      "headingTexts": [
+        "The best box spring in the Netherlands",
+        "Original box spring"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "the title of the Netherlands' best box spring 極致睡眠舒適度 Perfect support and optimal ventilation 永續工藝 Handmade in Deventer 評比最佳 Awarded the title of the Netherlands' best box spring 極致睡眠舒適度 Perfect support and optimal ventilation 永續工藝 Handmade in Deventer 評比最佳 Awarded the title of the Netherlands' best"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "box-springs__original-boxspring__mobile.jpg"
+    },
+    {
+      "route": "/customer-service/ordering/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/customer-service/ordering/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "訂購方式｜Auping",
+      "headingTexts": [
+        "訂購方式",
+        "需要協助嗎？"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "Our customer service is available Monday to Friday from 8.30 am to 5 pm. You can reach us at klantenservice@auping.nl or call 0570-681820. 訂購方式 如何將商品加入購物車",
+        "That is possible. In the shopping basket overview you can still remove products or change the number of products by clicking on the + and - or 'remove this item'. Would you like to add more products to your shopping cart? Then click on 'Continue shopping' to continue shopping. 折扣碼要在哪裡輸入",
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套",
+        "the shopping cart overview you can click on the arrow next to the discount code. You can then add your discount code in the field and click on apply discount code. My discount code does not work. Unable to add the code or is the code not working? Please contact our customer service. 如何結帳",
+        "you can. Various parts such as the gas spring or a pull cord can still be ordered. Contact the Auping shop. Find an Auping Store in your area. 服務與聯絡 需要我們協助嗎",
+        "you want to change or cancel your order, we advise you to contact the customer service. Unfortunately, we cannot make any changes to your order once it has been dispatched. I have not received an order and payment confirmation? Please contact our customer service, we will investigate what went wrong",
+        "you wish to checkout the products in your shopping cart, click on the blue \"Proceed to checkout\" button. You will automatically be directed to the ordering process. Follow the steps to successfully complete your shopping cart and confirm your order. Can I have my order delivered somewhere other than",
+        "your payment details, we use a secure internet connection. When using a secure internet connection, the URL www. auping.com/en is preceded by https:// instead of the normal http://. The letter 's' stands for 'secure'. We also advise you not to give anyone your customer number, password or other deta",
+        "your preferred items in the product section and click on the blue 'Add to cart' button. You will now be directed to your shopping cart overview. You can always view the contents of your shopping cart by clicking on the 'Shopping Cart' icon at the top of the website. 可以修改購物車內容嗎"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "customer-service__ordering__mobile.jpg"
+    },
+    {
+      "route": "/store-locator/",
+      "profile": "mobile",
+      "httpStatus": 200,
+      "finalUrl": "http://127.0.0.1:62478/auping-staging/store-locator/",
+      "passedInRC78A1Scope": true,
+      "issues": [],
+      "lang": "zh-Hant-TW",
+      "title": "尋找 Auping 台灣門市｜Auping",
+      "headingTexts": [
+        "尋找 Auping 台灣門市"
+      ],
+      "residualEnglishSamplesForLaterBatches": [
+        "You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com 您居住在荷蘭以外的地區嗎",
+        "mattress topper Deluxe mattress topper Prestige mattress topper 床底 床底 Flat bed base Manually adjustable bed base Electrically adjustable bed base 1M Electrically adjustable bed base 2M Electrically adjustable bed base 3M 枕頭 枕頭 Auping Cloud Auping Nest Auping dew 寢具 寢具 Duvet covers 棉被 包覆式床包 保潔墊 床罩 枕套"
+      ],
+      "pageErrors": [],
+      "requestFailures": [
+        {
+          "url": "https://www.auping.com/_next/static/media/1e41be92c43b3255.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        },
+        {
+          "url": "https://www.auping.com/_next/static/media/a88c13d5f58b71d4.p.woff2?dpl=9346a9afcb3fd803d2186eb7c639222933f3af91",
+          "failure": "net::ERR_FAILED"
+        }
+      ],
+      "screenshot": "store-locator__mobile.jpg"
+    }
+  ]
+}

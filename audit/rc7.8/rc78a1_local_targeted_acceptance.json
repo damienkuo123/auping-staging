@@ -1,0 +1,81 @@
+{
+  "schema": "AUPING-RC7.8A1-LOCAL-TARGETED-ACCEPTANCE-V1",
+  "generatedAt": "2026-08-10",
+  "baselineCommit": "4dc8b98fd51fb62c87d266302d149a61f95139a9",
+  "verification": {
+    "expectedResultCount": 24,
+    "resultCount": 24,
+    "passedResultCount": 24,
+    "failedResultCount": 0,
+    "fatalError": false,
+    "profiles": [
+      "desktop-1440",
+      "mobile-390"
+    ]
+  },
+  "acceptedScope": {
+    "noaProductPages": [
+      "/beds/noa-chocolate-brown-oak/",
+      "/beds/noa-midnight-black-oak/",
+      "/beds/noa-soft-white-oak/"
+    ],
+    "representativeRoutes": [
+      "/beds/noa/",
+      "/about-auping/sustainability/",
+      "/bed-linen/",
+      "/bed-linen/duvets/",
+      "/bed-linen/fitted-sheets/",
+      "/bed-linen/mattress-protectors/",
+      "/box-springs/original-boxspring/",
+      "/customer-service/ordering/",
+      "/store-locator/"
+    ],
+    "commonTraditionalChineseFoundation": true,
+    "sustainabilitySplitReadMoreLinksMerged": 2,
+    "localNoaAssets": 23,
+    "htmlLang": "zh-Hant-TW"
+  },
+  "confirmed": {
+    "issuesInAcceptedScope": 0,
+    "gitDiffCheckPassed": true,
+    "noaImagesLoaded": true,
+    "noaInjectedImagesLocal": true,
+    "visibleBrokenImages": 0,
+    "localHttpErrors": 0,
+    "horizontalOverflowResults": 0,
+    "storeLocatorPolicy": "LOCAL_PARITY_REQUIRED"
+  },
+  "visualReview": {
+    "completed": true,
+    "summary": [
+      "All three Noa product pages render the added content and local media on desktop and mobile.",
+      "The split sustainability Read more anchors are merged into Traditional Chinese CTAs.",
+      "Representative category, service, bedding, Noa overview and Store Locator pages remain structurally usable."
+    ]
+  },
+  "residualLongFormEnglishForLaterBatches": [
+    "/about-auping/sustainability/",
+    "/bed-linen/",
+    "/bed-linen/duvets/",
+    "/bed-linen/fitted-sheets/",
+    "/bed-linen/mattress-protectors/",
+    "/beds/noa/",
+    "/box-springs/original-boxspring/",
+    "/customer-service/ordering/",
+    "/store-locator/"
+  ],
+  "result": "ACCEPT_RC78A1_FOR_COMMIT",
+  "scopeLimit": [
+    "This accepts Noa content completion and the common Traditional Chinese foundation only.",
+    "It does not declare all 190 routes fully translated.",
+    "Page-specific long-form English content remains for later translation batches.",
+    "Mobile category videos, 31 content candidates and remote dependency localization remain separate work."
+  ],
+  "policyLocks": {
+    "storeLocator": "LOCAL_PARITY_REQUIRED",
+    "noPlaceholderMedia": true,
+    "noGuessedAssets": true,
+    "desktopAndMobileEqualQuality": true,
+    "traditionalChineseRequired": true
+  }
+}

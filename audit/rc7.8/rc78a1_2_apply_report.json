@@ -1,0 +1,23 @@
+{
+  "schema": "AUPING-RC7.8A1.2-SUSTAINABILITY-SPLIT-LINK-FIX-V1",
+  "generatedAt": "2026-08-09T16:48:26.019693+00:00",
+  "file": "about-auping/sustainability/index.html",
+  "removedPreviousRuntimeFallbackCount": 1,
+  "splitLinkPairCountBefore": 2,
+  "mergedSplitLinkCount": 2,
+  "completeReadMoreReplacementCount": 0,
+  "residualSplitLinkCount": 0,
+  "residualCompleteReadMoreCount": 0,
+  "changed": true,
+  "scope": "Merge split R + ead more anchors into one Traditional Chinese CTA",
+  "replacements": [
+    {
+      "firstAttributes": "href=\"/auping-staging/news/\" data-auping-original-href=\"/auping-staging/node/33737/\" data-auping-link-fallback=\"nearest-local-route\"",
+      "secondAttributes": "href=\"/auping-staging/news/\" data-auping-original-href=\"/auping-staging/node/34479/\" data-auping-link-fallback=\"nearest-local-route\""
+    },
+    {
+      "firstAttributes": "href=\"/auping-staging/news/\" data-auping-original-href=\"/auping-staging/node/33719/\" data-auping-link-fallback=\"nearest-local-route\"",
+      "secondAttributes": "href=\"/auping-staging/bed-linen/pillows/\" data-auping-original-href=\"/auping-staging/leavings-auping/\" data-auping-link-fallback=\"nearest-local-route\""
+    }
+  ]
+}
