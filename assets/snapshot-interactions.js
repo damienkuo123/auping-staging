@@ -3,6 +3,8 @@
 
   const BASE = location.pathname.startsWith('/auping-staging') ? '/auping-staging' : '';
   const route = (path) => /^https?:/i.test(path) ? path : `${BASE}${path}`;
+  const LOCAL_MEDIA_BASE = `${BASE}/assets/light-catalog/media/`;
+  const LOCAL_WEBM_BASE = `${BASE}/assets/light-catalog/media/`;
   const RAW_MEDIA_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
   const GITHUB_MEDIA_BASE = 'https://github.com/damienkuo123/auping-staging/raw/refs/heads/main/assets/light-catalog/media/';
   const RAW_WEBM_BASE = 'https://raw.githubusercontent.com/damienkuo123/auping-staging/main/assets/light-catalog/media/';
@@ -66,12 +68,15 @@
     );
     const candidates = canWebM
       ? [
+          `${LOCAL_WEBM_BASE}${webmFile}`,
+          `${LOCAL_MEDIA_BASE}${file}`,
           `${RAW_WEBM_BASE}${webmFile}`,
           `${GITHUB_WEBM_BASE}${webmFile}`,
           `${RAW_MEDIA_BASE}${file}`,
           `${GITHUB_MEDIA_BASE}${file}`
         ]
       : [
+          `${LOCAL_MEDIA_BASE}${file}`,
           `${RAW_MEDIA_BASE}${file}`,
           `${GITHUB_MEDIA_BASE}${file}`
         ];
@@ -220,3 +225,212 @@
   else boot();
   new MutationObserver(boot).observe(document.documentElement, { childList: true, subtree: true });
 })();
+/* AUPING-PARITY-WAVE1-START */
+;(() => {
+  'use strict';
+  if (window.__AUPING_PARITY_WAVE1__) return;
+  window.__AUPING_PARITY_WAVE1__ = true;
+
+  const MOBILE = window.matchMedia('(max-width: 767px)');
+  const clean = (value) => String(value || '').replace(/\s+/g, ' ').trim();
+  const norm = (value) => clean(value).toLocaleLowerCase('en');
+
+  const EXACT_TEXT = new Map([
+    ['Electrically adjustable bed base 1M', '電動可調式床底 1M'],
+    ['Electrically adjustable bed base 2M', '電動可調式床底 2M'],
+    ['Electrically adjustable bed base 3M', '電動可調式床底 3M'],
+    ['Manually adjustable bed base', '手動可調式床底'],
+    ['Flat bed base', '固定式網狀床底'],
+    ['Accessories', '配件'],
+    ['Design', '設計'],
+    ['Support', '支援'],
+    ['Smart products', '智慧產品'],
+    ['Nightstands', '床邊桌'],
+    ['Bed lights', '床燈'],
+    ['Decorative pillows', '裝飾抱枕'],
+    ['Comfort mattress topper', 'Comfort 床墊舒適層'],
+    ['Deluxe mattress topper', 'Deluxe 床墊舒適層'],
+    ['Prestige mattress topper', 'Prestige 床墊舒適層'],
+    ['Somnox sleep robot', 'Somnox 睡眠機器人'],
+    ['Auping connect', 'Auping Connect'],
+  ]);
+
+  const DUTCH_CONTACT =
+    'You can reach us every business day between 08:30 – 17:00 at the telephone number +31 570 681820 or send an email to info@auping.com';
+  const TAIWAN_CONTACT =
+    '台灣地區請前往「尋找門市」聯絡鄰近 Auping 門市，由門市人員提供產品與售後協助。';
+
+  function localizeExactText(root = document) {
+    const walker = document.createTreeWalker(
+      root.body || root,
+      NodeFilter.SHOW_TEXT,
+      {
+        acceptNode(node) {
+          const parent = node.parentElement;
+          if (!parent || ['SCRIPT','STYLE','NOSCRIPT','TEMPLATE'].includes(parent.tagName)) {
+            return NodeFilter.FILTER_REJECT;
+          }
+          return NodeFilter.FILTER_ACCEPT;
+        }
+      }
+    );
+    let node;
+    while ((node = walker.nextNode())) {
+      const before = clean(node.nodeValue);
+      if (!before) continue;
+      if (EXACT_TEXT.has(before)) {
+        node.nodeValue = node.nodeValue.replace(before, EXACT_TEXT.get(before));
+        continue;
+      }
+      if (before.includes(DUTCH_CONTACT)) {
+        node.nodeValue = node.nodeValue.replace(DUTCH_CONTACT, TAIWAN_CONTACT);
+      }
+    }
+  }
+
+  function chooseFooterGroup(label, footer) {
+    let node = label;
+    let best = null;
+    for (let depth = 0; depth < 6 && node && node !== footer; depth += 1, node = node.parentElement) {
+      const linkCount = node.querySelectorAll?.('a[href]').length || 0;
+      const childCount = node.children?.length || 0;
+      if (linkCount >= 2 && linkCount <= 30 && childCount >= 2) {
+        best = node;
+        break;
+      }
+    }
+    return best;
+  }
+
+  function chooseFooterContent(label, group) {
+    const direct = [...group.children];
+    const headingChild = direct.find((child) => child === label || child.contains(label));
+    if (headingChild) {
+      const start = direct.indexOf(headingChild);
+      for (const child of direct.slice(start + 1)) {
+        if ((child.querySelectorAll?.('a[href]').length || 0) >= 1) return child;
+      }
+    }
+    const candidates = [...group.querySelectorAll('ul,nav,[class*="links" i],[class*="content" i],[class*="list" i]')]
+      .filter((node) => !node.contains(label) && (node.querySelectorAll('a[href]').length || 0) >= 1);
+    if (candidates.length) {
+      candidates.sort((a,b) => (a.querySelectorAll('*').length - b.querySelectorAll('*').length));
+      return candidates[0];
+    }
+    return null;
+  }
+
+  function installFooterStyles() {
+    if (document.getElementById('auping-parity-wave1-style')) return;
+    const style = document.createElement('style');
+    style.id = 'auping-parity-wave1-style';
+    style.textContent = `
+      @media (max-width:767px) {
+        footer .auping-footer-accordion-trigger {
+          cursor:pointer;
+          position:relative;
+          padding-right:30px !important;
+          user-select:none;
+        }
+        footer .auping-footer-accordion-trigger::after {
+          content:"";
+          position:absolute;
+          right:8px;
+          top:50%;
+          width:8px;
+          height:8px;
+          border-right:1.5px solid currentColor;
+          border-bottom:1.5px solid currentColor;
+          transform:translateY(-70%) rotate(45deg);
+          transition:transform .22s ease;
+          pointer-events:none;
+        }
+        footer .auping-footer-accordion-trigger[aria-expanded="true"]::after {
+          transform:translateY(-30%) rotate(225deg);
+        }
+      }`;
+    document.head.appendChild(style);
+  }
+
+  const FOOTER_DEFS = [
+    { key:'products', labels:['Products','產品','商品'] },
+    { key:'service-contact', labels:['Service & Contact','Service and Contact','服務與聯絡','服務與聯絡我們'] },
+    { key:'about-auping', labels:['About Auping','關於 Auping'] },
+  ];
+
+  function setupFooterAccordion() {
+    installFooterStyles();
+    const footer = document.querySelector('footer');
+    if (!footer) return;
+
+    FOOTER_DEFS.forEach((def) => {
+      if (footer.querySelector(`[data-auping-footer-accordion-key="${def.key}"]`)) return;
+      const label = [...footer.querySelectorAll('button,h2,h3,h4,h5,h6,strong,p,span,div')]
+        .find((el) => def.labels.some((x) => clean(el.textContent) === x));
+      if (!label) return;
+      const group = chooseFooterGroup(label, footer);
+      if (!group) return;
+      const content = chooseFooterContent(label, group);
+      if (!content) return;
+
+      const trigger = label.closest('button') || label;
+      trigger.dataset.aupingFooterAccordionKey = def.key;
+      trigger.classList.add('auping-footer-accordion-trigger');
+      trigger.setAttribute('role', 'button');
+      trigger.setAttribute('tabindex', '0');
+      if (!content.id) content.id = `auping-footer-${def.key}-${Math.random().toString(36).slice(2,8)}`;
+      trigger.setAttribute('aria-controls', content.id);
+      content.dataset.aupingFooterAccordionContent = def.key;
+
+      const applyResponsiveState = () => {
+        if (MOBILE.matches) {
+          if (!trigger.hasAttribute('aria-expanded')) trigger.setAttribute('aria-expanded','false');
+          const opened = trigger.getAttribute('aria-expanded') === 'true';
+          content.hidden = !opened;
+        } else {
+          content.hidden = false;
+          trigger.removeAttribute('aria-expanded');
+        }
+      };
+      const toggle = (event) => {
+        if (!MOBILE.matches) return;
+        event.preventDefault();
+        event.stopPropagation();
+        const opened = trigger.getAttribute('aria-expanded') === 'true';
+        trigger.setAttribute('aria-expanded', opened ? 'false' : 'true');
+        content.hidden = opened;
+      };
+      trigger.addEventListener('click', toggle);
+      trigger.addEventListener('keydown', (event) => {
+        if (event.key === 'Enter' || event.key === ' ') toggle(event);
+      });
+      if (MOBILE.addEventListener) MOBILE.addEventListener('change', applyResponsiveState);
+      else MOBILE.addListener?.(applyResponsiveState);
+      applyResponsiveState();
+    });
+
+    document.documentElement.dataset.aupingFooterParityReady = '1';
+  }
+
+  function bootParity() {
+    localizeExactText();
+    setupFooterAccordion();
+  }
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', bootParity, { once:true });
+  } else {
+    bootParity();
+  }
+  let pending = false;
+  new MutationObserver(() => {
+    if (pending) return;
+    pending = true;
+    requestAnimationFrame(() => {
+      pending = false;
+      bootParity();
+    });
+  }).observe(document.documentElement, {childList:true,subtree:true});
+  window.addEventListener('pageshow', () => setTimeout(bootParity, 100));
+})();
+/* AUPING-PARITY-WAVE1-END */
