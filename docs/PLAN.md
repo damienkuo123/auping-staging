@@ -59,3 +59,34 @@
 ## 5. 後續升級
 
 Level 2.5 完成後，如需更完整內容，可進入 Level 3：增加更多中文編輯內容、SEO、門市在地化資料與自建 CMS；不再重新引入多語言架構。
+
+
+---
+
+<!-- AUPING_ROADMAP_CANONICAL_POINTER_V1 -->
+## 6. 2026-08-13 Parity Completion Roadmap（現行）
+
+本文件早期 Level 2.5 規劃已不是目前 parity 專案的完整施工路線。
+
+**現行 canonical roadmap：**
+- `docs/07_ROADMAP_NEXT_STEPS.md`
+
+**目前 AI / 新對話串 checkpoint：**
+- `docs/AI_HANDOFF_CURRENT.md`
+
+**Machine-readable status：**
+- `docs/ROADMAP_STATUS.json`
+
+目前 accepted remote baseline：
+`2924457898a04662983d15791cac38bb7718cb8d`
+
+目前 ACTIVE route：
+`/about-auping/proudly-manufactured-netherlands/`
+
+最終目標：
+262 official live routes × Desktop/Mobile + interaction/media/video/translation/dependency acceptance。
+
+預估：
+15–29 focused working days（約 3–5 週）；Generic Factory 成功後可望壓到約 2–3 週。
+
+後續不得只依本 PLAN 舊版的 Level 2.5 checklist 宣告完成；完整完成定義以 canonical roadmap 為準。

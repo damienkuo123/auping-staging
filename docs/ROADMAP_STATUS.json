@@ -1,0 +1,98 @@
+{
+  "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-V1",
+  "updatedAt": "2026-08-13T02:18:00+08:00",
+  "repository": "damienkuo123/auping-staging",
+  "acceptedRemoteMain": "2924457898a04662983d15791cac38bb7718cb8d",
+  "latestAcceptedCommitMessage": "feat: add localized Auping B Corp route",
+  "finalTarget": {
+    "officialLiveRoutes": 262,
+    "viewportCasesMinimum": 524,
+    "language": "zh-Hant-TW",
+    "desktopMobileEqualPriority": true
+  },
+  "completedTierARoutes": [
+    "/about-auping/design/",
+    "/about-auping/b-corp/"
+  ],
+  "activeRoute": {
+    "path": "/about-auping/proudly-manufactured-netherlands/",
+    "stage": "GOLD_CAPTURE_ACCEPTED_AWAITING_MATERIALIZE",
+    "goldReceipt": "Auping_TierA_ProudlyManufacturedNL_GoldCapture_V1_Receipt_20260813_021624.zip",
+    "goldReady": true,
+    "officialDesktopStatus": 200,
+    "officialMobileStatus": 200,
+    "localDesktopStatus": 404,
+    "localMobileStatus": 404,
+    "directSectionSequence": [
+      "Breadcrumbs",
+      "HeaderImage",
+      "TruncatedText",
+      "VideoPlayer",
+      "TwoColumn",
+      "TwoColumn",
+      "TwoColumn",
+      "TwoColumn",
+      "TruncatedText",
+      "StoreLocator"
+    ],
+    "video": "https://api.auping.com/sites/default/files/2026-04/auping_fabrieksvideo_clean.mp4#t=0.1",
+    "nextAction": "Materialize from accepted Gold; do not recapture Gold."
+  },
+  "nextTierAQueue": [
+    "/about-auping/design/advertising-classics/",
+    "/about-auping/design/design-heritage/",
+    "/about-auping/design/designers/",
+    "/about-auping/design/fabrics/",
+    "Customer Service true-missing family",
+    "Accessories true-missing family"
+  ],
+  "historicalCensus": {
+    "officialRaw": 282,
+    "officialLive": 262,
+    "exactMappedLive": 136,
+    "missingQueue": 101,
+    "tierA": 28,
+    "tierB": 32,
+    "tierC": 41,
+    "tierALikelyTrueMissingHistoricalEstimate": 16,
+    "note": "Historical census is a planning input, not the current remaining-page count."
+  },
+  "remainingPlanningEstimate": {
+    "tierALikelyTrueMissingApproxAfterDesignAndBCorp": 14,
+    "confidence": "planning_estimate_only"
+  },
+  "interactionEvidence": {
+    "rawObservations": 340,
+    "targetPatternsApprox": 15
+  },
+  "structureEvidence": {
+    "observations": 64,
+    "targetTemplatesApprox": 8
+  },
+  "spatialMediaEvidence": {
+    "candidates": 775,
+    "highConfidenceApprox": 554
+  },
+  "videoEvidence": {
+    "knownGapEvents": 6,
+    "knownGapRoutes": 4
+  },
+  "translationEvidence": {
+    "uniqueRaw": 328,
+    "afterWhitelistApprox": 327
+  },
+  "eta": {
+    "normalFocusedWorkingDaysMin": 15,
+    "normalFocusedWorkingDaysMax": 29,
+    "normalCalendarDescription": "about 3–5 weeks",
+    "factoryizedCalendarDescription": "potentially about 2–3 weeks",
+    "recalculateAfterEachMajorPhase": true
+  },
+  "immutablePolicies": {
+    "taiwanStoreLocatorLocalLeafletOSM6Locations": true,
+    "noOfficialEnglishStoreLocatorRestore": true,
+    "noPlaceholders": true,
+    "noFabricatedContactData": true,
+    "finalAcceptanceNotCIOnly": true
+  }
+}
