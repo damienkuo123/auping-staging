@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-13T16:57:22+08:00",
+  "generatedAtLocal": "2026-08-13T19:20:53+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b",
-    "message": "fix: normalize Design Gold CSS link syntax",
+    "sha": "25c7acc449c16264df297a8ea13e76469247c989",
+    "message": "docs: track Advertising Classics Gold analysis",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -90,14 +90,14 @@
   "next": {
     "sourceHygieneDebt": null,
     "activeRoute": "/about-auping/design/advertising-classics/",
-    "activeStage": "GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE",
+    "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
     "goldCaptureAccepted": true,
     "goldAnalysisAccepted": true,
     "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES",
     "directSectionCount": 17,
     "truncatedTextCount": 15,
     "videoCount": 0,
-    "nextAction": "Materialize from accepted Gold Analysis using canonical repo Taiwan/global component reuse. Do not recapture Gold."
+    "nextAction": "Push Advertising Classics route safe commit and progress docs commit, then verify remote. Do not recapture Gold or rematerialize the accepted route."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -130,9 +130,10 @@
       "historicalLikelyTrueMissingPlanningEstimate": 16,
       "completedAndPushedRoutes": 3,
       "activeRoute": "/about-auping/design/advertising-classics/",
-      "activeRouteStage": "GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE",
+      "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
       "completedMaterializedShareOfHistoricalPlanningSubsetPct": 18.75,
-      "warning": "18.75% is only the historical Tier-A likely-true-missing planning subset, not whole-site completion."
+      "warning": "Advertising Classics is locally accepted but not counted as completed+pushed until remote verification. 18.75% remains the pushed planning-subset share.",
+      "locallyAcceptedRoutes": 4
     },
     "finalAcceptance": {
       "officialLiveRoutesTarget": 262,
@@ -140,5 +141,23 @@
       "globalFinalSweepStarted": false,
       "note": "Do not convert Phase-A construction count into whole-site completion percentage."
     }
+  },
+  "advertisingClassics": {
+    "route": "/about-auping/design/advertising-classics/",
+    "goldCaptureAccepted": true,
+    "goldAnalysisAccepted": true,
+    "materialized": true,
+    "staticAccepted": true,
+    "browserDesktopAccepted": true,
+    "browserMobileAccepted": true,
+    "manualVisualAccepted": true,
+    "directSectionCount": 17,
+    "truncatedTextCount": 15,
+    "officialMainMediaCount": 15,
+    "videoCount": 0,
+    "canonicalShellReused": true,
+    "officialAcceptedGoldMainReused": true,
+    "safeCommit": "17011fa506ae226e562d104f96a2e4b06a5de268",
+    "remotePushVerified": false
   }
 }

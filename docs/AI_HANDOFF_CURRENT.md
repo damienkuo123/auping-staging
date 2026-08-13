@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-13 16:57 +08:00
+更新：2026-08-13 19:20 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,10 +8,10 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
+`25c7acc449c16264df297a8ea13e76469247c989`
 
 Commit：
-`fix: normalize Design Gold CSS link syntax`
+`docs: track Advertising Classics Gold analysis`
 
 Push verified：**YES**
 
@@ -39,7 +39,7 @@ Design Gold CSS source hygiene is **CLOSED / PUSHED**:
 `/about-auping/design/advertising-classics/`
 
 Stage：
-`GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE`
+`MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH`
 
 Accepted Gold facts:
 - Official Desktop/Mobile `200`
@@ -57,8 +57,18 @@ Gold Analysis:
 - unique section media sources: 15
 - Desktop/Mobile section text mismatches: 0
 
+Local acceptance:
+- route safe commit: `17011fa506ae226e562d104f96a2e4b06a5de268`
+- canonical Taiwan/global shell reuse: PASS
+- accepted Gold main reuse: PASS
+- Static: PASS
+- Browser Desktop/Mobile: PASS
+- computed visible/loaded official main media: 15/15
+- human screenshot review: `VISUAL_OK`
+- push verified: **NO — pending**
+
 Exact next action：
-**Materialize from this accepted Gold Analysis. Do not recapture Gold. Search/reuse current repo canonical Taiwan/global components before reconstructing shared UI.**
+**Advertising Classics is locally accepted at `17011fa506ae226e562d104f96a2e4b06a5de268`. Push origin, then verify remote. Do not recapture Gold or rematerialize this route.**
 
 ## Route order
 

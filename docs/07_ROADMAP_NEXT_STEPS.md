@@ -1,12 +1,12 @@
-# 07｜Canonical Roadmap — Updated 2026-08-13 16:57 +08:00
+# 07｜Canonical Roadmap — Updated 2026-08-13 19:20 +08:00
 
 狀態：**AUTHORITATIVE / CANONICAL**
 Repo：`damienkuo123/auping-staging`
 
 ## Current accepted remote checkpoint
 
-`0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
-`fix: normalize Design Gold CSS link syntax`
+`25c7acc449c16264df297a8ea13e76469247c989`
+`docs: track Advertising Classics Gold analysis`
 
 Completed Tier A:
 - [x] `/about-auping/design/`
@@ -37,16 +37,26 @@ Planning estimate:
 historical 16 likely true missing → after the first 3 completed, approximately 13 remain, subject to route disposition review.
 
 Advertising Classics current stage:
-**GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE**
+**MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH**
 
 Accepted Gold structure:
-`Breadcrumbs → HeaderImage → TruncatedText ×16`
+`Breadcrumbs → HeaderImage → TruncatedText ×15`
 
 Template candidate:
 `EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES`
 
+Local acceptance:
+- route safe commit: `17011fa506ae226e562d104f96a2e4b06a5de268`
+- canonical Design/Taiwan shell reused
+- official accepted Gold main reused
+- Static gate PASS
+- Desktop/Mobile browser gate PASS
+- 15/15 official main media computed-visible and loaded
+- human visual review `VISUAL_OK`
+- remote push verified: **NO — pending user Push origin**
+
 Exact next route action:
-Materialize from accepted Gold Analysis with canonical Taiwan/global component reuse. **Do not recapture Gold.**
+Advertising Classics is locally accepted at safe commit `17011fa506ae226e562d104f96a2e4b06a5de268`. Push the route + progress docs commits, then verify remote before advancing to Design Heritage. **Do not recapture Gold or rematerialize Advertising Classics.**
 
 ## Phase A progress tracking
 
