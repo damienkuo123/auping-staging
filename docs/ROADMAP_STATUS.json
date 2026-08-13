@@ -1,98 +1,104 @@
 {
-  "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-V1",
-  "updatedAt": "2026-08-13T02:18:00+08:00",
-  "repository": "damienkuo123/auping-staging",
-  "acceptedRemoteMain": "2924457898a04662983d15791cac38bb7718cb8d",
-  "latestAcceptedCommitMessage": "feat: add localized Auping B Corp route",
-  "finalTarget": {
+  "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
+  "generatedAtLocal": "2026-08-13T12:17:00+08:00",
+  "repo": "damienkuo123/auping-staging",
+  "publicSite": "https://damienkuo123.github.io/auping-staging/",
+  "branch": "main",
+  "acceptedRemoteMain": {
+    "sha": "94af9375583559da1072e6d986ff5efad459f7a1",
+    "message": "feat: add localized proudly manufactured Netherlands route",
+    "pushVerified": true
+  },
+  "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
+  "systemChrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+  "lockedProductGoal": {
     "officialLiveRoutes": 262,
-    "viewportCasesMinimum": 524,
+    "desktopMobileEqual": true,
     "language": "zh-Hant-TW",
-    "desktopMobileEqualPriority": true
+    "visual": "Official/local should be effectively 1:1 at same viewport, except deliberate Taiwan localization.",
+    "interaction": "Visible UI/UX behavior must match official patterns, not only DOM/ARIA.",
+    "taiwanStoreLocator": "Local Leaflet/OSM with 6 Taiwan locations; never restore official English/NL locator.",
+    "sourceIntegrity": "No placeholders, guessed media, fabricated contact data, or generic filler."
   },
-  "completedTierARoutes": [
-    "/about-auping/design/",
-    "/about-auping/b-corp/"
+  "completedAndPushed": [
+    {
+      "routeOrWave": "Wave1.3.1",
+      "commit": "6714df368945dc69036c9699664b31845fa7d4ce"
+    },
+    {
+      "routeOrWave": "/about-auping/design/",
+      "commit": "93ea15e8dea97516f9b2e73fe2d295eeea61da15"
+    },
+    {
+      "routeOrWave": "/about-auping/b-corp/",
+      "commit": "2924457898a04662983d15791cac38bb7718cb8d"
+    },
+    {
+      "routeOrWave": "Canonical roadmap / AI handoff docs lock",
+      "commit": "37b70cea9ddf11bf452930e87fbea089429ae9f3"
+    },
+    {
+      "routeOrWave": "/about-auping/proudly-manufactured-netherlands/",
+      "commit": "94af9375583559da1072e6d986ff5efad459f7a1"
+    }
   ],
-  "activeRoute": {
-    "path": "/about-auping/proudly-manufactured-netherlands/",
-    "stage": "GOLD_CAPTURE_ACCEPTED_AWAITING_MATERIALIZE",
-    "goldReceipt": "Auping_TierA_ProudlyManufacturedNL_GoldCapture_V1_Receipt_20260813_021624.zip",
-    "goldReady": true,
-    "officialDesktopStatus": 200,
-    "officialMobileStatus": 200,
-    "localDesktopStatus": 404,
-    "localMobileStatus": 404,
-    "directSectionSequence": [
-      "Breadcrumbs",
-      "HeaderImage",
-      "TruncatedText",
-      "VideoPlayer",
-      "TwoColumn",
-      "TwoColumn",
-      "TwoColumn",
-      "TwoColumn",
-      "TruncatedText",
-      "StoreLocator"
-    ],
-    "video": "https://api.auping.com/sites/default/files/2026-04/auping_fabrieksvideo_clean.mp4#t=0.1",
-    "nextAction": "Materialize from accepted Gold; do not recapture Gold."
+  "pmnl": {
+    "route": "/about-auping/proudly-manufactured-netherlands/",
+    "goldAccepted": true,
+    "materialized": true,
+    "staticAccepted": true,
+    "browserCoreAccepted": true,
+    "manualVisualAccepted": true,
+    "officialVideoLocked": true,
+    "taiwanStoreLocatorIntegrated": true,
+    "canonicalTaiwanUSPReused": true,
+    "mobileUSPProjection": true,
+    "acceptedRouteSha256": "1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb",
+    "safeCommit": "94af9375583559da1072e6d986ff5efad459f7a1",
+    "remotePushVerified": true,
+    "handoffRule": "Do not rerun PMNL unless a later evidence-backed regression demands it."
   },
-  "nextTierAQueue": [
-    "/about-auping/design/advertising-classics/",
-    "/about-auping/design/design-heritage/",
-    "/about-auping/design/designers/",
-    "/about-auping/design/fabrics/",
-    "Customer Service true-missing family",
-    "Accessories true-missing family"
-  ],
-  "historicalCensus": {
-    "officialRaw": 282,
-    "officialLive": 262,
-    "exactMappedLive": 136,
-    "missingQueue": 101,
+  "census": {
+    "officialRawRoutes": 282,
+    "officialLive200Routes": 262,
+    "exactMappedLiveRoutes": 136,
+    "historicalMissingQueue": 101,
     "tierA": 28,
     "tierB": 32,
     "tierC": 41,
-    "tierALikelyTrueMissingHistoricalEstimate": 16,
-    "note": "Historical census is a planning input, not the current remaining-page count."
+    "historicalTierALikelyTrueMissing": 16,
+    "planningTierALikelyTrueMissingApproxAfter3Completed": 13,
+    "interactionRaw": 340,
+    "interactionPatternsApprox": 15,
+    "structureRaw": 64,
+    "structureTemplatesApprox": 8,
+    "videoGapEvents": 6,
+    "videoGapRoutes": 4,
+    "translationUnique": 328,
+    "translationAfterWhitelistApprox": 327,
+    "spatialCandidates": 775,
+    "spatialHighConfidenceApprox": 554
   },
-  "remainingPlanningEstimate": {
-    "tierALikelyTrueMissingApproxAfterDesignAndBCorp": 14,
-    "confidence": "planning_estimate_only"
+  "next": {
+    "sourceHygieneDebt": "/about-auping/design/ 11 malformed Gold CSS link tags",
+    "activeRoute": "/about-auping/design/advertising-classics/",
+    "activeStage": "GOLD_CAPTURE_NOT_STARTED",
+    "nextAction": "Fix Design CSS source syntax debt, then Gold Capture advertising-classics."
   },
-  "interactionEvidence": {
-    "rawObservations": 340,
-    "targetPatternsApprox": 15
-  },
-  "structureEvidence": {
-    "observations": 64,
-    "targetTemplatesApprox": 8
-  },
-  "spatialMediaEvidence": {
-    "candidates": 775,
-    "highConfidenceApprox": 554
-  },
-  "videoEvidence": {
-    "knownGapEvents": 6,
-    "knownGapRoutes": 4
-  },
-  "translationEvidence": {
-    "uniqueRaw": 328,
-    "afterWhitelistApprox": 327
+  "factoryRules": {
+    "canonicalComponentReuseFirst": true,
+    "structureCountsUseDOM": true,
+    "macVerifierNoBs4Assumption": true,
+    "imageComputedVisibility": true,
+    "videoCurrentSrcAndPlayback": true,
+    "mobileContentRectIntersection": true,
+    "manualScreenshotReviewRequired": true,
+    "verifierBugMustNotDriveSourceDamage": true
   },
   "eta": {
-    "normalFocusedWorkingDaysMin": 15,
-    "normalFocusedWorkingDaysMax": 29,
-    "normalCalendarDescription": "about 3–5 weeks",
-    "factoryizedCalendarDescription": "potentially about 2–3 weeks",
-    "recalculateAfterEachMajorPhase": true
-  },
-  "immutablePolicies": {
-    "taiwanStoreLocatorLocalLeafletOSM6Locations": true,
-    "noOfficialEnglishStoreLocatorRestore": true,
-    "noPlaceholders": true,
-    "noFabricatedContactData": true,
-    "finalAcceptanceNotCIOnly": true
+    "normal": "about 3–5 weeks",
+    "planningFocusedWorkingDays": "about 14–28",
+    "factoryizedPotential": "about 2–3 weeks",
+    "warning": "Planning estimate only; recalculate after each major phase."
   }
 }
