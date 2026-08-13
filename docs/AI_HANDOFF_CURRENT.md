@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-14 01:47 +08:00
+更新：2026-08-14 02:35 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,10 +8,10 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`ead6733b8afa335bc5a95f00faff458cbcd5b46d`
+`249a8c3a3ee4725b9ab0c29c062105fc1f927025`
 
 Commit：
-`docs: record legacy lazy-media visual truth audit`
+`docs: track Design Heritage local acceptance`
 
 Push verified：**YES**
 
@@ -21,6 +21,7 @@ Push verified：**YES**
 - `/about-auping/b-corp/`
 - `/about-auping/proudly-manufactured-netherlands/`
 - `/about-auping/design/advertising-classics/`
+- `/about-auping/design/design-heritage/`
 
 PMNL accepted route SHA：
 `1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb`
@@ -37,7 +38,7 @@ Design Gold CSS source hygiene is **CLOSED / PUSHED**:
 
 ## ACTIVE missing route
 
-`/about-auping/design/design-heritage/`
+`/about-auping/design/designers/`
 
 Stage：
 `MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH`
@@ -45,17 +46,18 @@ Stage：
 Accepted warmed Gold:
 - Official Desktop/Mobile `200`
 - Local Desktop/Mobile `404` before materialization
-- direct sections: `Breadcrumbs → TruncatedText ×17` (18 direct)
-- all `[data-section]`: Desktop 19 / Mobile 19 including footer
-- effective main media: 17 / 17, all warmed loaded and visible
-- Desktop/Mobile content-section text mismatch: 0; breadcrumb text differs intentionally by responsive presentation (Desktop trail / Mobile Back to Design)
+- direct sections: `Breadcrumbs → HeaderImage → HeaderText → TruncatedText ×7` (10 direct)
+- all `[data-section]`: Desktop 11 / Mobile 11 including footer
+- H1: `Designers for Auping` ×2 in Official; local preserves two H1 and localizes both to `Auping 的設計師`
+- effective main media: 7 / 7, all warmed loaded and visible
+- Desktop/Mobile content-section text mismatch: 0; breadcrumb text differs intentionally by responsive presentation
 - videos: 0
-- H1: none; do not invent one
-- template: `EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE`
-- Gold Analysis SHA: `b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd`
+- template: `EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES`
+- Gold Analysis SHA: `eba1206ad40cb7fc2ed44907cdc63c7d34c112c98723949767d6999c18aa185b`
+- dependency routing: Auronde + Essential local; Eva Harlou detail remains official external pending local-route closure
 
 Local acceptance:
-- route safe commit: `ffab113fc1f05203873298aa434dcbb3d6b33c65`
+- route safe commit: `f5043e1e0db2b03695e3b35e520182321c8e0e02`
 - canonical Taiwan/global Design shell reuse: PASS
 - accepted warmed Gold main reuse: PASS
 - Static: PASS
@@ -64,7 +66,7 @@ Local acceptance:
 - push verified: **NO — pending**
 
 Exact next action：
-**Push origin, verify remote, then start `/about-auping/design/designers/` from warmed Gold Capture. Do not recapture or rematerialize Design Heritage.**
+**Push origin, verify remote, then start `/about-auping/design/fabrics/` from warmed Gold Capture. Do not recapture or rematerialize Designers.**
 
 ## Cross-cutting visual-truth regression
 
@@ -78,9 +80,9 @@ Factory rule: group responsive twins into effective media slots; scroll-warm onl
 ## Route order
 
 1. advertising-classics ✅ COMPLETED
-2. design-heritage ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
-3. designers ← NEXT AFTER PUSH
-4. fabrics
+2. design-heritage ✅ COMPLETED
+3. designers ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
+4. fabrics ← NEXT AFTER PUSH
 5. Customer Service true-missing family
 6. Accessories true-missing family
 
@@ -89,9 +91,9 @@ Factory rule: group responsive twins into effective media slots; scroll-warm onl
 Construction progress and Final Acceptance progress are tracked separately.
 
 - Historical Tier-A likely-true-missing planning subset: approx 16
-- Completed + pushed Tier-A routes at accepted remote checkpoint: 4
-- Locally accepted including Design Heritage: 5
-- Pushed planning-subset share: 4/16 = 25%; after Design Heritage Push verification: 5/16 = 31.25% (planning subset only; **not whole-site completion**)
+- Completed + pushed Tier-A routes at accepted remote checkpoint: 5
+- Locally accepted including Designers: 6
+- Pushed planning-subset share: 5/16 = 31.25%; after Designers Push verification: 6/16 = 37.5% (planning subset only; **not whole-site completion**)
 - Final target remains 262 live routes × Desktop/Mobile = minimum 524 viewport cases plus interactions/media/video/translation/dependency closure.
 
 ## Factory rules

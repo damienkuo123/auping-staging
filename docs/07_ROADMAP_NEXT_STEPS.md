@@ -1,18 +1,19 @@
-# 07｜Canonical Roadmap — Updated 2026-08-14 01:47 +08:00
+# 07｜Canonical Roadmap — Updated 2026-08-14 02:35 +08:00
 
 狀態：**AUTHORITATIVE / CANONICAL**
 Repo：`damienkuo123/auping-staging`
 
 ## Current accepted remote checkpoint
 
-`ead6733b8afa335bc5a95f00faff458cbcd5b46d`
-`docs: record legacy lazy-media visual truth audit`
+`249a8c3a3ee4725b9ab0c29c062105fc1f927025`
+`docs: track Design Heritage local acceptance`
 
 Completed Tier A:
 - [x] `/about-auping/design/`
 - [x] `/about-auping/b-corp/`
 - [x] `/about-auping/proudly-manufactured-netherlands/`
 - [x] `/about-auping/design/advertising-classics/`
+- [x] `/about-auping/design/design-heritage/`
 
 PMNL remote push has been verified. Do not recapture or rematerialize PMNL unless a later evidence-backed regression requires it.
 
@@ -28,31 +29,33 @@ PMNL remote push has been verified. Do not recapture or rematerialize PMNL unles
 
 Next:
 - [x] `/about-auping/design/advertising-classics/`
-- [ ] `/about-auping/design/design-heritage/` ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
-- [ ] `/about-auping/design/designers/`
+- [x] `/about-auping/design/design-heritage/`
+- [ ] `/about-auping/design/designers/` ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
 - [ ] `/about-auping/design/fabrics/`
 - [ ] Customer Service true-missing family
 - [ ] Accessories true-missing family
 
 Planning estimate:
-historical likely-true-missing Tier-A planning subset remains approximately 16; 4 are completed+pushed at the accepted remote checkpoint.
+historical likely-true-missing Tier-A planning subset remains approximately 16; 5 are completed+pushed at the accepted remote checkpoint.
 
-Design Heritage current stage:
+Designers current stage:
 **MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH**
 
 Accepted warmed Gold:
 - Official Desktop/Mobile `200`
 - local public + repo preview Desktop/Mobile `404` before materialization
-- direct main structure: `Breadcrumbs → TruncatedText ×17` (18 direct sections)
-- all `[data-section]`: 19 including footer
-- H1: none; do not invent one
-- effective main media: 17 Desktop / 17 Mobile, all scroll-warmed loaded + visible
+- direct main structure: `Breadcrumbs → HeaderImage → HeaderText → TruncatedText ×7` (10 direct sections)
+- all `[data-section]`: 11 including footer
+- H1: `Designers for Auping` ×2 in Official (HeaderImage + HeaderText); duplicate structure intentionally preserved and localized
+- effective main media: 7 Desktop / 7 Mobile, all scroll-warmed loaded + visible
 - videos: 0
-- template: `EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE`
-- Gold Analysis SHA: `b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd`
+- template: `EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES`
+- Gold Analysis SHA: `eba1206ad40cb7fc2ed44907cdc63c7d34c112c98723949767d6999c18aa185b`
+- Auronde + Essential links use existing Taiwan local routes
+- Eva Harlou detail remains official external because the local subroute does not yet exist; track for final dependency closure
 
 Local acceptance:
-- route safe commit: `ffab113fc1f05203873298aa434dcbb3d6b33c65`
+- route safe commit: `f5043e1e0db2b03695e3b35e520182321c8e0e02`
 - canonical Design/Taiwan shell reused
 - accepted warmed Gold main reused
 - Static gate PASS
@@ -61,15 +64,15 @@ Local acceptance:
 - remote push verified: **NO — pending user Push origin**
 
 Exact next route action:
-Push the Design Heritage route + progress docs commits, verify remote, then advance to `/about-auping/design/designers/`. Do not recapture or rematerialize Design Heritage once pushed.
+Push the Designers route + progress docs commits, verify remote, then advance to `/about-auping/design/fabrics/`. Do not recapture or rematerialize Designers once pushed.
 
 ## Phase A progress tracking
 
 - historical likely-true-missing Tier-A planning subset: approx 16
-- completed + pushed Tier-A routes at accepted remote checkpoint: 4
-- locally accepted routes including Design Heritage: 5
-- pushed planning-subset share: `4/16 = 25%`
-- expected after Design Heritage Push + remote verification: `5/16 = 31.25%`
+- completed + pushed Tier-A routes at accepted remote checkpoint: 5
+- locally accepted routes including Designers: 6
+- pushed planning-subset share: `5/16 = 31.25%`
+- expected after Designers Push + remote verification: `6/16 = 37.5%`
 - these percentages describe the Tier-A planning subset only; they are **not whole-site completion**
 - whole-site final acceptance remains 262 live routes / 524+ viewport cases plus interaction, media/video, language and dependency closure
 

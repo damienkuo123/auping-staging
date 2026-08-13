@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-14T01:47:40+08:00",
+  "generatedAtLocal": "2026-08-14T02:35:56+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "ead6733b8afa335bc5a95f00faff458cbcd5b46d",
-    "message": "docs: record legacy lazy-media visual truth audit",
+    "sha": "249a8c3a3ee4725b9ab0c29c062105fc1f927025",
+    "message": "docs: track Design Heritage local acceptance",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -52,6 +52,10 @@
     {
       "routeOrWave": "/about-auping/design/advertising-classics/",
       "commit": "17011fa506ae226e562d104f96a2e4b06a5de268"
+    },
+    {
+      "routeOrWave": "/about-auping/design/design-heritage/",
+      "commit": "ffab113fc1f05203873298aa434dcbb3d6b33c65"
     }
   ],
   "pmnl": {
@@ -90,20 +94,21 @@
     "translationAfterWhitelistApprox": 327,
     "spatialCandidates": 775,
     "spatialHighConfidenceApprox": 554,
-    "planningTierALikelyTrueMissingApproxAfter4Completed": 12
+    "planningTierALikelyTrueMissingApproxAfter4Completed": 12,
+    "planningTierALikelyTrueMissingApproxAfter5Completed": 11
   },
   "next": {
     "sourceHygieneDebt": null,
-    "activeRoute": "/about-auping/design/design-heritage/",
+    "activeRoute": "/about-auping/design/designers/",
     "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
     "goldCaptureAccepted": true,
     "goldAnalysisAccepted": true,
-    "goldTemplateCandidate": "EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE",
-    "directSectionCount": 18,
-    "truncatedTextCount": 17,
-    "effectiveMediaCount": 17,
+    "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES",
+    "directSectionCount": 10,
+    "truncatedTextCount": 7,
+    "effectiveMediaCount": 7,
     "videoCount": 0,
-    "nextAction": "Push Design Heritage route safe commit and progress docs commit; verify remote; then warmed Gold Capture /about-auping/design/designers/. Do not recapture Design Heritage."
+    "nextAction": "Push Designers route safe commit and progress docs commit; verify remote; then warmed Gold Capture /about-auping/design/fabrics/. Do not recapture Designers."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -136,14 +141,15 @@
     "model": "milestone_counts_not_fake_overall_percent",
     "phaseA": {
       "historicalLikelyTrueMissingPlanningEstimate": 16,
-      "completedAndPushedRoutes": 4,
-      "activeRoute": "/about-auping/design/design-heritage/",
+      "completedAndPushedRoutes": 5,
+      "activeRoute": "/about-auping/design/designers/",
       "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
-      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 25.0,
+      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 31.25,
       "warning": "Tier-A planning-subset share only; not whole-site completion.",
-      "locallyAcceptedRoutes": 5,
-      "planningSubsetCompletedShare": "4/16 = 25%",
-      "expectedShareAfterDesignHeritagePush": "5/16 = 31.25%"
+      "locallyAcceptedRoutes": 6,
+      "planningSubsetCompletedShare": "5/16 = 31.25%",
+      "expectedShareAfterDesignHeritagePush": "5/16 = 31.25%",
+      "expectedShareAfterDesignersPush": "6/16 = 37.5%"
     },
     "finalAcceptance": {
       "officialLiveRoutesTarget": 262,
@@ -205,6 +211,34 @@
     "canonicalShellReused": true,
     "officialAcceptedGoldMainReused": true,
     "safeCommit": "ffab113fc1f05203873298aa434dcbb3d6b33c65",
-    "remotePushVerified": false
+    "remotePushVerified": true
+  },
+  "designers": {
+    "route": "/about-auping/design/designers/",
+    "goldCaptureAccepted": true,
+    "goldCaptureMethod": "warmed effective-media",
+    "goldAnalysisAccepted": true,
+    "goldAnalysisSha256": "eba1206ad40cb7fc2ed44907cdc63c7d34c112c98723949767d6999c18aa185b",
+    "template": "EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES",
+    "materialized": true,
+    "staticAccepted": true,
+    "browserDesktopAccepted": true,
+    "browserMobileAccepted": true,
+    "manualVisualAccepted": true,
+    "directSectionCount": 10,
+    "truncatedTextCount": 7,
+    "officialMainMediaCount": 7,
+    "videoCount": 0,
+    "officialH1Count": 2,
+    "localizedH1Count": 2,
+    "canonicalShellReused": true,
+    "officialAcceptedGoldMainReused": true,
+    "safeCommit": "f5043e1e0db2b03695e3b35e520182321c8e0e02",
+    "remotePushVerified": false,
+    "dependencyRouting": {
+      "auronde": "local /auping-staging/beds/auronde/",
+      "essential": "local /auping-staging/beds/essential/",
+      "evaHarlou": "official external pending local subroute closure"
+    }
   }
 }
