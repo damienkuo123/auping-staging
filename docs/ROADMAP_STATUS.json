@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-14T00:07:25+08:00",
+  "generatedAtLocal": "2026-08-14T01:47:40+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "26494be5a9c4587a9898db757b34c973a6716081",
-    "message": "docs: track Advertising Classics local acceptance",
+    "sha": "ead6733b8afa335bc5a95f00faff458cbcd5b46d",
+    "message": "docs: record legacy lazy-media visual truth audit",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -89,19 +89,21 @@
     "translationUnique": 328,
     "translationAfterWhitelistApprox": 327,
     "spatialCandidates": 775,
-    "spatialHighConfidenceApprox": 554
+    "spatialHighConfidenceApprox": 554,
+    "planningTierALikelyTrueMissingApproxAfter4Completed": 12
   },
   "next": {
     "sourceHygieneDebt": null,
     "activeRoute": "/about-auping/design/design-heritage/",
-    "activeStage": "GOLD_CAPTURE_NOT_STARTED",
+    "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
     "goldCaptureAccepted": true,
     "goldAnalysisAccepted": true,
-    "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES",
-    "directSectionCount": 17,
-    "truncatedTextCount": 15,
+    "goldTemplateCandidate": "EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE",
+    "directSectionCount": 18,
+    "truncatedTextCount": 17,
+    "effectiveMediaCount": 17,
     "videoCount": 0,
-    "nextAction": "Gold Capture /about-auping/design/design-heritage/. Do not recapture Advertising Classics."
+    "nextAction": "Push Design Heritage route safe commit and progress docs commit; verify remote; then warmed Gold Capture /about-auping/design/designers/. Do not recapture Design Heritage."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -136,11 +138,12 @@
       "historicalLikelyTrueMissingPlanningEstimate": 16,
       "completedAndPushedRoutes": 4,
       "activeRoute": "/about-auping/design/design-heritage/",
-      "activeRouteStage": "GOLD_CAPTURE_NOT_STARTED",
-      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 18.75,
-      "warning": "25% is the historical likely-true-missing Tier-A planning subset share only, not whole-site completion.",
-      "locallyAcceptedRoutes": 4,
-      "planningSubsetCompletedShare": "4/16 = 25%"
+      "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
+      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 25.0,
+      "warning": "Tier-A planning-subset share only; not whole-site completion.",
+      "locallyAcceptedRoutes": 5,
+      "planningSubsetCompletedShare": "4/16 = 25%",
+      "expectedShareAfterDesignHeritagePush": "5/16 = 31.25%"
     },
     "finalAcceptance": {
       "officialLiveRoutesTarget": 262,
@@ -181,5 +184,27 @@
     "method": "group responsive twins into effective media slots; scroll rendered instances; wait currentSrc + complete + naturalWidth; capture warmed full page; human VISUAL_OK",
     "pmnlStoreLocatorExcludedFromExactMediaSet": true,
     "pmnlVideoReplayed": false
+  },
+  "designHeritage": {
+    "route": "/about-auping/design/design-heritage/",
+    "goldCaptureAccepted": true,
+    "goldCaptureMethod": "warmed effective-media",
+    "goldAnalysisAccepted": true,
+    "goldAnalysisSha256": "b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd",
+    "template": "EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE",
+    "materialized": true,
+    "staticAccepted": true,
+    "browserDesktopAccepted": true,
+    "browserMobileAccepted": true,
+    "manualVisualAccepted": true,
+    "directSectionCount": 18,
+    "truncatedTextCount": 17,
+    "officialMainMediaCount": 17,
+    "videoCount": 0,
+    "h1Invented": false,
+    "canonicalShellReused": true,
+    "officialAcceptedGoldMainReused": true,
+    "safeCommit": "ffab113fc1f05203873298aa434dcbb3d6b33c65",
+    "remotePushVerified": false
   }
 }

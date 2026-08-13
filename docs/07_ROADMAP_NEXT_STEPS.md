@@ -1,12 +1,12 @@
-# 07｜Canonical Roadmap — Updated 2026-08-14 00:07 +08:00
+# 07｜Canonical Roadmap — Updated 2026-08-14 01:47 +08:00
 
 狀態：**AUTHORITATIVE / CANONICAL**
 Repo：`damienkuo123/auping-staging`
 
 ## Current accepted remote checkpoint
 
-`26494be5a9c4587a9898db757b34c973a6716081`
-`docs: track Advertising Classics local acceptance`
+`ead6733b8afa335bc5a95f00faff458cbcd5b46d`
+`docs: record legacy lazy-media visual truth audit`
 
 Completed Tier A:
 - [x] `/about-auping/design/`
@@ -28,45 +28,50 @@ PMNL remote push has been verified. Do not recapture or rematerialize PMNL unles
 
 Next:
 - [x] `/about-auping/design/advertising-classics/`
-- [ ] `/about-auping/design/design-heritage/` ← ACTIVE
+- [ ] `/about-auping/design/design-heritage/` ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
 - [ ] `/about-auping/design/designers/`
 - [ ] `/about-auping/design/fabrics/`
 - [ ] Customer Service true-missing family
 - [ ] Accessories true-missing family
 
 Planning estimate:
-historical 16 likely true missing → after the first 3 completed, approximately 13 remain, subject to route disposition review.
+historical likely-true-missing Tier-A planning subset remains approximately 16; 4 are completed+pushed at the accepted remote checkpoint.
 
-Advertising Classics current stage:
-**COMPLETED / PUSHED / VISUAL-TRUTH ACCEPTED**
+Design Heritage current stage:
+**MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH**
 
-Accepted Gold structure:
-`Breadcrumbs → HeaderImage → TruncatedText ×15`
-
-Template candidate:
-`EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES`
+Accepted warmed Gold:
+- Official Desktop/Mobile `200`
+- local public + repo preview Desktop/Mobile `404` before materialization
+- direct main structure: `Breadcrumbs → TruncatedText ×17` (18 direct sections)
+- all `[data-section]`: 19 including footer
+- H1: none; do not invent one
+- effective main media: 17 Desktop / 17 Mobile, all scroll-warmed loaded + visible
+- videos: 0
+- template: `EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE`
+- Gold Analysis SHA: `b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd`
 
 Local acceptance:
-- route safe commit: `17011fa506ae226e562d104f96a2e4b06a5de268`
+- route safe commit: `ffab113fc1f05203873298aa434dcbb3d6b33c65`
 - canonical Design/Taiwan shell reused
-- official accepted Gold main reused
+- accepted warmed Gold main reused
 - Static gate PASS
-- Desktop/Mobile browser gate PASS
-- 15/15 official main media computed-visible and loaded
-- human visual review `VISUAL_OK`
+- Desktop/Mobile browser + effective-media gate PASS
+- human warmed screenshot review `VISUAL_OK`
 - remote push verified: **NO — pending user Push origin**
 
 Exact next route action:
-Advertising Classics is completed and pushed. Legacy lazy-media visual-truth regression for Design / B Corp / PMNL is also accepted. Next route: `/about-auping/design/design-heritage/` from Gold Capture.
+Push the Design Heritage route + progress docs commits, verify remote, then advance to `/about-auping/design/designers/`. Do not recapture or rematerialize Design Heritage once pushed.
 
 ## Phase A progress tracking
 
-- historical likely-true-missing planning subset: approx 16
-- completed + pushed Tier-A routes: 3
-- active: Advertising Classics at Gold Analysis accepted
-- 3/16 = 18.75% of that planning subset only; this is **not** whole-site completion
-- whole-site completion remains evidence-based against 262 routes / 524+ viewport cases plus cross-cutting closure
-
+- historical likely-true-missing Tier-A planning subset: approx 16
+- completed + pushed Tier-A routes at accepted remote checkpoint: 4
+- locally accepted routes including Design Heritage: 5
+- pushed planning-subset share: `4/16 = 25%`
+- expected after Design Heritage Push + remote verification: `5/16 = 31.25%`
+- these percentages describe the Tier-A planning subset only; they are **not whole-site completion**
+- whole-site final acceptance remains 262 live routes / 524+ viewport cases plus interaction, media/video, language and dependency closure
 
 ## Legacy completed-route lazy-media visual truth — ACCEPTED
 

@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-14 00:07 +08:00
+更新：2026-08-14 01:47 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,10 +8,10 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`26494be5a9c4587a9898db757b34c973a6716081`
+`ead6733b8afa335bc5a95f00faff458cbcd5b46d`
 
 Commit：
-`docs: track Advertising Classics local acceptance`
+`docs: record legacy lazy-media visual truth audit`
 
 Push verified：**YES**
 
@@ -37,40 +37,34 @@ Design Gold CSS source hygiene is **CLOSED / PUSHED**:
 
 ## ACTIVE missing route
 
-`/about-auping/design/advertising-classics/`
+`/about-auping/design/design-heritage/`
 
 Stage：
-`COMPLETED_PUSHED_VISUAL_TRUTH_ACCEPTED`
+`MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH`
 
-Accepted Gold facts:
+Accepted warmed Gold:
 - Official Desktop/Mobile `200`
-- Local Desktop/Mobile `404`
-- direct sections: `Breadcrumbs → HeaderImage → TruncatedText ×15` (17 direct)
-- all `[data-section]` elements recorded by Gold: Desktop 18 / Mobile 18; this is a separate metric from direct-section count
-- official images: Desktop 121 / Mobile 121
+- Local Desktop/Mobile `404` before materialization
+- direct sections: `Breadcrumbs → TruncatedText ×17` (18 direct)
+- all `[data-section]`: Desktop 19 / Mobile 19 including footer
+- effective main media: 17 / 17, all warmed loaded and visible
+- Desktop/Mobile content-section text mismatch: 0; breadcrumb text differs intentionally by responsive presentation (Desktop trail / Mobile Back to Design)
 - videos: 0
-- H1 captured as empty string; do not invent an H1
-- repo unchanged by Gold Capture
-
-Gold Analysis:
-- template candidate: `EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES`
-- unique main text fragments: 41
-- unique section media sources: 15
-- Desktop/Mobile section text mismatches: 0
+- H1: none; do not invent one
+- template: `EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE`
+- Gold Analysis SHA: `b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd`
 
 Local acceptance:
-- route safe commit: `17011fa506ae226e562d104f96a2e4b06a5de268`
-- canonical Taiwan/global shell reuse: PASS
-- accepted Gold main reuse: PASS
+- route safe commit: `ffab113fc1f05203873298aa434dcbb3d6b33c65`
+- canonical Taiwan/global Design shell reuse: PASS
+- accepted warmed Gold main reuse: PASS
 - Static: PASS
 - Browser Desktop/Mobile: PASS
-- computed visible/loaded official main media: 15/15
-- human screenshot review: `VISUAL_OK`
+- human warmed screenshot review: `VISUAL_OK`
 - push verified: **NO — pending**
 
 Exact next action：
-**Advertising Classics is completed and pushed. Next route is `/about-auping/design/design-heritage/`; start from Gold Capture. Do not recapture or rematerialize Advertising Classics.**
-
+**Push origin, verify remote, then start `/about-auping/design/designers/` from warmed Gold Capture. Do not recapture or rematerialize Design Heritage.**
 
 ## Cross-cutting visual-truth regression
 
@@ -84,8 +78,8 @@ Factory rule: group responsive twins into effective media slots; scroll-warm onl
 ## Route order
 
 1. advertising-classics ✅ COMPLETED
-2. design-heritage ← ACTIVE
-3. designers
+2. design-heritage ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
+3. designers ← NEXT AFTER PUSH
 4. fabrics
 5. Customer Service true-missing family
 6. Accessories true-missing family
@@ -95,8 +89,9 @@ Factory rule: group responsive twins into effective media slots; scroll-warm onl
 Construction progress and Final Acceptance progress are tracked separately.
 
 - Historical Tier-A likely-true-missing planning subset: approx 16
-- Completed + pushed Tier-A routes so far: 3
-- Planning-subset materialized share: 3/16 = 18.75% (planning subset only; **not whole-site completion**)
+- Completed + pushed Tier-A routes at accepted remote checkpoint: 4
+- Locally accepted including Design Heritage: 5
+- Pushed planning-subset share: 4/16 = 25%; after Design Heritage Push verification: 5/16 = 31.25% (planning subset only; **not whole-site completion**)
 - Final target remains 262 live routes × Desktop/Mobile = minimum 524 viewport cases plus interactions/media/video/translation/dependency closure.
 
 ## Factory rules
