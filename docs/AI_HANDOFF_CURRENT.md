@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-13 12:17 +08:00
+更新：2026-08-13 16:57 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,12 +8,12 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`94af9375583559da1072e6d986ff5efad459f7a1`
+`0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
 
 Commit：
-`feat: add localized proudly manufactured Netherlands route`
+`fix: normalize Design Gold CSS link syntax`
 
-PMNL push verified：**YES**
+Push verified：**YES**
 
 ## Completed Tier A routes
 
@@ -24,38 +24,59 @@ PMNL push verified：**YES**
 PMNL accepted route SHA：
 `1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb`
 
-Do not recapture/rematerialize these routes unless a later evidence-backed regression demands it.
+Do not recapture/rematerialize completed routes unless a later evidence-backed regression demands it.
 
-## Immediate maintenance debt
+## Completed maintenance debt
 
-Before scaling Design subpages, repair malformed Gold CSS `<link>` source syntax in:
-`about-auping/design/index.html`
-
-Rules:
-- exactly 11 tags
-- preserve href/order
-- no visual/content change
-- DOM/static gate
-- Desktop/Mobile BEFORE/AFTER screenshot review
+Design Gold CSS source hygiene is **CLOSED / PUSHED**:
+- malformed tags: `11 → 0`
+- commit: `0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
+- Desktop/Mobile before-after machine gate PASS
+- human review `VISUAL_OK`
 
 ## ACTIVE missing route
 
 `/about-auping/design/advertising-classics/`
 
 Stage：
-`GOLD_CAPTURE_NOT_STARTED`
+`GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE`
 
-Next action：
-Capture Official Desktop/Mobile Gold; classify template; then Materialize with canonical Taiwan component reuse.
+Accepted Gold facts:
+- Official Desktop/Mobile `200`
+- Local Desktop/Mobile `404`
+- direct sections: `Breadcrumbs → HeaderImage → TruncatedText ×15` (17 direct)
+- all `[data-section]` elements recorded by Gold: Desktop 18 / Mobile 18; this is a separate metric from direct-section count
+- official images: Desktop 121 / Mobile 121
+- videos: 0
+- H1 captured as empty string; do not invent an H1
+- repo unchanged by Gold Capture
+
+Gold Analysis:
+- template candidate: `EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES`
+- unique main text fragments: 41
+- unique section media sources: 15
+- Desktop/Mobile section text mismatches: 0
+
+Exact next action：
+**Materialize from this accepted Gold Analysis. Do not recapture Gold. Search/reuse current repo canonical Taiwan/global components before reconstructing shared UI.**
 
 ## Route order
 
-1. advertising-classics
+1. advertising-classics ← ACTIVE
 2. design-heritage
 3. designers
 4. fabrics
 5. Customer Service true-missing family
 6. Accessories true-missing family
+
+## Progress tracking rule
+
+Construction progress and Final Acceptance progress are tracked separately.
+
+- Historical Tier-A likely-true-missing planning subset: approx 16
+- Completed + pushed Tier-A routes so far: 3
+- Planning-subset materialized share: 3/16 = 18.75% (planning subset only; **not whole-site completion**)
+- Final target remains 262 live routes × Desktop/Mobile = minimum 524 viewport cases plus interactions/media/video/translation/dependency closure.
 
 ## Factory rules
 
@@ -68,13 +89,3 @@ Capture Official Desktop/Mobile Gold; classify template; then Materialize with c
 - machine PASS requires screenshot/manual review
 - verifier bugs do not justify damaging correct source
 - avoid shared runtime edits when an existing safe route-level opt-out solves the conflict
-
-## Final target
-
-262 official live routes × Desktop/Mobile + visible UI/UX + media/video + complete `zh-Hant-TW` + Taiwan localization + dependency/routing closure + evidence-backed final acceptance.
-
-## ETA
-
-Normal planning: about 3–5 weeks / roughly 14–28 focused working days.
-Factoryized potential: about 2–3 weeks.
-Recalculate after each major phase.

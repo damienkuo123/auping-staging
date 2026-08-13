@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-13T12:17:00+08:00",
+  "generatedAtLocal": "2026-08-13T16:57:22+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "94af9375583559da1072e6d986ff5efad459f7a1",
-    "message": "feat: add localized proudly manufactured Netherlands route",
+    "sha": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b",
+    "message": "fix: normalize Design Gold CSS link syntax",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -40,6 +40,14 @@
     {
       "routeOrWave": "/about-auping/proudly-manufactured-netherlands/",
       "commit": "94af9375583559da1072e6d986ff5efad459f7a1"
+    },
+    {
+      "routeOrWave": "Post-PMNL canonical docs advance",
+      "commit": "9586235abb6e3eae52daf459f6349aa69695583f"
+    },
+    {
+      "routeOrWave": "Design 11-link source hygiene",
+      "commit": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b"
     }
   ],
   "pmnl": {
@@ -80,10 +88,16 @@
     "spatialHighConfidenceApprox": 554
   },
   "next": {
-    "sourceHygieneDebt": "/about-auping/design/ 11 malformed Gold CSS link tags",
+    "sourceHygieneDebt": null,
     "activeRoute": "/about-auping/design/advertising-classics/",
-    "activeStage": "GOLD_CAPTURE_NOT_STARTED",
-    "nextAction": "Fix Design CSS source syntax debt, then Gold Capture advertising-classics."
+    "activeStage": "GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE",
+    "goldCaptureAccepted": true,
+    "goldAnalysisAccepted": true,
+    "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES",
+    "directSectionCount": 17,
+    "truncatedTextCount": 15,
+    "videoCount": 0,
+    "nextAction": "Materialize from accepted Gold Analysis using canonical repo Taiwan/global component reuse. Do not recapture Gold."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -100,5 +114,31 @@
     "planningFocusedWorkingDays": "about 14–28",
     "factoryizedPotential": "about 2–3 weeks",
     "warning": "Planning estimate only; recalculate after each major phase."
+  },
+  "designSourceHygiene": {
+    "route": "/about-auping/design/",
+    "malformedGoldCssLinksBefore": 11,
+    "after": 0,
+    "desktopMobileMachineGate": true,
+    "humanVisualReview": "VISUAL_OK",
+    "commit": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b",
+    "remotePushVerified": true
+  },
+  "progressTracking": {
+    "model": "milestone_counts_not_fake_overall_percent",
+    "phaseA": {
+      "historicalLikelyTrueMissingPlanningEstimate": 16,
+      "completedAndPushedRoutes": 3,
+      "activeRoute": "/about-auping/design/advertising-classics/",
+      "activeRouteStage": "GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE",
+      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 18.75,
+      "warning": "18.75% is only the historical Tier-A likely-true-missing planning subset, not whole-site completion."
+    },
+    "finalAcceptance": {
+      "officialLiveRoutesTarget": 262,
+      "viewportCasesMinimum": 524,
+      "globalFinalSweepStarted": false,
+      "note": "Do not convert Phase-A construction count into whole-site completion percentage."
+    }
   }
 }

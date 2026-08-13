@@ -1,12 +1,12 @@
-# 07｜Canonical Roadmap — Updated 2026-08-13 12:17 +08:00
+# 07｜Canonical Roadmap — Updated 2026-08-13 16:57 +08:00
 
 狀態：**AUTHORITATIVE / CANONICAL**
 Repo：`damienkuo123/auping-staging`
 
 ## Current accepted remote checkpoint
 
-`94af9375583559da1072e6d986ff5efad459f7a1`
-`feat: add localized proudly manufactured Netherlands route`
+`0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
+`fix: normalize Design Gold CSS link syntax`
 
 Completed Tier A:
 - [x] `/about-auping/design/`
@@ -15,17 +15,13 @@ Completed Tier A:
 
 PMNL remote push has been verified. Do not recapture or rematerialize PMNL unless a later evidence-backed regression requires it.
 
-## Step 1 — Design source hygiene
+## Step 1 — Design source hygiene — COMPLETED / PUSHED
 
-Fix the 11 malformed Design Gold CSS source tags in:
-`about-auping/design/index.html`
-
-Contract:
-- exact 11 tags
-- preserve href/order
-- no content/visual changes
-- preserve nested PHE wrapper `name="paragraphs_item-80250"`
-- Desktop/Mobile BEFORE/AFTER screenshot review
+- malformed Gold CSS tags: `11 → 0`
+- exact route scope only: `about-auping/design/index.html`
+- Desktop/Mobile machine before-after gate PASS
+- human review `VISUAL_OK`
+- commit: `0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
 
 ## Step 2 — Tier A Missing Routes
 
@@ -41,10 +37,24 @@ Planning estimate:
 historical 16 likely true missing → after the first 3 completed, approximately 13 remain, subject to route disposition review.
 
 Advertising Classics current stage:
-**GOLD_CAPTURE_NOT_STARTED**
+**GOLD_ANALYSIS_ACCEPTED_AWAITING_MATERIALIZE**
+
+Accepted Gold structure:
+`Breadcrumbs → HeaderImage → TruncatedText ×16`
+
+Template candidate:
+`EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES`
 
 Exact next route action:
-Capture Official Desktop/Mobile Gold, classify template, then Materialize with canonical Taiwan component reuse.
+Materialize from accepted Gold Analysis with canonical Taiwan/global component reuse. **Do not recapture Gold.**
+
+## Phase A progress tracking
+
+- historical likely-true-missing planning subset: approx 16
+- completed + pushed Tier-A routes: 3
+- active: Advertising Classics at Gold Analysis accepted
+- 3/16 = 18.75% of that planning subset only; this is **not** whole-site completion
+- whole-site completion remains evidence-based against 262 routes / 524+ viewport cases plus cross-cutting closure
 
 ## Step 3 — Generic Tier-A Factory
 
