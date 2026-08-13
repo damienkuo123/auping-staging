@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-13T19:20:53+08:00",
+  "generatedAtLocal": "2026-08-14T00:07:25+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "25c7acc449c16264df297a8ea13e76469247c989",
-    "message": "docs: track Advertising Classics Gold analysis",
+    "sha": "26494be5a9c4587a9898db757b34c973a6716081",
+    "message": "docs: track Advertising Classics local acceptance",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -48,6 +48,10 @@
     {
       "routeOrWave": "Design 11-link source hygiene",
       "commit": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b"
+    },
+    {
+      "routeOrWave": "/about-auping/design/advertising-classics/",
+      "commit": "17011fa506ae226e562d104f96a2e4b06a5de268"
     }
   ],
   "pmnl": {
@@ -89,15 +93,15 @@
   },
   "next": {
     "sourceHygieneDebt": null,
-    "activeRoute": "/about-auping/design/advertising-classics/",
-    "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
+    "activeRoute": "/about-auping/design/design-heritage/",
+    "activeStage": "GOLD_CAPTURE_NOT_STARTED",
     "goldCaptureAccepted": true,
     "goldAnalysisAccepted": true,
     "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_PLUS_TRUNCATEDTEXT_SERIES",
     "directSectionCount": 17,
     "truncatedTextCount": 15,
     "videoCount": 0,
-    "nextAction": "Push Advertising Classics route safe commit and progress docs commit, then verify remote. Do not recapture Gold or rematerialize the accepted route."
+    "nextAction": "Gold Capture /about-auping/design/design-heritage/. Do not recapture Advertising Classics."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -107,7 +111,9 @@
     "videoCurrentSrcAndPlayback": true,
     "mobileContentRectIntersection": true,
     "manualScreenshotReviewRequired": true,
-    "verifierBugMustNotDriveSourceDamage": true
+    "verifierBugMustNotDriveSourceDamage": true,
+    "scrollWarmMediaBeforeFullPageHumanReview": true,
+    "rawFullPageScreenshotAloneIsNotLazyMediaTruth": true
   },
   "eta": {
     "normal": "about 3–5 weeks",
@@ -128,12 +134,13 @@
     "model": "milestone_counts_not_fake_overall_percent",
     "phaseA": {
       "historicalLikelyTrueMissingPlanningEstimate": 16,
-      "completedAndPushedRoutes": 3,
-      "activeRoute": "/about-auping/design/advertising-classics/",
-      "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
+      "completedAndPushedRoutes": 4,
+      "activeRoute": "/about-auping/design/design-heritage/",
+      "activeRouteStage": "GOLD_CAPTURE_NOT_STARTED",
       "completedMaterializedShareOfHistoricalPlanningSubsetPct": 18.75,
-      "warning": "Advertising Classics is locally accepted but not counted as completed+pushed until remote verification. 18.75% remains the pushed planning-subset share.",
-      "locallyAcceptedRoutes": 4
+      "warning": "25% is the historical likely-true-missing Tier-A planning subset share only, not whole-site completion.",
+      "locallyAcceptedRoutes": 4,
+      "planningSubsetCompletedShare": "4/16 = 25%"
     },
     "finalAcceptance": {
       "officialLiveRoutesTarget": 262,
@@ -158,6 +165,21 @@
     "canonicalShellReused": true,
     "officialAcceptedGoldMainReused": true,
     "safeCommit": "17011fa506ae226e562d104f96a2e4b06a5de268",
-    "remotePushVerified": false
+    "remotePushVerified": true,
+    "visualTruthAccepted": true,
+    "officialLazyMediaTruthAccepted": true
+  },
+  "legacyLazyMediaTruthAudit": {
+    "accepted": true,
+    "routes": [
+      "/about-auping/design/",
+      "/about-auping/b-corp/",
+      "/about-auping/proudly-manufactured-netherlands/"
+    ],
+    "desktopMobile": true,
+    "routeSourceMutated": false,
+    "method": "group responsive twins into effective media slots; scroll rendered instances; wait currentSrc + complete + naturalWidth; capture warmed full page; human VISUAL_OK",
+    "pmnlStoreLocatorExcludedFromExactMediaSet": true,
+    "pmnlVideoReplayed": false
   }
 }

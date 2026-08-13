@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-13 19:20 +08:00
+更新：2026-08-14 00:07 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,10 +8,10 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`25c7acc449c16264df297a8ea13e76469247c989`
+`26494be5a9c4587a9898db757b34c973a6716081`
 
 Commit：
-`docs: track Advertising Classics Gold analysis`
+`docs: track Advertising Classics local acceptance`
 
 Push verified：**YES**
 
@@ -20,6 +20,7 @@ Push verified：**YES**
 - `/about-auping/design/`
 - `/about-auping/b-corp/`
 - `/about-auping/proudly-manufactured-netherlands/`
+- `/about-auping/design/advertising-classics/`
 
 PMNL accepted route SHA：
 `1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb`
@@ -39,7 +40,7 @@ Design Gold CSS source hygiene is **CLOSED / PUSHED**:
 `/about-auping/design/advertising-classics/`
 
 Stage：
-`MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH`
+`COMPLETED_PUSHED_VISUAL_TRUTH_ACCEPTED`
 
 Accepted Gold facts:
 - Official Desktop/Mobile `200`
@@ -68,12 +69,22 @@ Local acceptance:
 - push verified: **NO — pending**
 
 Exact next action：
-**Advertising Classics is locally accepted at `17011fa506ae226e562d104f96a2e4b06a5de268`. Push origin, then verify remote. Do not recapture Gold or rematerialize this route.**
+**Advertising Classics is completed and pushed. Next route is `/about-auping/design/design-heritage/`; start from Gold Capture. Do not recapture or rematerialize Advertising Classics.**
+
+
+## Cross-cutting visual-truth regression
+
+Accepted after Advertising Classics exposed incomplete lazy-media state in raw full-page capture:
+- Design: PASS
+- B Corp: PASS
+- PMNL: PASS
+
+Factory rule: group responsive twins into effective media slots; scroll-warm only the rendered instance(s) and wait for `currentSrc + complete + naturalWidth` before final full-page screenshot/human review. This audit did not mutate any completed route source.
 
 ## Route order
 
-1. advertising-classics ← ACTIVE
-2. design-heritage
+1. advertising-classics ✅ COMPLETED
+2. design-heritage ← ACTIVE
 3. designers
 4. fabrics
 5. Customer Service true-missing family

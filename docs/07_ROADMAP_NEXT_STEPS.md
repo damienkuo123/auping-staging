@@ -1,17 +1,18 @@
-# 07｜Canonical Roadmap — Updated 2026-08-13 19:20 +08:00
+# 07｜Canonical Roadmap — Updated 2026-08-14 00:07 +08:00
 
 狀態：**AUTHORITATIVE / CANONICAL**
 Repo：`damienkuo123/auping-staging`
 
 ## Current accepted remote checkpoint
 
-`25c7acc449c16264df297a8ea13e76469247c989`
-`docs: track Advertising Classics Gold analysis`
+`26494be5a9c4587a9898db757b34c973a6716081`
+`docs: track Advertising Classics local acceptance`
 
 Completed Tier A:
 - [x] `/about-auping/design/`
 - [x] `/about-auping/b-corp/`
 - [x] `/about-auping/proudly-manufactured-netherlands/`
+- [x] `/about-auping/design/advertising-classics/`
 
 PMNL remote push has been verified. Do not recapture or rematerialize PMNL unless a later evidence-backed regression requires it.
 
@@ -26,8 +27,8 @@ PMNL remote push has been verified. Do not recapture or rematerialize PMNL unles
 ## Step 2 — Tier A Missing Routes
 
 Next:
-- [ ] `/about-auping/design/advertising-classics/`
-- [ ] `/about-auping/design/design-heritage/`
+- [x] `/about-auping/design/advertising-classics/`
+- [ ] `/about-auping/design/design-heritage/` ← ACTIVE
 - [ ] `/about-auping/design/designers/`
 - [ ] `/about-auping/design/fabrics/`
 - [ ] Customer Service true-missing family
@@ -37,7 +38,7 @@ Planning estimate:
 historical 16 likely true missing → after the first 3 completed, approximately 13 remain, subject to route disposition review.
 
 Advertising Classics current stage:
-**MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH**
+**COMPLETED / PUSHED / VISUAL-TRUTH ACCEPTED**
 
 Accepted Gold structure:
 `Breadcrumbs → HeaderImage → TruncatedText ×15`
@@ -56,7 +57,7 @@ Local acceptance:
 - remote push verified: **NO — pending user Push origin**
 
 Exact next route action:
-Advertising Classics is locally accepted at safe commit `17011fa506ae226e562d104f96a2e4b06a5de268`. Push the route + progress docs commits, then verify remote before advancing to Design Heritage. **Do not recapture Gold or rematerialize Advertising Classics.**
+Advertising Classics is completed and pushed. Legacy lazy-media visual-truth regression for Design / B Corp / PMNL is also accepted. Next route: `/about-auping/design/design-heritage/` from Gold Capture.
 
 ## Phase A progress tracking
 
@@ -65,6 +66,21 @@ Advertising Classics is locally accepted at safe commit `17011fa506ae226e562d104
 - active: Advertising Classics at Gold Analysis accepted
 - 3/16 = 18.75% of that planning subset only; this is **not** whole-site completion
 - whole-site completion remains evidence-based against 262 routes / 524+ viewport cases plus cross-cutting closure
+
+
+## Legacy completed-route lazy-media visual truth — ACCEPTED
+
+Advertising Classics exposed a capture-methodology issue: a raw full-page screenshot can be taken before lower lazy images receive `currentSrc`. The completed-route regression audit therefore scroll-warmed every **rendered responsive instance of each effective `<main>` media slot** on Official + Local, Desktop + Mobile before full-page capture. Hidden desktop/mobile twins are preserved and are not required to load in the opposite viewport.
+
+Audited with zero route-source mutation:
+- [x] `/about-auping/design/`
+- [x] `/about-auping/b-corp/`
+- [x] `/about-auping/proudly-manufactured-netherlands/`
+
+Permanent visual acceptance rule:
+`navigate → identify effective media slots → ignore intentionally hidden responsive twins → scroll each rendered instance into viewport → wait currentSrc + complete + naturalWidth → return top → full-page screenshot → human review`
+
+PMNL Taiwan Store Locator media is excluded from exact Official/Local media-set comparison because Taiwan deliberately uses the local locator contract. PMNL video remains governed by its already-accepted actual-currentSrc + playback gate.
 
 ## Step 3 — Generic Tier-A Factory
 
