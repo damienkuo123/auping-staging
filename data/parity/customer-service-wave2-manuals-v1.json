@@ -1,0 +1,86 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-FACTORY-WAVE2-MANUALS-V1",
+  "baseline": "cde9ae3e6c0a21d63b26a3c8abfc850014dc6f34",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "route": "/customer-service/manuals/",
+  "officialUrl": "https://www.auping.com/en/customer-service/manuals",
+  "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+  "subfamily": "MANUALS_MEDIA_HEAVY",
+  "expectedDirectSections": [
+    "Breadcrumbs",
+    "HeaderImage",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText",
+    "TruncatedText"
+  ],
+  "expectedEffectiveMediaDesktop": [
+    "https://api.auping.com/sites/default/files/2022-05/afbeelding.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Auronde%20Midnight%20black_handleidingen-750x400.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Essential%20Pine%20green%20-%20handleidingen%20-%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Original%20bed%20handleidingen%20-%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Royal%20bed%20-%20handleidingen%20-750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Match%20bed%20-%20handleidingen%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/auping-noa-bed-vooraanzicht1.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Bedbodems%20-%20handleidingen%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Original%20boxspring%20-%20handleiding%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/introbeeld_7501.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Criade%20handleiding%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Kiruna%20handleiding%20750x400_0.jpg"
+  ],
+  "expectedEffectiveMediaMobile": [
+    "https://api.auping.com/sites/default/files/2022-05/afbeelding.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Auronde%20Midnight%20black_handleidingen-750x400.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Essential%20Pine%20green%20-%20handleidingen%20-%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Original%20bed%20handleidingen%20-%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Royal%20bed%20-%20handleidingen%20-750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Match%20bed%20-%20handleidingen%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/auping-noa-bed-vooraanzicht1.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Bedbodems%20-%20handleidingen%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Original%20boxspring%20-%20handleiding%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/introbeeld_7501.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Criade%20handleiding%20750x400_0.jpg",
+    "https://api.auping.com/sites/default/files/inline-images/Kiruna%20handleiding%20750x400_0.jpg"
+  ],
+  "expectedEffectiveMediaCount": 12,
+  "expectedMainButtons": 0,
+  "expectedMainForms": 0,
+  "expectedMainVideos": 0,
+  "officialDesktopMainSha256": "8527f4a12ef74d45b00146bc7ff2484681b48b18e6f0e9e62e95e5fda138bbe7",
+  "officialMobileMainSha256": "8527f4a12ef74d45b00146bc7ff2484681b48b18e6f0e9e62e95e5fda138bbe7",
+  "localizedFragmentSha256": "f3afed8602487f0057497ccffbaf12cf4cd910d35d1d01f424ba07d5c60d900c",
+  "metadata": {
+    "title": "Auping 使用說明書｜床架、Box Spring 床組與床底｜Auping",
+    "description": "下載 Auping 床架、Box Spring 床組、床底與相關產品的官方使用說明書。若需協助，請使用 Auping 官方聯絡服務。"
+  },
+  "linkPolicy": {
+    "breadcrumbs": "Taiwan local",
+    "manualDocuments": "Preserve exact Official CDN PDF targets",
+    "contact": "Approved official Contact service exit",
+    "dutchDirectContactRemoved": true
+  },
+  "taiwanExceptions": [
+    "zh-Hant-TW translation-induced reflow",
+    "Official Netherlands phone, email and service hours are removed from Taiwan public content; the section routes to the approved Official Contact service instead."
+  ],
+  "acceptance": {
+    "desktopMobileCases": 2,
+    "factoryPassDoesNotGrantOtherRoutesPass": true,
+    "exactNormalizedMediaMatch": true,
+    "all12EffectiveMediaMustLoad": true,
+    "horizontalGeometryDifferential": true,
+    "interactionInventoryParity": true,
+    "reviewOpensOnMachinePassOrFail": true,
+    "explicitTerminalDecisionRequired": true
+  }
+}
