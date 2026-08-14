@@ -1,0 +1,160 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-FACTORY-WAVE1-NIAGA-TRIO-V1.2",
+  "baseline": "ca4900abd8f6e1c8fc460043aca03d8cbe5d3d7b",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+  "subfamily": "NIAGA_TRIO",
+  "routeCount": 3,
+  "routes": [
+    {
+      "route": "/customer-service/niaga-label/one/",
+      "slug": "customer-service__niaga-label__one",
+      "fragmentFile": "one.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/niaga-label/one",
+      "localizedTitle": "Auping One｜讓舊床墊重獲新生｜Auping",
+      "localizedDescription": "了解 Auping One 的循環材料、產品護照與 Auping 荷蘭官方回收流程；台灣回收方式請洽 Auping 台灣門市確認。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedEffectiveMedia": [
+        "https://api.auping.com/sites/default/files/2024-04/header_niaga_dt_-_1920x987.png",
+        "https://api.auping.com/sites/default/files/inline-images/image.png"
+      ],
+      "expectedEffectiveMediaCount": 2,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "officialDesktopMainSha256": "2426fa7ef0825fd9a0226b2e1ce296a4489a3db87af89093f8a222772dd2bf97",
+      "officialMobileMainSha256": "560dc96cc38a94bb6ffedcd9aea4907f8944431fd22ba8553484748e92bc3a87",
+      "localizedFragmentSha256": "0092ac9422ffe04ce39e92ea4c67ba7a9ec3fe089cae728b0f4c6bd38ad220dd",
+      "linkPolicy": {
+        "local": [
+          "/auping-staging/",
+          "/auping-staging/customer-service/"
+        ],
+        "externalPrimaryDocument": [
+          "https://cdn.api.auping.com/sites/default/files/2024-10/Product%20Passport_Auping%20One%20mattress_v%201.1_oct24.pdf"
+        ],
+        "externalOfficialNetherlandsReference": [
+          "https://www.auping.com/nl/over-auping/duurzaamheid/recyclen"
+        ]
+      },
+      "taiwanExceptions": [
+        "zh-Hant-TW translation-induced reflow",
+        "Netherlands recycling flow is explicitly identified as Netherlands-only; Taiwan handling must be confirmed with Auping Taiwan stores."
+      ],
+      "officialSourceNotes": []
+    },
+    {
+      "route": "/customer-service/niaga-label/two/",
+      "slug": "customer-service__niaga-label__two",
+      "fragmentFile": "two.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/niaga-label/two",
+      "localizedTitle": "Auping Two｜讓舊床墊重獲新生｜Auping",
+      "localizedDescription": "了解 Auping Two 的循環材料、產品護照與 Auping 荷蘭官方回收流程；台灣回收方式請洽 Auping 台灣門市確認。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedEffectiveMedia": [
+        "https://api.auping.com/sites/default/files/2024-04/header_niaga_dt_-_1920x987.png",
+        "https://api.auping.com/sites/default/files/inline-images/image.png"
+      ],
+      "expectedEffectiveMediaCount": 2,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "officialDesktopMainSha256": "fa0d4b65e1ff7b7fe79b7c34ab9c4496c7e619e19957612f8b284024294c7074",
+      "officialMobileMainSha256": "2dd0be1874d9bfadb03def36b13c8abaca283ed0118439e4955bd24df8be32f3",
+      "localizedFragmentSha256": "6fe8916d10419431030442278fbcb011518522880dede36cf52b9c29cd833724",
+      "linkPolicy": {
+        "local": [
+          "/auping-staging/",
+          "/auping-staging/customer-service/"
+        ],
+        "externalPrimaryDocument": [
+          "https://cdn.api.auping.com/sites/default/files/2024-10/Product%20Passport_Auping%20Two%20mattress_v%201.1_oct24.pdf"
+        ],
+        "externalOfficialNetherlandsReference": [
+          "https://www.auping.com/nl/over-auping/duurzaamheid/recyclen"
+        ]
+      },
+      "taiwanExceptions": [
+        "zh-Hant-TW translation-induced reflow",
+        "Netherlands recycling flow is explicitly identified as Netherlands-only; Taiwan handling must be confirmed with Auping Taiwan stores."
+      ],
+      "officialSourceNotes": [
+        "Official Auping Two intro says 'Auping One'; source wording is intentionally preserved rather than silently corrected."
+      ]
+    },
+    {
+      "route": "/customer-service/niaga-label/swl2/",
+      "slug": "customer-service__niaga-label__swl2",
+      "fragmentFile": "swl2.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/niaga-label/swl2",
+      "localizedTitle": "SWL｜讓舊床墊重獲新生｜Auping",
+      "localizedDescription": "了解循環床墊的材料、產品護照與 Auping 荷蘭官方回收流程；台灣回收方式請洽 Auping 台灣門市確認。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedEffectiveMedia": [
+        "https://api.auping.com/sites/default/files/2024-04/header_niaga_dt_-_1920x987.png",
+        "https://api.auping.com/sites/default/files/inline-images/image.png"
+      ],
+      "expectedEffectiveMediaCount": 2,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "officialDesktopMainSha256": "6f4f0eb50d9e158d94e356af7a088946220e7727d2fef4c2b725b38ee9f08f36",
+      "officialMobileMainSha256": "b212218d9ebfaaf14997752a88861a8445ca2dcf8fcef7c698b051d8bff965fd",
+      "localizedFragmentSha256": "52b680445e1953fd9873fd47e816acc078b0ee772f58c30e957e577d26c26090",
+      "linkPolicy": {
+        "local": [
+          "/auping-staging/",
+          "/auping-staging/customer-service/"
+        ],
+        "externalPrimaryDocument": [
+          "https://cdn.api.auping.com/sites/default/files/2024-10/Product%20Passport_Auping%20One%20mattress_v%201.1_oct24.pdf"
+        ],
+        "externalOfficialNetherlandsReference": [
+          "https://www.auping.com/nl/over-auping/duurzaamheid/recyclen"
+        ]
+      },
+      "taiwanExceptions": [
+        "zh-Hant-TW translation-induced reflow",
+        "Netherlands recycling flow is explicitly identified as Netherlands-only; Taiwan handling must be confirmed with Auping Taiwan stores."
+      ],
+      "officialSourceNotes": [
+        "Official SWL phrase 'Your circular comes...' is localized contextually as circular mattress."
+      ]
+    }
+  ],
+  "acceptance": {
+    "desktopMobileCases": 6,
+    "factoryPassDoesNotGrantRoutePass": true,
+    "officialLiveDriftMustMatchEvidenceStructure": true,
+    "effectiveMediaExactNormalizedSourceMatch": true,
+    "zeroInteractionInventoryExpected": true,
+    "machineGeometryDifferentialRequired": true,
+    "officialLocalScreenshotsPresentedToUser": true,
+    "humanVisualToken": "VISUAL_OK",
+    "noScreenshotMeansNoVisualPass": true,
+    "reviewOpensOnMachinePassOrFail": true,
+    "explicitTerminalDecisionRequired": true
+  },
+  "responsiveHeroContract": {
+    "implementation": "dual-img-art-direction-hidden-counterpart",
+    "breakpointMaxWidthPx": 767,
+    "desktopNormalizedSource": "https://api.auping.com/sites/default/files/2024-04/header_niaga_dt_-_1920x987.png",
+    "mobileNormalizedSource": "https://api.auping.com/sites/default/files/2024-04/header_niaga_mob_-_768x1024.png",
+    "acceptanceRule": "Only the rendered/current-viewport counterpart participates in media acceptance. Hidden counterpart remains in DOM."
+  }
+}
