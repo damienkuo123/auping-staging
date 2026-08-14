@@ -1,0 +1,178 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-FACTORY-WAVE3-FAQ-CLUSTER-V1",
+  "baseline": "94f963655e6397f78516a02eb403045cc4f4f235",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+  "subfamily": "FAQ_HUB_PLUS_FOUR_DETAILS",
+  "routeCount": 5,
+  "routes": [
+    {
+      "route": "/customer-service/frequently-asked-questions/",
+      "slug": "customer-service__frequently-asked-questions",
+      "fragmentFile": "faq-hub.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/frequently-asked-questions",
+      "localizedTitle": "Auping 常見問題｜產品與 My Auping｜Auping",
+      "localizedDescription": "查看 Auping 床墊、床架、床底、寢具與 My Auping 的常見問題。台灣市場服務差異會在頁面中明確標示。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-07/Medium-AUPING - 7. Evening Blue_0754-AW22.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-07/Medium-AUPING - 7. Evening Blue_0754-AW22.jpg"
+      ],
+      "expectedMediaCountDesktop": 1,
+      "expectedMediaCountMobile": 1,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "localizedFragmentSha256": "0ce59304ee880a8687c55485eb37b5d6181c264ba4715cc569128e3cb8d81502",
+      "officialDesktopMainSha256": "824343c097cef0eceb36a668c9ffbb6a52193ed61fd11b734e9c13865c42800a",
+      "officialMobileMainSha256": "824343c097cef0eceb36a668c9ffbb6a52193ed61fd11b734e9c13865c42800a"
+    },
+    {
+      "route": "/customer-service/frequently-asked-questions/bed-bases/",
+      "slug": "customer-service__frequently-asked-questions__bed-bases",
+      "fragmentFile": "bed-bases.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/frequently-asked-questions/bed-bases",
+      "localizedTitle": "Auping 床底常見問題｜Auping",
+      "localizedDescription": "查看 Auping 網狀床底的尺寸、壽命、搭配、保養、零件、搬運與使用說明常見問題。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaCountDesktop": 1,
+      "expectedMediaCountMobile": 1,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "localizedFragmentSha256": "ddc2f06ce7fb9eb1fffce41d7067a20271d00502a7e0a4e0a53ecce33961d2c2",
+      "officialDesktopMainSha256": "7ae5e38905fdf179dab912d569f7659d3f31a2137c73a051807de416b5f5c1f7",
+      "officialMobileMainSha256": "7ae5e38905fdf179dab912d569f7659d3f31a2137c73a051807de416b5f5c1f7"
+    },
+    {
+      "route": "/customer-service/frequently-asked-questions/bed-linen/",
+      "slug": "customer-service__frequently-asked-questions__bed-linen",
+      "fragmentFile": "bed-linen.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/frequently-asked-questions/bed-linen",
+      "localizedTitle": "Auping 寢具常見問題｜被子、枕頭與床品｜Auping",
+      "localizedDescription": "查看 Auping 被子、枕頭與寢具的保暖、清潔、保養與使用常見問題。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-03/08042021_landingspagina-dk_1900x540px_v2.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/au_gif_2_a_overzichtsbeeld_collectie_vj21_0.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-03/08042021_landingspagina-dk_1900x540px_v2.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/au_gif_2_a_overzichtsbeeld_collectie_vj21_0.jpg"
+      ],
+      "expectedMediaCountDesktop": 2,
+      "expectedMediaCountMobile": 2,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "localizedFragmentSha256": "ead06bbaf8efbfbab7534eded64e8ec92a94d16990932fdbd0e79f9e8cd4e5e8",
+      "officialDesktopMainSha256": "8045bbab8fc84892c22c26ea51307189ec17c8f9b095f11db4c413987c9e34b3",
+      "officialMobileMainSha256": "8045bbab8fc84892c22c26ea51307189ec17c8f9b095f11db4c413987c9e34b3"
+    },
+    {
+      "route": "/customer-service/frequently-asked-questions/beds-and-box-springs/",
+      "slug": "customer-service__frequently-asked-questions__beds-and-box-springs",
+      "fragmentFile": "beds-box-springs.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/frequently-asked-questions/beds-and-box-springs",
+      "localizedTitle": "Auping 床架與 Box Spring 床組常見問題｜Auping",
+      "localizedDescription": "查看 Auping 床架與 Box Spring 床組的安裝、備品、交期、配置與 Auronde Restyle 常見問題。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaCountDesktop": 1,
+      "expectedMediaCountMobile": 1,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "localizedFragmentSha256": "4f71933042a8b6b39db2bc58e4189899184c2d55627e2e913259005724631d44",
+      "officialDesktopMainSha256": "883bdd518165d6a0a1774425c90d2a150680a48447651f037c7f6301521007f2",
+      "officialMobileMainSha256": "883bdd518165d6a0a1774425c90d2a150680a48447651f037c7f6301521007f2"
+    },
+    {
+      "route": "/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers/",
+      "slug": "customer-service__frequently-asked-questions__mattresses-and-mattress-toppers",
+      "fragmentFile": "mattresses-toppers.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers",
+      "localizedTitle": "Auping 床墊與薄墊常見問題｜Auping",
+      "localizedDescription": "查看 Auping 床墊與薄墊的選擇、壽命、保養、支撐、清潔與 Evolve 回收常見問題。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-05/header_veelgesteldevragen_matrassen_toppers.jpg"
+      ],
+      "expectedMediaCountDesktop": 1,
+      "expectedMediaCountMobile": 1,
+      "expectedMainButtons": 0,
+      "expectedMainForms": 0,
+      "expectedMainVideos": 0,
+      "localizedFragmentSha256": "adcc54d125979f733eec5ce2c555d64ceda18153c9689aa06b51e35efade1c2c",
+      "officialDesktopMainSha256": "e360360751fa5819983f5b68c999c650f42e1dbfadcb956cdcde651d5a5b44ed",
+      "officialMobileMainSha256": "e360360751fa5819983f5b68c999c650f42e1dbfadcb956cdcde651d5a5b44ed"
+    }
+  ],
+  "linkPolicy": {
+    "faqCluster": "all five routes local in same batch",
+    "manuals": "already-accepted local /customer-service/manuals/",
+    "taiwanStoreLocator": "local /store-locator/",
+    "mattressAdvisor": "approved Official service/product exit",
+    "evolveReturnAgreement": "Official service boundary with Taiwan applicability disclaimer",
+    "bedLinenAndAccessories": "Official product exits because local targets are not yet materialized"
+  },
+  "taiwanExceptions": [
+    "zh-Hant-TW translation-induced reflow",
+    "My Auping/DHL/Montrieurs/order-flow wording is qualified as Official English-market service flow, not Taiwan service promise.",
+    "Auronde Restyle €750 is retained only as Official English-page reference and explicitly not presented as Taiwan pricing.",
+    "Evolve return registration is qualified; Taiwan applicability requires Taiwan-store confirmation.",
+    "Taiwan store references route to the existing local Taiwan Store Locator."
+  ],
+  "acceptance": {
+    "formalDesktopMobileCases": 10,
+    "representativeMidwidthCases": 4,
+    "factoryPassDoesNotGrantOtherRoutesPass": true,
+    "exactNormalizedEffectiveMediaMatch": true,
+    "horizontalGeometryDifferential": true,
+    "interactionInventoryParity": true,
+    "clusterLinkClosureRequired": true,
+    "reviewOpensOnMachinePassOrFail": true,
+    "explicitTerminalDecisionRequired": true
+  }
+}
