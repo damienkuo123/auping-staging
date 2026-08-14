@@ -1,0 +1,278 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-WAVE5-SMARTBASE-DETAILS-V1.0",
+  "baseline": "e7358bc327efe09cde6cb0491513a400332b457a",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+  "routeCount": 6,
+  "formalDesktopMobileCases": 12,
+  "representativeMidwidthRoutes": [
+    "auping-smart-base-auping-connect-app",
+    "auping-smart-base-faq",
+    "auping-smart-base-installation"
+  ],
+  "representativeMidwidthCases": 6,
+  "routes": [
+    {
+      "slug": "auping-smart-base-auping-connect-app",
+      "route": "/customer-service/smartbase-support/auping-smart-base-auping-connect-app/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/auping-smart-base-auping-connect-app",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "auping-smart-base-auping-connect-app.html",
+      "localizedTitle": "Auping Smart Base：Auping Connect App｜Auping 台灣",
+      "localizedDescription": "Auping Smart Base 與 Auping Connect App 的操作、智慧鬧鐘、防打鼾與設定說明。",
+      "localizedFragmentSha256": "1baaf1442d8ecde76eee1ed0e78a17ce21cccc31a317c087efc4abfc6fa07f4e",
+      "officialDesktopMainSha256": "fb9d320eea34968fdb1dc7422118ff7e089adb238df16b751884e406af072a31",
+      "officialMobileMainSha256": "d791374f4b539cab253dec82ba633566aa354a9186dee70b9020f117540f5d4f",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2024-01/17102022_768x1024_2811_0722.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/setting-up%20Auping%20connect.png",
+        "https://api.auping.com/sites/default/files/inline-images/support20_duo_0_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/support24_vierluik_3.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%201.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%202_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%203_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/anti-snore%20start.png",
+        "https://api.auping.com/sites/default/files/inline-images/anti-snore%20detection%20settings.png",
+        "https://api.auping.com/sites/default/files/inline-images/taalinstellen.001_0.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/bedopnieuw.001_0.jpeg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_768x1024_2811_0722.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/setting-up%20Auping%20connect.png",
+        "https://api.auping.com/sites/default/files/inline-images/support20_duo_0_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/support24_vierluik_3.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%201.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%202_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/smart%20alarm%203_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/anti-snore%20start.png",
+        "https://api.auping.com/sites/default/files/inline-images/anti-snore%20detection%20settings.png",
+        "https://api.auping.com/sites/default/files/inline-images/taalinstellen.001_0.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/bedopnieuw.001_0.jpeg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": true
+    },
+    {
+      "slug": "auping-smart-base-faq",
+      "route": "/customer-service/smartbase-support/auping-smart-base-faq/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/auping-smart-base-faq",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "auping-smart-base-faq.html",
+      "localizedTitle": "Auping Smart Base 常見問題｜Auping 台灣",
+      "localizedDescription": "Auping Smart Base 常見問題，包含 Auping Connect App、防打鼾、智慧鬧鐘與記憶功能。",
+      "localizedFragmentSha256": "e7e4d68502c56e4417e9a079b503ffdac5b43a362fb5b44969b0ea853d362047",
+      "officialDesktopMainSha256": "64eabb38c6e1af53a0131194a417e6b1f89ed41c4b80b5a8297e04c54c7163d7",
+      "officialMobileMainSha256": "1584ac8f5e29e9f470515cafb44e62da37dd2a1182f3976ada4d74e1032b9f83",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920x987_2740_0722.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_768x1024_2740_0722.jpg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": true
+    },
+    {
+      "slug": "auping-smart-base-installation",
+      "route": "/customer-service/smartbase-support/auping-smart-base-installation/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/auping-smart-base-installation",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "auping-smart-base-installation.html",
+      "localizedTitle": "Auping Smart Base 安裝｜Auping 台灣",
+      "localizedDescription": "Auping Smart Base 安裝與新版遙控器設定說明，並提供官方 Quick Start Guide。",
+      "localizedFragmentSha256": "520a2932fdb19ce5521858e201ad00c1fe69f56777113b0232d57e3eb199b06a",
+      "officialDesktopMainSha256": "2bef2ff68cfb95f77fffaddecad37c9170924c22559e8a205b0c73ea03332236",
+      "officialMobileMainSha256": "5057784c938ad399ed30febd83c76cfd1cf68ebd88a28e8155d9fb1e14e6a10a",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920x987_2483_0722.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_768x1024_2483_0722.jpg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": true
+    },
+    {
+      "slug": "installation",
+      "route": "/customer-service/smartbase-support/installation/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/installation",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "installation.html",
+      "localizedTitle": "Smart Base 安裝與 Auping Connect 設定｜Auping 台灣",
+      "localizedDescription": "Smart Base 與 Auping Connect 的安裝、多裝置、新網路、Homey 與韌體更新說明。",
+      "localizedFragmentSha256": "8304f757d44f5bea424fc6095d93b1b6fb70ec1264bfcc80833ca2a632bba7b0",
+      "officialDesktopMainSha256": "e852932e2471a6b91470fcb0d683bc1e6a2ec6a73fc3fe741c70e71cd3b11c6a",
+      "officialMobileMainSha256": "e852932e2471a6b91470fcb0d683bc1e6a2ec6a73fc3fe741c70e71cd3b11c6a",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_SMART_headboardup_3373_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/aan_de_slag_-_123_0.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/setting-up%20Auping%20connect_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/qr_scan.001.png",
+        "https://api.auping.com/sites/default/files/inline-images/2e_telefoon_toestel1.001_0.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/2e_telefoon_onboarding.png",
+        "https://api.auping.com/sites/default/files/inline-images/resetknop.001_0.jpeg",
+        "https://static.auping.com/NL/smart_base/screenshots-support/Homey_Support_Plaatje-V2.png",
+        "https://api.auping.com/sites/default/files/inline-images/support14_duo_0_0.png"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_SMART_headboardup_3373_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/aan_de_slag_-_123_0.jpg",
+        "https://api.auping.com/sites/default/files/inline-images/setting-up%20Auping%20connect_0.png",
+        "https://api.auping.com/sites/default/files/inline-images/qr_scan.001.png",
+        "https://api.auping.com/sites/default/files/inline-images/2e_telefoon_toestel1.001_0.jpeg",
+        "https://api.auping.com/sites/default/files/inline-images/2e_telefoon_onboarding.png",
+        "https://api.auping.com/sites/default/files/inline-images/resetknop.001_0.jpeg",
+        "https://static.auping.com/NL/smart_base/screenshots-support/Homey_Support_Plaatje-V2.png",
+        "https://api.auping.com/sites/default/files/inline-images/support14_duo_0_0.png"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": false
+    },
+    {
+      "slug": "troubleshooting",
+      "route": "/customer-service/smartbase-support/troubleshooting/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/troubleshooting",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "troubleshooting.html",
+      "localizedTitle": "Smart Base 疑難排解｜Auping 台灣",
+      "localizedDescription": "Smart Base 與 Auping Connect 的安裝、連線、App、軟體與 Wi‑Fi 疑難排解。",
+      "localizedFragmentSha256": "1f79518b32efe43b7e5ba2ec47ca64f21a323a5682ac7ca8a17f623c8e1124ae",
+      "officialDesktopMainSha256": "cf5fccedbba8365f8a5e7fae6ffa1db0f6ca0e59c60e2c8636e3720936aeee60",
+      "officialMobileMainSha256": "cf5fccedbba8365f8a5e7fae6ffa1db0f6ca0e59c60e2c8636e3720936aeee60",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/2e_telefoon_toestel1.001.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/qr_scan.001.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/2e_telefoon_onboarding.png"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/2e_telefoon_toestel1.001.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/qr_scan.001.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/2e_telefoon_onboarding.png"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": false
+    },
+    {
+      "slug": "usage",
+      "route": "/customer-service/smartbase-support/usage/",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/usage",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "usage.html",
+      "localizedTitle": "Smart Base 使用方式｜Auping 台灣",
+      "localizedDescription": "Smart Base 的床具控制、智慧鬧鐘、防打鼾、語言與床具設定使用說明。",
+      "localizedFragmentSha256": "b61c8be750ec46b031fa529704a7a5b85eafb54eaff92aa8062ba3b779347234",
+      "officialDesktopMainSha256": "8d3282d7d8d49a63794337877a6ed3a3cda003254456f7efbce168e7cfc5053a",
+      "officialMobileMainSha256": "8d3282d7d8d49a63794337877a6ed3a3cda003254456f7efbce168e7cfc5053a",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_relationshipTherapy_3053_0919 crop.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/setting-up%20Auping%20connect.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/support20_duo_0.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/support24_vierluik.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%201.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%202.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%203.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/anti-snore%20start.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/anti-snore%20detection%20settings.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/taalinstellen.001.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/bedopnieuw.001.jpeg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_relationshipTherapy_3053_0919 crop.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/setting-up%20Auping%20connect.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/support20_duo_0.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/support24_vierluik.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%201.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%202.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/smart%20alarm%203.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/anti-snore%20start.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/anti-snore%20detection%20settings.png",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/taalinstellen.001.jpeg",
+        "https://cdn.api.auping.com/sites/default/files/2024-01/bedopnieuw.001.jpeg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": false
+    }
+  ]
+}
