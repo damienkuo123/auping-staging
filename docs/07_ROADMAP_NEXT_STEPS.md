@@ -65,20 +65,19 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 4 — Special Support:
-- [x] 4-route local materialization accepted
-- [x] 8/8 formal D/M differential cases machine PASS
-- [x] 4/4 representative 768/1024 cases PASS
-- [x] Revive 1-video D/M playback PASS
-- [x] Instruction Videos 4-video D/M playback PASS
+Customer Service Factory Wave 5 — Smart Base CS_B detail routes:
+- [x] 6-route local materialization accepted
+- [x] 12/12 formal D/M differential cases machine PASS
+- [x] 6/6 representative 768/1024 cases PASS across the 3 responsive-hero routes
+- [x] exact effective media parity
+- [x] Smart Base dependency closure
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
-- [x] Taiwan contact policy applied to Revive and Smart Base Hub
 - [ ] remote push verification pending
 
-Route-safe commit: `60188ab8bbecb54cfdbe16a7492bf145635cc514`
+Route-safe commit: `48d94e04104a880442c84197dbfdecef302bdf5a`
 
-After push, return to remaining Smart Base CS_B detail routes. Factory production remains batch-based; acceptance remains route-by-route.
+After push, continue Customer Service with Warranty, then Taiwan-reviewed Legal routes. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

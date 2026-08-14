@@ -120,30 +120,31 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 4 Special Support is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 5 Smart Base CS_B details is LOCAL ACCEPTED / AWAITING PUSH.**
 
 Accepted routes:
-- `/customer-service/auping-revive-support/`
-- `/customer-service/quick-start-guide/`
-- `/customer-service/smartbase-support/`
-- `/customer-service/smartbase-support/instruction-videos/`
+- `/customer-service/smartbase-support/auping-smart-base-auping-connect-app/`
+- `/customer-service/smartbase-support/auping-smart-base-faq/`
+- `/customer-service/smartbase-support/auping-smart-base-installation/`
+- `/customer-service/smartbase-support/installation/`
+- `/customer-service/smartbase-support/troubleshooting/`
+- `/customer-service/smartbase-support/usage/`
 
 Acceptance:
-- 4 routes × Desktop/Mobile = 8 formal differential cases
-- Smart Base Hub + Instruction Videos also passed 768/1024 representative coverage (4 extra cases)
-- Revive video: actual playback/currentTime advance PASS in D/M
-- Instruction Videos: 4/4 actual video playback/currentTime advance PASS in D/M
-- exact normalized effective media parity
-- machine horizontal geometry differential PASS
+- 6 routes × Desktop/Mobile = 12 formal differential cases
+- 3 responsive-hero routes also passed 768/1024 representative coverage = 6 extra cases
+- exact normalized effective media parity in every formal viewport
+- machine horizontal geometry differential PASS; Traditional Chinese vertical reflow allowed
+- Smart Base internal dependency closure PASS
 - Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- Netherlands direct contact data removed from Taiwan Revive/Smart Base public content; Official Contact + Taiwan Store Locator used
-- remaining Smart Base detail routes stay Official exits until individually materialized
-- route safe commit: `60188ab8bbecb54cfdbe16a7492bf145635cc514`
+- no Netherlands direct phone/email facts introduced; Taiwan public copy routes service questions to the original Auping store/dealer context where applicable
+- Wave 4 Special Support remote main verified at `e7358bc327efe09cde6cb0491513a400332b457a`
+- route safe commit: `48d94e04104a880442c84197dbfdecef302bdf5a`
 - remote push verified: **NO — pending**
 
 Next after push:
-**Return to the remaining CS_B Smart Base detail routes; Wave 4 special-family acceptance does not grant those routes acceptance.**
+**Continue Customer Service closure with Warranty, then Taiwan-reviewed Legal routes; Wave 5 acceptance grants no untested route acceptance.**
 
 ## Progress interpretation
 

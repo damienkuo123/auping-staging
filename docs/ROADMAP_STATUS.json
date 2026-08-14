@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE4_SPECIAL_SUPPORT_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Special Support commits; verify remote; return to remaining Smart Base CS_B detail routes."
+      "activeStage": "WAVE5_SMARTBASE_DETAILS_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Wave 5 Smart Base detail commits; verify remote; continue Warranty then Taiwan-reviewed Legal routes."
     },
     "wave1Niaga": {
       "routes": [
@@ -79,7 +79,7 @@
       "humanVisualReview": "VISUAL_OK",
       "visualEvidencePresentedByTool": true,
       "routeSafeCommit": "103da4f6c908a8cb5bc397c5cd293ee05308359b",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanException": "Netherlands recycling flow explicitly qualified; Taiwan handling requires Taiwan-store confirmation."
     },
     "wave2Manuals": {
@@ -91,7 +91,7 @@
       "humanVisualReview": "VISUAL_OK",
       "visualEvidencePresentedByTool": true,
       "routeSafeCommit": "252065e37ca56c9093341e9b31dabf5123963b15",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanException": "Netherlands phone/email/service hours removed; approved Official Contact service exit retained."
     },
     "wave3FaqCluster": {
@@ -110,7 +110,7 @@
       "visualEvidencePresentedByTool": true,
       "clusterLinksClosedLocally": true,
       "routeSafeCommit": "9accfce0eb1020fa99b2b8183ace83e4e6facc5b",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanExceptions": [
         "My Auping/DHL/Montrieurs order and delivery flow qualified as Official English-market process.",
         "Auronde Restyle €750 retained only as Official reference, not Taiwan price.",
@@ -143,8 +143,28 @@
       "humanVisualReview": "VISUAL_OK",
       "visualEvidencePresentedByTool": true,
       "routeSafeCommit": "60188ab8bbecb54cfdbe16a7492bf145635cc514",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanContactPolicy": "Netherlands direct Revive/Smart Base contact data removed; Official Contact + Taiwan Store Locator used."
+    },
+    "wave5SmartBaseDetails": {
+      "routes": [
+        "/customer-service/smartbase-support/auping-smart-base-auping-connect-app/",
+        "/customer-service/smartbase-support/auping-smart-base-faq/",
+        "/customer-service/smartbase-support/auping-smart-base-installation/",
+        "/customer-service/smartbase-support/installation/",
+        "/customer-service/smartbase-support/troubleshooting/",
+        "/customer-service/smartbase-support/usage/"
+      ],
+      "routeCount": 6,
+      "formalDesktopMobileCases": 12,
+      "representativeMidwidthCases": 6,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "smartBaseDependencyClosure": true,
+      "routeSafeCommit": "48d94e04104a880442c84197dbfdecef302bdf5a",
+      "remotePushVerified": false,
+      "taiwanPolicy": "No Netherlands direct phone/email facts introduced; dealer/service references localized without inventing Taiwan service promises."
     }
   },
   "factoryRules": {
