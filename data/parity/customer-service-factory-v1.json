@@ -1,0 +1,59 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-FACTORY-CONTRACT-V1",
+  "baseline": "d31e22ff69a8297d22d810fe5e058c238757328e",
+  "evidenceReceiptSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "routes": 23,
+  "viewportEvidenceCases": 46,
+  "machineEvidenceAccepted": true,
+  "humanVisualEvidence": "NOT_PRESENTED_BY_TOOL",
+  "families": {
+    "CS_A_LEGAL_TEXT_ONLY": [
+      "/customer-service/auping-disclaimer/",
+      "/customer-service/cookies/",
+      "/customer-service/privacy-policy/"
+    ],
+    "CS_B_HEADER_TRUNCATEDTEXT_SERIES": [
+      "/customer-service/frequently-asked-questions/",
+      "/customer-service/frequently-asked-questions/bed-bases/",
+      "/customer-service/frequently-asked-questions/bed-linen/",
+      "/customer-service/frequently-asked-questions/beds-and-box-springs/",
+      "/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers/",
+      "/customer-service/manuals/",
+      "/customer-service/niaga-label/one/",
+      "/customer-service/niaga-label/swl2/",
+      "/customer-service/niaga-label/two/",
+      "/customer-service/smartbase-support/auping-smart-base-auping-connect-app/",
+      "/customer-service/smartbase-support/auping-smart-base-faq/",
+      "/customer-service/smartbase-support/auping-smart-base-installation/",
+      "/customer-service/smartbase-support/installation/",
+      "/customer-service/smartbase-support/troubleshooting/",
+      "/customer-service/smartbase-support/usage/",
+      "/customer-service/warranty/"
+    ],
+    "CS_C_REVIVE_SUPPORT_VIDEO": [
+      "/customer-service/auping-revive-support/"
+    ],
+    "CS_D_QUICK_START_OVERVIEW": [
+      "/customer-service/quick-start-guide/"
+    ],
+    "CS_E_SMARTBASE_SUPPORT_HUB": [
+      "/customer-service/smartbase-support/"
+    ],
+    "CS_F_INSTRUCTION_VIDEO_SERIES": [
+      "/customer-service/smartbase-support/instruction-videos/"
+    ]
+  },
+  "familyMechanics": {
+    "CS_A_LEGAL_TEXT_ONLY": "Breadcrumbs + TruncatedText",
+    "CS_B_HEADER_TRUNCATEDTEXT_SERIES": "Breadcrumbs + HeaderImage + N×TruncatedText",
+    "CS_C_REVIVE_SUPPORT_VIDEO": "Breadcrumbs + HeaderImage + TruncatedText + VideoPlayer + TruncatedText",
+    "CS_D_QUICK_START_OVERVIEW": "Breadcrumbs + HeaderImage + TruncatedText + OverviewTiles",
+    "CS_E_SMARTBASE_SUPPORT_HUB": "Composite Smart Base support hub",
+    "CS_F_INSTRUCTION_VIDEO_SERIES": "Breadcrumbs + HeaderImage + TruncatedText + 4×VideoPlayer"
+  },
+  "legalApplicabilityReviewRequired": [
+    "CS_A_LEGAL_TEXT_ONLY"
+  ],
+  "factoryPassDoesNotGrantRoutePass": true,
+  "preferredFirstMaterializationFamily": "CS_B_HEADER_TRUNCATEDTEXT_SERIES"
+}

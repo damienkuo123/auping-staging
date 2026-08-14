@@ -1,0 +1,37 @@
+{
+  "schema": "AUPING-EFFECTIVE-1TO1-ACCEPTANCE-CONTRACT-V1",
+  "officialLiveRoutes": 262,
+  "minimumViewportCases": 524,
+  "requiredFinalFields": [
+    "routeDisposition",
+    "desktop",
+    "mobile",
+    "structure",
+    "content",
+    "media",
+    "videoIfPresent",
+    "interactionsIfPresent",
+    "linksDependencies",
+    "visualDifferential",
+    "zhHantTW",
+    "taiwanExceptionLedger",
+    "criticalConsoleNetwork",
+    "sameCommitFinal"
+  ],
+  "finalPassDisallows": [
+    "UNKNOWN",
+    "SKIPPED",
+    "NOT_PRESENTED",
+    "UNVERIFIED"
+  ],
+  "factoryPassGrantsChildRoutePass": false,
+  "sameCommitGlobalSweepRequired": true,
+  "machineVisualDiffAllFinalCases": true,
+  "humanVisualPolicy": "Present outliers/ambiguous cases; never record VISUAL_OK when evidence was not presented.",
+  "allowedGlobalExceptions": [
+    "zh-Hant-TW translation-induced reflow",
+    "Taiwan local Store Locator",
+    "explicit approved service exits"
+  ],
+  "finalToken": "EFFECTIVE_1_TO_1_PARITY_ACCEPTED"
+}

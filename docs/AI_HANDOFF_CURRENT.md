@@ -1,6 +1,6 @@
 # Auping Taiwan Parity｜AI Handoff Current Checkpoint
 
-更新：2026-08-14 13:40 +08:00
+更新：2026-08-14 15:37 +08:00
 狀態：**CURRENT / READ THIS FIRST**
 
 ## Accepted remote checkpoint
@@ -8,14 +8,26 @@
 Repository：`damienkuo123/auping-staging`
 
 Remote `main`：
-`b1ed4d31355d087a77e063867102a002ca21b183`
+`d31e22ff69a8297d22d810fe5e058c238757328e`
 
 Commit：
-`docs: track Designers local acceptance`
+`docs: track Fabrics local acceptance`
 
 Push verified：**YES**
 
-## Completed Tier A routes
+## Locked product goal — Effective 1:1 Parity
+
+最終目標不是「看起來差不多」，而是 **Effective 1:1 parity**：
+
+> 除繁體中文與明確核准的台灣在地化差異外，使用者在對應 viewport 所看到的 UI、版型、媒體、responsive 行為、可操作狀態、導航與互動結果，都必須與 Official Auping 對應頁一致。
+
+Factory 只負責提高「製造效率」，**Factory PASS 絕對不等於 Route PASS**。
+最終 Acceptance 仍必須 route-by-route / viewport-by-viewport / interaction-state-by-interaction-state 對 Official 做 differential validation。
+
+Canonical acceptance contract：
+`docs/08_EFFECTIVE_1_TO_1_PARITY_ACCEPTANCE_CONTRACT.md`
+
+## Completed + pushed Tier A routes
 
 - `/about-auping/design/`
 - `/about-auping/b-corp/`
@@ -23,90 +35,105 @@ Push verified：**YES**
 - `/about-auping/design/advertising-classics/`
 - `/about-auping/design/design-heritage/`
 - `/about-auping/design/designers/`
+- `/about-auping/design/fabrics/`
 
-PMNL accepted route SHA：
-`1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb`
+Fabrics accepted route commit：
+`87daeba63549d6739ad7297a23391e7074bc236a`
+
+Fabrics progress docs / accepted remote：
+`d31e22ff69a8297d22d810fe5e058c238757328e`
 
 Do not recapture/rematerialize completed routes unless a later evidence-backed regression demands it.
 
-## Completed maintenance debt
+## Customer Service family — current checkpoint
 
-Design Gold CSS source hygiene is **CLOSED / PUSHED**:
-- malformed tags: `11 → 0`
-- commit: `0d72d48bec595d4d9cf4f892e174d0c27cc6377b`
-- Desktop/Mobile before-after machine gate PASS
-- human review `VISUAL_OK`
+Historical family：26 routes.
 
-## ACTIVE missing route
+Disposition:
+- Existing exact local:
+  - `/customer-service/`
+  - `/customer-service/ordering/`
+- Approved official backend/service exit:
+  - `/customer-service/contact/`
+- Missing local content routes requiring materialization:
+  - **23**
 
-`/about-auping/design/fabrics/`
+23-route exact evidence snapshot:
+- baseline: `d31e22ff69a8297d22d810fe5e058c238757328e`
+- route count: **23**
+- Desktop + Mobile cases: **46**
+- Official HTTP 200 / main evidence / effective media gate: **46/46 machine accepted**
+- videos captured and actual playback probed where present
+- responsive hidden media excluded only when non-participating in current viewport
+- source/runtime/docs mutation: **NONE**
+- human visual review: **NOT PRESENTED BY TOOL / NOT PERFORMED**
+- final visual acceptance therefore remains open and must be covered by route differential + final global visual sweep
 
-Stage：
-`MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH`
+Exact evidence Receipt SHA-256:
+`e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a`
 
-Accepted warmed Gold:
-- Official Desktop/Mobile `200`
-- Local Desktop/Mobile `404` before materialization
-- direct sections: `Breadcrumbs → HeaderImage → TruncatedText ×6` (8 direct)
-- all `[data-section]`: Desktop 9 / Mobile 9 including footer
-- H1: `Our fabrics` ×1; local `我們的布料`
-- effective main media: 6 / 6, all warmed loaded and visible
-- Desktop/Mobile content-section text mismatch: 0; breadcrumb differs intentionally by responsive presentation
-- Hero media differs intentionally by viewport: Desktop `onze-stoffen-desktop.jpg`; Mobile `onze-stoffen-mobile_0.jpg`
-- videos: 0
-- template: `EDITORIAL_RESPONSIVE_HEADERIMAGE_PLUS_TRUNCATEDTEXT_FABRIC_GROUPS`
-- Gold Analysis SHA: `41acc9e09f133281c5cd4f53e98620c6f2cf95d070101c4e7bd222fca3256562`
-- dependency routing: Original / Kiruna / Criade / Essential all local
+Important correction:
+A previous tool asked for `GOLD_OK` without actually presenting screenshots when the input was a ZIP. That is a tool defect. Never record such a case as human visual acceptance. If screenshots are not presented, record `NOT_PRESENTED_BY_TOOL`.
 
-Local acceptance:
-- route safe commit: `87daeba63549d6739ad7297a23391e7074bc236a`
-- canonical Taiwan/global Design shell reuse: PASS
-- accepted warmed Gold main reuse: PASS
-- responsive Hero source preserved: PASS
-- Static: PASS
-- Browser Desktop/Mobile: PASS
-- human warmed screenshot review: `VISUAL_OK`
-- push verified: **NO — pending**
+## Customer Service Factory v1
 
-Exact next action：
-**Push origin, verify remote, then start Customer Service true-missing family disposition / warmed Gold Capture. Do not recapture or rematerialize Fabrics.**
+Factory contract:
+`docs/09_CUSTOMER_SERVICE_FACTORY_CONTRACT_V1.md`
 
-## Cross-cutting visual-truth regression
+Machine-readable:
+- `data/parity/customer-service-factory-v1.json`
+- `data/parity/effective-1to1-acceptance-v1.json`
 
-Accepted after Advertising Classics exposed incomplete lazy-media state in raw full-page capture:
-- Design: PASS
-- B Corp: PASS
-- PMNL: PASS
+Build-time validator/bootstrap:
+- `tools/parity/customer_service_factory_v1.py`
 
-Factory rule: group responsive twins into effective media slots; scroll-warm only the rendered instance(s) and wait for `currentSrc + complete + naturalWidth` before final full-page screenshot/human review. This audit did not mutate any completed route source.
+The 23 routes are generalized into six implementation-mechanic families:
 
-## Route order
+1. `CS_A_LEGAL_TEXT_ONLY` — 3
+2. `CS_B_HEADER_TRUNCATEDTEXT_SERIES` — 16
+3. `CS_C_REVIVE_SUPPORT_VIDEO` — 1
+4. `CS_D_QUICK_START_OVERVIEW` — 1
+5. `CS_E_SMARTBASE_SUPPORT_HUB` — 1
+6. `CS_F_INSTRUCTION_VIDEO_SERIES` — 1
 
-1. advertising-classics ✅ COMPLETED
-2. design-heritage ✅ COMPLETED
-3. designers ✅ COMPLETED
-4. fabrics ← ACTIVE / LOCAL ACCEPTED / AWAITING PUSH
-5. Customer Service true-missing family ← NEXT AFTER PUSH
-6. Accessories true-missing family
+These are **production mechanics**, not a claim that route content/visuals are identical.
 
-## Progress tracking rule
+Legal/privacy/cookie pages require Taiwan applicability review before local publication; do not blindly translate Netherlands legal facts into a Taiwan policy claim.
 
-Construction progress and Final Acceptance progress are tracked separately.
+## New canonical workflow
 
-- Historical Tier-A likely-true-missing planning subset: approx 16
-- Completed + pushed Tier-A routes at accepted remote checkpoint: 6
-- Locally accepted including Fabrics: 7
-- Pushed planning-subset share: 6/16 = 37.5%; after Fabrics Push verification: 7/16 = 43.75% (planning subset only; **not whole-site completion**)
-- Final target remains 262 live routes × Desktop/Mobile = minimum 524 viewport cases plus interactions/media/video/translation/dependency closure.
+`Official Truth Database → Factory / route-data generation → batch materialization → every-route differential acceptance → final same-commit global sweep`
 
-## Factory rules
+Permanent rules:
 
-- search/reuse canonical Taiwan/global components before reconstructing shared UI
-- DOM structural counts, never raw substring counts
-- Python stdlib on Mac; do not assume bs4
-- image computed visibility/currentSrc/actual rect
-- video official currentSrc + actual playback
-- mobile carousel/USP actual text/icon visibility, not parent box
-- machine PASS requires screenshot/manual review
-- verifier bugs do not justify damaging correct source
-- avoid shared runtime edits when an existing safe route-level opt-out solves the conflict
+- Production can be batch/factory based.
+- Acceptance can **never** be inherited from the factory.
+- Every live route must receive its own final disposition.
+- Minimum formal final gate remains **262 official live routes × Desktop/Mobile = 524 viewport cases**.
+- Template representatives also receive intermediate breakpoint coverage (tablet / breakpoint transitions).
+- Every actual interaction instance must be replayed against Official where applicable.
+- Visual comparison runs on every final route case; human review focuses on machine outliers, but missing visual evidence can never be silently called PASS.
+- final acceptance evidence must come from the **same final Git commit**.
+- translation-induced reflow is allowed; unexplained visual/behavioral differences are not.
+- Taiwan exceptions must be explicitly ledgered.
+- GitHub Actions green / HTTP 200 / DOM existence / one verifier PASS are never whole-site completion.
+
+## Current next action
+
+**Customer Service Factory Wave 1 — route-data lock and first batch materialization.**
+
+Recommended order:
+1. Build route-data + localization/link/media contracts from the accepted 23-route evidence.
+2. First low-risk content batch from `CS_B_HEADER_TRUNCATEDTEXT_SERIES`.
+3. Route-by-route D/M structure/media/link/interaction/visual differential acceptance.
+4. Then Overview / video / composite Smart Base families.
+5. Legal text family only after Taiwan applicability decision.
+6. After Customer Service closure, continue Accessories family using the same Factory/Differential pipeline.
+
+## Progress interpretation
+
+- Tier-A historical likely-true-missing planning subset: approx 16
+- completed+pushed before Customer Service batch: 7
+- planning-subset share: `7/16 = 43.75%`
+- this is **not whole-site completion**
+- global final same-commit sweep has **not started**

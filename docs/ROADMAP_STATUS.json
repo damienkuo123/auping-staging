@@ -1,284 +1,93 @@
 {
-  "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-14T13:40:30+08:00",
+  "schema": "AUPING-TAIWAN-EFFECTIVE-1TO1-ROADMAP-STATUS-V1",
+  "generatedAtLocal": "2026-08-14T15:37:00+08:00",
   "repo": "damienkuo123/auping-staging",
-  "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "b1ed4d31355d087a77e063867102a002ca21b183",
-    "message": "docs: track Designers local acceptance",
+    "sha": "d31e22ff69a8297d22d810fe5e058c238757328e",
+    "message": "docs: track Fabrics local acceptance",
     "pushVerified": true
   },
-  "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
-  "systemChrome": "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
   "lockedProductGoal": {
+    "name": "Effective 1:1 parity",
     "officialLiveRoutes": 262,
-    "desktopMobileEqual": true,
+    "minimumDesktopMobileCases": 524,
     "language": "zh-Hant-TW",
-    "visual": "Official/local should be effectively 1:1 at same viewport, except deliberate Taiwan localization.",
-    "interaction": "Visible UI/UX behavior must match official patterns, not only DOM/ARIA.",
-    "taiwanStoreLocator": "Local Leaflet/OSM with 6 Taiwan locations; never restore official English/NL locator.",
-    "sourceIntegrity": "No placeholders, guessed media, fabricated contact data, or generic filler."
+    "productionModel": "factory-first",
+    "acceptanceModel": "every-route differential + final same-commit global sweep",
+    "translationInducedReflowAllowed": true,
+    "unexplainedVisualOrBehaviorDifferenceAllowed": false
   },
-  "completedAndPushed": [
-    {
-      "routeOrWave": "Wave1.3.1",
-      "commit": "6714df368945dc69036c9699664b31845fa7d4ce"
-    },
-    {
-      "routeOrWave": "/about-auping/design/",
-      "commit": "93ea15e8dea97516f9b2e73fe2d295eeea61da15"
-    },
-    {
-      "routeOrWave": "/about-auping/b-corp/",
-      "commit": "2924457898a04662983d15791cac38bb7718cb8d"
-    },
-    {
-      "routeOrWave": "Canonical roadmap / AI handoff docs lock",
-      "commit": "37b70cea9ddf11bf452930e87fbea089429ae9f3"
-    },
-    {
-      "routeOrWave": "/about-auping/proudly-manufactured-netherlands/",
-      "commit": "94af9375583559da1072e6d986ff5efad459f7a1"
-    },
-    {
-      "routeOrWave": "Post-PMNL canonical docs advance",
-      "commit": "9586235abb6e3eae52daf459f6349aa69695583f"
-    },
-    {
-      "routeOrWave": "Design 11-link source hygiene",
-      "commit": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b"
-    },
-    {
-      "routeOrWave": "/about-auping/design/advertising-classics/",
-      "commit": "17011fa506ae226e562d104f96a2e4b06a5de268"
-    },
-    {
-      "routeOrWave": "/about-auping/design/design-heritage/",
-      "commit": "ffab113fc1f05203873298aa434dcbb3d6b33c65"
-    },
-    {
-      "routeOrWave": "/about-auping/design/designers/",
-      "commit": "f5043e1e0db2b03695e3b35e520182321c8e0e02"
-    }
+  "completedAndPushedTierA": [
+    "/about-auping/design/",
+    "/about-auping/b-corp/",
+    "/about-auping/proudly-manufactured-netherlands/",
+    "/about-auping/design/advertising-classics/",
+    "/about-auping/design/design-heritage/",
+    "/about-auping/design/designers/",
+    "/about-auping/design/fabrics/"
   ],
-  "pmnl": {
-    "route": "/about-auping/proudly-manufactured-netherlands/",
-    "goldAccepted": true,
-    "materialized": true,
-    "staticAccepted": true,
-    "browserCoreAccepted": true,
-    "manualVisualAccepted": true,
-    "officialVideoLocked": true,
-    "taiwanStoreLocatorIntegrated": true,
-    "canonicalTaiwanUSPReused": true,
-    "mobileUSPProjection": true,
-    "acceptedRouteSha256": "1b5a7c902cc198cb906888837d6dc676e8ac96a7a64e8c0654b5c392c74359cb",
-    "safeCommit": "94af9375583559da1072e6d986ff5efad459f7a1",
-    "remotePushVerified": true,
-    "handoffRule": "Do not rerun PMNL unless a later evidence-backed regression demands it."
+  "progressTracking": {
+    "historicalLikelyTrueMissingTierAPlanningSubsetApprox": 16,
+    "completedAndPushedBeforeCustomerService": 7,
+    "planningSubsetShare": "7/16 = 43.75%",
+    "warning": "Planning-subset construction progress only; not whole-site completion.",
+    "globalSameCommitFinalSweepStarted": false
   },
-  "census": {
-    "officialRawRoutes": 282,
-    "officialLive200Routes": 262,
-    "exactMappedLiveRoutes": 136,
-    "historicalMissingQueue": 101,
-    "tierA": 28,
-    "tierB": 32,
-    "tierC": 41,
-    "historicalTierALikelyTrueMissing": 16,
-    "planningTierALikelyTrueMissingApproxAfter3Completed": 13,
-    "interactionRaw": 340,
-    "interactionPatternsApprox": 15,
-    "structureRaw": 64,
-    "structureTemplatesApprox": 8,
-    "videoGapEvents": 6,
-    "videoGapRoutes": 4,
-    "translationUnique": 328,
-    "translationAfterWhitelistApprox": 327,
-    "spatialCandidates": 775,
-    "spatialHighConfidenceApprox": 554,
-    "planningTierALikelyTrueMissingApproxAfter4Completed": 12,
-    "planningTierALikelyTrueMissingApproxAfter5Completed": 11,
-    "planningTierALikelyTrueMissingApproxAfter6Completed": 10
-  },
-  "next": {
-    "sourceHygieneDebt": null,
-    "activeRoute": "/about-auping/design/fabrics/",
-    "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
-    "goldCaptureAccepted": true,
-    "goldAnalysisAccepted": true,
-    "goldTemplateCandidate": "EDITORIAL_RESPONSIVE_HEADERIMAGE_PLUS_TRUNCATEDTEXT_FABRIC_GROUPS",
-    "directSectionCount": 8,
-    "truncatedTextCount": 6,
-    "effectiveMediaCount": 6,
-    "videoCount": 0,
-    "nextAction": "Push Fabrics route safe commit and progress docs commit; verify remote; then Customer Service true-missing family disposition / warmed Gold Capture. Do not recapture Fabrics."
+  "customerService": {
+    "historicalFamilyRoutes": 26,
+    "existingExact": [
+      "/customer-service/",
+      "/customer-service/ordering/"
+    ],
+    "approvedOfficialServiceExit": [
+      "/customer-service/contact/"
+    ],
+    "missingContentRoutes": 23,
+    "exactEvidence": {
+      "receiptSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+      "baseline": "d31e22ff69a8297d22d810fe5e058c238757328e",
+      "routeCount": 23,
+      "viewportCases": 46,
+      "machineAccepted": true,
+      "humanVisualReview": "NOT_PRESENTED_BY_TOOL",
+      "sourceModified": false,
+      "sharedRuntimeModified": false
+    },
+    "factoryV1": {
+      "familyCount": 6,
+      "families": {
+        "CS_A_LEGAL_TEXT_ONLY": 3,
+        "CS_B_HEADER_TRUNCATEDTEXT_SERIES": 16,
+        "CS_C_REVIVE_SUPPORT_VIDEO": 1,
+        "CS_D_QUICK_START_OVERVIEW": 1,
+        "CS_E_SMARTBASE_SUPPORT_HUB": 1,
+        "CS_F_INSTRUCTION_VIDEO_SERIES": 1
+      },
+      "activeStage": "FACTORY_BOOTSTRAP_AND_ROUTE_DATA_LOCK",
+      "next": "Build route descriptors/localization/link/media contracts; materialize first low-risk CS_B batch; run every-route differential acceptance."
+    }
   },
   "factoryRules": {
-    "canonicalComponentReuseFirst": true,
-    "structureCountsUseDOM": true,
-    "macVerifierNoBs4Assumption": true,
-    "imageComputedVisibility": true,
-    "videoCurrentSrcAndPlayback": true,
-    "mobileContentRectIntersection": true,
-    "manualScreenshotReviewRequired": true,
-    "verifierBugMustNotDriveSourceDamage": true,
-    "scrollWarmMediaBeforeFullPageHumanReview": true,
-    "rawFullPageScreenshotAloneIsNotLazyMediaTruth": true
+    "factoryPassDoesNotGrantRoutePass": true,
+    "sameCommitFinalSweepRequired": true,
+    "allFinalRouteCasesGetMachineVisualDiff": true,
+    "humanReviewForOutliersAndAmbiguousCases": true,
+    "noScreenshotMeansNoHumanVisualPass": true,
+    "hiddenResponsiveCounterpartsExcludedFromOppositeViewportLoadRequirement": true,
+    "videoRequiresPlaybackAndCurrentTimeAdvance": true,
+    "legalPolicyApplicabilityReviewRequired": true,
+    "sharedRuntimeEditRequiresCommonInteractionEvidence": true
   },
-  "eta": {
-    "normal": "about 3–5 weeks",
-    "planningFocusedWorkingDays": "about 14–28",
-    "factoryizedPotential": "about 2–3 weeks",
-    "warning": "Planning estimate only; recalculate after each major phase."
-  },
-  "designSourceHygiene": {
-    "route": "/about-auping/design/",
-    "malformedGoldCssLinksBefore": 11,
-    "after": 0,
-    "desktopMobileMachineGate": true,
-    "humanVisualReview": "VISUAL_OK",
-    "commit": "0d72d48bec595d4d9cf4f892e174d0c27cc6377b",
-    "remotePushVerified": true
-  },
-  "progressTracking": {
-    "model": "milestone_counts_not_fake_overall_percent",
-    "phaseA": {
-      "historicalLikelyTrueMissingPlanningEstimate": 16,
-      "completedAndPushedRoutes": 6,
-      "activeRoute": "/about-auping/design/fabrics/",
-      "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
-      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 37.5,
-      "warning": "Tier-A planning-subset share only; not whole-site completion.",
-      "locallyAcceptedRoutes": 7,
-      "planningSubsetCompletedShare": "6/16 = 37.5%",
-      "expectedShareAfterDesignHeritagePush": "5/16 = 31.25%",
-      "expectedShareAfterDesignersPush": "6/16 = 37.5%",
-      "expectedShareAfterFabricsPush": "7/16 = 43.75%"
-    },
-    "finalAcceptance": {
-      "officialLiveRoutesTarget": 262,
-      "viewportCasesMinimum": 524,
-      "globalFinalSweepStarted": false,
-      "note": "Do not convert Phase-A construction count into whole-site completion percentage."
-    }
-  },
-  "advertisingClassics": {
-    "route": "/about-auping/design/advertising-classics/",
-    "goldCaptureAccepted": true,
-    "goldAnalysisAccepted": true,
-    "materialized": true,
-    "staticAccepted": true,
-    "browserDesktopAccepted": true,
-    "browserMobileAccepted": true,
-    "manualVisualAccepted": true,
-    "directSectionCount": 17,
-    "truncatedTextCount": 15,
-    "officialMainMediaCount": 15,
-    "videoCount": 0,
-    "canonicalShellReused": true,
-    "officialAcceptedGoldMainReused": true,
-    "safeCommit": "17011fa506ae226e562d104f96a2e4b06a5de268",
-    "remotePushVerified": true,
-    "visualTruthAccepted": true,
-    "officialLazyMediaTruthAccepted": true
-  },
-  "legacyLazyMediaTruthAudit": {
-    "accepted": true,
-    "routes": [
-      "/about-auping/design/",
-      "/about-auping/b-corp/",
-      "/about-auping/proudly-manufactured-netherlands/"
-    ],
-    "desktopMobile": true,
-    "routeSourceMutated": false,
-    "method": "group responsive twins into effective media slots; scroll rendered instances; wait currentSrc + complete + naturalWidth; capture warmed full page; human VISUAL_OK",
-    "pmnlStoreLocatorExcludedFromExactMediaSet": true,
-    "pmnlVideoReplayed": false
-  },
-  "designHeritage": {
-    "route": "/about-auping/design/design-heritage/",
-    "goldCaptureAccepted": true,
-    "goldCaptureMethod": "warmed effective-media",
-    "goldAnalysisAccepted": true,
-    "goldAnalysisSha256": "b15a8ae6b218ca0adf73b9def8b5494a484cd3971edadf8aec69976a66850cdd",
-    "template": "EDITORIAL_TRUNCATEDTEXT_MEDIA_TIMELINE",
-    "materialized": true,
-    "staticAccepted": true,
-    "browserDesktopAccepted": true,
-    "browserMobileAccepted": true,
-    "manualVisualAccepted": true,
-    "directSectionCount": 18,
-    "truncatedTextCount": 17,
-    "officialMainMediaCount": 17,
-    "videoCount": 0,
-    "h1Invented": false,
-    "canonicalShellReused": true,
-    "officialAcceptedGoldMainReused": true,
-    "safeCommit": "ffab113fc1f05203873298aa434dcbb3d6b33c65",
-    "remotePushVerified": true
-  },
-  "designers": {
-    "route": "/about-auping/design/designers/",
-    "goldCaptureAccepted": true,
-    "goldCaptureMethod": "warmed effective-media",
-    "goldAnalysisAccepted": true,
-    "goldAnalysisSha256": "eba1206ad40cb7fc2ed44907cdc63c7d34c112c98723949767d6999c18aa185b",
-    "template": "EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES",
-    "materialized": true,
-    "staticAccepted": true,
-    "browserDesktopAccepted": true,
-    "browserMobileAccepted": true,
-    "manualVisualAccepted": true,
-    "directSectionCount": 10,
-    "truncatedTextCount": 7,
-    "officialMainMediaCount": 7,
-    "videoCount": 0,
-    "officialH1Count": 2,
-    "localizedH1Count": 2,
-    "canonicalShellReused": true,
-    "officialAcceptedGoldMainReused": true,
-    "safeCommit": "f5043e1e0db2b03695e3b35e520182321c8e0e02",
-    "remotePushVerified": true,
-    "dependencyRouting": {
-      "auronde": "local /auping-staging/beds/auronde/",
-      "essential": "local /auping-staging/beds/essential/",
-      "evaHarlou": "official external pending local subroute closure"
-    }
-  },
-  "fabrics": {
-    "route": "/about-auping/design/fabrics/",
-    "goldCaptureAccepted": true,
-    "goldCaptureMethod": "warmed effective-media",
-    "goldAnalysisAccepted": true,
-    "goldAnalysisSha256": "41acc9e09f133281c5cd4f53e98620c6f2cf95d070101c4e7bd222fca3256562",
-    "template": "EDITORIAL_RESPONSIVE_HEADERIMAGE_PLUS_TRUNCATEDTEXT_FABRIC_GROUPS",
-    "materialized": true,
-    "staticAccepted": true,
-    "browserDesktopAccepted": true,
-    "browserMobileAccepted": true,
-    "manualVisualAccepted": true,
-    "directSectionCount": 8,
-    "truncatedTextCount": 6,
-    "officialMainMediaCount": 6,
-    "videoCount": 0,
-    "officialH1Count": 1,
-    "localizedH1Count": 1,
-    "responsiveHero": {
-      "desktop": "onze-stoffen-desktop.jpg",
-      "mobile": "onze-stoffen-mobile_0.jpg",
-      "preserved": true
-    },
-    "canonicalShellReused": true,
-    "officialAcceptedGoldMainReused": true,
-    "safeCommit": "87daeba63549d6739ad7297a23391e7074bc236a",
-    "remotePushVerified": false,
-    "dependencyRouting": {
-      "original": "local /auping-staging/box-springs/original-boxspring/",
-      "kiruna": "local /auping-staging/box-springs/kiruna/",
-      "criade": "local /auping-staging/box-springs/criade/",
-      "essential": "local /auping-staging/beds/essential/"
-    }
+  "taiwanExceptions": {
+    "language": "zh-Hant-TW",
+    "storeLocator": "Local Leaflet/OSM + 6 Taiwan locations",
+    "approvedOfficialBackendServiceExits": [
+      "Configurator",
+      "Contact",
+      "My Auping",
+      "Shop",
+      "Shopping Cart"
+    ]
   }
 }
