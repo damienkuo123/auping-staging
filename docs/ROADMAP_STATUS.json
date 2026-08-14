@@ -1,12 +1,12 @@
 {
   "schema": "AUPING-TAIWAN-PARITY-ROADMAP-STATUS-POST-PMNL-V1.1",
-  "generatedAtLocal": "2026-08-14T02:35:56+08:00",
+  "generatedAtLocal": "2026-08-14T13:40:30+08:00",
   "repo": "damienkuo123/auping-staging",
   "publicSite": "https://damienkuo123.github.io/auping-staging/",
   "branch": "main",
   "acceptedRemoteMain": {
-    "sha": "249a8c3a3ee4725b9ab0c29c062105fc1f927025",
-    "message": "docs: track Design Heritage local acceptance",
+    "sha": "b1ed4d31355d087a77e063867102a002ca21b183",
+    "message": "docs: track Designers local acceptance",
     "pushVerified": true
   },
   "localRepoExpectedPath": "/Users/damien/Downloads/auping-staging",
@@ -56,6 +56,10 @@
     {
       "routeOrWave": "/about-auping/design/design-heritage/",
       "commit": "ffab113fc1f05203873298aa434dcbb3d6b33c65"
+    },
+    {
+      "routeOrWave": "/about-auping/design/designers/",
+      "commit": "f5043e1e0db2b03695e3b35e520182321c8e0e02"
     }
   ],
   "pmnl": {
@@ -95,20 +99,21 @@
     "spatialCandidates": 775,
     "spatialHighConfidenceApprox": 554,
     "planningTierALikelyTrueMissingApproxAfter4Completed": 12,
-    "planningTierALikelyTrueMissingApproxAfter5Completed": 11
+    "planningTierALikelyTrueMissingApproxAfter5Completed": 11,
+    "planningTierALikelyTrueMissingApproxAfter6Completed": 10
   },
   "next": {
     "sourceHygieneDebt": null,
-    "activeRoute": "/about-auping/design/designers/",
+    "activeRoute": "/about-auping/design/fabrics/",
     "activeStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
     "goldCaptureAccepted": true,
     "goldAnalysisAccepted": true,
-    "goldTemplateCandidate": "EDITORIAL_HEADERIMAGE_HEADERTEXT_PLUS_DESIGNER_PROFILES",
-    "directSectionCount": 10,
-    "truncatedTextCount": 7,
-    "effectiveMediaCount": 7,
+    "goldTemplateCandidate": "EDITORIAL_RESPONSIVE_HEADERIMAGE_PLUS_TRUNCATEDTEXT_FABRIC_GROUPS",
+    "directSectionCount": 8,
+    "truncatedTextCount": 6,
+    "effectiveMediaCount": 6,
     "videoCount": 0,
-    "nextAction": "Push Designers route safe commit and progress docs commit; verify remote; then warmed Gold Capture /about-auping/design/fabrics/. Do not recapture Designers."
+    "nextAction": "Push Fabrics route safe commit and progress docs commit; verify remote; then Customer Service true-missing family disposition / warmed Gold Capture. Do not recapture Fabrics."
   },
   "factoryRules": {
     "canonicalComponentReuseFirst": true,
@@ -141,15 +146,16 @@
     "model": "milestone_counts_not_fake_overall_percent",
     "phaseA": {
       "historicalLikelyTrueMissingPlanningEstimate": 16,
-      "completedAndPushedRoutes": 5,
-      "activeRoute": "/about-auping/design/designers/",
+      "completedAndPushedRoutes": 6,
+      "activeRoute": "/about-auping/design/fabrics/",
       "activeRouteStage": "MATERIALIZE_ACCEPTED_LOCAL_AWAITING_PUSH",
-      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 31.25,
+      "completedMaterializedShareOfHistoricalPlanningSubsetPct": 37.5,
       "warning": "Tier-A planning-subset share only; not whole-site completion.",
-      "locallyAcceptedRoutes": 6,
-      "planningSubsetCompletedShare": "5/16 = 31.25%",
+      "locallyAcceptedRoutes": 7,
+      "planningSubsetCompletedShare": "6/16 = 37.5%",
       "expectedShareAfterDesignHeritagePush": "5/16 = 31.25%",
-      "expectedShareAfterDesignersPush": "6/16 = 37.5%"
+      "expectedShareAfterDesignersPush": "6/16 = 37.5%",
+      "expectedShareAfterFabricsPush": "7/16 = 43.75%"
     },
     "finalAcceptance": {
       "officialLiveRoutesTarget": 262,
@@ -234,11 +240,45 @@
     "canonicalShellReused": true,
     "officialAcceptedGoldMainReused": true,
     "safeCommit": "f5043e1e0db2b03695e3b35e520182321c8e0e02",
-    "remotePushVerified": false,
+    "remotePushVerified": true,
     "dependencyRouting": {
       "auronde": "local /auping-staging/beds/auronde/",
       "essential": "local /auping-staging/beds/essential/",
       "evaHarlou": "official external pending local subroute closure"
+    }
+  },
+  "fabrics": {
+    "route": "/about-auping/design/fabrics/",
+    "goldCaptureAccepted": true,
+    "goldCaptureMethod": "warmed effective-media",
+    "goldAnalysisAccepted": true,
+    "goldAnalysisSha256": "41acc9e09f133281c5cd4f53e98620c6f2cf95d070101c4e7bd222fca3256562",
+    "template": "EDITORIAL_RESPONSIVE_HEADERIMAGE_PLUS_TRUNCATEDTEXT_FABRIC_GROUPS",
+    "materialized": true,
+    "staticAccepted": true,
+    "browserDesktopAccepted": true,
+    "browserMobileAccepted": true,
+    "manualVisualAccepted": true,
+    "directSectionCount": 8,
+    "truncatedTextCount": 6,
+    "officialMainMediaCount": 6,
+    "videoCount": 0,
+    "officialH1Count": 1,
+    "localizedH1Count": 1,
+    "responsiveHero": {
+      "desktop": "onze-stoffen-desktop.jpg",
+      "mobile": "onze-stoffen-mobile_0.jpg",
+      "preserved": true
+    },
+    "canonicalShellReused": true,
+    "officialAcceptedGoldMainReused": true,
+    "safeCommit": "87daeba63549d6739ad7297a23391e7074bc236a",
+    "remotePushVerified": false,
+    "dependencyRouting": {
+      "original": "local /auping-staging/box-springs/original-boxspring/",
+      "kiruna": "local /auping-staging/box-springs/kiruna/",
+      "criade": "local /auping-staging/box-springs/criade/",
+      "essential": "local /auping-staging/beds/essential/"
     }
   }
 }
