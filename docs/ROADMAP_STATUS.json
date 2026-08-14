@@ -64,8 +64,23 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "FACTORY_BOOTSTRAP_AND_ROUTE_DATA_LOCK",
-      "next": "Build route descriptors/localization/link/media contracts; materialize first low-risk CS_B batch; run every-route differential acceptance."
+      "activeStage": "WAVE1_NIAGA_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Niaga trio commits; verify remote; continue next dependency-safe CS_B cohort."
+    },
+    "wave1Niaga": {
+      "routes": [
+        "/customer-service/niaga-label/one/",
+        "/customer-service/niaga-label/two/",
+        "/customer-service/niaga-label/swl2/"
+      ],
+      "routeCount": 3,
+      "desktopMobileCases": 6,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "routeSafeCommit": "103da4f6c908a8cb5bc397c5cd293ee05308359b",
+      "remotePushVerified": false,
+      "taiwanException": "Netherlands recycling flow explicitly qualified; Taiwan handling requires Taiwan-store confirmation."
     }
   },
   "factoryRules": {

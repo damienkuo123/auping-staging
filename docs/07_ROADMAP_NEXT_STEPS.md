@@ -65,20 +65,21 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-**Customer Service Factory Wave 1**
+Customer Service Factory Wave 1 Niaga trio:
+- [x] local materialization accepted
+- [x] 6/6 D/M route differential cases machine PASS
+- [x] Official/Local screenshots actually presented
+- [x] human `VISUAL_OK`
+- [ ] remote push verification pending
 
-1. Produce exact route descriptors/localization maps/link disposition/media contracts from accepted evidence.
-2. Batch-generate the first low-risk CS_B cohort.
-3. Run every-route D/M differential acceptance:
-   - structure
-   - content
-   - media
-   - links/dependencies
-   - interactions
-   - visual differential
-4. Present visual outliers/ambiguous cases to the user.
-5. Continue Overview / Video / Composite families.
-6. Legal/policy pages only after Taiwan applicability review.
+Routes:
+- `/customer-service/niaga-label/one/`
+- `/customer-service/niaga-label/two/`
+- `/customer-service/niaga-label/swl2/`
+
+Route-safe commit: `103da4f6c908a8cb5bc397c5cd293ee05308359b`
+
+After push, continue the next dependency-safe CS_B cohort. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

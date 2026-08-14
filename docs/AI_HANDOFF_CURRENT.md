@@ -120,15 +120,27 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 1 — route-data lock and first batch materialization.**
+**Customer Service Factory Wave 1 Niaga trio is LOCAL ACCEPTED / AWAITING PUSH.**
 
-Recommended order:
-1. Build route-data + localization/link/media contracts from the accepted 23-route evidence.
-2. First low-risk content batch from `CS_B_HEADER_TRUNCATEDTEXT_SERIES`.
-3. Route-by-route D/M structure/media/link/interaction/visual differential acceptance.
-4. Then Overview / video / composite Smart Base families.
-5. Legal text family only after Taiwan applicability decision.
-6. After Customer Service closure, continue Accessories family using the same Factory/Differential pipeline.
+Accepted routes:
+- `/customer-service/niaga-label/one/`
+- `/customer-service/niaga-label/two/`
+- `/customer-service/niaga-label/swl2/`
+
+Acceptance:
+- 3 routes × Desktop/Mobile = 6 differential cases
+- Official live structure still matches locked evidence
+- exact normalized media source parity
+- zero-interaction inventory parity
+- machine horizontal geometry differential PASS
+- Official/Local screenshots were actually presented in REVIEW.html
+- human review: `VISUAL_OK`
+- explicit Taiwan exception: Netherlands recycling process is identified as Netherlands-only; Taiwan handling must be confirmed with Taiwan stores
+- route safe commit: `103da4f6c908a8cb5bc397c5cd293ee05308359b`
+- remote push verified: **NO — pending**
+
+Next after push:
+**Continue CS_B factory with the next dependency-safe cohort; do not treat the Niaga Factory/subfamily PASS as acceptance for the remaining CS_B routes.**
 
 ## Progress interpretation
 
