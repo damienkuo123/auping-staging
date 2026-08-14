@@ -65,19 +65,17 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 2 — Manuals:
-- [x] local materialization accepted
-- [x] 2/2 D/M route differential cases machine PASS
-- [x] 12/12 effective media parity in both viewports
+Customer Service Factory Wave 3 — FAQ cluster:
+- [x] 5-route local materialization accepted
+- [x] 10/10 formal D/M differential cases machine PASS
+- [x] 4/4 representative 768/1024 cases PASS
+- [x] FAQ hub/detail dependency closure in same batch
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
-- [x] Dutch direct contact residue removed under Taiwan policy
+- [x] Taiwan service/market qualifiers locked for My Auping logistics, Auronde Restyle pricing and Evolve return applicability
 - [ ] remote push verification pending
 
-Route:
-- `/customer-service/manuals/`
-
-Route-safe commit: `252065e37ca56c9093341e9b31dabf5123963b15`
+Route-safe commit: `9accfce0eb1020fa99b2b8183ace83e4e6facc5b`
 
 After push, continue the next dependency-safe Customer Service cohort. Factory production remains batch-based; acceptance remains route-by-route.
 

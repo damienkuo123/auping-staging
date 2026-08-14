@@ -120,25 +120,31 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 2 Manuals is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 3 FAQ cluster is LOCAL ACCEPTED / AWAITING PUSH.**
 
-Accepted route:
-- `/customer-service/manuals/`
+Accepted routes:
+- `/customer-service/frequently-asked-questions/`
+- `/customer-service/frequently-asked-questions/bed-bases/`
+- `/customer-service/frequently-asked-questions/bed-linen/`
+- `/customer-service/frequently-asked-questions/beds-and-box-springs/`
+- `/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers/`
 
 Acceptance:
-- 1 route × Desktop/Mobile = 2 differential cases
-- 16 direct main sections preserved
-- 12/12 effective media exact normalized source parity in both viewports
+- 5 routes × Desktop/Mobile = 10 formal differential cases
+- FAQ Hub + Bed Linen also passed 768/1024 representative coverage (4 extra cases)
+- all effective media exact normalized source parity
 - zero-interaction inventory parity
+- cluster links close locally in the same batch
+- accepted local Manuals and Taiwan Store Locator used where appropriate
 - machine horizontal geometry differential PASS
 - Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- Taiwan policy exception: Netherlands phone/email/service hours removed; approved Official Contact service exit retained
-- route safe commit: `252065e37ca56c9093341e9b31dabf5123963b15`
+- My Auping / DHL / Montrieurs / Auronde Restyle price / Evolve return-market applicability are explicitly qualified rather than asserted as Taiwan service promises
+- route safe commit: `9accfce0eb1020fa99b2b8183ace83e4e6facc5b`
 - remote push verified: **NO — pending**
 
 Next after push:
-**Continue the next dependency-safe Customer Service cohort; Factory PASS for Manuals does not grant any remaining route acceptance.**
+**Continue the next dependency-safe Customer Service cohort; FAQ Factory/subfamily PASS does not grant remaining route acceptance.**
 
 ## Progress interpretation
 

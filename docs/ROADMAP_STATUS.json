@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE2_MANUALS_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Manuals commits; verify remote; continue next dependency-safe Customer Service cohort."
+      "activeStage": "WAVE3_FAQ_CLUSTER_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push FAQ cluster commits; verify remote; continue next dependency-safe Customer Service cohort."
     },
     "wave1Niaga": {
       "routes": [
@@ -93,6 +93,29 @@
       "routeSafeCommit": "252065e37ca56c9093341e9b31dabf5123963b15",
       "remotePushVerified": false,
       "taiwanException": "Netherlands phone/email/service hours removed; approved Official Contact service exit retained."
+    },
+    "wave3FaqCluster": {
+      "routes": [
+        "/customer-service/frequently-asked-questions/",
+        "/customer-service/frequently-asked-questions/bed-bases/",
+        "/customer-service/frequently-asked-questions/bed-linen/",
+        "/customer-service/frequently-asked-questions/beds-and-box-springs/",
+        "/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers/"
+      ],
+      "routeCount": 5,
+      "formalDesktopMobileCases": 10,
+      "representativeMidwidthCases": 4,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "clusterLinksClosedLocally": true,
+      "routeSafeCommit": "9accfce0eb1020fa99b2b8183ace83e4e6facc5b",
+      "remotePushVerified": false,
+      "taiwanExceptions": [
+        "My Auping/DHL/Montrieurs order and delivery flow qualified as Official English-market process.",
+        "Auronde Restyle €750 retained only as Official reference, not Taiwan price.",
+        "Evolve return registration Taiwan applicability requires Taiwan-store confirmation."
+      ]
     }
   },
   "factoryRules": {
