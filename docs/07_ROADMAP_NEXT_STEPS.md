@@ -65,21 +65,21 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 1 Niaga trio:
+Customer Service Factory Wave 2 — Manuals:
 - [x] local materialization accepted
-- [x] 6/6 D/M route differential cases machine PASS
+- [x] 2/2 D/M route differential cases machine PASS
+- [x] 12/12 effective media parity in both viewports
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
+- [x] Dutch direct contact residue removed under Taiwan policy
 - [ ] remote push verification pending
 
-Routes:
-- `/customer-service/niaga-label/one/`
-- `/customer-service/niaga-label/two/`
-- `/customer-service/niaga-label/swl2/`
+Route:
+- `/customer-service/manuals/`
 
-Route-safe commit: `103da4f6c908a8cb5bc397c5cd293ee05308359b`
+Route-safe commit: `252065e37ca56c9093341e9b31dabf5123963b15`
 
-After push, continue the next dependency-safe CS_B cohort. Factory production remains batch-based; acceptance remains route-by-route.
+After push, continue the next dependency-safe Customer Service cohort. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

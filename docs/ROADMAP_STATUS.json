@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE1_NIAGA_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Niaga trio commits; verify remote; continue next dependency-safe CS_B cohort."
+      "activeStage": "WAVE2_MANUALS_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Manuals commits; verify remote; continue next dependency-safe Customer Service cohort."
     },
     "wave1Niaga": {
       "routes": [
@@ -81,6 +81,18 @@
       "routeSafeCommit": "103da4f6c908a8cb5bc397c5cd293ee05308359b",
       "remotePushVerified": false,
       "taiwanException": "Netherlands recycling flow explicitly qualified; Taiwan handling requires Taiwan-store confirmation."
+    },
+    "wave2Manuals": {
+      "route": "/customer-service/manuals/",
+      "desktopMobileCases": 2,
+      "directSections": 16,
+      "effectiveMediaPerViewport": 12,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "routeSafeCommit": "252065e37ca56c9093341e9b31dabf5123963b15",
+      "remotePushVerified": false,
+      "taiwanException": "Netherlands phone/email/service hours removed; approved Official Contact service exit retained."
     }
   },
   "factoryRules": {

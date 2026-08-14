@@ -120,27 +120,25 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 1 Niaga trio is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 2 Manuals is LOCAL ACCEPTED / AWAITING PUSH.**
 
-Accepted routes:
-- `/customer-service/niaga-label/one/`
-- `/customer-service/niaga-label/two/`
-- `/customer-service/niaga-label/swl2/`
+Accepted route:
+- `/customer-service/manuals/`
 
 Acceptance:
-- 3 routes × Desktop/Mobile = 6 differential cases
-- Official live structure still matches locked evidence
-- exact normalized media source parity
+- 1 route × Desktop/Mobile = 2 differential cases
+- 16 direct main sections preserved
+- 12/12 effective media exact normalized source parity in both viewports
 - zero-interaction inventory parity
 - machine horizontal geometry differential PASS
-- Official/Local screenshots were actually presented in REVIEW.html
+- Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- explicit Taiwan exception: Netherlands recycling process is identified as Netherlands-only; Taiwan handling must be confirmed with Taiwan stores
-- route safe commit: `103da4f6c908a8cb5bc397c5cd293ee05308359b`
+- Taiwan policy exception: Netherlands phone/email/service hours removed; approved Official Contact service exit retained
+- route safe commit: `252065e37ca56c9093341e9b31dabf5123963b15`
 - remote push verified: **NO — pending**
 
 Next after push:
-**Continue CS_B factory with the next dependency-safe cohort; do not treat the Niaga Factory/subfamily PASS as acceptance for the remaining CS_B routes.**
+**Continue the next dependency-safe Customer Service cohort; Factory PASS for Manuals does not grant any remaining route acceptance.**
 
 ## Progress interpretation
 
