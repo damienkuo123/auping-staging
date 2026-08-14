@@ -1,0 +1,264 @@
+{
+  "schema": "AUPING-CUSTOMER-SERVICE-FACTORY-WAVE4-SPECIAL-SUPPORT-V1.2",
+  "baseline": "5690912854314e417adbc28d5b569473d6a000a8",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "routeCount": 4,
+  "routes": [
+    {
+      "route": "/customer-service/auping-revive-support/",
+      "slug": "customer-service__auping-revive-support",
+      "fragmentFile": "revive.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/auping-revive-support",
+      "localizedTitle": "Auping Revive 支援與安裝｜Auping",
+      "localizedDescription": "觀看 Auping Revive 安裝教學影片、下載官方安裝指南，並取得 Auping 官方聯絡服務。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "VideoPlayer",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2023-06/auping_rhederoord_0012.jpg",
+        "https://api.auping.com/sites/default/files/2023-06/AUPING_RHEDEROORD_0012.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2023-06/auping_rhederoord_0016.jpg",
+        "https://api.auping.com/sites/default/files/2023-06/AUPING_RHEDEROORD_0012.jpg"
+      ],
+      "expectedButtonsDesktop": 1,
+      "expectedButtonsMobile": 1,
+      "expectedForms": 0,
+      "expectedVideoSourcesDesktop": [
+        "https://api.auping.com/sites/default/files/2023-06/auping_revive_instructions_v3-1x.mp4#t=0.1"
+      ],
+      "expectedVideoSourcesMobile": [
+        "https://api.auping.com/sites/default/files/2023-06/auping_revive_instructions_v3-1x.mp4#t=0.1"
+      ],
+      "localizedFragmentSha256": "836cf2ff5fe8c63a17b8fd6343082c55b6ad45a0b3949e28d1404355ae258e64",
+      "officialDesktopMainSha256": "853be143fb8fbf5339bb0b66ff0b7199d28df8e27784b49a99fe4bcefa9a420c",
+      "officialMobileMainSha256": "9d5fd42dc3185963637e745f8a577c78cdd66a98a6f454db64157a276f641122"
+    },
+    {
+      "route": "/customer-service/quick-start-guide/",
+      "slug": "customer-service__quick-start-guide",
+      "fragmentFile": "quick-start-guide.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/quick-start-guide",
+      "localizedTitle": "Auping Smart Base 快速入門指南｜Auping",
+      "localizedDescription": "查看 Auping Smart Base 快速入門指南與其他語言版本入口。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "OverviewTiles"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920x987_2740_0722.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/vlag-nederland.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/Duitse vlag.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/vlag-frankrijk-600x400.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/Flag_of_Denmark.svg.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_768x1024_2740_0722.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/vlag-nederland.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/Duitse vlag.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/vlag-frankrijk-600x400.jpg",
+        "https://api.auping.com/sites/default/files/2023-02/Flag_of_Denmark.svg.jpg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedForms": 0,
+      "expectedVideoSourcesDesktop": [],
+      "expectedVideoSourcesMobile": [],
+      "localizedFragmentSha256": "a09e88e0dd6003181e123ae2d6b08501d9d7cfd9a40ece4829e4babf740b6cd7",
+      "officialDesktopMainSha256": "c9db5877797ac6ff0f442734ec72b0adc658b341cd1aefda44e3e76a8b394204",
+      "officialMobileMainSha256": "fae17d7e42c8ece22ccd8c4873217b749f37f4bdcd7451ba60fc8d9a64196464"
+    },
+    {
+      "route": "/customer-service/smartbase-support/",
+      "slug": "customer-service__smartbase-support",
+      "fragmentFile": "smartbase-hub.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support",
+      "localizedTitle": "Auping Smart Base 支援｜Auping",
+      "localizedDescription": "Auping Smart Base 與 Auping Connect App 的安裝、使用、常見問題與教學影片支援總覽。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TwoColumn",
+        "TruncatedText",
+        "OverviewTiles",
+        "Image",
+        "TruncatedText",
+        "OverviewTiles",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920_987_pixels.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/19102022_616x346_Remote_01.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/19102022_616x346_Remote_02.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/Large Print-AUPING_Smartbase_wakeupwithoutanalarmclock_2483_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-08/Medium-AUPING_Smartbase_wakeupwithoutanalarmclock_2811_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920x987_2740_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/AUPING_Smartbase 3.0_2471_v1.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1232_346_pixels.jpg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_SMART_headboardup_3373_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_relationshipTherapy_3053_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2020-12/smart_wakker-hoofdeind-omhoog_33071.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-10/17102022_768_1024_pixels.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/19102022_616x346_Remote_01.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/19102022_616x346_Remote_02.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/Large Print-AUPING_Smartbase_wakeupwithoutanalarmclock_2483_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-08/Medium-AUPING_Smartbase_wakeupwithoutanalarmclock_2811_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/17102022_1920x987_2740_0722.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/AUPING_Smartbase 3.0_2471_v1.jpg",
+        "https://api.auping.com/sites/default/files/2022-10/17102022_600_350_pixels.jpg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_SMART_headboardup_3373_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_relationshipTherapy_3053_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2020-12/smart_wakker-hoofdeind-omhoog_33071.jpg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedForms": 0,
+      "expectedVideoSourcesDesktop": [],
+      "expectedVideoSourcesMobile": [],
+      "localizedFragmentSha256": "6c3daf8c1e6a20ae0568cf2d52bbd9fd877d370aa6cd00547b1ceedd11007e61",
+      "officialDesktopMainSha256": "0fa115f64f777f7acc1d2a88e972261dc49e6d57608c0cada933199f4224b0e8",
+      "officialMobileMainSha256": "01f1a32d8462507e5f0a6073024b6d65a3a921a023a6672818f9bfcab4577a11"
+    },
+    {
+      "route": "/customer-service/smartbase-support/instruction-videos/",
+      "slug": "customer-service__smartbase-support__instruction-videos",
+      "fragmentFile": "instruction-videos.html",
+      "officialUrl": "https://www.auping.com/en/customer-service/smartbase-support/instruction-videos",
+      "localizedTitle": "Auping Smart Base 教學影片｜Auping",
+      "localizedDescription": "觀看 Auping Smart Base 安裝、Auping Connect 操作、防打鼾與智慧鬧鐘教學影片。",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "VideoPlayer",
+        "VideoPlayer",
+        "VideoPlayer",
+        "VideoPlayer"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_installatie2.jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_bedienen[1].jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_antisnurk[1].jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_slimmewekker[1].jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-06/Auping_Essential_Nightblue_smartbase_humanconnection_3456_0919 crop.jpeg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_installatie2.jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_bedienen[1].jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_antisnurk[1].jpg",
+        "https://api.auping.com/sites/default/files/2022-06/smartbase_videoinstructie_slimmewekker[1].jpg"
+      ],
+      "expectedButtonsDesktop": 4,
+      "expectedButtonsMobile": 4,
+      "expectedForms": 0,
+      "expectedVideoSourcesDesktop": [
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_auping_smartbase_installatie1_0.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_bedienen_sm1.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_antisnore_sm1_0.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_smartalarm_sm1.mp4#t=0.1"
+      ],
+      "expectedVideoSourcesMobile": [
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_auping_smartbase_installatie1_0.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_bedienen_sm1.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_antisnore_sm1_0.mp4#t=0.1",
+        "https://api.auping.com/sites/default/files/2022-06/instructievideo_smartbase_smartalarm_sm1.mp4#t=0.1"
+      ],
+      "localizedFragmentSha256": "6cf1d9f259c64b19482c3ecc137a69cd5993712f0bb5237b803bc37b0399179b",
+      "officialDesktopMainSha256": "ffd6146c2897d294da09a6da9a33818383bfe20fe22e3043d7912250fdb5e9ba",
+      "officialMobileMainSha256": "c8570aae4ef3cc87263a2b80fa487fe24ca778988bd75365c1dde4dc5e3fce84"
+    }
+  ],
+  "families": {
+    "CS_C_REVIVE_SUPPORT_VIDEO": [
+      "/customer-service/auping-revive-support/"
+    ],
+    "CS_D_QUICK_START_OVERVIEW": [
+      "/customer-service/quick-start-guide/"
+    ],
+    "CS_E_SMARTBASE_SUPPORT_HUB": [
+      "/customer-service/smartbase-support/"
+    ],
+    "CS_F_INSTRUCTION_VIDEO_SERIES": [
+      "/customer-service/smartbase-support/instruction-videos/"
+    ]
+  },
+  "taiwanExceptions": [
+    "Revive Netherlands Hospitality Service Desk phone/email are not published as Taiwan contacts; Official Contact + Taiwan Store Locator are used.",
+    "Smart Base hub Netherlands phone/email/social/service hours are not published as Taiwan contacts; Official Contact + Taiwan Store Locator are used.",
+    "Smart Base detail routes not yet materialized remain explicit Official exits rather than local 404s.",
+    "Official legacy instruction-video route is closed to the canonical local instruction-videos route.",
+    "Quick Start language-tile destinations remain the Official source destinations; no guessed language URL correction is introduced."
+  ],
+  "acceptance": {
+    "formalDesktopMobileCases": 8,
+    "representativeMidwidthCases": 4,
+    "videoPlaybackRequired": true,
+    "expectedPlayedVideoCases": "Revive 1×D/M + Instruction Videos 4×D/M",
+    "exactNormalizedEffectiveMediaMatch": true,
+    "horizontalGeometryDifferential": true,
+    "interactionInventoryParity": true,
+    "reviewOpensOnMachinePassOrFail": true,
+    "explicitTerminalDecisionRequired": true,
+    "factoryPassDoesNotGrantOtherRoutesPass": true,
+    "mediaState": "INITIAL_PRE_VIDEO_PLAYBACK",
+    "visualScreenshotState": "INITIAL_PRE_VIDEO_PLAYBACK",
+    "videoPlaybackState": "SEPARATE_POST_INITIAL_CAPTURE_GATE",
+    "lazyMediaWarmupRule": "Eligibility uses layout rect/display/visibility before scroll; opacity is checked only after the image is scrolled/warmed."
+  },
+  "diagnosticSha256": "018c6def66c5d0a49c8c7d5729d6b4f03f9aeb9e707aa99798179f88f007ac9c",
+  "v1Diagnosis": {
+    "realResponsiveMediaDefects": [
+      {
+        "route": "/customer-service/auping-revive-support/",
+        "view": "mobile",
+        "cause": "Desktop-captured HeaderImage reused the desktop art; Official mobile uses auping_rhederoord_0016.jpg."
+      },
+      {
+        "route": "/customer-service/quick-start-guide/",
+        "view": "mobile",
+        "cause": "Desktop-captured HeaderImage reused 17102022_1920x987_2740_0722.jpg; Official mobile uses 17102022_768x1024_2740_0722.jpg."
+      },
+      {
+        "route": "/customer-service/smartbase-support/",
+        "view": "mobile",
+        "cause": "Desktop-captured HeaderImage reused 17102022_1920_987_pixels.jpg; Official mobile uses 17102022_768_1024_pixels.jpg."
+      },
+      {
+        "route": "/customer-service/smartbase-support/",
+        "view": "mobile",
+        "cause": "The correct hidden mobile Image counterpart existed in the Desktop evidence but lacked the LazyImage_loaded class in the static snapshot, so it rendered transparent when the breakpoint made it visible."
+      }
+    ],
+    "verifierOrderingDefect": {
+      "route": "/customer-service/smartbase-support/instruction-videos/",
+      "view": "desktop",
+      "cause": "v1 compared image/media state and captured screenshots after play() changed four VideoPlayer visual states. Locked media truth is the initial pre-play state. Diagnostic shows video source/playback/geometry/policy all passed.",
+      "fix": "Collect and screenshot initial media/visual state first; run video play/currentTime verification as a separate subsequent gate."
+    }
+  },
+  "v11DiagnosticSha256": "0cc3736d9d4ae6f38fd9619d464a02301f705dc5c54b9cc72f24b58cffb36e42",
+  "v12Diagnosis": {
+    "route": "/customer-service/smartbase-support/",
+    "view": "mobile",
+    "officialMediaCountInFailedV11": 11,
+    "localMediaCountInFailedV11": 12,
+    "lockedExpectedMediaCount": 12,
+    "localMatchedLockedExpected": true,
+    "rootCause": "Verifier warm-up incorrectly required opacity>0 before scrolling. The final Official lazy image had a real layout rect but opacity:0 before IntersectionObserver activation, so it was skipped and never warmed.",
+    "sourceMutationRequired": false,
+    "fix": "Warm all layout-eligible images regardless of pre-load opacity; after scrolling, wait for currentSrc+complete+naturalWidth and visible opacity before collecting initial media/screenshot state."
+  }
+}
