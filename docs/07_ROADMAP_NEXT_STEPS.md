@@ -65,19 +65,20 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 3 — FAQ cluster:
-- [x] 5-route local materialization accepted
-- [x] 10/10 formal D/M differential cases machine PASS
+Customer Service Factory Wave 4 — Special Support:
+- [x] 4-route local materialization accepted
+- [x] 8/8 formal D/M differential cases machine PASS
 - [x] 4/4 representative 768/1024 cases PASS
-- [x] FAQ hub/detail dependency closure in same batch
+- [x] Revive 1-video D/M playback PASS
+- [x] Instruction Videos 4-video D/M playback PASS
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
-- [x] Taiwan service/market qualifiers locked for My Auping logistics, Auronde Restyle pricing and Evolve return applicability
+- [x] Taiwan contact policy applied to Revive and Smart Base Hub
 - [ ] remote push verification pending
 
-Route-safe commit: `9accfce0eb1020fa99b2b8183ace83e4e6facc5b`
+Route-safe commit: `60188ab8bbecb54cfdbe16a7492bf145635cc514`
 
-After push, continue the next dependency-safe Customer Service cohort. Factory production remains batch-based; acceptance remains route-by-route.
+After push, return to remaining Smart Base CS_B detail routes. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

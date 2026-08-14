@@ -120,31 +120,30 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 3 FAQ cluster is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 4 Special Support is LOCAL ACCEPTED / AWAITING PUSH.**
 
 Accepted routes:
-- `/customer-service/frequently-asked-questions/`
-- `/customer-service/frequently-asked-questions/bed-bases/`
-- `/customer-service/frequently-asked-questions/bed-linen/`
-- `/customer-service/frequently-asked-questions/beds-and-box-springs/`
-- `/customer-service/frequently-asked-questions/mattresses-and-mattress-toppers/`
+- `/customer-service/auping-revive-support/`
+- `/customer-service/quick-start-guide/`
+- `/customer-service/smartbase-support/`
+- `/customer-service/smartbase-support/instruction-videos/`
 
 Acceptance:
-- 5 routes × Desktop/Mobile = 10 formal differential cases
-- FAQ Hub + Bed Linen also passed 768/1024 representative coverage (4 extra cases)
-- all effective media exact normalized source parity
-- zero-interaction inventory parity
-- cluster links close locally in the same batch
-- accepted local Manuals and Taiwan Store Locator used where appropriate
+- 4 routes × Desktop/Mobile = 8 formal differential cases
+- Smart Base Hub + Instruction Videos also passed 768/1024 representative coverage (4 extra cases)
+- Revive video: actual playback/currentTime advance PASS in D/M
+- Instruction Videos: 4/4 actual video playback/currentTime advance PASS in D/M
+- exact normalized effective media parity
 - machine horizontal geometry differential PASS
 - Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- My Auping / DHL / Montrieurs / Auronde Restyle price / Evolve return-market applicability are explicitly qualified rather than asserted as Taiwan service promises
-- route safe commit: `9accfce0eb1020fa99b2b8183ace83e4e6facc5b`
+- Netherlands direct contact data removed from Taiwan Revive/Smart Base public content; Official Contact + Taiwan Store Locator used
+- remaining Smart Base detail routes stay Official exits until individually materialized
+- route safe commit: `60188ab8bbecb54cfdbe16a7492bf145635cc514`
 - remote push verified: **NO — pending**
 
 Next after push:
-**Continue the next dependency-safe Customer Service cohort; FAQ Factory/subfamily PASS does not grant remaining route acceptance.**
+**Return to the remaining CS_B Smart Base detail routes; Wave 4 special-family acceptance does not grant those routes acceptance.**
 
 ## Progress interpretation
 

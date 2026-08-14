@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE3_FAQ_CLUSTER_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push FAQ cluster commits; verify remote; continue next dependency-safe Customer Service cohort."
+      "activeStage": "WAVE4_SPECIAL_SUPPORT_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Special Support commits; verify remote; return to remaining Smart Base CS_B detail routes."
     },
     "wave1Niaga": {
       "routes": [
@@ -116,6 +116,35 @@
         "Auronde Restyle €750 retained only as Official reference, not Taiwan price.",
         "Evolve return registration Taiwan applicability requires Taiwan-store confirmation."
       ]
+    },
+    "wave4SpecialSupport": {
+      "routes": [
+        "/customer-service/auping-revive-support/",
+        "/customer-service/quick-start-guide/",
+        "/customer-service/smartbase-support/",
+        "/customer-service/smartbase-support/instruction-videos/"
+      ],
+      "routeCount": 4,
+      "formalDesktopMobileCases": 8,
+      "representativeMidwidthCases": 4,
+      "videoPlayback": {
+        "revive": {
+          "videosPerViewport": 1,
+          "desktop": true,
+          "mobile": true
+        },
+        "instructionVideos": {
+          "videosPerViewport": 4,
+          "desktop": true,
+          "mobile": true
+        }
+      },
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "routeSafeCommit": "60188ab8bbecb54cfdbe16a7492bf145635cc514",
+      "remotePushVerified": false,
+      "taiwanContactPolicy": "Netherlands direct Revive/Smart Base contact data removed; Official Contact + Taiwan Store Locator used."
     }
   },
   "factoryRules": {
