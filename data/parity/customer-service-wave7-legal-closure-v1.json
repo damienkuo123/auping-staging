@@ -1,0 +1,90 @@
+{
+  "schema": "AUPING-CS-WAVE7-LEGAL-CLOSURE-V1.0",
+  "baseline": "1195859b24d8095be4c4338e2e60d1603a5d514e",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "routeCount": 3,
+  "formalDesktopMobileCases": 6,
+  "representativeMidwidthCases": 6,
+  "legalApplicabilityPolicy": {
+    "officialGlobalLegalFactsQualified": true,
+    "taiwanMandatoryRightsNotWaived": true,
+    "cookiebotDynamicInventoryNotRepublishedAsLocalTruth": true,
+    "privacyControllerNotInventedForTaiwan": true,
+    "taiwanPdpaRightsIncluded": true,
+    "pointOfCollectionNoticeRequiredForFutureLocalCollection": true,
+    "sharedRuntimeMutationRequired": false
+  },
+  "representativeMidwidthRoutes": [
+    "auping-disclaimer",
+    "cookies",
+    "privacy-policy"
+  ],
+  "routes": [
+    {
+      "slug": "auping-disclaimer",
+      "route": "/customer-service/auping-disclaimer/",
+      "officialUrl": "https://www.auping.com/en/customer-service/auping-disclaimer",
+      "family": "CS_A_LEGAL_TEXT_ONLY",
+      "fragmentFile": "auping-disclaimer.html",
+      "localizedTitle": "Auping 免責聲明｜Auping 台灣",
+      "localizedDescription": "Royal Auping bv Official 網站免責聲明繁中版本與台灣適用性說明。",
+      "localizedFragmentSha256": "771b5643a152ec630f95d624230bcfa3a021ce62c996c5bcb8246e9931d61a04",
+      "officialDesktopMainSha256": "581f25646f0d5f36625597d80faec6d9f78bbf58db1c748201eed0fa469bf5e3",
+      "officialMobileMainSha256": "581f25646f0d5f36625597d80faec6d9f78bbf58db1c748201eed0fa469bf5e3",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [],
+      "expectedMediaMobile": [],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0
+    },
+    {
+      "slug": "cookies",
+      "route": "/customer-service/cookies/",
+      "officialUrl": "https://www.auping.com/en/customer-service/cookies",
+      "family": "CS_A_LEGAL_TEXT_ONLY",
+      "fragmentFile": "cookies.html",
+      "localizedTitle": "Cookie 說明｜Auping 台灣",
+      "localizedDescription": "了解 Official Auping Cookie Declaration 與台灣站實際 Cookie/runtime truth 的適用範圍。",
+      "localizedFragmentSha256": "150f6315a75ab489f6271feae8986a222dc0a1e4d6e3f521a9e4025a20265796",
+      "officialDesktopMainSha256": "ce4c1dbb96a47d868087e32642782c98ed25ba2052db558bed4f9b340ef1e933",
+      "officialMobileMainSha256": "f09a457a390474affd9c75ebd5e92cb0518550ee13a733461eb8a758e17d2a83",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [],
+      "expectedMediaMobile": [],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0
+    },
+    {
+      "slug": "privacy-policy",
+      "route": "/customer-service/privacy-policy/",
+      "officialUrl": "https://www.auping.com/en/customer-service/privacy-policy",
+      "family": "CS_A_LEGAL_TEXT_ONLY",
+      "fragmentFile": "privacy-policy.html",
+      "localizedTitle": "隱私權政策｜Auping 台灣",
+      "localizedDescription": "了解 Royal Auping bv Official 隱私政策，以及台灣使用者依個人資料保護法享有的基本權利與聯絡方式。",
+      "localizedFragmentSha256": "fe4ef2ef09504e71128bfd090e4e734ee34dfc3356a74f9f422853d0852fe7ed",
+      "officialDesktopMainSha256": "42f9ef883a4608e6ac058cd2474c0166139d47833678db4d3d9d0c095db2f6b2",
+      "officialMobileMainSha256": "42f9ef883a4608e6ac058cd2474c0166139d47833678db4d3d9d0c095db2f6b2",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [],
+      "expectedMediaMobile": [],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0
+    }
+  ]
+}
