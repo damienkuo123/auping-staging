@@ -1,0 +1,56 @@
+{
+  "schema": "AUPING-CS-WAVE6-WARRANTY-V1.0",
+  "baseline": "2f6e4e807076ab75cfe1a9f0c573eaff1233ee43",
+  "evidenceSha256": "e3e2cf5eb17f53f4a5cb4f5f5540b91a11874c7033aeedc97bffdca651f0543a",
+  "routeCount": 1,
+  "formalDesktopMobileCases": 2,
+  "representativeMidwidthCases": 2,
+  "taiwanApplicabilityPolicy": {
+    "officialWarrantyTermsRetainedAsManufacturerPolicy": true,
+    "taiwanActualAcceptanceQualifiedToOriginalAuthorizedSeller": true,
+    "cbwNetherlandsOnlyExplicitlyQualified": true,
+    "noTaiwanCbwCertificationClaim": true,
+    "noInventedTaiwanWarrantyPromise": true
+  },
+  "representativeMidwidthRoutes": [
+    "warranty"
+  ],
+  "routes": [
+    {
+      "slug": "warranty",
+      "route": "/customer-service/warranty/",
+      "officialUrl": "https://www.auping.com/en/customer-service/warranty",
+      "family": "CS_B_HEADER_TRUNCATEDTEXT_SERIES",
+      "fragmentFile": "warranty.html",
+      "localizedTitle": "安心睡眠的 Auping 保固｜Auping 台灣",
+      "localizedDescription": "了解 Auping 官方產品保固年限、授權銷售據點、材料與製造缺陷及維修流程；台灣實際受理以原購買授權銷售據點為準。",
+      "localizedFragmentSha256": "e41e392160ff160c7d74366485c78834968f631557a8eb17fea5a8ff27adbb9e",
+      "officialDesktopMainSha256": "23260f58656756f760bd5cd52ac76c6af6d8b807317e1c1532ebcedf721b499d",
+      "officialMobileMainSha256": "23260f58656756f760bd5cd52ac76c6af6d8b807317e1c1532ebcedf721b499d",
+      "expectedDirectSections": [
+        "Breadcrumbs",
+        "HeaderImage",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText",
+        "TruncatedText"
+      ],
+      "expectedMediaDesktop": [
+        "https://api.auping.com/sites/default/files/2022-02/auping_social_moods_3129.jpg"
+      ],
+      "expectedMediaMobile": [
+        "https://api.auping.com/sites/default/files/2022-02/auping_social_moods_3129.jpg"
+      ],
+      "expectedButtonsDesktop": 0,
+      "expectedButtonsMobile": 0,
+      "expectedFormsDesktop": 0,
+      "expectedFormsMobile": 0,
+      "responsiveHero": false
+    }
+  ]
+}
