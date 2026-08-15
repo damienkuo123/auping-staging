@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE6_WARRANTY_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Wave 6 Warranty commits; verify remote; proceed to 3 Taiwan-reviewed CS_A Legal routes."
+      "activeStage": "WAVE7_LEGAL_CLOSURE_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Wave 7 Legal Closure; verify remote; run 26-route Customer Service family closure sweep."
     },
     "wave1Niaga": {
       "routes": [
@@ -177,11 +177,29 @@
       "humanVisualReview": "VISUAL_OK",
       "visualEvidencePresentedByTool": true,
       "routeSafeCommit": "54b5778ed29e6f94dc80f0c6ff3762a4ac08560b",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanPolicy": "Official manufacturer warranty terms retained as policy information; Taiwan handling qualified to original authorized seller; Netherlands CBW explicitly Netherlands-only; no invented Taiwan warranty promise."
     },
-    "missingContentAcceptedCount": 20,
-    "missingContentAcceptedShare": "20/23 = 86.96%"
+    "missingContentAcceptedCount": 23,
+    "missingContentAcceptedShare": "23/23 = 100%",
+    "wave7LegalClosure": {
+      "routes": [
+        "/customer-service/auping-disclaimer/",
+        "/customer-service/cookies/",
+        "/customer-service/privacy-policy/"
+      ],
+      "routeCount": 3,
+      "formalDesktopMobileCases": 6,
+      "representativeMidwidthCases": 6,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "routeSafeCommit": "ba40dd84b6fbb3dd676e77aa183de8793c8f42f7",
+      "remotePushVerified": false,
+      "taiwanPolicy": "Disclaimer preserves Taiwan non-waivable rights; Cookiebot dynamic global inventory is not asserted as Taiwan runtime truth; privacy policy separates Royal Auping bv global facts from Taiwan collection and summarizes PDPA rights without inventing a Taiwan controller."
+    },
+    "missingContentLocalAcceptedComplete": true,
+    "familyClosureSweepStarted": false
   },
   "factoryRules": {
     "factoryPassDoesNotGrantRoutePass": true,

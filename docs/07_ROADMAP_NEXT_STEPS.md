@@ -65,20 +65,20 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 6 — Warranty:
-- [x] 1-route local materialization accepted
-- [x] 2/2 formal D/M differential cases machine PASS
-- [x] 2/2 representative 768/1024 cases PASS
-- [x] exact effective media parity
-- [x] Taiwan warranty applicability qualification PASS
-- [x] Netherlands-only CBW qualification PASS
+Customer Service Factory Wave 7 — Legal Closure:
+- [x] 3-route local materialization accepted
+- [x] 6/6 formal D/M differential cases machine PASS
+- [x] 6/6 representative 768/1024 cases PASS
+- [x] Disclaimer Taiwan non-waivable-rights qualification PASS
+- [x] Cookies runtime-truth / no-fake-Cookiebot qualification PASS
+- [x] Privacy Taiwan PDPA applicability / no-invented-controller qualification PASS
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
 - [ ] remote push verification pending
 
-Route-safe commit: `54b5778ed29e6f94dc80f0c6ff3762a4ac08560b`
+Route-safe commit: `ba40dd84b6fbb3dd676e77aa183de8793c8f42f7`
 
-After push, proceed to the 3 CS_A Legal routes with Taiwan applicability review before publication. Factory production remains batch-based; acceptance remains route-by-route.
+After push: Customer Service 23/23 missing-content routes are complete. Next run the 26-route Customer Service family closure sweep, including the 2 existing exact routes and the approved Contact service-boundary disposition. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

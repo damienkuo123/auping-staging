@@ -120,29 +120,33 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 6 Warranty is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 7 Legal Closure is LOCAL ACCEPTED / AWAITING PUSH.**
 
-Accepted route:
-- `/customer-service/warranty/`
+Accepted routes:
+- `/customer-service/auping-disclaimer/`
+- `/customer-service/cookies/`
+- `/customer-service/privacy-policy/`
 
 Acceptance:
-- 1 route × Desktop/Mobile = 2 formal differential cases
-- Warranty also passed 768/1024 representative coverage = 2 extra cases
-- 11 direct sections (Breadcrumbs + HeaderImage + 9×TruncatedText) match Official structure
-- exact normalized effective media parity
-- machine horizontal geometry differential PASS; Traditional Chinese vertical reflow allowed
+- 3 routes × Desktop/Mobile = 6 formal differential cases
+- all 3 legal routes also passed 768/1024 representative coverage = 6 extra cases
+- Official `Breadcrumbs + TruncatedText` mechanics preserved route-by-route
+- machine horizontal geometry differential PASS; legal localization vertical reflow allowed
 - Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- Auping manufacturer warranty terms retained as Official policy information
-- Taiwan actual acceptance/process explicitly qualified to original authorized seller
-- Netherlands CBW certification explicitly marked Netherlands-only; no Taiwan CBW certification claim
-- no invented Taiwan warranty promise
-- Wave 5 Smart Base Details remote main verified at `2f6e4e807076ab75cfe1a9f0c573eaff1233ee43`
-- route safe commit: `54b5778ed29e6f94dc80f0c6ff3762a4ac08560b`
+- Disclaimer: Official global liability language is qualified so Taiwan non-waivable rights are not purportedly excluded
+- Cookies: Official Cookiebot dynamic consent state / cookie inventory is not republished as Taiwan runtime truth
+- Privacy: Royal Auping bv global-policy facts are separated from Taiwan collection; Taiwan PDPA rights are summarized without inventing a Taiwan data controller
+- Wave 6 Warranty remote main verified at `1195859b24d8095be4c4338e2e60d1603a5d514e`
+- route safe commit: `ba40dd84b6fbb3dd676e77aa183de8793c8f42f7`
 - remote push verified: **NO — pending**
 
+Customer Service missing-content status:
+- **23/23 locally accepted = 100%**
+- this does NOT yet equal Customer Service family final closure or whole-site completion
+
 Next after push:
-**Proceed to the 3 CS_A Legal routes only with Taiwan applicability review; Wave 6 acceptance grants no legal-route acceptance.**
+**Verify Wave 7 remote exact SHA, then run Customer Service 26-route family closure: 2 existing exact + 1 approved Contact service-boundary + 23 accepted materialized routes, with a same-commit D/M family sweep.**
 
 ## Progress interpretation
 
