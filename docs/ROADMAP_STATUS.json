@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE7_LEGAL_CLOSURE_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Wave 7 Legal Closure; verify remote; run 26-route Customer Service family closure sweep."
+      "activeStage": "CUSTOMER_SERVICE_FAMILY_CLOSED_AWAITING_REMOTE_PUSH",
+      "next": "Verify remote exact SHA, then proceed to Accessories true-missing family."
     },
     "wave1Niaga": {
       "routes": [
@@ -195,11 +195,23 @@
       "humanVisualReview": "VISUAL_OK",
       "visualEvidencePresentedByTool": true,
       "routeSafeCommit": "ba40dd84b6fbb3dd676e77aa183de8793c8f42f7",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanPolicy": "Disclaimer preserves Taiwan non-waivable rights; Cookiebot dynamic global inventory is not asserted as Taiwan runtime truth; privacy policy separates Royal Auping bv global facts from Taiwan collection and summarizes PDPA rights without inventing a Taiwan controller."
     },
     "missingContentLocalAcceptedComplete": true,
-    "familyClosureSweepStarted": false
+    "familyClosureSweepStarted": false,
+    "familyClosure": {
+      "baselineTested": "c311e34d51dc3c29e69dedc8b3bd00c693ba295e",
+      "routeDispositions": "26/26",
+      "formalDesktopMobileCases": 52,
+      "representativeMidwidthCases": 20,
+      "machineDifferentialAccepted": true,
+      "interactionReplayHardGate": true,
+      "humanVisualReview": "VISUAL_OK",
+      "sharedRuntimeModified": false,
+      "wholeSiteAccepted": false
+    },
+    "familyClosureComplete": true
   },
   "factoryRules": {
     "factoryPassDoesNotGrantRoutePass": true,
