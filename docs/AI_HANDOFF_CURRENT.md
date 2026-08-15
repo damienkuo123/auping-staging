@@ -120,31 +120,29 @@ Permanent rules:
 
 ## Current next action
 
-**Customer Service Factory Wave 5 Smart Base CS_B details is LOCAL ACCEPTED / AWAITING PUSH.**
+**Customer Service Factory Wave 6 Warranty is LOCAL ACCEPTED / AWAITING PUSH.**
 
-Accepted routes:
-- `/customer-service/smartbase-support/auping-smart-base-auping-connect-app/`
-- `/customer-service/smartbase-support/auping-smart-base-faq/`
-- `/customer-service/smartbase-support/auping-smart-base-installation/`
-- `/customer-service/smartbase-support/installation/`
-- `/customer-service/smartbase-support/troubleshooting/`
-- `/customer-service/smartbase-support/usage/`
+Accepted route:
+- `/customer-service/warranty/`
 
 Acceptance:
-- 6 routes × Desktop/Mobile = 12 formal differential cases
-- 3 responsive-hero routes also passed 768/1024 representative coverage = 6 extra cases
-- exact normalized effective media parity in every formal viewport
+- 1 route × Desktop/Mobile = 2 formal differential cases
+- Warranty also passed 768/1024 representative coverage = 2 extra cases
+- 11 direct sections (Breadcrumbs + HeaderImage + 9×TruncatedText) match Official structure
+- exact normalized effective media parity
 - machine horizontal geometry differential PASS; Traditional Chinese vertical reflow allowed
-- Smart Base internal dependency closure PASS
 - Official/Local screenshots actually presented in REVIEW.html
 - human review: `VISUAL_OK`
-- no Netherlands direct phone/email facts introduced; Taiwan public copy routes service questions to the original Auping store/dealer context where applicable
-- Wave 4 Special Support remote main verified at `e7358bc327efe09cde6cb0491513a400332b457a`
-- route safe commit: `48d94e04104a880442c84197dbfdecef302bdf5a`
+- Auping manufacturer warranty terms retained as Official policy information
+- Taiwan actual acceptance/process explicitly qualified to original authorized seller
+- Netherlands CBW certification explicitly marked Netherlands-only; no Taiwan CBW certification claim
+- no invented Taiwan warranty promise
+- Wave 5 Smart Base Details remote main verified at `2f6e4e807076ab75cfe1a9f0c573eaff1233ee43`
+- route safe commit: `54b5778ed29e6f94dc80f0c6ff3762a4ac08560b`
 - remote push verified: **NO — pending**
 
 Next after push:
-**Continue Customer Service closure with Warranty, then Taiwan-reviewed Legal routes; Wave 5 acceptance grants no untested route acceptance.**
+**Proceed to the 3 CS_A Legal routes only with Taiwan applicability review; Wave 6 acceptance grants no legal-route acceptance.**
 
 ## Progress interpretation
 

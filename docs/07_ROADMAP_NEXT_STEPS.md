@@ -65,19 +65,20 @@ Six generalized implementation families:
 
 ## Immediate next wave
 
-Customer Service Factory Wave 5 — Smart Base CS_B detail routes:
-- [x] 6-route local materialization accepted
-- [x] 12/12 formal D/M differential cases machine PASS
-- [x] 6/6 representative 768/1024 cases PASS across the 3 responsive-hero routes
+Customer Service Factory Wave 6 — Warranty:
+- [x] 1-route local materialization accepted
+- [x] 2/2 formal D/M differential cases machine PASS
+- [x] 2/2 representative 768/1024 cases PASS
 - [x] exact effective media parity
-- [x] Smart Base dependency closure
+- [x] Taiwan warranty applicability qualification PASS
+- [x] Netherlands-only CBW qualification PASS
 - [x] Official/Local screenshots actually presented
 - [x] human `VISUAL_OK`
 - [ ] remote push verification pending
 
-Route-safe commit: `48d94e04104a880442c84197dbfdecef302bdf5a`
+Route-safe commit: `54b5778ed29e6f94dc80f0c6ff3762a4ac08560b`
 
-After push, continue Customer Service with Warranty, then Taiwan-reviewed Legal routes. Factory production remains batch-based; acceptance remains route-by-route.
+After push, proceed to the 3 CS_A Legal routes with Taiwan applicability review before publication. Factory production remains batch-based; acceptance remains route-by-route.
 
 ## Effective 1:1 Final Acceptance
 

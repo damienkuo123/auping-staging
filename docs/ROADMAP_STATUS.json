@@ -64,8 +64,8 @@
         "CS_E_SMARTBASE_SUPPORT_HUB": 1,
         "CS_F_INSTRUCTION_VIDEO_SERIES": 1
       },
-      "activeStage": "WAVE5_SMARTBASE_DETAILS_LOCAL_ACCEPTED_AWAITING_PUSH",
-      "next": "Push Wave 5 Smart Base detail commits; verify remote; continue Warranty then Taiwan-reviewed Legal routes."
+      "activeStage": "WAVE6_WARRANTY_LOCAL_ACCEPTED_AWAITING_PUSH",
+      "next": "Push Wave 6 Warranty commits; verify remote; proceed to 3 Taiwan-reviewed CS_A Legal routes."
     },
     "wave1Niaga": {
       "routes": [
@@ -163,9 +163,25 @@
       "visualEvidencePresentedByTool": true,
       "smartBaseDependencyClosure": true,
       "routeSafeCommit": "48d94e04104a880442c84197dbfdecef302bdf5a",
-      "remotePushVerified": false,
+      "remotePushVerified": true,
       "taiwanPolicy": "No Netherlands direct phone/email facts introduced; dealer/service references localized without inventing Taiwan service promises."
-    }
+    },
+    "wave6Warranty": {
+      "routes": [
+        "/customer-service/warranty/"
+      ],
+      "routeCount": 1,
+      "formalDesktopMobileCases": 2,
+      "representativeMidwidthCases": 2,
+      "machineDifferentialAccepted": true,
+      "humanVisualReview": "VISUAL_OK",
+      "visualEvidencePresentedByTool": true,
+      "routeSafeCommit": "54b5778ed29e6f94dc80f0c6ff3762a4ac08560b",
+      "remotePushVerified": false,
+      "taiwanPolicy": "Official manufacturer warranty terms retained as policy information; Taiwan handling qualified to original authorized seller; Netherlands CBW explicitly Netherlands-only; no invented Taiwan warranty promise."
+    },
+    "missingContentAcceptedCount": 20,
+    "missingContentAcceptedShare": "20/23 = 86.96%"
   },
   "factoryRules": {
     "factoryPassDoesNotGrantRoutePass": true,
