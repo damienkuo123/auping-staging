@@ -1,0 +1,62 @@
+{
+  "schema": "AUPING-RC7.5-COMBOBOX-VARIANTS-V2",
+  "source": "Accessories Wave 1 Pixel Official interaction truth receipt 20260816_123847",
+  "pages": {
+    "accessories--nightstands--pixel-nightstand": {
+      "localPath": "/accessories/nightstands/pixel-nightstand/",
+      "title": "Pixel 床頭櫃",
+      "controls": [
+        {
+          "key": "color",
+          "label": "顏色",
+          "mode": "react-overlay",
+          "queryParam": "color",
+          "defaultValue": "Deep black",
+          "options": [
+            {
+              "value": "Blush",
+              "label": "Blush"
+            },
+            {
+              "value": "Burgundy",
+              "label": "Burgundy"
+            },
+            {
+              "value": "Deep black",
+              "label": "Deep black"
+            },
+            {
+              "value": "Mustard",
+              "label": "Mustard"
+            },
+            {
+              "value": "Pastille green",
+              "label": "Pastille green"
+            },
+            {
+              "value": "Pine green",
+              "label": "Pine green"
+            },
+            {
+              "value": "Pure white",
+              "label": "Pure white"
+            },
+            {
+              "value": "Royal blue",
+              "label": "Royal blue"
+            },
+            {
+              "value": "Sand beige",
+              "label": "Sand beige"
+            },
+            {
+              "value": "Warm grey",
+              "label": "Warm grey"
+            }
+          ],
+          "inputId": "react-select-Color-input"
+        }
+      ]
+    }
+  }
+}
