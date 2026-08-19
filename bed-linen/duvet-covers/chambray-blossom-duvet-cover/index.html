@@ -304,4 +304,21 @@
   document.documentElement.dataset.aupingBedlinenProofDisclosure="ready";
 })();
 </script>
+
+<script id="auping-product-spec-scroll-interaction-v1">
+(()=>{
+  if(window.__aupingProductSpecScrollInteractionV1)return;
+  window.__aupingProductSpecScrollInteractionV1=true;
+  const CONTROL='[data-section="ProductHeader"] [class*="Highlights_ViewAll__"]';
+  const TARGET='#product-specifications';
+  document.addEventListener('click',function(ev){
+    const node=ev.target&&ev.target.closest?ev.target.closest(CONTROL):null;
+    if(!node)return;
+    const target=document.querySelector(TARGET);
+    if(!target)return;
+    ev.preventDefault();
+    target.scrollIntoView({behavior:'smooth',block:'start'});
+  },{passive:false});
+})();
+</script>
 </body></html>
