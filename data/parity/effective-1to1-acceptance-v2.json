@@ -1,0 +1,59 @@
+{
+  "schema": "AUPING-EFFECTIVE-1TO1-ACCEPTANCE-CONTRACT-V2",
+  "status": "CURRENT_SCOPE_REBASELINE_V2",
+  "createdLocal": "2026-09-10T23:27:00+08:00",
+  "supersedesForCurrentPlanning": "AUPING-EFFECTIVE-1TO1-ACCEPTANCE-CONTRACT-V1",
+  "legacyV1Preserved": true,
+  "scopePolicy": {
+    "name": "CONTINUITY_PRESERVING_CURRENT_SCOPE_V2",
+    "includeRules": [
+      "Include every formally accepted route from Accepted193.",
+      "Include every Historical262 route that remains live in Current Official evidence and is not already accepted."
+    ],
+    "excludeRules": [
+      "Exclude Historical262 routes that are no longer live in Current Official evidence and were never formally accepted.",
+      "Exclude Current Official routes discovered only in the later raw 817-route sitemap unless separately admitted through explicit scope-expansion change control."
+    ],
+    "reason": "Preserves all formally accepted work and all still-live members of the original project scope without promoting raw sitemap growth to project scope."
+  },
+  "officialLiveRoutes": 328,
+  "minimumViewportCases": 656,
+  "formallyAcceptedAtRebaseline": 193,
+  "remainingAtRebaseline": 135,
+  "acceptedPercentAtRebaseline": 58.84,
+  "remainingPercentAtRebaseline": 41.16,
+  "canonicalRoutesSha256SortedLF": "ce37796cf8f94d3eeaea5235ac9681d8a8be45d86eafee291e6eb4ac4a4598fd",
+  "remainingRoutesSha256SortedLF": "40e7b0c5a6c5b79949811810ee81a52dc9db394aa2500f6da66f81d7cc0218a6",
+  "requiredFinalFields": [
+    "routeDisposition",
+    "desktop",
+    "mobile",
+    "structure",
+    "content",
+    "media",
+    "videoIfPresent",
+    "interactionsIfPresent",
+    "linksDependencies",
+    "visualDifferential",
+    "zhHantTW",
+    "taiwanExceptionLedger",
+    "criticalConsoleNetwork",
+    "sameCommitFinal"
+  ],
+  "finalPassDisallows": [
+    "UNKNOWN",
+    "SKIPPED",
+    "NOT_PRESENTED",
+    "UNVERIFIED"
+  ],
+  "factoryPassGrantsChildRoutePass": false,
+  "sameCommitGlobalSweepRequired": true,
+  "machineVisualDiffAllFinalCases": true,
+  "humanVisualPolicy": "Present outliers/ambiguous cases; never record VISUAL_OK when evidence was not presented.",
+  "allowedGlobalExceptions": [
+    "zh-Hant-TW translation-induced reflow",
+    "Taiwan local Store Locator",
+    "explicit approved service exits"
+  ],
+  "finalToken": "EFFECTIVE_1_TO_1_PARITY_ACCEPTED"
+}
