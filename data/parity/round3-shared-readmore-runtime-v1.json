@@ -1,0 +1,31 @@
+{
+  "schema": "AUPING-RC7-READMORE-RUNTIME-PATCH-V1",
+  "file": "assets/rc7-runtime.js",
+  "sha256Before": "222001d396cd6dcdd24ab9d94f53436dbf3bd4fce5f8efadf8c20d5a3fd21a2c",
+  "sha256After": "0893d0778ad57f86e2b5f8be68f78671f1dcfec00e18753a7890680df3550fe7",
+  "changes": [
+    "add setupReadMore semantic runtime",
+    "call setupReadMore from boot",
+    "map /mattress-toppers/ filter schema lookup to /toppers/",
+    "bump runtime VERSION marker only; DATA_VERSION unchanged"
+  ],
+  "initialVisualMutationPolicy": "Boot only adds aria/data attributes; closed text style and label are preserved until user click.",
+  "createdAtTaipei": "2026-09-13T03:37:08.547755+08:00",
+  "regressionGate": "PASS",
+  "bridgeMaterialization": {
+    "schema": "AUPING-BRIDGE7-MATERIALIZATION-V2",
+    "copiedTree": "toppers -> mattress-toppers",
+    "textFilesPathRewritten": 7,
+    "pageIdPreserved": true,
+    "routes": [
+      "/mattress-toppers/",
+      "/mattress-toppers/comfort-mattress-topper/",
+      "/mattress-toppers/comfort-split-mattress-topper/",
+      "/mattress-toppers/deluxe-mattress-topper/",
+      "/mattress-toppers/deluxe-split-mattress-topper/",
+      "/mattress-toppers/prestige-mattress-topper/",
+      "/mattress-toppers/prestige-split-mattress-topper/"
+    ]
+  },
+  "formalAcceptanceCountRemains": 196
+}

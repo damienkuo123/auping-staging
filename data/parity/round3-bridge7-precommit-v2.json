@@ -1,0 +1,19 @@
+{
+  "schema": "AUPING-ROUND3-BRIDGE7-PRECOMMIT-V2",
+  "createdAtTaipei": "2026-09-13T03:37:08.547755+08:00",
+  "donorPass": 7,
+  "postCopyPass": 7,
+  "routes": [
+    "/mattress-toppers/",
+    "/mattress-toppers/comfort-mattress-topper/",
+    "/mattress-toppers/comfort-split-mattress-topper/",
+    "/mattress-toppers/deluxe-mattress-topper/",
+    "/mattress-toppers/deluxe-split-mattress-topper/",
+    "/mattress-toppers/prestige-mattress-topper/",
+    "/mattress-toppers/prestige-split-mattress-topper/"
+  ],
+  "formalAcceptanceGranted": false,
+  "nextRequiredState": "DEPLOY_THEN_REMOTE_FINAL",
+  "pageIdPreserved": true,
+  "runtimeRepair": "assets/rc7-runtime.js"
+}
