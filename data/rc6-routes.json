@@ -681,9 +681,9 @@
       "id": "service-contact",
       "title": "聯絡 Auping",
       "localPath": "/customer-service/contact/",
-      "mode": "OFFICIAL_REDIRECT",
+      "mode": "LOCAL_EXISTING",
       "officialUrl": "https://www.auping.com/en/customer-service/contact",
-      "reason": "依賴官方後端或即時商業資料。"
+      "reason": "FINAL328：恢復台灣繁中本地 Contact 頁；目前 Customer Service shell + recovered Contact content。"
     },
     {
       "id": "duvet-covers",
