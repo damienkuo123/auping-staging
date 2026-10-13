@@ -26,3 +26,25 @@
 [data-auping-c2-catalog="1"] .auping-c2-authority-slider.auping-c2-hovered img.auping-c2-primary{opacity:0}
 [data-auping-c2-catalog="1"] .auping-c2-authority-slider.auping-c2-hovered img.auping-c2-alternate{opacity:1}
 [data-auping-c2-catalog="1"] .auping-c2-media-next{position:absolute;right:8px;top:50%;transform:translateY(-50%);z-index:2;border:0;border-radius:50%;width:30px;height:30px;background:#fff;color:#174b6d;cursor:pointer;font-size:23px;line-height:27px}
+
+/* C2.3.2 — Page-2 visual-only parity: no membership/media/hover logic changes. */
+/* Official page-2 listing photography fills the same card crop as normal pages.
+   Contain shrank the photographed bed inside its built-in light margins. */
+[data-auping-c2-catalog="1"] [data-auping-c2-media-status="verified-gallery"]
+.auping-c2-media-frame img.auping-c2-authority-image {
+  object-fit: cover !important;
+}
+/* Desktop switches views by pointer hover. Keep the image visually uncluttered;
+   on touch/mobile, the discrete arrow remains available to switch photos. */
+@media (hover: hover) and (pointer: fine) {
+  [data-auping-c2-catalog="1"] [data-auping-c2-media-status="verified-gallery"]
+  .auping-c2-media-next { display: none !important; }
+}
+/* Next.js first-page button keeps its original selected class after C2 URL
+   pagination updates aria-current. Let the accessible current state win. */
+[data-auping-c2-catalog="1"] nav[aria-label="Pagination"]
+ul[class*="Pagination_pageNumbers"] button[aria-current="false"] {
+  background: transparent !important;
+  color: #414141 !important;
+  box-shadow: none !important;
+}
