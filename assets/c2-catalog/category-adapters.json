@@ -1,0 +1,21 @@
+{
+  "schema": "AUPING_CATALOG_TEMPLATE_ADAPTER_SCOPE_V1",
+  "authorityBaseCommit": "e77460033bd855fcd0beaf27f4d3f4451572eb1e",
+  "rule": "Shared facet engine and media renderer; activate per route only when official product membership and media semantics exist. Catalog counts alone never authorize migration.",
+  "routes": [
+    {"route":"/beds/","template":"enriched-list","control":"c2.3","officialMembership":"CAPTURED_ALL_FACETS","media":"PAGE2_CAPTURE_DURING_PRECOMMIT"},
+    {"route":"/box-springs/","template":"enriched-list","control":"c2.3","officialMembership":"CAPTURED_ALL_FACETS","media":"PAGE2_CAPTURE_DURING_PRECOMMIT"},
+    {"route":"/bed-bases/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/toppers/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/mattress-toppers/","template":"standard-list-alias-review","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/duvet-covers/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/pillowcases/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/pillows/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/duvets/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/fitted-sheets/","template":"standard-list","control":"rc7-preserved","officialMembership":"OFFICIAL_IDENTITY_7_OF_8_REVIEW","media":"UNVERIFIED"},
+    {"route":"/bed-linen/mattress-protectors/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/bed-linen/bedspreads/","template":"standard-list","control":"rc7-preserved","officialMembership":"UNVERIFIED","media":"UNVERIFIED"},
+    {"route":"/mattresses/","template":"landing-links-not-catalog","control":"unchanged","officialMembership":"N_A","media":"N_A"},
+    {"route":"/mattresses/circular-mattresses/","template":"mattress-card-v2","control":"unchanged","officialMembership":"UNVERIFIED","media":"UNVERIFIED"}
+  ]
+}
