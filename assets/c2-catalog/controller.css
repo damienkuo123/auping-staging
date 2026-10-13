@@ -1,0 +1,19 @@
+/* C2 catalog controls are scoped to the two approved enriched category pages. */
+[data-auping-c2-catalog="1"] .auping-c2-retired{display:none!important}
+[data-auping-c2-catalog="1"] [class*="EnrichedProductCard_Base"][hidden],
+[data-auping-c2-catalog="1"] [class*="ProductList_BannerColumn"][hidden]{display:none!important}
+[data-auping-c2-catalog="1"] .auping-c2-chips{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:14px 0 24px}
+[data-auping-c2-catalog="1"] .auping-c2-chips:empty{display:none}
+[data-auping-c2-catalog="1"] .auping-c2-chips strong{color:#00539f}
+[data-auping-c2-catalog="1"] .auping-c2-chips button{background:white;border:2px solid #00539f;color:#00539f;border-radius:4px;padding:9px 13px;font-weight:600;cursor:pointer}
+[data-auping-c2-catalog="1"] .auping-c2-chips button:last-child{background:transparent;border:0;text-decoration:underline}
+[data-auping-c2-catalog="1"] input[type="checkbox"][data-auping-c2-key]{appearance:none!important;-webkit-appearance:none!important;width:25px!important;height:25px!important;min-width:25px!important;border:2px solid #d7dadd!important;border-radius:4px!important;background:white!important;display:inline-block!important;cursor:pointer!important}
+[data-auping-c2-catalog="1"] input[type="checkbox"][data-auping-c2-key]:checked{background-color:#00539f!important;border-color:#00539f!important;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M4.5 12.3l4.9 4.9L19.5 6.7' fill='none' stroke='white' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E")!important;background-size:17px 17px!important;background-position:center!important;background-repeat:no-repeat!important}
+[data-auping-c2-catalog="1"] nav[aria-label="Pagination"] button[disabled]{opacity:.4}
+[data-auping-c2-catalog="1"] nav[aria-label="Pagination"] button[aria-current="page"]{background:#e4f1fd!important;color:#00539f!important}
+@media(max-width:700px){
+[data-auping-c2-catalog="1"] [class*="CatalogWithFilters_filters"]{display:none!important}
+[data-auping-c2-catalog="1"].auping-c2-mobile-open [class*="CatalogWithFilters_filters"]{display:block!important;position:relative!important;width:100%!important;height:auto!important;max-height:70vh!important;margin:12px 0 20px!important;padding:12px 16px!important;box-sizing:border-box!important;overflow-y:auto!important;opacity:1!important;visibility:visible!important;pointer-events:auto!important;z-index:10!important;background:white!important;border:1px solid #d7dadd!important}
+[data-auping-c2-catalog="1"].auping-c2-mobile-open [class*="Filters_base"]{display:block!important;height:auto!important;overflow:visible!important;pointer-events:auto!important}
+[data-auping-c2-catalog="1"] .auping-c2-chips{gap:6px;margin:12px 0 18px}
+}
