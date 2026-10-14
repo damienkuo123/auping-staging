@@ -1,0 +1,17 @@
+/* U3: mattresses is an editorial landing, not an officially verified filtered catalog.
+ * Scope only that route AFTER the native six links have been verified at runtime.
+ * No override of the Circular Mattresses native two-facet UI or U1/U2 arrows.
+ */
+html[data-auping-u3-template="mattresses-landing-links"] section[data-section="ProductCatalog"][class*="CatalogWithFilters_base"] {
+ display:block;
+}
+html[data-auping-u3-template="mattresses-landing-links"] section[data-section="ProductCatalog"] > [class*="CatalogWithFilters_filterButton"],
+html[data-auping-u3-template="mattresses-landing-links"] section[data-section="ProductCatalog"] > [class*="CatalogWithFilters_filters"] {
+ display:none !important;
+}
+html[data-auping-u3-template="mattresses-landing-links"] section[data-section="ProductCatalog"] [class*="CatalogWithFilters_products"] {
+ width:100%;max-width:none;
+}
+html[data-auping-u3-template="mattresses-landing-links"] section[data-section="ProductCatalog"] [class*="CatalogWithFilters_productsTotal"] {
+ display:none !important;
+}
