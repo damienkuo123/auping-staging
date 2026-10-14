@@ -1,0 +1,26 @@
+/* Auping U2 — standard card visual contract. Only activated after successful DOM mount.
+ * Do not apply filter/CTA/badge/swatches overrides to any standard category. */
+[data-auping-u2-standard-catalog="1"] [data-auping-u2-gallery="ready"] [class*="ProductCardImageSlide_Track"] {
+  transform: none !important;
+  transition: none !important;
+}
+[data-auping-u2-standard-catalog="1"] [data-auping-u2-gallery="ready"] [class*="ProductCardImageSlide_Slide"]:not(:first-child) {
+  display:none !important;
+}
+[data-auping-u2-standard-catalog="1"] .auping-catalog-gallery-next {
+  cursor:pointer;
+  touch-action:manipulation;
+}
+[data-auping-u2-standard-catalog="1"] .auping-catalog-gallery-next:focus-visible {
+  outline:2px solid #00539f;
+  outline-offset:3px;
+}
+@media (hover:none), (pointer:coarse) {
+  [data-auping-u2-standard-catalog="1"] .auping-catalog-gallery-next {
+    min-width:44px;
+    min-height:44px;
+  }
+}
+@media (prefers-reduced-motion:reduce) {
+  [data-auping-u2-standard-catalog="1"] [data-auping-u2-gallery="ready"] img {transition:none !important;}
+}

@@ -21,10 +21,10 @@ export function createArrow(prototype){
   b.removeAttribute('disabled');
   return b;
 }
-function bindGallery(slider,card,button,paint){
+function bindGallery(slider,card,button,paint,contract='enriched-v1'){
   if(slider.dataset.aupingCatalogGalleryOwner)throw Error('U1_GALLERY_DOUBLE_OWNER');
   slider.dataset.aupingCatalogGalleryOwner='u1';
-  card.dataset.aupingCatalogCardContract='enriched-v1';
+  card.dataset.aupingCatalogCardContract=contract;
   let alternate=false;
   const flip=v=>{alternate=!!v;paint(alternate);card.dataset.aupingC2HoverAngle=alternate?'2':'1'};
   slider.addEventListener('pointerenter',e=>{if(mouseDesktop(e))flip(true)});
@@ -119,4 +119,41 @@ export function mountSupplementalCard(card,product,prototype,prefix){
   }
   card.dataset.aupingCatalogCtaStatus='sku-specific';
   return {media:alternate?'gallery':'single',swatches:card.dataset.aupingCatalogSwatchesStatus};
+}
+
+/* U2 adds a standard-card adapter to the EXISTING U1 UI contract.
+ * Both card families call bindGallery() and createArrow(); no second gallery controller. */
+export function mountStandardCard(card,prototype){
+  const slider=q(gallerySel,card);
+  if(!slider)throw Error('U2_STANDARD_SLIDER_ABSENT');
+  if(slider.dataset.aupingCatalogGalleryOwner)throw Error('U2_DOUBLE_GALLERY_OWNER');
+  const imgs=qa('[class*="ProductCardImageSlide_Slide"] img',slider);
+  const native=q(arrowSel,slider);
+  card.dataset.aupingCatalogCardContract='standard-v1';
+  card.dataset.aupingCatalogCtaStatus='source-preserved';
+  card.dataset.aupingCatalogBadgeStatus='source-preserved';
+  card.dataset.aupingCatalogSwatchesStatus='source-preserved';
+  if(imgs.length<2){
+    if(native)native.hidden=true;
+    card.dataset.aupingCatalogMediaStatus='single-image';
+    return {media:'single'};
+  }
+  if(!native){
+    // Source explicitly omitted a carousel control despite two image nodes.
+    // Keep it intact until verified; do not manufacture an authority claim.
+    card.dataset.aupingCatalogMediaStatus='source-unverified-preserved';
+    return {media:'source-preserved'};
+  }
+  const one=attrSnap(imgs[0]),two=attrSnap(imgs[1]);
+  if(one.src===two.src&&one.srcset===two.srcset){
+    native.hidden=true;
+    card.dataset.aupingCatalogMediaStatus='duplicate-media-single';
+    return {media:'single'};
+  }
+  const button=createArrow(prototype);
+  native.replaceWith(button);
+  slider.dataset.aupingU2Gallery='ready';
+  bindGallery(slider,card,button,v=>apply(imgs[0],v?two:one),'standard-v1');
+  card.dataset.aupingCatalogMediaStatus='source-native-gallery';
+  return {media:'gallery'};
 }
