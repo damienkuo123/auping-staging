@@ -1,4 +1,4 @@
-/* Auping C2.3.1 — ONE catalog owner. Scoped to Beds/Box Springs, source-verified by official 2026-10-13 capture. */
+/* Auping U1 — ONE catalog owner + shared card/gallery contract. Scoped to Beds/Box Springs, source-verified by official 2026-10-13 capture. */
 ;(() => {
 'use strict';
 const root=document.documentElement;
@@ -25,6 +25,9 @@ async function boot(){
   if(!list||!title||!pane||!count||!nav)throw Error('CATALOG_DOM_AUTHORITY_MISMATCH');
   const originals=qa(':scope > [class*="EnrichedProductCard_Base"]',list);
   if(originals.length!==27)throw Error('LOCAL_PAGE1_MUST_HAVE_27_CARDS');
+  const {mountExistingCard,mountSupplementalCard}=await import(prefix+'/assets/c2-catalog/ui-contract.mjs');
+  const nativeArrow=q('button[class*="ProductCardImageSlide_NextButton"]',originals[0]);
+  if(!nativeArrow||!q('svg',nativeArrow))throw Error('U1_NATIVE_ARROW_AUTHORITY_MISSING');
   const promo=qa(':scope > [class*="ProductList_BannerColumn"]',list);
   const slugCards=new Map(originals.filter(c=>c.dataset.aupingProductSlug).map(c=>[c.dataset.aupingProductSlug,c]));
   let externalSlots=data.products.filter(p=>p.position<=27&&p.linkKind==='external-configurator');
@@ -49,44 +52,8 @@ async function boot(){
     const header=q('[class*="EnrichedProductCard_Title"] strong',template);if(!header)throw Error('CARD_TEMPLATE_TITLE_NOT_FOUND');header.textContent=product.title;
     const desc=q('[class*="EnrichedProductCard_ProductInfoDescription"]',template);if(desc)desc.textContent=product.description||'';
     qa('a[href]',template).forEach(a=>{a.href=product.href;a.setAttribute('title',product.title);if(product.linkKind==='external-configurator'){a.target='_blank';a.rel='noopener noreferrer'}});
-    // Supplemental page-2 cards have ONE real image. Never retain the source
-    // card's carousel track/slide transform (it can paint outside the viewport).
-    const slider=q('[class*="ProductCardImageSlide_Base"]',template);
-    if(!slider)throw Error('CARD_TEMPLATE_IMAGE_NOT_FOUND');
-    // Both first and later pages use a reusable media adapter. No guessed hover media.
-    const media=product.media||{};
-    const primary=media.primaryLocal||product.imageLocal;
-    const alternate=media.hoverLocal||null;
-    if(!primary)throw Error('MISSING_OFFICIAL_PRIMARY_'+product.id);
-    const frame=document.createElement('div');frame.className='auping-c2-media-frame';
-    const makeImage=(src,cls)=>{const im=document.createElement('img');im.className='auping-c2-authority-image '+cls;im.src=prefix+src;im.alt=product.title;im.loading='eager';im.decoding='async';return im};
-    const first=makeImage(primary,'auping-c2-primary');frame.appendChild(first);
-    let second=null,showAlt=false;
-    if(alternate){second=makeImage(alternate,'auping-c2-alternate');frame.appendChild(second)}
-    slider.style.position='relative';slider.style.height='100%';slider.style.width='100%';slider.style.overflow='hidden';
-    slider.classList.add('auping-c2-authority-slider');
-    slider.replaceChildren(frame);
-    const fit=media.objectFit==='cover'?'cover':'contain';
-    frame.style.setProperty('--auping-c2-object-fit',fit);
-    frame.style.setProperty('--auping-c2-object-position',media.objectPosition||'center center');
-    template.dataset.aupingC2MediaStatus=second?'verified-gallery':'MEDIA_UNVERIFIED';
-    if(second){
-      const flip=alt=>{showAlt=alt;slider.classList.toggle('auping-c2-hovered',alt);template.dataset.aupingC2HoverAngle=alt?'2':'1'};
-      // Touch browsers may synthesize mouseenter + focusin immediately before a tap.
-      // A tap on the arrow must switch exactly once, not flip twice back to primary.
-      // Desktop pointer hover remains supported; keyboard users can use the arrow.
-      slider.addEventListener('pointerenter',e=>{
-        if(e.pointerType==='mouse'&&matchMedia('(hover:hover) and (pointer:fine)').matches)flip(true);
-      });
-      slider.addEventListener('pointerleave',e=>{
-        if(e.pointerType==='mouse'&&matchMedia('(hover:hover) and (pointer:fine)').matches)flip(false);
-      });
-      const next=document.createElement('button');next.type='button';next.className='auping-c2-media-next';next.setAttribute('aria-label','下一張商品圖片');next.textContent='›';
-      next.addEventListener('click',e=>{e.preventDefault();e.stopPropagation();flip(!showAlt)});
-      slider.appendChild(next);
-    }
-    // Do not repeat another product's color palette.
-    qa('[class*="EnrichedProductCard_Colors"],[class*="EnrichedProductCard_ColorOptions"],[class*="EnrichedProductCard_Swatches"]',template).forEach(e=>e.remove());
+    // Shared U1 card/gallery contract. No page-specific buttons or borrowed SKU data.
+    mountSupplementalCard(template,product,nativeArrow,prefix);
     map.set(product.id,template);
   }
   if(map.size!==data.products.length)throw Error('ALL_PRODUCT_CARDS_NOT_MATERIALIZED');
@@ -160,12 +127,8 @@ async function boot(){
   filterButton.setAttribute('aria-controls','auping-c2-mobile-panel');pane.id='auping-c2-mobile-panel';
   const syncPanel=()=>{const mobile=matchMedia('(max-width:700px)').matches;section.classList.toggle('auping-c2-mobile-open',mobile&&panelOpen);filterButton.setAttribute('aria-expanded',String(mobile&&panelOpen));if(mobile)pane.setAttribute('aria-hidden',String(!panelOpen));else pane.removeAttribute('aria-hidden')};
   filterButton.addEventListener('click',e=>{if(!matchMedia('(max-width:700px)').matches)return;e.preventDefault();e.stopImmediatePropagation();panelOpen=!panelOpen;syncPanel()},true);window.addEventListener('resize',syncPanel);syncPanel();
-  // Preserve hover/arrow parity on existing cards, without replacing canonical metadata.
-  for(const c of originals){const slider=q('[class*="ProductCardImageSlide_Base"]',c);const imgs=qa('[class*="ProductCardImageSlide_Slide"] img',slider);if(!slider||imgs.length<2)continue;
-    const main=imgs[0],second=imgs[1];const attrs=['src','srcset','sizes'];const a=Object.fromEntries(attrs.map(k=>[k,main.getAttribute(k)])),b=Object.fromEntries(attrs.map(k=>[k,second.getAttribute(k)]));let alt=false;
-    const flip=next=>{alt=next;const v=alt?b:a;for(const k of ['srcset','sizes','src'])v[k]===null?main.removeAttribute(k):main.setAttribute(k,v[k]);};
-    slider.addEventListener('mouseenter',()=>flip(true));slider.addEventListener('mouseleave',()=>flip(false));q('button[class*="ProductCardImageSlide_NextButton"]',slider)?.addEventListener('click',e=>{e.preventDefault();e.stopImmediatePropagation();flip(!alt)},true);
-  }
+  // First and later pages use the same U1 gallery/button contract.
+  for(const c of originals)mountExistingCard(c,nativeArrow);
   const start=decodeUrl();page=start.page;selected=start.filters;update();
   if(root.dataset.aupingC2RejectedFacet||new URL(location.href).searchParams.has('color')||new URL(location.href).searchParams.has('model')||new URL(location.href).searchParams.has('version'))serialize(false);
   window.addEventListener('popstate',()=>{const st=decodeUrl();page=st.page;selected=st.filters;update();if(root.dataset.aupingC2RejectedFacet)serialize(false)});
