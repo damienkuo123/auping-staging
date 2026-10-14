@@ -30,5 +30,5 @@ function filterCatalog(){
  inputs.forEach(inp=>{const group=((inp.closest('[class*="Accordion_item"]')?.querySelector('button')?.textContent)||'').trim().toLowerCase();inp.dataset.rc73Group=group;inp.dataset.rc73Value=labelText(inp);inp.addEventListener('change',apply)});
  function apply(){const selected={};inputs.forEach(i=>{if(i.checked)(selected[i.dataset.rc73Group]??=[]).push(i.dataset.rc73Value)});let n=0;cards.forEach(c=>{const attrs=metadata(c.title);const ok=Object.entries(selected).every(([g,vals])=>{let key=g.includes('compatible')?'compatible':g.includes('one')?'person':g.includes('color')?'color':g.includes('season')?'season':g.includes('filling')?'filling':g.includes('size')?'size':g;return !vals.length||vals.some(v=>(attrs[key]||[]).includes(v))});c.w.hidden=!ok;if(ok)n++});const count=qa('*').find(el=>/^\d+\s+of\s+\d+$/i.test((el.textContent||'').trim())||/^共\s*\d+\s*件商品$/.test((el.textContent||'').trim()));if(count)count.textContent=`共 ${n} 件商品`}
 }
-contracts();setTimeout(fallbackInteractions,700);filterCatalog();
+contracts();setTimeout(fallbackInteractions,700);if(!document.querySelector('script[data-auping-u4b-catalog]'))filterCatalog();
 })();

@@ -1,0 +1,9 @@
+/* Isolated standard catalog filter adapter. Never override gallery, CTA, badges, swatches. */
+[data-auping-u4b-owner="ready"] [data-auping-u4b-visible="0"]{display:none!important}
+[data-auping-u4b-owner="ready"] .rc7-filter-chips{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+[data-auping-u4b-owner="ready"] .rc7-filter-chip,[data-auping-u4b-owner="ready"] .rc7-filter-clear{cursor:pointer}
+@media(max-width:700px){[data-auping-u4b-owner="ready"] .auping-u4b-mobile-open [class*="CatalogWithFilters_filters"]{display:block!important}}
+.auping-u4b-verified-filter-group{display:flex;flex-direction:column;gap:10px;padding:18px 0;border-top:1px solid #ddd}
+.auping-u4b-verified-filter-option{display:flex;gap:8px;align-items:center;cursor:pointer}
+.auping-u4b-verified-filter-option input{width:18px;height:18px;flex-shrink:0}
+[data-auping-u4b-unproven="1"]{display:none!important}
