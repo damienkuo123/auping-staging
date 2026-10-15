@@ -1,0 +1,3704 @@
+{
+  "schema": "AUPING_U4D_OFFICIAL_RENDERED_MEMBERSHIP_v2",
+  "authorityDate": "2026-10-15",
+  "baseHead": "1f1c54dad01f6b6b42ec6fe2541733cdcc028f24",
+  "scope": "9 official category endpoints, 10 local routes; every native one-option membership proven; combined facet semantics pending comparison",
+  "provenOptions": 109,
+  "officialPriorCaptureSHA256": "5cde36ef322a4a65ad7bfe25b6c04bdcfa4411fa1ffbd79d83f770073586a778",
+  "targetProofSHA256": "f6906c0eea0f2355741814d4410184eb6777f7f85020b53920940978dae7de4b",
+  "categories": {
+    "/bed-bases/": {
+      "officialURL": "https://www.auping.com/en/bed-bases",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-bases/flat-bed-base",
+          "title": "Flat bed base",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-bases/manually-adjustable-mesh-base",
+          "title": "Manually adjustable bed base",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-bases/electrically-adjustable-bed-base-1m",
+          "title": "Electrically adjustable bed base 1M",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-bases/electrically-adjustable-bed-base-2m",
+          "title": "Electrically adjustable bed base 2M",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/bed-bases/electrically-adjustable-bed-base-3m",
+          "title": "Electrically adjustable bed base 3M",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "base_adjustability",
+          "id": "5882",
+          "label": "Electric adjustable",
+          "memberIndexes": [
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_adjustability=5882"
+        },
+        {
+          "facet": "base_adjustability",
+          "id": "5881",
+          "label": "Flat base",
+          "memberIndexes": [
+            0
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5881",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_adjustability=5881"
+        },
+        {
+          "facet": "base_adjustability",
+          "id": "5883",
+          "label": "Manual adjustable",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_adjustability=5883"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5731",
+          "label": "70 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5731"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5732",
+          "label": "80 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5732"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5733",
+          "label": "90 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5733"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5734",
+          "label": "100 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5734"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5735",
+          "label": "120 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5735"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5736",
+          "label": "140 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5736"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5971",
+          "label": "160 cm (2x 80)",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5971"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5972",
+          "label": "180 cm (2x 90)",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5972"
+        },
+        {
+          "facet": "Base_Width",
+          "id": "5973",
+          "label": "200 cm (2x 100)",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?Base_Width=5973"
+        },
+        {
+          "facet": "base_length",
+          "id": "5978",
+          "label": "190 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_length=5978"
+        },
+        {
+          "facet": "base_length",
+          "id": "5979",
+          "label": "200 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_length=5979"
+        },
+        {
+          "facet": "base_length",
+          "id": "5980",
+          "label": "210 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_length=5980"
+        },
+        {
+          "facet": "base_length",
+          "id": "5981",
+          "label": "220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "base_adjustability:5882",
+            "base_adjustability:5881",
+            "base_adjustability:5883",
+            "Base_Width:5731",
+            "Base_Width:5732",
+            "Base_Width:5733",
+            "Base_Width:5734",
+            "Base_Width:5735",
+            "Base_Width:5736",
+            "Base_Width:5971",
+            "Base_Width:5972",
+            "Base_Width:5973",
+            "base_length:5978",
+            "base_length:5979",
+            "base_length:5980",
+            "base_length:5981"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-bases?base_length=5981"
+        }
+      ],
+      "expectedCards": 5,
+      "expectedOptions": 16,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "base_adjustability:5882",
+        "base_adjustability:5881",
+        "base_adjustability:5883",
+        "Base_Width:5731",
+        "Base_Width:5732",
+        "Base_Width:5733",
+        "Base_Width:5734",
+        "Base_Width:5735",
+        "Base_Width:5736",
+        "Base_Width:5971",
+        "Base_Width:5972",
+        "Base_Width:5973",
+        "base_length:5978",
+        "base_length:5979",
+        "base_length:5980",
+        "base_length:5981"
+      ]
+    },
+    "/mattress-toppers/": {
+      "officialURL": "https://www.auping.com/en/mattress-toppers",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/mattress-toppers/comfort-mattress-topper",
+          "title": "Comfort mattress topper",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/mattress-toppers/deluxe-mattress-topper",
+          "title": "Deluxe mattress topper",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/mattress-toppers/prestige-mattress-topper",
+          "title": "Prestige mattress topper",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/mattress-toppers/comfort-split-mattress-topper",
+          "title": "Comfort split mattress topper",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/mattress-toppers/deluxe-split-mattress-topper",
+          "title": "Deluxe split mattress topper",
+          "noDetailLink": false
+        },
+        {
+          "index": 5,
+          "path": "/en/mattress-toppers/prestige-split-mattress-topper",
+          "title": "Prestige split mattress topper",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "topper_length_filter",
+          "id": "7444",
+          "label": "200 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_length_filter=7444"
+        },
+        {
+          "facet": "topper_length_filter",
+          "id": "7445",
+          "label": "210 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_length_filter=7445"
+        },
+        {
+          "facet": "topper_length_filter",
+          "id": "7446",
+          "label": "220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_length_filter=7446"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7436",
+          "label": "80 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7436"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7437",
+          "label": "90 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7437"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7438",
+          "label": "100 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7438"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7439",
+          "label": "120 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7439"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7440",
+          "label": "140 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7440"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7441",
+          "label": "160 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7441"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7442",
+          "label": "180 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7442"
+        },
+        {
+          "facet": "topper_width_filter",
+          "id": "7443",
+          "label": "200 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_width_filter=7443"
+        },
+        {
+          "facet": "topper_height",
+          "id": "6010",
+          "label": "8 cm",
+          "memberIndexes": [
+            0,
+            1,
+            3,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "4 of 4",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_height=6010"
+        },
+        {
+          "facet": "topper_height",
+          "id": "6012",
+          "label": "10 cm",
+          "memberIndexes": [
+            2,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6012",
+            "topper_split:6043",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_height=6012"
+        },
+        {
+          "facet": "topper_split",
+          "id": "6043",
+          "label": "No",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7436",
+            "topper_width_filter:7437",
+            "topper_width_filter:7438",
+            "topper_width_filter:7439",
+            "topper_width_filter:7440",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6043"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_split=6043"
+        },
+        {
+          "facet": "topper_split",
+          "id": "6042",
+          "label": "Yes",
+          "memberIndexes": [
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "topper_length_filter:7444",
+            "topper_length_filter:7445",
+            "topper_length_filter:7446",
+            "topper_width_filter:7441",
+            "topper_width_filter:7442",
+            "topper_width_filter:7443",
+            "topper_height:6010",
+            "topper_height:6012",
+            "topper_split:6042"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/mattress-toppers?topper_split=6042"
+        }
+      ],
+      "expectedCards": 6,
+      "expectedOptions": 15,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "topper_length_filter:7444",
+        "topper_length_filter:7445",
+        "topper_length_filter:7446",
+        "topper_width_filter:7436",
+        "topper_width_filter:7437",
+        "topper_width_filter:7438",
+        "topper_width_filter:7439",
+        "topper_width_filter:7440",
+        "topper_width_filter:7441",
+        "topper_width_filter:7442",
+        "topper_width_filter:7443",
+        "topper_height:6010",
+        "topper_height:6012",
+        "topper_split:6043",
+        "topper_split:6042"
+      ]
+    },
+    "/bed-linen/duvet-covers/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/duvet-covers",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/duvet-covers/mauve-twists-duvet-cover",
+          "title": "Mauve twist Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/duvet-covers/natural-clay-duvet-cover",
+          "title": "Natural clay Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/duvet-covers/playful-bricks-duvet-cover",
+          "title": "Playful bricks Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-linen/duvet-covers/graphic-bordeaux-duvet-cover",
+          "title": "Graphic bordeaux Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/bed-linen/duvet-covers/bright-kaleidoscope-duvet-cover",
+          "title": "Bright kaleidoscope Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 5,
+          "path": "/en/bed-linen/duvet-covers/gentle-clover-duvet-cover",
+          "title": "Gentle clover Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 6,
+          "path": "/en/bed-linen/duvet-covers/classic-white-grey-duvet-cover",
+          "title": "Classic grey Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 7,
+          "path": "/en/bed-linen/duvet-covers/meandering-blue-duvet-cover",
+          "title": "Meandering blue Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 8,
+          "path": "/en/bed-linen/duvet-covers/classic-white-blue-duvet-cover",
+          "title": "Classic blue Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 9,
+          "path": "/en/bed-linen/duvet-covers/beige-lines-satin-duvet-cover",
+          "title": "Beige lines satin Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 10,
+          "path": "/en/bed-linen/duvet-covers/warm-embrace-duvet-cover",
+          "title": "Warm embrace Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 11,
+          "path": "/en/bed-linen/duvet-covers/brilliant-grey-duvet-cover",
+          "title": "Brilliant grey Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 12,
+          "path": "/en/bed-linen/duvet-covers/brilliant-stone-duvet-cover",
+          "title": "Brilliant stone Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 13,
+          "path": "/en/bed-linen/duvet-covers/seaside-grid-duvet-cover",
+          "title": "Seaside grid Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 14,
+          "path": "/en/bed-linen/duvet-covers/chambray-chalk-duvet-cover",
+          "title": "Chambray chalk Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 15,
+          "path": "/en/bed-linen/duvet-covers/chambray-denim-blue-duvet-cover",
+          "title": "Chambray denim blue Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 16,
+          "path": "/en/bed-linen/duvet-covers/chambray-plum-duvet-cover",
+          "title": "Chambray plum Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 17,
+          "path": "/en/bed-linen/duvet-covers/classic-white-stone-duvet-cover",
+          "title": "Classic stone Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 18,
+          "path": "/en/bed-linen/duvet-covers/sand-beige-satin-duvet-cover",
+          "title": "Sand beige satin Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 19,
+          "path": "/en/bed-linen/duvet-covers/silent-grey-duvet-cover",
+          "title": "Silent grey duvet cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 20,
+          "path": "/en/bed-linen/duvet-covers/white-lines-satin",
+          "title": "White lines satin Duvet Cover",
+          "noDetailLink": false
+        },
+        {
+          "index": 21,
+          "path": "/en/bed-linen/duvet-covers/chambray-blush-duvet-cover",
+          "title": "Chambray blush Duvet Cover",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "duvet_cover_size",
+          "id": "6211",
+          "label": "140 x 200/220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            3,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            16,
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "12 of 12",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_size=6211"
+        },
+        {
+          "facet": "duvet_cover_size",
+          "id": "6214",
+          "label": "200 x 200/220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            3,
+            7,
+            9,
+            10,
+            13,
+            14,
+            16,
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "11 of 11",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_size=6214"
+        },
+        {
+          "facet": "duvet_cover_size",
+          "id": "6216",
+          "label": "240 x 200/220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            16,
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:55",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "15 of 15",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_size=6216"
+        },
+        {
+          "facet": "duvet_cover_size",
+          "id": "6218",
+          "label": "260 x 200/220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            10,
+            13,
+            14,
+            16,
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:55",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "15 of 15",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_size=6218"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "6631",
+          "label": "Beige",
+          "memberIndexes": [
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "season_collection:6645",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=6631"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "59",
+          "label": "Blue",
+          "memberIndexes": [
+            7,
+            8,
+            13
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=59"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "5730",
+          "label": "Brown",
+          "memberIndexes": [
+            10
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:5730",
+            "season_collection:6898",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=5730"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "55",
+          "label": "Green",
+          "memberIndexes": [
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:55",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=55"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "60",
+          "label": "Grey",
+          "memberIndexes": [
+            14
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:60",
+            "season_collection:6645",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:6644"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=60"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "50",
+          "label": "Multi",
+          "memberIndexes": [
+            1,
+            2,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:50",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=50"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "6946",
+          "label": "Purple",
+          "memberIndexes": [
+            0,
+            16
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6946",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=6946"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "56",
+          "label": "Red",
+          "memberIndexes": [
+            3
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:56",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=56"
+        },
+        {
+          "facet": "duvet_cover_colors",
+          "id": "61",
+          "label": "White",
+          "memberIndexes": [
+            8,
+            9
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_colors=61"
+        },
+        {
+          "facet": "season_collection",
+          "id": "6645",
+          "label": "Basics",
+          "memberIndexes": [
+            8,
+            9,
+            14,
+            16,
+            18,
+            19,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "7 of 7",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?season_collection=6645"
+        },
+        {
+          "facet": "season_collection",
+          "id": "6898",
+          "label": "Seasonal collection",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            10,
+            13
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:55",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?season_collection=6898"
+        },
+        {
+          "facet": "duvet_cover_pattern",
+          "id": "6223",
+          "label": "print",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            13
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:55",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "8 of 8",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_pattern=6223"
+        },
+        {
+          "facet": "duvet_cover_pattern",
+          "id": "6083",
+          "label": "solid",
+          "memberIndexes": [
+            8,
+            9,
+            10,
+            14,
+            16,
+            18,
+            19,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "8 of 8",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_pattern=6083"
+        },
+        {
+          "facet": "duvet_cover_styles",
+          "id": "7466",
+          "label": "Japandi",
+          "memberIndexes": [
+            10,
+            14,
+            16
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:5730",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:6946",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373",
+            "duvet_cover_fabric:6644"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_styles=7466"
+        },
+        {
+          "facet": "duvet_cover_fabric",
+          "id": "7373",
+          "label": "Cotton flannel",
+          "memberIndexes": [
+            10
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:5730",
+            "season_collection:6898",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:7373"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_fabric=7373"
+        },
+        {
+          "facet": "duvet_cover_fabric",
+          "id": "6644",
+          "label": "Cotton percale",
+          "memberIndexes": [
+            14,
+            16,
+            19
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:60",
+            "duvet_cover_colors:6946",
+            "season_collection:6645",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_styles:7466",
+            "duvet_cover_fabric:6644"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_fabric=6644"
+        },
+        {
+          "facet": "duvet_cover_fabric",
+          "id": "6239",
+          "label": "Cotton sateen",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            7,
+            8,
+            9,
+            13,
+            18,
+            20
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_cover_size:6211",
+            "duvet_cover_size:6214",
+            "duvet_cover_size:6216",
+            "duvet_cover_size:6218",
+            "duvet_cover_colors:6631",
+            "duvet_cover_colors:59",
+            "duvet_cover_colors:55",
+            "duvet_cover_colors:50",
+            "duvet_cover_colors:6946",
+            "duvet_cover_colors:56",
+            "duvet_cover_colors:61",
+            "season_collection:6645",
+            "season_collection:6898",
+            "duvet_cover_pattern:6223",
+            "duvet_cover_pattern:6083",
+            "duvet_cover_fabric:6239"
+          ],
+          "evidenceCountText": "12 of 12",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvet-covers?duvet_cover_fabric=6239"
+        }
+      ],
+      "expectedCards": 22,
+      "expectedOptions": 21,
+      "reviewOptionIds": [
+        "6226"
+      ],
+      "baselineVisibleOptionIds": [
+        "duvet_cover_size:6211",
+        "duvet_cover_size:6214",
+        "duvet_cover_size:6216",
+        "duvet_cover_size:6218",
+        "duvet_cover_colors:6631",
+        "duvet_cover_colors:59",
+        "duvet_cover_colors:5730",
+        "duvet_cover_colors:55",
+        "duvet_cover_colors:60",
+        "duvet_cover_colors:50",
+        "duvet_cover_colors:6946",
+        "duvet_cover_colors:56",
+        "duvet_cover_colors:61",
+        "season_collection:6645",
+        "season_collection:6898",
+        "duvet_cover_pattern:6223",
+        "duvet_cover_pattern:6083",
+        "duvet_cover_styles:7466",
+        "duvet_cover_fabric:7373",
+        "duvet_cover_fabric:6644",
+        "duvet_cover_fabric:6239"
+      ]
+    },
+    "/bed-linen/pillowcases/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/pillowcases",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/pillowcases/graphic-bordeaux-pillow-cases",
+          "title": "Graphic bordeaux Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/pillowcases/warm-embrace-pillow-cases",
+          "title": "Warm embrace Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/pillowcases/seaside-grid-pillow-cases",
+          "title": "Seaside grid Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-linen/pillowcases/bright-kaleidoscope-pillow-cases",
+          "title": "Bright kaleidoscope Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/bed-linen/pillowcases/mauve-twists-pillow-cases",
+          "title": "Mauve twists Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 5,
+          "path": "/en/bed-linen/pillowcases/gentle-clover-pillow-cases",
+          "title": "Gentle clover Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 6,
+          "path": "/en/bed-linen/pillowcases/playful-bricks-pillow-cases",
+          "title": "Playful bricks Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 7,
+          "path": "/en/bed-linen/pillowcases/meandering-blue-pillow-cases",
+          "title": "Meandering blue Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 8,
+          "path": "/en/bed-linen/pillowcases/natural-clay-pillow-cases",
+          "title": "Natural clay Pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 9,
+          "path": "/en/bed-linen/pillowcases/arctic-white-pillowcases",
+          "title": "Arctic white pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 10,
+          "path": "/en/bed-linen/pillowcases/brilliant-blue-pillowcases",
+          "title": "Brilliant blue Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 11,
+          "path": "/en/bed-linen/pillowcases/brilliant-grey-pillowcases",
+          "title": "Brilliant grey Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 12,
+          "path": "/en/bed-linen/pillowcases/brilliant-stone-pillowcases",
+          "title": "Brilliant stone Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 13,
+          "path": "/en/bed-linen/pillowcases/brilliant-white-pillowcases",
+          "title": "Brilliant white Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 14,
+          "path": "/en/bed-linen/pillowcases/chambray-denim-blue-pillowcases",
+          "title": "Chambray denim blue Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 15,
+          "path": "/en/bed-linen/pillowcases/chambray-blush-pillowcases",
+          "title": "Chambray blush Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 16,
+          "path": "/en/bed-linen/pillowcases/classic-white-blue-pillowcases",
+          "title": "Classic blue Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 17,
+          "path": "/en/bed-linen/pillowcases/classic-white-grey-pillowcases",
+          "title": "Classic grey Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 18,
+          "path": "/en/bed-linen/pillowcases/classic-white-stone-pillowcases",
+          "title": "Classic stone Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 19,
+          "path": "/en/bed-linen/pillowcases/dejavu-grey-pillowcase",
+          "title": "Déjàvu grey Pillowcase",
+          "noDetailLink": false
+        },
+        {
+          "index": 20,
+          "path": "/en/bed-linen/pillowcases/quiet-beige-pillowcases",
+          "title": "Quiet beige pillowcases",
+          "noDetailLink": false
+        },
+        {
+          "index": 21,
+          "path": "/en/bed-linen/pillowcases/silent-grey-pillowcases",
+          "title": "Silent grey pillowcases",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "pillowcase_size",
+          "id": "6649",
+          "label": "40 x 60 cm",
+          "memberIndexes": [
+            0,
+            2,
+            3,
+            4,
+            16,
+            17
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "season_collection:7404",
+            "season_collection:6898",
+            "pillowcase_fabric:7432"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_size=6649"
+        },
+        {
+          "facet": "pillowcase_size",
+          "id": "6650",
+          "label": "60 x 70 cm",
+          "memberIndexes": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "season_collection:7404",
+            "season_collection:6898",
+            "pillowcase_styles:7469",
+            "pillowcase_fabric:7433",
+            "pillowcase_fabric:7432",
+            "pillowcase_fabric:7435"
+          ],
+          "evidenceCountText": "18 of 18",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_size=6650"
+        },
+        {
+          "facet": "season_collection",
+          "id": "6645",
+          "label": "Basics",
+          "memberIndexes": [
+            9,
+            11,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "pillowcase_fabric:7433",
+            "pillowcase_fabric:7432",
+            "pillowcase_fabric:7435"
+          ],
+          "evidenceCountText": "10 of 10",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?season_collection=6645"
+        },
+        {
+          "facet": "season_collection",
+          "id": "7404",
+          "label": "New collection",
+          "memberIndexes": [
+            1,
+            3,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:7404",
+            "season_collection:6898",
+            "pillowcase_styles:7469",
+            "pillowcase_fabric:7432"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?season_collection=7404"
+        },
+        {
+          "facet": "season_collection",
+          "id": "6898",
+          "label": "Seasonal collection",
+          "memberIndexes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:7404",
+            "season_collection:6898",
+            "pillowcase_fabric:7432"
+          ],
+          "evidenceCountText": "7 of 7",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?season_collection=6898"
+        },
+        {
+          "facet": "pillowcase_styles",
+          "id": "7469",
+          "label": "Japandi",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6650",
+            "season_collection:7404",
+            "pillowcase_styles:7469"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_styles=7469"
+        },
+        {
+          "facet": "pillowcase_fabric",
+          "id": "7433",
+          "label": "Cotton percale",
+          "memberIndexes": [
+            9,
+            14,
+            15,
+            20,
+            21
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "pillowcase_fabric:7433"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_fabric=7433"
+        },
+        {
+          "facet": "pillowcase_fabric",
+          "id": "7432",
+          "label": "Cotton sateen",
+          "memberIndexes": [
+            0,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            11
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6649",
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "season_collection:7404",
+            "season_collection:6898",
+            "pillowcase_fabric:7432"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_fabric=7432"
+        },
+        {
+          "facet": "pillowcase_fabric",
+          "id": "7435",
+          "label": "Cotton-linen blend",
+          "memberIndexes": [
+            19
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillowcase_size:6650",
+            "season_collection:6645",
+            "pillowcase_fabric:7435"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillowcases?pillowcase_fabric=7435"
+        }
+      ],
+      "expectedCards": 22,
+      "expectedOptions": 9,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "pillowcase_size:6649",
+        "pillowcase_size:6650",
+        "season_collection:6645",
+        "season_collection:7404",
+        "season_collection:6898",
+        "pillowcase_styles:7469",
+        "pillowcase_fabric:7433",
+        "pillowcase_fabric:7432",
+        "pillowcase_fabric:7435"
+      ]
+    },
+    "/bed-linen/pillows/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/pillows",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/pillows/auping-cloud",
+          "title": "Auping Cloud",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/pillows/nest-pillow",
+          "title": "Auping Nest",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/pillows/dew-pillow",
+          "title": "Auping Dew",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "pillow_size",
+          "id": "6244",
+          "label": "40 x 60 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6245",
+            "pillow_size:6246",
+            "pillow_filling:6295",
+            "pillow_filling:6293",
+            "pillow_filling:6294",
+            "pillow_ergonomically_shaped:6297",
+            "pillow_ergonomically_shaped:6296"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_size=6244"
+        },
+        {
+          "facet": "pillow_size",
+          "id": "6245",
+          "label": "60 x 60 cm",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6245",
+            "pillow_size:6246",
+            "pillow_filling:6293",
+            "pillow_ergonomically_shaped:6297"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_size=6245"
+        },
+        {
+          "facet": "pillow_size",
+          "id": "6246",
+          "label": "60 x 70 cm",
+          "memberIndexes": [
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6245",
+            "pillow_size:6246",
+            "pillow_filling:6293",
+            "pillow_filling:6294",
+            "pillow_ergonomically_shaped:6297"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_size=6246"
+        },
+        {
+          "facet": "pillow_filling",
+          "id": "6295",
+          "label": "Natural latex",
+          "memberIndexes": [
+            0
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_filling:6295",
+            "pillow_ergonomically_shaped:6296"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_filling=6295"
+        },
+        {
+          "facet": "pillow_filling",
+          "id": "6293",
+          "label": "Recycled down",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6245",
+            "pillow_size:6246",
+            "pillow_filling:6293",
+            "pillow_ergonomically_shaped:6297"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_filling=6293"
+        },
+        {
+          "facet": "pillow_filling",
+          "id": "6294",
+          "label": "Recycled polyester",
+          "memberIndexes": [
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6246",
+            "pillow_filling:6294",
+            "pillow_ergonomically_shaped:6297"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_filling=6294"
+        },
+        {
+          "facet": "pillow_ergonomically_shaped",
+          "id": "6297",
+          "label": "No",
+          "memberIndexes": [
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_size:6245",
+            "pillow_size:6246",
+            "pillow_filling:6293",
+            "pillow_filling:6294",
+            "pillow_ergonomically_shaped:6297"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_ergonomically_shaped=6297"
+        },
+        {
+          "facet": "pillow_ergonomically_shaped",
+          "id": "6296",
+          "label": "Yes",
+          "memberIndexes": [
+            0
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "pillow_size:6244",
+            "pillow_filling:6295",
+            "pillow_ergonomically_shaped:6296"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/pillows?pillow_ergonomically_shaped=6296"
+        }
+      ],
+      "expectedCards": 3,
+      "expectedOptions": 8,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "pillow_size:6244",
+        "pillow_size:6245",
+        "pillow_size:6246",
+        "pillow_filling:6295",
+        "pillow_filling:6293",
+        "pillow_filling:6294",
+        "pillow_ergonomically_shaped:6297",
+        "pillow_ergonomically_shaped:6296"
+      ]
+    },
+    "/bed-linen/duvets/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/duvets",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/duvets/auping-cloud-duvet-springfall",
+          "title": "Auping Cloud spring/fall duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/duvets/auping-nest-duvet-springfall",
+          "title": "Auping Nest spring /fall duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/duvets/auping-dew-duvet-springfall",
+          "title": "Auping Dew spring/fall duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-linen/duvets/auping-cloud-duvet-four-seasons",
+          "title": "Auping Cloud 4 seasons duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/bed-linen/duvets/auping-nest-duvet-four-seasons",
+          "title": "Auping Nest 4 seasons duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 5,
+          "path": "/en/bed-linen/duvets/auping-dew-duvet-four-seasons",
+          "title": "Auping Dew 4 seasons duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 6,
+          "path": "/en/bed-linen/duvets/auping-cloud-duvet-summer",
+          "title": "Auping Cloud summer duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 7,
+          "path": "/en/bed-linen/duvets/auping-nest-duvet-summer",
+          "title": "Auping Nest summer duvet",
+          "noDetailLink": false
+        },
+        {
+          "index": 8,
+          "path": "/en/bed-linen/duvets/auping-dew-duvet-summer",
+          "title": "Auping Dew summer duvet",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "duvet_type",
+          "id": "6278",
+          "label": "Four seasons",
+          "memberIndexes": [
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_type=6278"
+        },
+        {
+          "facet": "duvet_type",
+          "id": "6280",
+          "label": "Spring/fall",
+          "memberIndexes": [
+            0,
+            1,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6280",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_type=6280"
+        },
+        {
+          "facet": "duvet_type",
+          "id": "6279",
+          "label": "Summer",
+          "memberIndexes": [
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_type=6279"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6263",
+          "label": "140 x 200 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6263"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6264",
+          "label": "140 x 220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6264"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6266",
+          "label": "200 x 200 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6266"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6267",
+          "label": "200 x 220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6267"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6268",
+          "label": "240 x 220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6268"
+        },
+        {
+          "facet": "duvet_size",
+          "id": "6269",
+          "label": "260 x 220 cm",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258",
+            "duvet_filling:6260",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "9 of 9",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_size=6269"
+        },
+        {
+          "facet": "duvet_filling",
+          "id": "6258",
+          "label": "Goose down",
+          "memberIndexes": [
+            0,
+            3,
+            6
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6258"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_filling=6258"
+        },
+        {
+          "facet": "duvet_filling",
+          "id": "6260",
+          "label": "Recycled down",
+          "memberIndexes": [
+            1,
+            4,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6260"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_filling=6260"
+        },
+        {
+          "facet": "duvet_filling",
+          "id": "6261",
+          "label": "Recycled polyester",
+          "memberIndexes": [
+            2,
+            5,
+            8
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "duvet_type:6278",
+            "duvet_type:6280",
+            "duvet_type:6279",
+            "duvet_size:6263",
+            "duvet_size:6264",
+            "duvet_size:6266",
+            "duvet_size:6267",
+            "duvet_size:6268",
+            "duvet_size:6269",
+            "duvet_filling:6261"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/duvets?duvet_filling=6261"
+        }
+      ],
+      "expectedCards": 9,
+      "expectedOptions": 12,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "duvet_type:6278",
+        "duvet_type:6280",
+        "duvet_type:6279",
+        "duvet_size:6263",
+        "duvet_size:6264",
+        "duvet_size:6266",
+        "duvet_size:6267",
+        "duvet_size:6268",
+        "duvet_size:6269",
+        "duvet_filling:6258",
+        "duvet_filling:6260",
+        "duvet_filling:6261"
+      ]
+    },
+    "/bed-linen/fitted-sheets/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/fitted-sheets",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/fitted-sheets/jersey-235-fitted-sheet-mattress",
+          "title": "Jersey 235 fitted sheet for mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/fitted-sheets/jersey-235-fitted-sheet-top-mattress",
+          "title": "Jersey 235 fitted sheet for top mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/fitted-sheets/jersey-235-fitted-sheet-split-top-mattress",
+          "title": "Jersey 235 fitted sheet for splittop mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-linen/fitted-sheets/jersey-190-fitted-sheet-mattress",
+          "title": "Jersey 190 fitted sheet for mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 4,
+          "path": "/en/bed-linen/fitted-sheets/jersey-190-fitted-sheet-top-mattress",
+          "title": "Jersey 190 fitted sheet for top mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 5,
+          "path": "/en/bed-linen/fitted-sheets/jersey-190-fitted-sheet-split-top-mattress",
+          "title": "Jersey 190 fitted sheet for split-top mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 6,
+          "path": null,
+          "title": "Satin 300 fitted sheet for mattress",
+          "noDetailLink": true
+        },
+        {
+          "index": 7,
+          "path": "/en/bed-linen/fitted-sheets/satin-300-fitted-sheet-top-mattress",
+          "title": "Satin 300 fitted sheet for top mattress",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "fitted_sheet_compatibility",
+          "id": "6140",
+          "label": "Mattress",
+          "memberIndexes": [
+            0,
+            3
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6363"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_compatibility=6140"
+        },
+        {
+          "facet": "fitted_sheet_compatibility",
+          "id": "6142",
+          "label": "Split top mattress",
+          "memberIndexes": [
+            2,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_compatibility=6142"
+        },
+        {
+          "facet": "fitted_sheet_compatibility",
+          "id": "6141",
+          "label": "Top mattress",
+          "memberIndexes": [
+            1,
+            4,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_compatibility=6141"
+        },
+        {
+          "facet": "fitted_sheet_person_size",
+          "id": "6389",
+          "label": "One-person",
+          "memberIndexes": [
+            0,
+            1,
+            3,
+            4,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356"
+          ],
+          "evidenceCountText": "5 of 5",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_person_size=6389"
+        },
+        {
+          "facet": "fitted_sheet_person_size",
+          "id": "6390",
+          "label": "Two-person",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_person_size=6390"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6343",
+          "label": "Anthracite",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_color=6343"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6450",
+          "label": "Blush",
+          "memberIndexes": [
+            1,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_color=6450"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6346",
+          "label": "Cool grey",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357"
+          ],
+          "evidenceCountText": "6 of 6",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_color=6346"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6354",
+          "label": "Light grey",
+          "memberIndexes": [
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6363"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_color=6354"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6356",
+          "label": "Natural",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357"
+          ],
+          "evidenceCountText": "4 of 4",
+          "observedUrl": "https://www.auping.com/en/bed-linen/fitted-sheets?fitted_sheet_color=6356"
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6357",
+          "label": "Off white",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6364",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "6 of 6",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6363",
+          "label": "Taupe",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4,
+            5,
+            7
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6354",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6364",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "6 of 6",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6949",
+          "label": "Deep Black",
+          "memberIndexes": [
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "1 of 1",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6948",
+          "label": "Night Blue",
+          "memberIndexes": [
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "1 of 1",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6451",
+          "label": "Pine green",
+          "memberIndexes": [
+            1,
+            2,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6364",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "4 of 4",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6364",
+          "label": "Warm grey",
+          "memberIndexes": [
+            0,
+            1,
+            3,
+            4,
+            5
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6364",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "5 of 5",
+          "officialTargetFresh": true
+        },
+        {
+          "facet": "fitted_sheet_color",
+          "id": "6365",
+          "label": "White",
+          "memberIndexes": [
+            0,
+            1,
+            2,
+            4
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "fitted_sheet_compatibility:6140",
+            "fitted_sheet_compatibility:6142",
+            "fitted_sheet_compatibility:6141",
+            "fitted_sheet_person_size:6389",
+            "fitted_sheet_person_size:6390",
+            "fitted_sheet_color:6343",
+            "fitted_sheet_color:6450",
+            "fitted_sheet_color:6346",
+            "fitted_sheet_color:6949",
+            "fitted_sheet_color:6356",
+            "fitted_sheet_color:6948",
+            "fitted_sheet_color:6357",
+            "fitted_sheet_color:6451",
+            "fitted_sheet_color:6363",
+            "fitted_sheet_color:6364",
+            "fitted_sheet_color:6365"
+          ],
+          "evidenceCountText": "4 of 4",
+          "officialTargetFresh": true
+        }
+      ],
+      "expectedCards": 8,
+      "expectedOptions": 17,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "fitted_sheet_compatibility:6140",
+        "fitted_sheet_compatibility:6142",
+        "fitted_sheet_compatibility:6141",
+        "fitted_sheet_person_size:6389",
+        "fitted_sheet_person_size:6390",
+        "fitted_sheet_color:6343",
+        "fitted_sheet_color:6450",
+        "fitted_sheet_color:6346",
+        "fitted_sheet_color:6354",
+        "fitted_sheet_color:6356"
+      ],
+      "officialDisclosureColorOrder": [
+        "6343",
+        "6450",
+        "6346",
+        "6949",
+        "6354",
+        "6356",
+        "6948",
+        "6357",
+        "6451",
+        "6363",
+        "6364",
+        "6365"
+      ]
+    },
+    "/bed-linen/mattress-protectors/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/mattress-protectors",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/mattress-protectors/molton-mattress-protector",
+          "title": "Molton mattress protector",
+          "noDetailLink": false
+        },
+        {
+          "index": 1,
+          "path": "/en/bed-linen/mattress-protectors/molton-pillow-case",
+          "title": "Molton pillow case",
+          "noDetailLink": false
+        },
+        {
+          "index": 2,
+          "path": "/en/bed-linen/mattress-protectors/molton-top-mattress-protector",
+          "title": "Mattress protector for top mattress",
+          "noDetailLink": false
+        },
+        {
+          "index": 3,
+          "path": "/en/bed-linen/mattress-protectors/molton-split-top-mattress-protector",
+          "title": "Mattress protector for split mattress topper",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "molton_compatibility",
+          "id": "6457",
+          "label": "Mattress",
+          "memberIndexes": [
+            0
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6457",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_compatibility=6457"
+        },
+        {
+          "facet": "molton_compatibility",
+          "id": "6462",
+          "label": "Pillow",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6462",
+            "molton_size:6463",
+            "molton_size:6464"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_compatibility=6462"
+        },
+        {
+          "facet": "molton_compatibility",
+          "id": "6459",
+          "label": "Split top mattress",
+          "memberIndexes": [
+            3
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6459",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_compatibility=6459"
+        },
+        {
+          "facet": "molton_compatibility",
+          "id": "6458",
+          "label": "Top mattress",
+          "memberIndexes": [
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6458",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_compatibility=6458"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6463",
+          "label": "40 x 60 cm",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6462",
+            "molton_size:6463",
+            "molton_size:6464"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6463"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6464",
+          "label": "60 x 70 cm",
+          "memberIndexes": [
+            1
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6462",
+            "molton_size:6463",
+            "molton_size:6464"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6464"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6538",
+          "label": "80/90/100 x 200/210/220 cm",
+          "memberIndexes": [
+            0,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6457",
+            "molton_compatibility:6458",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6538"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6120",
+          "label": "120 x 200/210/220 cm",
+          "memberIndexes": [
+            0,
+            2
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6457",
+            "molton_compatibility:6458",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "2 of 2",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6120"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6121",
+          "label": "140/160 x 200/210/220 cm",
+          "memberIndexes": [
+            0,
+            2,
+            3
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6457",
+            "molton_compatibility:6459",
+            "molton_compatibility:6458",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6121"
+        },
+        {
+          "facet": "molton_size",
+          "id": "6124",
+          "label": "180/200 x 200/210/220 cm",
+          "memberIndexes": [
+            0,
+            2,
+            3
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "molton_compatibility:6457",
+            "molton_compatibility:6459",
+            "molton_compatibility:6458",
+            "molton_size:6538",
+            "molton_size:6120",
+            "molton_size:6121",
+            "molton_size:6124"
+          ],
+          "evidenceCountText": "3 of 3",
+          "observedUrl": "https://www.auping.com/en/bed-linen/mattress-protectors?molton_size=6124"
+        }
+      ],
+      "expectedCards": 4,
+      "expectedOptions": 10,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "molton_compatibility:6457",
+        "molton_compatibility:6462",
+        "molton_compatibility:6459",
+        "molton_compatibility:6458",
+        "molton_size:6463",
+        "molton_size:6464",
+        "molton_size:6538",
+        "molton_size:6120",
+        "molton_size:6121",
+        "molton_size:6124"
+      ]
+    },
+    "/bed-linen/bedspreads/": {
+      "officialURL": "https://www.auping.com/en/bed-linen/bedspreads",
+      "products": [
+        {
+          "index": 0,
+          "path": "/en/bed-linen/bedspreads/dejavu-grey-bedspread",
+          "title": "Déjàvu bedspread grey",
+          "noDetailLink": false
+        }
+      ],
+      "options": [
+        {
+          "facet": "bedspread_size",
+          "id": "85",
+          "label": "180 x 260 cm",
+          "memberIndexes": [
+            0
+          ],
+          "proof": "OFFICIAL_RENDERED_AND_SETTLED",
+          "officialVisibleOptionIds": [
+            "bedspread_size:85"
+          ],
+          "evidenceCountText": "1 of 1",
+          "observedUrl": "https://www.auping.com/en/bed-linen/bedspreads?bedspread_size=85"
+        }
+      ],
+      "expectedCards": 1,
+      "expectedOptions": 1,
+      "reviewOptionIds": [],
+      "baselineVisibleOptionIds": [
+        "bedspread_size:85"
+      ]
+    }
+  },
+  "reviewOptions": 0,
+  "u4cSHA256": "8a789e4e1042ebbdac7a62ff2d3b1a96118bf2404507e6688df8c0734f381e50",
+  "retiredOptions": [
+    {
+      "route": "/bed-linen/duvet-covers/",
+      "facet": "duvet_cover_colors",
+      "id": "6226",
+      "proof": "OFFICIAL_IGNORES_QUERY_AND_OMITS_INPUT",
+      "memberIndexes": [],
+      "status": "RETIRED_NOT_FILTERABLE"
+    }
+  ],
+  "provenance": "102 independently settled U4C + 2 embedded previous official disclosed colors + 5 fresh official additional colors, 1 independently retired option"
+}

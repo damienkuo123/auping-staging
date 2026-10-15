@@ -1,0 +1,55 @@
+/* U4D: source-native standard catalog UI, no gallery/card CTA mutation. */
+[data-auping-u4d-owner="ready"] [data-auping-u4d-visible="0"]{display:none!important}
+[data-auping-u4d-owner="ready"] [data-auping-u4d-option-visible="0"], [data-auping-u4d-owner="ready"] [data-auping-u4b-unproven="1"]{display:none!important}
+[data-auping-u4d-owner="ready"] .auping-u4d-native-chips{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:16px 0 22px;width:100%}
+[data-auping-u4d-owner="ready"] .auping-u4d-native-chips[hidden]{display:none!important}
+[data-auping-u4d-owner="ready"] .auping-u4d-chips-label{font-size:16px;color:#00539b;white-space:nowrap}
+[data-auping-u4d-owner="ready"] .auping-u4d-chip{padding:12px 14px;border:2px solid #00549a;border-radius:3px;background:white;color:#00549a;font-weight:650;font:inherit;cursor:pointer}
+[data-auping-u4d-owner="ready"] .auping-u4d-clear{border:0;background:transparent;color:#00549a;text-decoration:underline;cursor:pointer;font:inherit;padding:8px}
+/* Native source checkbox uses appearance:none; explicitly restore a white check glyph in the selected blue box. */
+[data-auping-u4d-owner="ready"] input[class*="Checkbox_base"]:checked{
+ background-color:#005baa!important;
+ background-image:url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"%3E%3Cpath d="M4 10l4 4 8-9" fill="none" stroke="white" stroke-width="2.3" stroke-linecap="round" stroke-linejoin="round"/%3E%3C/svg%3E')!important;
+ background-repeat:no-repeat!important;background-position:center!important;background-size:80% 80%!important;
+}
+[data-auping-u4d-owner="ready"] [data-auping-u4d-native-supplement] [class*="FilterItem_filter"]{display:flex;align-items:center}
+/* Only when the native filter button opens on mobile, promote the existing native
+   facet panel above cards/main/header instead of making a hidden inline column visible.
+   Keep the panel scroll container separate from the page; normal hit-tested pointer
+   clicks remain mandatory. Do not modify U2 gallery or product layout. */
+@media(max-width:700px){
+ html[data-auping-u4d-owner="ready"] body.auping-u4d-mobile-scrolllock{overflow:hidden!important}
+ /* Body-level native-pane portal escapes site <main> stacking contexts which
+    may otherwise place the sticky header above a fixed descendant. */
+ html[data-auping-u4d-owner="ready"] body > .auping-u4d-mobile-portal[class*="CatalogWithFilters_filters"]{
+  display:block!important;position:fixed!important;inset:0!important;
+  width:100vw!important;height:100vh!important;height:100dvh!important;
+  max-width:none!important;max-height:none!important;z-index:2147483000!important;
+  box-sizing:border-box!important;overflow-y:auto!important;overflow-x:hidden!important;
+  overscroll-behavior:contain;opacity:1!important;visibility:visible!important;
+  transform:none!important;background:#fff!important;padding:64px 18px 28px!important;
+  -webkit-overflow-scrolling:touch;
+ }
+ /* v1.0.6: forensic Mac v1.0.5 proved the ORIGINAL Filters_base node
+    remains 0px tall / overflow:hidden after its native pane is portaled.
+    Restore only that immediate child while the pane is OPEN. Do not touch
+    off-canvas closed filters, desktop, or any product/gallery element. */
+ html[data-auping-u4d-owner="ready"] body > .auping-u4d-mobile-portal[class*="CatalogWithFilters_filters"] > [class*="Filters_base__"]{
+  display:block!important;position:relative!important;height:auto!important;
+  min-height:0!important;max-height:none!important;overflow:visible!important;
+  transform:none!important;visibility:visible!important;opacity:1!important;
+ }
+ html[data-auping-u4d-owner="ready"] .auping-u4d-mobile-portal .auping-u4d-mobile-close{
+  display:flex!important;position:fixed!important;top:12px;right:12px;z-index:2147483100!important;
+  min-width:92px;min-height:40px;align-items:center;justify-content:center;
+  font:inherit;font-weight:600;color:#00549a;background:#fff;border:1px solid #00549a;
+  border-radius:3px;cursor:pointer;
+ }
+}
+.auping-u4d-mobile-close{display:none}
+
+
+/* Shared source-native additional color disclosure. Distinct from dynamic facet availability. */
+[data-auping-u4d-owner="ready"] .auping-u4d-read-more{display:block;margin:10px 0 6px;padding:4px 0;color:#00549a;background:none;border:0;text-align:left;font:inherit;cursor:pointer}
+/* Native Read More is suppressed only when fewer than six currently available colors exist. */
+[data-auping-u4d-owner="ready"] [data-auping-u4d-read-more][hidden]{display:none!important}
