@@ -33,6 +33,28 @@ if(ROUTES.has(route)&&!root.dataset.aupingU4dOwner){
   const facets=new Map();for(const o of conf.options){if(!facets.has(o.facet))facets.set(o.facet,[]);facets.get(o.facet).push(o);
    if(o.proof!=='OFFICIAL_RENDERED_AND_SETTLED'||!Array.isArray(o.memberIndexes)||o.memberIndexes.some(i=>!cardMap.has(i)))throw Error('UNPROVEN_OFFICIAL_OPTION_'+o.facet+'_'+o.id);}
   const controls=new Map(),optFor=(facet,id)=>conf.options.find(o=>o.facet===facet&&o.id===id),keyFor=o=>o.facet+':'+o.id;
+  /* AUPING_U4D_DIMENSION_SINGLE_SELECT_v1_BEGIN */
+  // Source evidence 2026-10-20: within one width/length/size group one checkbox
+  // replaces its predecessor; selections from OTHER groups remain combined.
+  // Color, pattern, fabric, style and adjustability retain their previous semantics.
+  const exclusiveDimensionFacets=new Set([
+    'Base_Width','base_length','topper_length_filter','topper_width_filter',
+    'topper_height','duvet_cover_size','pillowcase_size','pillow_size',
+    'duvet_size','fitted_sheet_person_size','molton_size','bedspread_size'
+  ].filter(facet=>facets.has(facet)));
+  function normalizedFacetValues(facet,values){
+    return exclusiveDimensionFacets.has(facet)&&values.length?values.slice(-1):values;
+  }
+  function transitionFacetSelection(state,facet,id,checked){
+    const next=new Map(state),values=new Set(state.get(facet)||[]);
+    if(checked){
+      if(exclusiveDimensionFacets.has(facet))values.clear();
+      values.add(id);
+    }else values.delete(id);
+    if(values.size)next.set(facet,values);else next.delete(facet);
+    return next;
+  }
+  /* AUPING_U4D_DIMENSION_SINGLE_SELECT_v1_END */
   // Clone source-native accordion markup (never simplified <section><strong><label>).
   function injectNativeGroup(facet,opts){
    const exemplar=all('[class*="Accordion_item__"]',pane).find(e=>e.querySelector('input[type="checkbox"]'));
@@ -72,11 +94,13 @@ if(ROUTES.has(route)&&!root.dataset.aupingU4dOwner){
    if(key==='/bed-linen/duvet-covers/'&&i.name==='duvet_cover_colors'&&i.id==='6226'&&data.retiredOptions?.some(o=>o.id==='6226'&&o.route===key)){let row=i.closest('[class*="FilterItem_filter__"]');if(!row)throw Error('PINK_RETIRED_ROW_NOT_FOUND');i.checked=false;i.disabled=true;row.hidden=true;row.dataset.aupingU4dRetired='1';continue;}
    throw Error('UNVERIFIED_NATIVE_OPTION_'+i.name+'_'+i.id);
   }
-  function fromURL(){const url=new URL(location.href),s=new Map();for(const [facet,opts] of facets){const selected=new Set(url.searchParams.getAll(facet).filter(id=>opts.some(o=>o.id===id)));if(selected.size)s.set(facet,selected)}return s}
+  function fromURL(){const url=new URL(location.href),s=new Map();for(const [facet,opts] of facets){const values=url.searchParams.getAll(facet).filter(id=>opts.some(o=>o.id===id));const ids=normalizedFacetValues(facet,values);const selection=new Set(ids);if(selection.size)s.set(facet,selection)}return s}
   let selected=fromURL();
   function matches(selection=selected){let list=conf.products.map((p,i)=>i);for(const [facet,ids] of selection){if(!ids.size)continue;const chosen=facets.get(facet)?.filter(o=>ids.has(o.id))||[];list=list.filter(i=>chosen.some(o=>o.memberIndexes.includes(i)));}return list;}
-  function syncURL(){const url=new URL(location.href);for(const name of facets.keys())url.searchParams.delete(name);
-   for(const [facet,ids] of selected){for(const id of ids)url.searchParams.append(facet,id);}if(url.href!==location.href)history.pushState({},'',url)}
+  function syncURL(mode='push'){const url=new URL(location.href);for(const name of facets.keys())url.searchParams.delete(name);
+   for(const [facet,ids] of selected){for(const id of ids)url.searchParams.append(facet,id);}if(url.href!==location.href)history[mode==='replace'?'replaceState':'pushState']({},'',url)}
+  // Canonicalize old bookmarked links carrying repeated values for one dimension.
+  if([...exclusiveDimensionFacets].some(facet=>new URL(location.href).searchParams.getAll(facet).length>1))syncURL('replace');
   const title=$('[class*="CatalogWithFilters_productsTitle"]',section);
   let chips=$('.rc7-filter-chips',section);if(!chips){chips=document.createElement('div');chips.className='rc7-filter-chips';}
   chips.classList.add('auping-u4d-native-chips');chips.setAttribute('aria-label','已選篩選條件');
@@ -124,7 +148,7 @@ if(ROUTES.has(route)&&!root.dataset.aupingU4dOwner){
    const colorVisible=disclosureFacet?disclosureOrder.filter(id=>visibleOpts.has(disclosureFacet+':'+id)):[];
    const displayedColors=disclosureFacet?new Set((expandedGroups.has(disclosureFacet)?colorVisible:colorVisible.slice(0,5))):null;
    for(const [k,{o,input,row}] of controls){const checked=!!selected.get(o.facet)?.has(o.id);
-    const show=disclosureFacet===o.facet?displayedColors.has(o.id):visibleOpts.has(k);
+    const show=disclosureFacet===o.facet?displayedColors.has(o.id):(visibleOpts.has(k)||(exclusiveDimensionFacets.has(o.facet)&&selected.has(o.facet)));
     input.checked=checked;row.hidden=!show;row.dataset.aupingU4dOptionVisible=show?'1':'0';}
    for(const {facet,button,draw,container} of disclosureButtons){draw();button.hidden=colorVisible.length<=5;
     button.dataset.aupingU4dVisible=colorVisible.length>5?'1':'0';
@@ -136,7 +160,7 @@ if(ROUTES.has(route)&&!root.dataset.aupingU4dOwner){
    }
    chips.hidden=!chips.childElementCount;root.dataset.aupingU4dVisible=String(rows.length);root.dataset.aupingU4dTotal=String(rows.length);
   }
-  for(const {o,input} of controls.values())input.addEventListener('change',()=>{let chosen=selected.get(o.facet)||new Set();input.checked?chosen.add(o.id):chosen.delete(o.id);if(chosen.size)selected.set(o.facet,chosen);else selected.delete(o.facet);render();syncURL();});
+  for(const {o,input} of controls.values())input.addEventListener('change',()=>{selected=transitionFacetSelection(selected,o.facet,o.id,input.checked);render();syncURL();});
   const toggle=$('button[class*="CatalogWithFilters_filterButton"]',section);
   if(toggle){let mobileOpen=false;pane.id=pane.id||'auping-u4d-mobile-pane';toggle.setAttribute('aria-controls',pane.id);
    const close=document.createElement('button');close.type='button';close.className='auping-u4d-mobile-close';close.dataset.aupingU4dMobileClose='1';close.textContent='關閉 ×';close.setAttribute('aria-label','關閉篩選面板');pane.prepend(close);
