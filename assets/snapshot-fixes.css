@@ -78,3 +78,192 @@ html.auping-hybrid-redirecting body::before {
     transition: none !important;
   }
 }
+
+
+/* AUPING 2026-10-20 iPhone HumanQA candidate: scope to affected mobile components. */
+@media (max-width:767px) {
+  /* Restore one horizontal USP at a time; the original static 4-column markup is not a hydrated Slick carousel. */
+  .UspBanner_base__wRph7 {
+    box-sizing:border-box!important;
+    height:38px!important;min-height:38px!important;
+    padding:8px 16px!important;overflow:hidden!important;
+  }
+  .UspBanner_base__wRph7 .UspBanner_USPs__u4M3O {
+    display:flex!important;position:relative!important;
+    width:100%!important;max-width:none!important;height:22px!important;
+    margin:0!important;padding:0!important;opacity:1!important;
+    align-items:center!important;justify-content:center!important;
+  }
+  .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo {
+    position:absolute!important;left:0!important;top:0!important;right:0!important;
+    width:100%!important;min-width:0!important;height:22px!important;
+    display:flex!important;justify-content:center!important;align-items:center!important;
+    opacity:0;pointer-events:none;
+    animation:auping-humanqa-usp-rotate 16s linear infinite;
+  }
+  .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo:nth-child(1) {animation-delay:0s}
+  .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo:nth-child(2) {animation-delay:-12s}
+  .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo:nth-child(3) {animation-delay:-8s}
+  .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo:nth-child(4) {animation-delay:-4s}
+  .UspBanner_base__wRph7 .UspBanner_USPWrapper__cEoVH {
+    flex:0 0 auto!important;white-space:nowrap!important;
+    display:flex!important;align-items:center!important;justify-content:center!important;
+    width:auto!important;max-width:100%!important;gap:14px!important;
+  }
+  .UspBanner_base__wRph7 .UspBanner_USPText__kxO8S,
+  .UspBanner_base__wRph7 .UspBanner_USPText__kxO8S strong {
+    display:inline!important;white-space:nowrap!important;word-break:keep-all!important;
+    font-size:14px!important;line-height:22px!important;
+  }
+  @keyframes auping-humanqa-usp-rotate {
+    0%,23.5% {opacity:1;pointer-events:auto}
+    25%,100% {opacity:0;pointer-events:none}
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo {animation:none!important;opacity:0!important;pointer-events:none!important}
+    .UspBanner_base__wRph7 .UspBanner_USPItem__gLzAo:first-child {opacity:1!important;pointer-events:auto!important}
+  }
+  /* Restore official-like 374 px slide / 358 px card at 390 px viewport. */
+  section[data-section="ModelSlider"] [class*="ModelSlider_modelSlides"] {overflow:hidden!important;}
+  section[data-section="ModelSlider"] .slick-list {
+    overflow:visible!important;touch-action:pan-y!important;
+    -webkit-overflow-scrolling:auto!important;scroll-snap-type:none!important;
+    margin-left:16px!important;margin-right:-16px!important;
+  }
+  section[data-section="ModelSlider"] .slick-track {
+    display:flex!important;float:none!important;width:max-content!important;
+    min-width:0!important;margin-left:-32px!important;
+    transition:transform 440ms cubic-bezier(.165,.84,.44,1)!important;
+    will-change:transform;
+  }
+  section[data-section="ModelSlider"] .slick-slide {
+    box-sizing:border-box!important;float:none!important;
+    flex:0 0 calc(100vw - 16px)!important;width:calc(100vw - 16px)!important;
+    padding-left:16px!important;scroll-snap-align:none!important;
+  }
+  section[data-section="ModelSlider"] .slick-slide:not(.slick-current) {opacity:.2!important;}
+  section[data-section="ModelSlider"] .slick-slide.slick-current {opacity:1!important;}
+  section[data-section="ModelSlider"] [class*="ModelSlider_nextButton"],
+  section[data-section="ModelSlider"] [class*="ModelSlider_prevButton"] {z-index:4!important}
+  /* Font fallback for real Chinese text only, preserving Material Symbols and SVG icon font ownership. */
+  html {--font-roboto:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif;}
+  body,button,input,textarea,select {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif!important;
+    -webkit-text-size-adjust:100%;
+  }
+  :is(header,main,footer) :is(h1,h2,h3,h4,h5,p,a,button,li,label,[class*="CTAButton_content"],[class*="CategoryTiles_tileTitle"],[class*="UspBanner_USPText"]) {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif!important;
+  }
+}
+
+/* v1.2.2 Safari-specific corrections discovered from 2026-10-20 human QA. */
+@media (max-width: 597px) {
+  /* These eight images are the original official mobile compositions.
+     The <picture> background is a fallback only for WebKit raster/picture compositing. */
+  section[data-section="CategoryTiles"] picture.CategoryTiles_tileImage__v0EVd {
+    background-image:var(--auping-humanqa-mobile-image)!important;
+    background-size:cover!important;background-position:center!important;
+    background-repeat:no-repeat!important;
+  }
+  section[data-section="CategoryTiles"] picture.CategoryTiles_tileImage__v0EVd img {
+    opacity:1!important;visibility:visible!important;object-fit:cover!important;
+  }
+}
+@media (max-width: 767px) {
+  /* No original CSS/markup was discarded. The two Safari compositing seams at
+     50% are replaced with a full-height, continuously interpolated gradient. */
+  section[data-section="ModelSlider"] .ModelSlider_modelCard__aPvck .ModelSlider_overLay__H__xw {
+    isolation:isolate;
+    background:linear-gradient(to bottom,
+      rgba(0,0,0,.40) 0%, rgba(0,0,0,.23) 18%,
+      rgba(0,0,0,.04) 44%, rgba(0,0,0,0) 52%,
+      rgba(0,0,0,.03) 64%, rgba(0,0,0,.40) 100%)!important;
+  }
+  section[data-section="ModelSlider"] .ModelSlider_modelCard__aPvck .ModelSlider_overLay__H__xw::before,
+  section[data-section="ModelSlider"] .ModelSlider_modelCard__aPvck .ModelSlider_overLay__H__xw::after {
+    content:none!important;background:none!important;
+  }
+  /* Prevent iOS WebKit from combining native horizontal overflow and JS carousel
+     transform, which can leave the active card shifted to the right after swipes. */
+  section[data-section="ModelSlider"] .slick-list {
+    overflow-x:clip!important;overflow-y:visible!important;
+    touch-action:pan-y!important;
+  }
+  /* Narrow font experiment: the actual strings are normal ASCII in official HTML.
+     Explicitly disable discretionary ligature/rendering substitutions for headings
+     where Safari paints rounded rectangles around individual Latin letters. */
+  :is(.CtaBasic_ctaText__NsiLO,.CtaBasic_ctaItemContent__x14nI,
+      .CTAButton_content__TobZU,.ModelSlider_title__0BgY6) :is(h1,h2,h3,h4,span,a,p),
+  :is(.CtaBasic_ctaText__NsiLO h2,.CtaBasic_ctaItemContent__x14nI h2) {
+    font-variant-ligatures:none!important;
+    font-feature-settings:"liga" 0,"clig" 0,"dlig" 0!important;
+    -webkit-text-stroke:0!important;
+    text-rendering:optimizeSpeed!important;
+  }
+}
+
+
+/* AUPING HumanQA v1.2.3 Safari measured layout and font route correction */
+/* Safari v1.2.2 reports: all eight official mobile images decode successfully;
+   their positioned IMG and owning tile container both resolve to height:0. */
+@media (max-width:597px) {
+  html[data-auping-page-id="home"] section[data-section="CategoryTiles"] .CategoryTiles_tileContainer__X__4b {
+    position:relative!important;
+    box-sizing:border-box!important;
+    width:100%!important;
+    height:auto!important;
+    min-height:0!important;
+    aspect-ratio:1 / 1!important;
+    overflow:hidden!important;
+  }
+  html[data-auping-page-id="home"] section[data-section="CategoryTiles"] picture.CategoryTiles_tileImage__v0EVd {
+    display:block!important;
+    position:absolute!important;
+    inset:0!important;
+    width:100%!important;
+    height:100%!important;
+    box-sizing:border-box!important;
+    background-position:center!important;
+    background-size:cover!important;
+  }
+  html[data-auping-page-id="home"] section[data-section="CategoryTiles"] picture.CategoryTiles_tileImage__v0EVd img {
+    display:block!important;
+    position:absolute!important;
+    inset:0!important;
+    width:100%!important;
+    height:100%!important;
+    max-width:100%!important;
+    min-height:100%!important;
+    object-fit:cover!important;
+    opacity:1!important;
+  }
+}
+/* Safari reports confirm the dark gradient was on a short overlay box (212–232px)
+   while the slide card height was 582.8px. Preserve full-image crop and cover
+   the complete card, so the gradient reaches the card bottom without a hard seam. */
+@media (max-width:767px) {
+  section[data-section="ModelSlider"] .ModelSlider_modelCard__aPvck {
+    position:relative!important;
+  }
+  section[data-section="ModelSlider"] .ModelSlider_modelCard__aPvck .ModelSlider_overLay__H__xw {
+    position:absolute!important;
+    inset:0!important;
+    box-sizing:border-box!important;
+    width:100%!important;
+    height:100%!important;
+    min-height:100%!important;
+    display:flex!important;
+    flex-direction:column!important;
+    justify-content:space-between!important;
+    padding:32px!important;
+    z-index:1!important;
+  }
+  /* The troublesome Original route was verified to be missing the shared CSS.
+     Restrict typography correction to text descendants; leave SVG/icon assets. */
+  html[data-auping-humanqa-font-route="original-boxspring"],
+  html[data-auping-humanqa-font-route="original-boxspring"] :is(h1,h2,h3,h4,p,a,span,button,label) {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC","Microsoft JhengHei",Arial,sans-serif!important;
+    font-variant-ligatures:none!important;
+    -webkit-text-stroke:0!important;
+  }
+}

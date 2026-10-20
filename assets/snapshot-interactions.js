@@ -62,7 +62,8 @@
     if (!file) return;
 
     const webmFile = file.replace(/\.mp4$/i, '.webm');
-    const canWebM = Boolean(
+    // The verified audio-bearing homepage MP4 is the first source on BOTH desktop and mobile.
+    const canWebM = !(file === '1e148dd8972b04e0fe919757c882.mp4') && Boolean(
       video.canPlayType('video/webm; codecs="vp8"') ||
       video.canPlayType('video/webm')
     );
@@ -435,176 +436,153 @@
 })();
 /* AUPING-PARITY-WAVE1-END */
 
-/* HUMANQA MOBILE PARITY GROUP PATCH BEGIN v1.0.3 */
-;window.__aupingVerifiedAudioMp4={"1e148dd8972b04e0fe919757c882.mp4":true};
-/* Auping human QA mobile shared four-issue candidate v1.0.0.
-   Additive and idempotent; RC7, U4D, page navigation, sorting and Git remain owned by existing code.
-   No arbitrary media URLs or replacement fonts. */
+/* AUPING 2026-10-20 Mobile HumanQA Consolidated Candidate BEGIN */
 ;(() => {
- 'use strict';
- if (window.__aupingMobileHumanQaV1) return;
- window.__aupingMobileHumanQaV1 = true;
- const stats = {font:true, homePictures:[], carouselSections:[], videos:[], errors:[]};
- window.__aupingMobileHumanQaReport = stats;
- const mobile = () => matchMedia('(max-width:767px)').matches;
- const log = (name,e) => {stats.errors.push({component:name,error:String(e&&e.message||e)});};
- const on = (f) => {try{f()}catch(e){log(f.name||'callback',e)}};
- // Offline iOS/Android Traditional Chinese fallback; no external font dependencies.
- function fontStabilizer(){
-  if(document.getElementById('auping-humanqa-font-style'))return;
-  const st=document.createElement('style');st.id='auping-humanqa-font-style';
-  st.textContent=`:root{--font-roboto:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;}
-  html{font-synthesis:none;-webkit-text-size-adjust:100%;text-size-adjust:100%;}
-  body,button,input,textarea,select{font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Microsoft JhengHei","Noto Sans TC",Arial,sans-serif;}
-  [data-auping-mobile-root] :is(a,button,div,span,p,strong,li), footer :is(a,button,h2,h3,h4,p,span,strong,li), [data-section] :is(h1,h2,h3,h4,p,button,a,span,strong){font-variant-ligatures:none;}
-  @media(max-width:767px){
-  section[data-section="ModelSlider"] .slick-list{overflow-x:auto!important;overflow-y:hidden!important;touch-action:auto!important;-webkit-overflow-scrolling:touch;scroll-snap-type:x mandatory;overscroll-behavior-x:contain;scrollbar-width:none;}
-  section[data-section="ModelSlider"] .slick-list::-webkit-scrollbar{display:none;}
-  section[data-section="ModelSlider"] .slick-track{transform:none!important;display:flex!important;float:none!important;width:max-content!important;min-width:max-content!important;}
-  section[data-section="ModelSlider"] .slick-slide{float:none!important;flex:0 0 auto!important;scroll-snap-align:start;scroll-snap-stop:always;}
- }
-  .auping-humanqa-sound{position:absolute;z-index:24;right:12px;top:12px;border:1px solid rgba(255,255,255,.85);background:rgba(0,0,0,.55);color:white;border-radius:24px;min-height:40px;min-width:40px;display:flex;align-items:center;justify-content:center;cursor:pointer;padding:6px 11px;font:600 14px/1.2 -apple-system,BlinkMacSystemFont,"PingFang TC",Arial,sans-serif;}
-  .auping-humanqa-sound:focus-visible{outline:3px solid #00539f;outline-offset:2px;}`;
-  document.head.appendChild(st);
- }
- function homePictures(){
-   if(!mobile()) return;
-   for(const picture of document.querySelectorAll('section[data-section="CategoryTiles"] picture')){
-     if(picture.dataset.aupingHumanqaPicture)return;
-     const localSource=[...picture.querySelectorAll('source[media]')].find(x=>/\/assets\/.*\.(?:webp|jpe?g|png|avif)/i.test(x.getAttribute('srcset')||''));
-     const img=picture.querySelector('img');if(!localSource||!img)continue;
-     const first=(localSource.getAttribute('srcset')||'').split(',')[0].trim().split(/\s+/)[0];
-     if(!first||!first.startsWith('/auping-staging/assets/'))continue;
-     picture.dataset.aupingHumanqaPicture='1';
-     const remotes=[...picture.querySelectorAll('source:not([media])')];
-     remotes.forEach(s=>s.setAttribute('srcset',localSource.getAttribute('srcset')));
-     img.src=first;
-     // Preserve desktop variants; remove an earlier remote srcset only where it would override mobile picture.
-     img.removeAttribute('srcset');
-     stats.homePictures.push({fallback:first,remoteCount:remotes.length});
-   }
- }
- function sliderSetup(){
-  if(!mobile())return; // never mutate the imported desktop Slick classes
-  // The deployed Slick markup is a static snapshot; a live React Slick instance is absent.
-  // Native CSS overflow + a document-capture horizontal gesture fallback cover card overlays.
-  for(const section of document.querySelectorAll('section[data-section="ModelSlider"]')){
-   if(section.dataset.aupingHumanqaSlider==='native-scroll-capture-v103')continue;
-   const viewport=section.querySelector('.slick-list'),track=section.querySelector('.slick-track');
-   if(!viewport||!track)continue;
-   const slides=[...track.children].filter(x=>x.classList.contains('slick-slide'));
-   if(slides.length<2)continue;
-   section.dataset.aupingHumanqaSlider='native-scroll-capture-v103';
-   viewport.setAttribute('tabindex',viewport.getAttribute('tabindex')||'0');
-   viewport.setAttribute('role','region');viewport.setAttribute('aria-roledescription','carousel');
-   viewport.setAttribute('aria-label','商品卡片輪播，可左右滑動');
-   const width=()=>slides[0].getBoundingClientRect().width||slides[0].offsetWidth||320;
-   const clamp=v=>Math.max(0,Math.min(viewport.scrollWidth-viewport.clientWidth,v));
-   const update=()=>{
-    const idx=Math.max(0,Math.min(slides.length-1,Math.round(viewport.scrollLeft/Math.max(1,width()))));
-    section.dataset.aupingHumanqaIndex=String(idx);
-    section.dataset.aupingHumanqaScroll=String(Math.round(viewport.scrollLeft));
-    // The imported static Slick markup does not have a running Slick instance.
-    // Its original mobile CSS dims every slide that is not .slick-current to 20%.
-    // Keep the semantic/current visual state synchronized with actual scroll position.
-    slides.forEach((slide,i)=>{
-      const current=i===idx;
-      slide.classList.toggle('slick-current',current);
-      slide.classList.toggle('slick-active',current);
-      slide.setAttribute('aria-hidden','false'); // peek-visible siblings must remain visible
-      if(current)slide.setAttribute('aria-current','true');
-      else slide.removeAttribute('aria-current');
-    });
-    return idx;
-   };
-   let frame=0;
-   viewport.addEventListener('scroll',()=>{if(frame)cancelAnimationFrame(frame);frame=requestAnimationFrame(update)},{passive:true});
-   viewport.addEventListener('scrollend',update,{passive:true});
-   viewport.addEventListener('keydown',e=>{
-    if(e.target!==viewport||!['ArrowRight','ArrowLeft'].includes(e.key))return;
-    e.preventDefault();const next=update()+(e.key==='ArrowRight'?1:-1);
-    viewport.scrollTo({left:clamp(Math.max(0,next)*width()),behavior:'instant'});update();
-   });
-   let start=null;const inside=(t)=>{
-    const r=viewport.getBoundingClientRect();
-    return r.width>40&&r.height>40&&t.clientX>=r.left&&t.clientX<=r.right&&t.clientY>=r.top&&t.clientY<=r.bottom;
-   };
-   // Capture on document: overlay elements may intercept the touch before it hits .slick-list.
-   document.addEventListener('touchstart',e=>{
-    if(!mobile()||e.touches.length!==1||!inside(e.touches[0]))return;
-    const t=e.touches[0];start={id:t.identifier,x:t.clientX,y:t.clientY,at:viewport.scrollLeft,axis:'undecided',manualMoves:0};
-    section.dataset.aupingHumanqaTouchStart='1';
-   },{capture:true,passive:true});
-   document.addEventListener('touchmove',e=>{
-    if(!start||!mobile())return;
-    const t=[...e.touches].find(q=>q.identifier===start.id);if(!t)return;
-    const dx=t.clientX-start.x,dy=t.clientY-start.y;
-    if(start.axis==='undecided'&&Math.max(Math.abs(dx),Math.abs(dy))>=10){
-      start.axis=Math.abs(dx)>Math.abs(dy)*1.2?'horizontal':'vertical';
-    }
-    if(start.axis!=='horizontal')return;
-    // Prevent vertical page scroll only after confirmed horizontal user intent.
-    if(e.cancelable)e.preventDefault();
-    viewport.scrollLeft=clamp(start.at-dx);
-    start.manualMoves++;section.dataset.aupingHumanqaManualMoves=String(start.manualMoves);update();
-   },{capture:true,passive:false});
-   document.addEventListener('touchend',e=>{
-    if(!start)return;
-    const t=[...e.changedTouches].find(q=>q.identifier===start.id);if(!t)return;
-    const s=start;start=null;
-    if(s.axis!=='horizontal')return;
-    const delta=s.x-t.clientX;
-    if(Math.abs(delta)<36)return;
-    const base=Math.round(s.at/Math.max(1,width()));
-    const goal=Math.max(0,Math.min(slides.length-1,base+(delta>0?1:-1)));
-    // A deterministic end snap ensures the carousel does not silently bounce to index 0.
-    viewport.scrollTo({left:clamp(goal*width()),behavior:'instant'});
-    update();section.dataset.aupingHumanqaCapturedSwipe='1';
-   },{capture:true,passive:true});
-   document.addEventListener('touchcancel',()=>{start=null},{capture:true,passive:true});
-   update();
-   stats.carouselSections.push({id:section.id||null,slides:slides.length,method:'native-scroll-plus-horizontal-capture',capture:'document'});
-  }
- }
- function soundControls(){
-  for(const video of document.querySelectorAll('video')){
-   if(video.dataset.aupingHumanqaSoundReady)continue;
-   if(!video.closest('[class*="Video_VideoInner__"]'))continue;
-   const mf=(video.dataset.aupingMediaFile||video.querySelector('source[src]')?.getAttribute('src')||'').split('/').pop();
-   if(!(window.__aupingVerifiedAudioMp4||{})[mf]){video.dataset.aupingHumanqaSoundReady='skipped';stats.videos.push({src:mf,audio:'UNVERIFIED_OR_SILENT_SOURCE'});continue;}
-   video.dataset.aupingHumanqaMp4Audio='1';
-   video.dataset.aupingHumanqaSoundReady='1';
-   const host=video.parentElement; if(!host)continue;
-   if(getComputedStyle(host).position==='static')host.style.position='relative';
-   const btn=document.createElement('button');btn.type='button';btn.className='auping-humanqa-sound';
-   btn.dataset.aupingHumanqaSoundToggle='1';btn.textContent='開啟聲音';btn.setAttribute('aria-label','開啟聲音');
-   btn.setAttribute('aria-pressed','false');
-   const sync=()=>{const isMuted=video.muted||video.volume===0;btn.textContent=isMuted?'開啟聲音':'靜音';btn.setAttribute('aria-label',btn.textContent);btn.setAttribute('aria-pressed',String(!isMuted));};
-   btn.addEventListener('click',async e=>{
-    e.preventDefault();e.stopPropagation();
-    const wanted=!video.muted&&video.volume>0;
-    if(!wanted){
-      // Prefer local MP4 over alternate WebM when it includes the verified audio track.
-      const mp4=video.dataset.aupingMediaFile;
-      if(video.dataset.aupingHumanqaMp4Audio==='1'&&mp4&&video.currentSrc.endsWith('.webm')){
-       const old=video.currentTime||0;
-       video.src=`/auping-staging/assets/light-catalog/media/${mp4}`;
-       video.load();video.addEventListener('loadedmetadata',()=>{try{video.currentTime=old}catch{}},{once:true});
-      }
-      video.muted=false;video.defaultMuted=false;video.removeAttribute('muted');video.volume=1;
-      try{await video.play()}catch(err){video.dataset.aupingHumanqaAudioError=String(err)}
-    }else{video.muted=true;video.defaultMuted=true;video.setAttribute('muted','');}
-    sync();
-   });
-   video.addEventListener('volumechange',sync);
-   host.appendChild(btn);sync();
-   stats.videos.push({src:video.dataset.aupingMediaFile||video.currentSrc||null});
-  }
- }
- function boot(){on(fontStabilizer);on(homePictures);on(sliderSetup);on(soundControls)}
- if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true}); else boot();
- window.addEventListener('pageshow',boot);
- let queued=false;new MutationObserver(()=>{if(queued)return;queued=true;requestAnimationFrame(()=>{queued=false;boot()})}).observe(document.documentElement,{childList:true,subtree:true});
-})();
+  'use strict';
+  if (window.__aupingHumanQaConsolidatedV122) return;
+  window.__aupingHumanQaConsolidatedV122 = true;
+  const report = { modelSliders: [], audio: [], errors: [] };
+  window.__aupingHumanQaV122Report = report;
+  const mobile = window.matchMedia('(max-width:767px)');
 
-/* HUMANQA MOBILE PARITY GROUP PATCH END */
+  // No injected sound button. Use the existing <video controls> native UI.
+  function videoPass() {
+    document.querySelectorAll('section[data-section="VideoPlayer"] video').forEach(v => {
+      if (v.dataset.aupingHumanQaAudioReady) return;
+      v.dataset.aupingHumanQaAudioReady = 'native-controls-v12';
+      v.controls = true;
+      v.setAttribute('controls', '');
+      report.audio.push({src:v.dataset.aupingMediaFile || v.currentSrc || '', controls:v.controls});
+    });
+  }
+
+  // Existing Slick *markup* is preserved, but original React/Slick hydration is absent.
+  // Only the two known ModelSlider routes get a scoped transform-based controller.
+  function setupModelSlider(section) {
+    if (section.dataset.aupingHumanQaSliderReady) return;
+    const list = section.querySelector('.slick-list');
+    const track = section.querySelector('.slick-track');
+    if (!list || !track) return;
+    const slides = [...track.children].filter(e => e.classList.contains('slick-slide'));
+    if (slides.length < 2) return;
+    section.dataset.aupingHumanQaSliderReady = 'transform-v12';
+    list.setAttribute('role','region');
+    list.setAttribute('aria-roledescription','carousel');
+    list.setAttribute('aria-label','商品卡片輪播');
+    list.tabIndex = 0;
+    const prev = section.querySelector('[class*="ModelSlider_prevButton"]');
+    const next = section.querySelector('[class*="ModelSlider_nextButton"]');
+    let current = Math.max(0, slides.findIndex(e=>e.classList.contains('slick-current')));
+    let gesture = null;
+    let lastWidth = 0;
+    const width = () => Math.max(1,slides[0].getBoundingClientRect().width);
+    const slideDistance = (i) => Math.max(0, slides[i].offsetLeft - slides[0].offsetLeft);
+    const clamp = i => Math.max(0,Math.min(slides.length-1,i));
+    const setOffset = (offset, animate=true) => {
+      track.style.setProperty('transition',animate && !matchMedia('(prefers-reduced-motion: reduce)').matches
+        ? 'transform 440ms cubic-bezier(.165,.84,.44,1)' : 'none','important');
+      // offsetLeft is unaffected by CSS transforms and reflects actual Safari
+      // layout (including slide padding, instead of assuming equal widths).
+      if (list.scrollLeft) list.scrollLeft=0;
+      track.style.setProperty('transform',`translate3d(${-slideDistance(current)+offset}px,0,0)`,'important');
+    };
+    const update = (i, animate=true) => {
+      current = clamp(i);
+      lastWidth=width();
+      setOffset(0,animate);
+      slides.forEach((s,n)=>{
+        s.classList.toggle('slick-current',n===current);
+        s.classList.toggle('slick-active',n===current);
+        s.setAttribute('aria-hidden',String(n!==current));
+        if(n===current) s.setAttribute('aria-current','true'); else s.removeAttribute('aria-current');
+      });
+      for(const [el,disabled] of [[prev,current===0],[next,current===slides.length-1]]) {
+        if(!el)continue;
+        el.classList.toggle('ModelSlider_hidden__VgAET',disabled);
+        el.disabled=disabled;
+        el.setAttribute('aria-disabled',String(disabled));
+      }
+      section.dataset.aupingHumanQaActiveIndex=String(current);
+      return current;
+    };
+    if(prev)prev.addEventListener('click',e=>{e.preventDefault();update(current-1)});
+    if(next)next.addEventListener('click',e=>{e.preventDefault();update(current+1)});
+    list.addEventListener('keydown',e=>{
+      if(e.key!=='ArrowLeft' && e.key!=='ArrowRight')return;
+      e.preventDefault();update(current+(e.key==='ArrowRight'?1:-1));
+    });
+    list.addEventListener('touchstart',e=>{
+      if(!mobile.matches || e.touches.length!==1)return;
+      const t=e.touches[0];
+      gesture={id:t.identifier,x:t.clientX,y:t.clientY,lastX:t.clientX,lastTime:performance.now(),velocity:0,axis:'undecided'};
+    },{passive:true});
+    list.addEventListener('touchmove',e=>{
+      if(!gesture || !mobile.matches)return;
+      const t=[...e.touches].find(q=>q.identifier===gesture.id);if(!t)return;
+      const dx=t.clientX-gesture.x,dy=t.clientY-gesture.y;
+      if(gesture.axis==='undecided' && Math.max(Math.abs(dx),Math.abs(dy))>=8)
+        gesture.axis=Math.abs(dx)>Math.abs(dy)*1.2?'horizontal':'vertical';
+      if(gesture.axis!=='horizontal')return;
+      const now=performance.now(),dt=Math.max(1,now-gesture.lastTime);
+      gesture.velocity=(t.clientX-gesture.lastX)/dt;
+      gesture.lastX=t.clientX;gesture.lastTime=now;
+      const elastic=(current===0&&dx>0)||(current===slides.length-1&&dx<0);
+      setOffset(dx*(elastic?.22:1),false);
+    },{passive:true});
+    const end = e => {
+      if(!gesture)return;
+      const t=[...e.changedTouches].find(q=>q.identifier===gesture.id);
+      const g=gesture;gesture=null;
+      if(!t || g.axis!=='horizontal'){update(current,true);return;}
+      const dx=t.clientX-g.x,dy=t.clientY-g.y;
+      if(Math.abs(dx)>Math.max(38,Math.abs(dy)*1.2)||Math.abs(g.velocity)>.55)
+        update(current+(dx<0?1:-1),true);
+      else update(current,true);
+    };
+    list.addEventListener('touchend',end,{passive:true});
+    list.addEventListener('touchcancel',()=>{gesture=null;update(current,true)},{passive:true});
+    window.addEventListener('resize',()=>{if(mobile.matches)update(current,false)},{passive:true});
+    if(mobile.matches)update(current,false);
+    report.modelSliders.push({section:section.id||'',slides:slides.length,method:'scoped-transform-native-gesture'});
+  }
+
+  // Optional self-contained Safari evidence panel. Local preview ONLY; nothing
+  // sent off-device. Open a page with ?humanqa_diag=1 to see exact pixel source,
+  // image decode, carousel card geometry and font rendering ownership.
+  function probe() {
+    if (!location.search.includes('humanqa_diag=1') || document.getElementById('auping-hqa-diag')) return;
+    const box=document.createElement('details');box.id='auping-hqa-diag';
+    box.style.cssText='position:fixed;right:6px;bottom:8px;z-index:2147483647;width:min(94vw,390px);max-height:55vh;overflow:auto;background:#fff;color:#111;border:2px solid #00539f;padding:8px;font:12px/1.35 monospace;box-shadow:0 3px 20px #0007';
+    box.innerHTML='<summary style="font-weight:bold;cursor:pointer">iPhone Safari QA (tap for diagnostics)</summary><pre style="white-space:pre-wrap;word-break:break-all"></pre>';
+    document.body.appendChild(box);
+    const show=()=>{
+      const cats=[...document.querySelectorAll('section[data-section="CategoryTiles"] picture')].map((p,i)=>{
+        const im=p.querySelector('img'),r=p.getBoundingClientRect();const st=getComputedStyle(p);
+        return {i,url:im?.currentSrc?.split('/').pop(),loaded:im?.complete,nw:im?.naturalWidth,nh:im?.naturalHeight,pictureWH:[Math.round(r.width),Math.round(r.height)],background:st.backgroundImage.slice(0,130)};
+      });
+      const slides=[...document.querySelectorAll('section[data-section="ModelSlider"] .slick-slide')].map((s,i)=>({i,active:s.classList.contains('slick-current'),x:Math.round(s.getBoundingClientRect().x),left:s.offsetLeft,cardX:Math.round((s.querySelector('[class*=ModelSlider_modelCard]')||s).getBoundingClientRect().x)}));
+      const headings=[...document.querySelectorAll('.CtaBasic_ctaText__NsiLO h2,.CTAButton_content__TobZU')].slice(0,6).map(e=>({text:e.innerText.slice(0,90),font:getComputedStyle(e).fontFamily,ligatures:getComputedStyle(e).fontVariantLigatures}));
+      box.querySelector('pre').textContent=JSON.stringify({width:innerWidth,pixelRatio:devicePixelRatio,images:cats,slides,headings},null,2);
+    };
+    box.addEventListener('toggle',show);setTimeout(show,1500);
+  }
+
+  function boot() {
+    try{videoPass()}catch(e){report.errors.push({component:'video',error:String(e)})}
+    if (document.body) try{probe()}catch(e){report.errors.push({component:'diagnostics',error:String(e)})}
+    if(!mobile.matches) return;
+    document.querySelectorAll('section[data-section="ModelSlider"]').forEach(section=>{
+      try{setupModelSlider(section)}catch(e){report.errors.push({component:'ModelSlider',error:String(e)})}
+    });
+  }
+  if(document.readyState==='loading')document.addEventListener('DOMContentLoaded',boot,{once:true});
+  else boot();
+  window.addEventListener('pageshow',boot,{passive:true});
+  let requested=false;
+  new MutationObserver(()=>{
+    if(requested)return;requested=true;
+    requestAnimationFrame(()=>{requested=false;boot()});
+  }).observe(document.documentElement,{childList:true,subtree:true});
+})();
+/* AUPING 2026-10-20 Mobile HumanQA Consolidated Candidate END */
+
