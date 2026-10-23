@@ -1,0 +1,53 @@
+/* v1.8.9 CRITICAL FIRST-IN-HEAD: prevents unstyled menu images/overlay capturing taps while closed.
+   This is not a replacement of RC7 owner or the official menu design. */
+@media (max-width:1023px) {
+  [data-auping-mobile-root][aria-hidden="true"] {
+    visibility:hidden!important;pointer-events:none!important;
+  }
+  [data-auping-mobile-root][aria-hidden="true"] *,
+  [data-auping-mobile-root][aria-hidden="true"]::before,
+  [data-auping-mobile-root][aria-hidden="true"]::after {
+    pointer-events:none!important;
+  }
+  [data-auping-mobile-root][aria-hidden="true"] [data-auping-mobile-overlay] {
+    display:none!important;
+  }
+  [data-auping-mobile-root][aria-hidden="false"] {visibility:visible!important;}
+  [data-auping-mobile-submenu][aria-hidden="true"] {pointer-events:none!important;}
+  /* Owner-confirmed Safari A/B: switch to Apple/PingFang fixes boxed glyphs.
+     System font is now default on menu only across all routes. No sitewide font changes.
+     Legacy text paint remains opt-in for regression comparison. */
+  html:not([data-auping-menu-font-compare="original"]) [data-auping-mobile-root] {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif!important;
+    font-variant-ligatures:none!important;
+    font-feature-settings:normal!important;
+    text-rendering:auto!important;
+    -webkit-text-stroke:0!important;
+  }
+  html:not([data-auping-menu-font-compare="original"]) [data-auping-mobile-root]
+    :is([class*="TopLevelMenuItem"],[class*="ProductMenuItem"],[class*="ContentMenuItem"],
+        [class*="FullPageMenu__submenu__title"],[class*="FullPageMenu_FullPageMenu__submenu__title"],
+        [class*="FullPageMenu_FullPageMenu__main"]) {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif!important;
+    font-variant-ligatures:none!important;
+    font-feature-settings:normal!important;
+    text-rendering:auto!important;
+    -webkit-text-stroke:0!important;
+  }
+
+  /* v1.9.2 — exact observed iPhone A/B correction on text-bearing descendants.
+     CSS Modules on noncanonical /toppers/ family sometimes define font on a
+     nested span rather than on the menu item wrapper. Keep the fix menu-only. */
+  html:not([data-auping-menu-font-compare="original"]) body [data-auping-mobile-root]
+    :is(div,span,a,li,p,h1,h2,h3,h4,strong,b,button,label):not([class*="MaterialSymbol"]):not([class*="material-symbol"]) {
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang TC","Noto Sans TC",sans-serif!important;
+    font-variant-ligatures:none!important;
+    font-feature-settings:normal!important;
+    -webkit-text-stroke:0!important;
+    text-rendering:auto!important;
+  }
+  /* A closed menu must never intercept taps even if its original design CSS
+     loads slowly on a refreshed Safari document. Does not own menu events. */
+  html body [data-auping-mobile-root][aria-hidden="true"] {visibility:hidden!important;pointer-events:none!important;}
+  html body [data-auping-mobile-root][aria-hidden="true"] img {pointer-events:none!important;}
+}
