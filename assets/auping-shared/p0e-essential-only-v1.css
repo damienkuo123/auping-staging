@@ -1,0 +1,10 @@
+/* P0E: Essential desktop video only. Derived from the original P0E CSS,
+   deliberately excludes ALL rejected Auping Two selectors and global rules. */
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] button[class*="Video_VideoPlayButton"]{display:inline-flex !important;align-items:center !important;justify-content:center !important;gap:10px !important;max-width:calc(100% - 32px);box-sizing:border-box;}
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] span[class*="Video_VideoPlayButtonText"]{font-size:clamp(15px,2.4vw,24px) !important;white-space:normal !important;text-align:center !important;line-height:1.35 !important;}
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] .Video_VideoInner__vMsXo{position:relative;}
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] .Video_VideoPreview__u9oMC{position:absolute;inset:0;z-index:5;pointer-events:auto;}
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] .Video_VideoPlayButton__A7__N{position:relative;z-index:6;pointer-events:auto;cursor:pointer;}
+body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] .Video_VideoPreview__u9oMC img{pointer-events:none !important;}
+body[data-auping-p0d="essential"] .p0e-video-status{padding:12px 16px;color:#8b261d;background:#fff4f2;border:1px solid #d4b8ae;font-size:14px;}
+@media (max-width:767px){body[data-auping-p0d="essential"] section[data-section="VideoPlayer"] span[class*="Video_VideoPlayButtonText"]{font-size:16px !important;}}

@@ -1,0 +1,71 @@
+/* Auping W4 Safari source-equivalent shared CSS v1.0; original v1.0.9 preview rules.
+   Isolated promotion candidate only; do not deploy without G0-G5 acceptance. */
+/* original preview id: auping-w4-mobile-geometry-chain-PREVIEW-v106 */
+/* Only the proven 7 category tiles. Absolute filling the aspect-ratio A element
+   avoids Safari percent-height=0 when the parent height is content-derived. */
+@media (max-width: 597px) {
+  section[data-section="CategoryTiles"] a[class*="CategoryTiles_tile__"] {
+    position:relative !important;
+  }
+  section[data-section="CategoryTiles"] [class*="CategoryTiles_tileContainer"] {
+    position:absolute !important; inset:0 !important;
+    width:auto !important; height:auto !important;
+  }
+  section[data-section="CategoryTiles"] picture[class*="CategoryTiles_tileImage"] {
+    position:absolute !important; inset:0 !important; display:block !important;
+    width:100% !important; height:100% !important;
+  }
+  section[data-section="CategoryTiles"] picture[class*="CategoryTiles_tileImage"] img {
+    position:absolute !important; inset:0 !important; display:block !important;
+    width:100% !important; height:100% !important; object-fit:cover !important;
+  }
+}
+
+/* original preview id: auping-w4-standard-card-geometry-PREVIEW-v106 */
+/* Standard catalog cards only; no Enriched C2 page-2/Box Springs/Beds cards.
+   Existing ProductCard_Image is 1:1 but its height:100% child A resolves to 0
+   in iPhone Safari. Anchor the A directly to the definite aspect-ratio frame. */
+@media (max-width: 767px) {
+ [class*="CatalogWithFilters_base"] [class*="ProductCard_Card"] [class*="ProductCard_Image"] {
+   position:relative !important; aspect-ratio:1 / 1 !important;
+ }
+ [class*="CatalogWithFilters_base"] [class*="ProductCard_Card"] [class*="ProductCard_Image"] > a {
+   position:absolute !important; inset:0 !important;
+   width:100% !important; height:100% !important;
+ }
+}
+
+/* original preview id: auping-w4-mattress-v2-geometry-PREVIEW-v109 */
+/* Target only existing official MattressProductCardV2 on the editorial mattress
+   landing page, preserving FinalV2 geometry 1.95, cards, ratings, CTA and text.
+   Safari percentage height of an A/slide may compute 0 when parent is auto.
+   Absolute fill anchors the pixels to the definite aspect-ratio frame. */
+@media (max-width:767px) {
+ section.auping-v110-official-catalog .MattressProductCardV2_Wrapper__yBEBV > .MattressProductCardV2_ImageContainer__lolrN {
+   position:relative !important; width:100% !important; height:auto !important;
+   aspect-ratio:1.95 !important; overflow:hidden !important;
+ }
+ section.auping-v110-official-catalog .MattressProductCardV2_ImageContainer__lolrN > a,
+ section.auping-v110-official-catalog .MattressProductCardV2_ImageContainer__lolrN > a > .ProductCardImageSlide_Base__61EAg,
+ section.auping-v110-official-catalog .MattressProductCardV2_ImageContainer__lolrN .ProductCardImageSlide_SingleSlide__R090B,
+ section.auping-v110-official-catalog .MattressProductCardV2_ImageContainer__lolrN .ProductCardImageSlide_Slide__YZQTR {
+   position:absolute !important; inset:0 !important;
+   display:block !important; width:100% !important; height:100% !important;
+ }
+ section.auping-v110-official-catalog .MattressProductCardV2_ImageContainer__lolrN .ProductCardImageSlide_Slide__YZQTR img {
+   position:absolute !important; inset:0 !important; width:100% !important;
+   height:100% !important; object-fit:cover !important;
+ }
+ /* v109: actual iPhone Safari capture has hero frame 376x193px, but its A is
+    376x0px and computed position:relative. The existing immutable FinalV2
+    geometry stylesheet uses a three-class !important rule for the hero A.
+    The v108 two-class override lost that cascade. Target EXACTLY six hero
+    anchors with higher specificity; do not touch twelve rating image boxes. */
+ section.auping-v110-official-catalog .MattressProductCardV2_Base__VC_mg >
+ .MattressProductCardV2_Wrapper__yBEBV >
+ .MattressProductCardV2_ImageContainer__lolrN >
+ a[href^="/auping-staging/mattresses/"] {
+   position:absolute !important; inset:0 !important;
+   display:block !important; width:100% !important; height:100% !important;
+ }
+}

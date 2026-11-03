@@ -1,0 +1,639 @@
+{
+  "schema": "AUPING_DIRECT_MAIN_88_20261103",
+  "repository": "damienkuo123/auping-staging",
+  "pinned_main": "65c6c077a6dae609be2b1eeb38bc63e516a85ae6",
+  "target_branch": "main",
+  "backup_tag": "safety/pre-88-main-20261103-65c6c077",
+  "candidate_files": [
+    {
+      "path": "about-auping/sustainability/35-million-mattresses/index.html",
+      "sha256": "d629af0a0725a8db4dd1e8952b72505eacf6ca0560ace949f5157dfa5a7c58ca",
+      "bytes": 140387,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "about-auping/sustainability/index.html",
+      "sha256": "c03fc5b88faaee878793b881d85e55db79e0f7fc1550c81c96a063480a46419a",
+      "bytes": 149888,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "about-auping/sustainability/recycling/index.html",
+      "sha256": "4ecf6d644d349580a11aa4c42cb775ef2e76585416398b4942a34c2ddbc1c1ef",
+      "bytes": 145052,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "about-auping/sustainability/solar-panels/index.html",
+      "sha256": "ee47ce4cd66175d8b8560e9230b9e4f368ff703bbb168fc0d78bcf4e9effb429",
+      "bytes": 130503,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "assets/auping-shared/p0e-essential-only-v1.css",
+      "sha256": "6f148856eeb5fbdc78d10bd1bba4c218b9515029035cf56009b39654b49b4915",
+      "bytes": 1552,
+      "status": "ACCEPTED_FEATURE_SCOPE",
+      "reason": "New essential-only stylesheet; no Two styling"
+    },
+    {
+      "path": "assets/auping-shared/product-specifications-v1.js",
+      "sha256": "6cdd29172644d57d85a52d06e2216e74cd6f73d75a04e8c523b0a2a9c45cb583",
+      "bytes": 2312,
+      "status": "ACCEPTED_REPRESENTATIVE",
+      "reason": "W1 shared source-scoped Noa specifications JS"
+    },
+    {
+      "path": "assets/auping-shared/w4-safari-media-geometry-v1.css",
+      "sha256": "591b6185bcab362318e35fa99453294a0bd62a0f473eaff8e5ef107ab7b25a0f",
+      "bytes": 4171,
+      "status": "SAFARI_REVIEW",
+      "reason": "Shared mobile selector scope, requires reference pages + real device"
+    },
+    {
+      "path": "assets/auping-shared/w4-safari-official-video-v110.js",
+      "sha256": "a9874cbbd2cc883674cee8703d5640ea9b6aaada76e5458528a5eef032ba2856",
+      "bytes": 2790,
+      "status": "ARCHITECTURE_DECISION",
+      "reason": "Autoplay & gesture semantics changed in a shared media controller; iPhone acceptance missing"
+    },
+    {
+      "path": "assets/c2-catalog/controller.js",
+      "sha256": "65bbe8ad9b8c94a0473777350383c01685d73db96a09a8734b509375950746c0",
+      "bytes": 14579,
+      "status": "ARCHITECTURE_DECISION",
+      "reason": "Cross-page C2 owner; exact filter/page2 behavior must be compared, not automatically accepted"
+    },
+    {
+      "path": "bed-bases/index.html",
+      "sha256": "5a0eda2a51678d12b635faca3a03b65aabcfa13d0a6d2aecd7cf3e096f11e586",
+      "bytes": 345771,
+      "status": "W4_REVIEW",
+      "reason": "W4 candidate added after W3C; scope-specific Safari acceptance required"
+    },
+    {
+      "path": "bed-linen/bedspreads/index.html",
+      "sha256": "e5e095eba9b3b1358538be641a0cb060bc043dceb4773c935f513b4e384aa5f4",
+      "bytes": 229236,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "bed-linen/duvet-covers/index.html",
+      "sha256": "9284a32c0c324c07bae0c6ef3a03fe270542104f1246b8c33ab3696294784aa1",
+      "bytes": 382325,
+      "status": "W4_REVIEW",
+      "reason": "W4 candidate added after W3C; scope-specific Safari acceptance required"
+    },
+    {
+      "path": "bed-linen/duvets/index.html",
+      "sha256": "e73f4133969a41af6b490974a1371037bd26ed592254aaf1e76b14457a2c2289",
+      "bytes": 245306,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "bed-linen/fitted-sheets/index.html",
+      "sha256": "83c99c0585363769e552eef47f915b33a0d6da3ed7b07ea63676d0b7730069b6",
+      "bytes": 246606,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "bed-linen/index.html",
+      "sha256": "6123f92cdb62481d1a63a2c9f2a4ab2be20bde3491f9cd7de06af57f2fb4df9f",
+      "bytes": 291611,
+      "status": "W4_REVIEW",
+      "reason": "W4 candidate added after W3C; scope-specific Safari acceptance required"
+    },
+    {
+      "path": "bed-linen/mattress-protectors/index.html",
+      "sha256": "4497aab4015a48a58fd32dc4ab061a64227fa1a3794d0ae0375da90da1574c3f",
+      "bytes": 235822,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "bed-linen/mattress-protectors/molton-mattress-protector/index.html",
+      "sha256": "6766f239016a21bc62dbe7125a4c50ee92559cd77e39ccb460d2770f4f0c5c11",
+      "bytes": 242482,
+      "status": "ACCEPTED_REPRESENTATIVE",
+      "reason": "W1 Molton three identity slots Chrome representative PASS"
+    },
+    {
+      "path": "bed-linen/pillowcases/index.html",
+      "sha256": "2b452f7e581c027bccb335e85bd47af1cb47753c96b363f5d6c32b35f9ed45ad",
+      "bytes": 276243,
+      "status": "ACCEPTED_REPRESENTATIVE",
+      "reason": "W1 Pillowcases 22x3 links Chrome representative PASS"
+    },
+    {
+      "path": "bed-linen/pillows/index.html",
+      "sha256": "58be13da5a55ab72cbd243686f39f5f0168b920d0753128ab0962fef5edc2c5a",
+      "bytes": 301107,
+      "status": "W4_REVIEW",
+      "reason": "W4 candidate added after W3C; scope-specific Safari acceptance required"
+    },
+    {
+      "path": "beds/auronde/index.html",
+      "sha256": "6c44578f24ea328e737c5fa41d3011893c4bed057909f5fb81d409d30c33ad6f",
+      "bytes": 197830,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "beds/essential/index.html",
+      "sha256": "a7def169c40c6219517e81b71da5becfdb8a64f06481a85092d8bbb86a2009ac",
+      "bytes": 194152,
+      "status": "ACCEPTED_FEATURE_SCOPE",
+      "reason": "P0E accepted desktop video only; source P0B otherwise unchanged"
+    },
+    {
+      "path": "beds/noa-soft-white-oak/index.html",
+      "sha256": "c674bff575119258210ec075454b73fbc4c4770065937f6f1b43fe75403edd58",
+      "bytes": 287585,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "beds/noa/index.html",
+      "sha256": "0b52cc0ec23669a9e09462c9a37d7e844d0049710145738a8fe7ef5edc103d28",
+      "bytes": 249837,
+      "status": "ACCEPTED_REPRESENTATIVE",
+      "reason": "W1 Noa specs 10 Chrome representative PASS"
+    },
+    {
+      "path": "beds/noble/index.html",
+      "sha256": "f0c1b5ce8a18ccb3dad2522fbd738096531e6f3910bc71df72e25e7fa3154827",
+      "bytes": 165422,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "beds/original/index.html",
+      "sha256": "56aba72690756742be8e911453671968f7e321b9e189991701f677868ccdd1d0",
+      "bytes": 251080,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "box-springs/criade/index.html",
+      "sha256": "5938179ae00dcbb7348928386a86569848356af2b2fe5670f8ae84153beef7c8",
+      "bytes": 206156,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "box-springs/index.html",
+      "sha256": "62c76d74a7672e3ffd9d7fba4816c3dc55377e11aed589195843e6f920564399",
+      "bytes": 535180,
+      "status": "CONTENT_REVIEW",
+      "reason": "W2 4 sections Chrome representative PASS, Chinese prose draft"
+    },
+    {
+      "path": "box-springs/kiruna/index.html",
+      "sha256": "6695594266f8092cfd5b4ae4daab79ec01875caa1d41e0b6ee5abfb4d12d2d50",
+      "bytes": 252464,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "box-springs/original-box-spring/index.html",
+      "sha256": "b1ece47ff213f096a95874d24573f1ef292aedc27e1ef61447e268b1bd0867d0",
+      "bytes": 182874,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "box-springs/original-boxspring/index.html",
+      "sha256": "774d9f3e1f99641c6cc97ab09a106e211440771675d72f24c09b04a7ba0f2071",
+      "bytes": 206545,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "customer-service/ordering/index.html",
+      "sha256": "aa12bd0478273d43c6029476c1225d25b8fb01156a65ebf0cf71b52cce7c8d23",
+      "bytes": 131984,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "mattress-toppers/index.html",
+      "sha256": "4dde8a7f7ff0363305f54e7a9734ffba92597c78f457cba722ea19a59e6ce18a",
+      "bytes": 334131,
+      "status": "CONTENT_HOLD",
+      "reason": "B236 source UUID not exact and translation draft"
+    },
+    {
+      "path": "mattresses/elite-mattress/index.html",
+      "sha256": "4e74283f2ac1b4fc752852ab723b784d7e023242aa99129b9c69e3c8f3eef704",
+      "bytes": 236848,
+      "status": "CONTENT_HOLD",
+      "reason": "Mattress product full page parity not approved"
+    },
+    {
+      "path": "mattresses/elysium-mattress/index.html",
+      "sha256": "71436bd59265bf49f5dbdaef0dc1c3482a264bd6087a5750a28d43809d696b32",
+      "bytes": 231618,
+      "status": "CONTENT_HOLD",
+      "reason": "Mattress product full page parity not approved"
+    },
+    {
+      "path": "mattresses/evolve-mattress/index.html",
+      "sha256": "dab748f669dd10fb6f0f6716c0c3636ff05b1cd82cd23576a6ee78128c736c90",
+      "bytes": 244245,
+      "status": "CONTENT_HOLD",
+      "reason": "Mattress product full page parity not approved"
+    },
+    {
+      "path": "mattresses/index.html",
+      "sha256": "e772e1f5c595c4319dfc24d6a7cec967c6d0a98186dee645781739a73985180b",
+      "bytes": 345045,
+      "status": "W4_REVIEW",
+      "reason": "W4 candidate added after W3C; scope-specific Safari acceptance required"
+    },
+    {
+      "path": "mattresses/one-mattress/index.html",
+      "sha256": "13df83cd8b3ff521a3d0e8cba0cb0d16351b134e7843219f63e95e0a9b2b65de",
+      "bytes": 231817,
+      "status": "CONTENT_HOLD",
+      "reason": "Product family translations and full page parity not approved"
+    },
+    {
+      "path": "mattresses/revive-mattress/index.html",
+      "sha256": "690b98d347bab61d441175ca0f5131d7a1d423dc8a159e62dd6fe3fe6f7c8819",
+      "bytes": 234474,
+      "status": "CONTENT_HOLD",
+      "reason": "Mattress product full page parity not approved"
+    },
+    {
+      "path": "mattresses/two-mattress/index.html",
+      "sha256": "d609e2d277f25a93632493c3b5866f481c4246c4dd544998d89bcc28a09c8d59",
+      "bytes": 228691,
+      "status": "VISUAL_FAIL",
+      "reason": "Two full-page visual parity rejected; do not promote"
+    },
+    {
+      "path": "news/amsterdam-hotels-opt-wonderful-auping-beds/index.html",
+      "sha256": "f03e09d50ded57be2d3d439fe17e0cbddcd0b77f44c1abb3458248105174a1cb",
+      "bytes": 160185,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-achieves-b-corp-status/index.html",
+      "sha256": "d4470d75805d21582f9356c71e3b1831a48367c9576968dd9cfe0b52a3a50efb",
+      "bytes": 161341,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-elysium-mattress-best-sustainable-product-2022/index.html",
+      "sha256": "0e9a49dd29c57e9b25f20e5ed71aa00b48daa6baae75d600a680e7c00bbe08b0",
+      "bytes": 134032,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-elysium-recognised-good-industrial-design-gio/index.html",
+      "sha256": "a9b60226a251af70006bca1a3b39a70c6d024a7f2a00cfcfe9e4cdf0322f0624",
+      "bytes": 132689,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-evolve-nominated-dutch-design-awards-2020/index.html",
+      "sha256": "3cc4206944793bbb8a0bf5f1e6a18029d774821faa5f5bc216ac40ebd8e7baf3",
+      "bytes": 160706,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-evolve-rethinking-plastic-house-dutch-design-week-2021/index.html",
+      "sha256": "1a66867095d200dc4531a748af7c825ab2c6aada5701df5264a3c8815d47a92c",
+      "bytes": 162104,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-launches-assortment-archiproducts/index.html",
+      "sha256": "c053909782b847e8bbdb377355c75cae22ef229497b6502e3352222caa7fd681",
+      "bytes": 156262,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-noa-bed-winner-archiproducts-design-awards/index.html",
+      "sha256": "ff6484306433f962ac6c9bc4d03a3d937f1d7f4b9f582e399a23d492de2cc474",
+      "bytes": 159704,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-noa-wins-if-design-award-2022/index.html",
+      "sha256": "c1591d5a5defb9ba0b38e4d7707118911bc3a58c617de79331fa44f6c61ea4ff",
+      "bytes": 134694,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-noble-wins-archiproducts-design-award/index.html",
+      "sha256": "96b6aa4476f8fc631545c744bf6ace3d8f339977a7507436dc3fadb163278e44",
+      "bytes": 133173,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-nordic-hotel-event-lobby-copenhagen/index.html",
+      "sha256": "0080e79e8e8448a83c522cc8be75f66b21b9ec68ff438b8783cc9226e0f80b07",
+      "bytes": 136959,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-opens-mattress-factory-future/index.html",
+      "sha256": "721f51e8084e729d757badfbfe6cdf278f3d795d5205f864e69f69c5958ab15c",
+      "bytes": 130984,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-publishes-impact-report-2023-and-achieves-b-corp-recertification/index.html",
+      "sha256": "49ad7dc38a1b5458c9071fd9b76e25f145f631a92762842a6e4b740d61b84e45",
+      "bytes": 132387,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-stood-up-to-help-fight-the-coronavirus/index.html",
+      "sha256": "198e502b75341e292b331cbf0afd40b347c284e50b9ba990677bbc28b73590da",
+      "bytes": 152223,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-takes-important-step-circular-transition/index.html",
+      "sha256": "d97783f57c77fc585e4d6526d456e53acaa4fb270d873294be6a2af0c528475a",
+      "bytes": 133785,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-wins-oscar-sound-innovative-music/index.html",
+      "sha256": "2f38f37675cb388ebc054153e71f6e229548500373591002cbd34da66b9011b5",
+      "bytes": 135107,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/auping-x-teklan/index.html",
+      "sha256": "093a1122b6ecb7f113fec6e9bee02b181b10c292ea98ca5823f4cef3446952f2",
+      "bytes": 158799,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/building-circular-future-auping-and-tripler-redefine-mattress-recycling-digital-identification/index.html",
+      "sha256": "5e9c3ea9ec9c04aae665126ce553761c1d864dad6edc6c4d39ba4ed0cd3d870b",
+      "bytes": 134164,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/closing-loop/index.html",
+      "sha256": "0a5d171ed7bfa19aca6976a26fd1ea2e6332a2308ab38b03e70f094a531400e5",
+      "bytes": 160135,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/importance-mental-rest/index.html",
+      "sha256": "2a491009ffd36f3bbf9eac4cfc0ec54f9a70a9e3a3bebd2058eb64213ed95c3e",
+      "bytes": 137362,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/mae-engelgeer/index.html",
+      "sha256": "bad26edce96028024e90d5d31cc2bd47192a0b9c4599be689b4448ce89577818",
+      "bytes": 159781,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/niagar-product-passport/index.html",
+      "sha256": "b4f7edad9bda784737cd618084c9ea206cb6bdd823ebf4acfe4b80d573a492ca",
+      "bytes": 158889,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/production-of-medical-facemasks-for-healthcare-professionals-starts-in-the-netherlands/index.html",
+      "sha256": "b0f808c5bab9942a3a91bf54a5a04ba3a005ecc457afa81bef22fed44e1928e5",
+      "bytes": 153754,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/royal-auping-and-niagar-achieve-breakthrough-fully-recyclable-mattress/index.html",
+      "sha256": "429524ac2a7fd42314876ba6ea4d124ec542a8535521100eb1c67666c0ee498f",
+      "bytes": 160190,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/royal-auping-expands-dealer-network-sweden/index.html",
+      "sha256": "0db9d8d06945719678332e0cf89c26a82be7e42eeb525576b8788fa63ba2ec57",
+      "bytes": 160174,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/royal-auping-opens-first-flagshipstore-spain/index.html",
+      "sha256": "a55a0f85b38d1752b5da81f42a7a8d639dbc742d971f9413d38314139931af0e",
+      "bytes": 159938,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/royal-auping-receives-order-from-ministry-for-supply-of-mouth-nose-masks/index.html",
+      "sha256": "44747ee6f8f8e838cf71275b86e6b2087ce72f76d030d762aa9fae25a9336f4f",
+      "bytes": 153179,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/schepers-bosman-x-auping-consumption-quarantine/index.html",
+      "sha256": "86a4291ec4673b8c91f19c9012d28c7be3e5be60a9713c0b985f94ea98fc3c1e",
+      "bytes": 162107,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/transforming-mattress-recycling-closing-loop-auping-niagar-wellman-international-and-twe/index.html",
+      "sha256": "4678e0cc76b0a2b7e42679b3f7b32b86d0f59e42370b5b75a10eef1dd1482b1a",
+      "bytes": 135369,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "news/well-rested-bright-young-minds/index.html",
+      "sha256": "7162d4ac6c4ce16d56627d421e75dfdc60ca639dfe3efa6cfe73c20aece934f8",
+      "bytes": 155324,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "store-locator/index.html",
+      "sha256": "d45806d50e4980f67b8ad193b7a01e24767e89528f7712f41344eff4137ee4cb",
+      "bytes": 125378,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/hsinchu-dutchhaves/index.html",
+      "sha256": "7a5cbcd9b17477aeb751b4c21964eed8cf6e57c3191b7e81e5d58d0d35ef38eb",
+      "bytes": 137227,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/kaohsiung-zhonghua/index.html",
+      "sha256": "86f8bde4e31c88add5f729ff0cf92e2319545e6aae31a80fb4c9a0d99fbb82b6",
+      "bytes": 137189,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/taichung-dutchhaves/index.html",
+      "sha256": "4280c989ec52ce3963895c9cf756a7adb8c92d48384fec5f352f9a92c443ebab",
+      "bytes": 137328,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/taipei-asehome/index.html",
+      "sha256": "4d7a6b530e9299f8be0ef80d79760fa34b525ae27596134d052816dafe03a8df",
+      "bytes": 137186,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/taoyuan-nankan/index.html",
+      "sha256": "d520c17727046c029a9e362296617e4f4a44d57151870b37f31266f089d08586",
+      "bytes": 137172,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stores/yilan-outlet/index.html",
+      "sha256": "ca3672738c09237a3410c2cc3e138a146d1ed061e0fa1239798d9e62e50cb84f",
+      "bytes": 137197,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/anti-snoring-tips/index.html",
+      "sha256": "a07446e3c15e64b96ce43389281b6b4d660d691bc4c13ee3d488fed3de00dff4",
+      "bytes": 153040,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/body-types/index.html",
+      "sha256": "42d65cabc685a580a8520d0db978e116fe18cd951e1f7674f67acffb59c1a079",
+      "bytes": 152672,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/buy-a-new-mattress/index.html",
+      "sha256": "157fc9a1888c7ad5d0d602e5c5a8c53724e9283e072b508127e7fb7a7a309792",
+      "bytes": 136315,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/certified-materials-pillows-duvets/index.html",
+      "sha256": "b16a1132ded2b6ff16153b1909f54eb159563d7fbbb80f3c67443ef7019004fc",
+      "bytes": 158627,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/counting-sheep-boring/index.html",
+      "sha256": "94affa2ff536b4acb23ff8bab08e8bddd4d7cffb1c5c82ed8af92b35d0d19d99",
+      "bytes": 152624,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/daylight-saving-time/index.html",
+      "sha256": "6798b98d8993eac0227184cb7d1bb6a3aaff51a9e5c75d3a3a7b36f36138bbe2",
+      "bytes": 152290,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/importance-of-sleep/index.html",
+      "sha256": "43b868d2b74b213f446e391ff408aaff88ceac2c30d3eab7d8815d329ed33996",
+      "bytes": 153790,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/index.html",
+      "sha256": "2726d2e642f1e778cddd47397c49d3e807e2e9a1ed05792155de32cf52860ba3",
+      "bytes": 124697,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/sleeping-around/index.html",
+      "sha256": "8f3ba808af78fcde5a9e12fda765beb9e23a620a471556bf1e409e3cd4c8347b",
+      "bytes": 150912,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/tips-beat-jet-lag/index.html",
+      "sha256": "5492f06685eb6499b1facaa3707027710cb2be201a848b2bbdd094a7bcb62250",
+      "bytes": 153024,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "stories/which-pillow-suits-you-best/index.html",
+      "sha256": "d56c8ddd5adafa38a6a3ce038f3356fd0fbbcdd46a68c6d9497ac5fc20b776f6",
+      "bytes": 155016,
+      "status": "W3C_LINK_REVIEW",
+      "reason": "W3C 145 href contract was statically checked; live click coverage partial"
+    },
+    {
+      "path": "toppers/index.html",
+      "sha256": "7bb5def3fcb1c105e0a476a1e92c34ff607f02debea09ccbb979853f6d52c5d7",
+      "bytes": 333077,
+      "status": "CONTENT_HOLD",
+      "reason": "B236 source UUID not exact and translation draft"
+    }
+  ],
+  "file_count": 88,
+  "explicit_user_direct_main_request": true,
+  "known_holds": [
+    "assets/auping-shared/w4-safari-official-video-v110.js",
+    "assets/c2-catalog/controller.js",
+    "mattress-toppers/index.html",
+    "mattresses/elite-mattress/index.html",
+    "mattresses/elysium-mattress/index.html",
+    "mattresses/evolve-mattress/index.html",
+    "mattresses/one-mattress/index.html",
+    "mattresses/revive-mattress/index.html",
+    "mattresses/two-mattress/index.html",
+    "toppers/index.html"
+  ]
+}

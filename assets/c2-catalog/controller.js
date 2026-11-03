@@ -47,13 +47,17 @@ async function boot(){
   // We reuse ONLY the card markup layout as a template, not another product's identity or picture.
   for(const product of data.products.slice(27)){
     if(!product.imageLocal||!product.href)throw Error('UNVERIFIED_LATE_CARD_'+product.position);
-    const template=originals[originals.length-1].cloneNode(true);
+    const lateLocale={'beds:28':{title:'Original－暖灰色',description:'床墊：可搭配所有 Auping 床墊'},'beds:29':{title:'Auronde－松綠色',description:'床墊：可搭配所有 Auping 床墊'},'beds:30':{title:'Auronde－暖灰色',description:'床墊：可搭配所有 Auping 床墊'},'box-springs:28':{title:'Original－深黑色',description:'型號：Original｜配置：包覆式床墊與舒適層｜床底：電動可調式'}};
+     const localized=lateLocale[category+':'+product.position]||null;
+     const displayTitle=localized?.title ?? product.title;
+     const template=originals[originals.length-1].cloneNode(true);
     template.removeAttribute('data-auping-supplemental');template.dataset.aupingProductSlug=slug(product.candidateLocalPath)||slug(product.href);
-    const header=q('[class*="EnrichedProductCard_Title"] strong',template);if(!header)throw Error('CARD_TEMPLATE_TITLE_NOT_FOUND');header.textContent=product.title;
-    const desc=q('[class*="EnrichedProductCard_ProductInfoDescription"]',template);if(desc)desc.textContent=product.description||'';
-    qa('a[href]',template).forEach(a=>{a.href=product.href;a.setAttribute('title',product.title);if(product.linkKind==='external-configurator'){a.target='_blank';a.rel='noopener noreferrer'}});
+    const header=q('[class*="EnrichedProductCard_Title"] strong',template);if(!header)throw Error('CARD_TEMPLATE_TITLE_NOT_FOUND');header.textContent=displayTitle;
+    const desc=q('[class*="EnrichedProductCard_ProductInfoDescription"]',template);if(desc)desc.textContent=(localized?.description ?? product.description ?? '');
+    qa('a[href]',template).forEach(a=>{a.href=product.href;a.setAttribute('title',displayTitle);if(product.linkKind==='external-configurator'){a.target='_blank';a.rel='noopener noreferrer'}});
     // Shared U1 card/gallery contract. No page-specific buttons or borrowed SKU data.
     mountSupplementalCard(template,product,nativeArrow,prefix);
+     if(localized){qa('img.auping-c2-authority-image',template).forEach(img=>{img.alt=displayTitle});template.dataset.aupingC2Locale='zh-Hant-TW-draft';}
     map.set(product.id,template);
   }
   if(map.size!==data.products.length)throw Error('ALL_PRODUCT_CARDS_NOT_MATERIALIZED');
